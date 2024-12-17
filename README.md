@@ -4,7 +4,7 @@ Changes in this Fork:
 - migrated from Alpine to Debian
 
 Why I did this?
-- I prefer bewer software
+- I prefer newer software
 - the official PDS image had some DNS issues with my setup (seems this was Alpine related)
 
 
