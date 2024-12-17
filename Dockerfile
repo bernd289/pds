@@ -1,4 +1,4 @@
-FROM node:22.2-alpine3.18 as build
+FROM node:22.12.0-alpine3.21 as build
 
 RUN npm install -g pnpm
 
@@ -8,7 +8,7 @@ COPY ./service ./
 RUN pnpm install --production --frozen-lockfile > /dev/null
 
 # Uses assets from build stage to reduce build size
-FROM node:22.2-alpine3.18
+FROM node:22.12.0-alpine3.21
 
 RUN apk add --update dumb-init
 
