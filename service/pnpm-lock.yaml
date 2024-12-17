@@ -6,23 +6,23 @@ settings:
 
 dependencies:
   '@atproto/pds':
-    specifier: 0.4.74
-    version: 0.4.74
+    specifier: 0.4.77
+    version: 0.4.77
 
 packages:
 
-  /@atproto-labs/fetch-node@0.1.3:
-    resolution: {integrity: sha512-KX3ogPJt6dXNppWImQ9omfhrc8t73WrJaxHMphRAqQL8jXxKW5NBCTjSuwroBkJ1pj1aValBrc5NpdYu+H/9Qg==}
+  /@atproto-labs/fetch-node@0.1.4:
+    resolution: {integrity: sha512-hwYx0XpgIl2zydRy13DtWvywruuHk1EX+yCjqjgUIezUm8fi35ZN4QvR6INEm0MpN2MD/kQsImPbd8ZftzZ3zw==}
     dependencies:
-      '@atproto-labs/fetch': 0.1.1
+      '@atproto-labs/fetch': 0.1.2
       '@atproto-labs/pipe': 0.1.0
       ipaddr.js: 2.2.0
       psl: 1.9.0
       undici: 6.20.1
     dev: false
 
-  /@atproto-labs/fetch@0.1.1:
-    resolution: {integrity: sha512-X1zO1MDoJzEurbWXMAe1H8EZ995Xam/aXdxhGVrXmOMyPDuvBa1oxwh/kQNZRCKcMQUbiwkk+Jfq6ZkTuvGbww==}
+  /@atproto-labs/fetch@0.1.2:
+    resolution: {integrity: sha512-7mQQIRtVenqtdBQKCqoLjyAhPS2aA56EGEjyz5zB3sramM3qkrvzyusr55GAzGDS0tvB6cy9cDEtSLmfK7LUnA==}
     dependencies:
       '@atproto-labs/pipe': 0.1.0
     optionalDependencies:
@@ -44,25 +44,25 @@ packages:
     resolution: {integrity: sha512-WKILW2b3QbAYKh+w5U2x6p5FqqLl0nAeLwGeDY+KjX01K4Dq3vQTR9b/qNp0jZm48CabPQVrqCv0PPU9LgRRRg==}
     dev: false
 
-  /@atproto/api@0.13.18:
-    resolution: {integrity: sha512-rrl5HhzGYWZ7fiC965TPBUOVItq9M4dxMb6qz8IvAVQliSkrJrKc7UD0QWL89QiiXaOBuX8w+4i5r4wrfBGddg==}
+  /@atproto/api@0.13.21:
+    resolution: {integrity: sha512-iOxSj2YS3Fx9IPz1NivKrSsdYPNbBgpnUH7+WhKYAMvDFDUe2PZe7taau8wsUjJAu/H3S0Mk2TDh5e/7tCRwHA==}
     dependencies:
       '@atproto/common-web': 0.3.1
-      '@atproto/lexicon': 0.4.3
+      '@atproto/lexicon': 0.4.4
       '@atproto/syntax': 0.3.1
-      '@atproto/xrpc': 0.6.4
+      '@atproto/xrpc': 0.6.5
       await-lock: 2.2.2
       multiformats: 9.9.0
       tlds: 1.250.0
       zod: 3.23.8
     dev: false
 
-  /@atproto/aws@0.2.9:
-    resolution: {integrity: sha512-sc9aXUePcqItkJSOJJnGNVthVfAKjhn3zMDG+RRLzKUBye6Yutrlhpt1yxNZLHQiqIK5fy2Cuc4EX3p3jeWUYw==}
+  /@atproto/aws@0.2.10:
+    resolution: {integrity: sha512-zQElKk6wGTQo5aKdXtmx/dINjkVgbJU9+C/xOVTs+M88I8IrrBxPvo1dASLJcMtRb9VjXh5snLJeAjgyx6qC6Q==}
     dependencies:
-      '@atproto/common': 0.4.4
+      '@atproto/common': 0.4.5
       '@atproto/crypto': 0.4.2
-      '@atproto/repo': 0.5.5
+      '@atproto/repo': 0.6.0
       '@aws-sdk/client-cloudfront': 3.515.0
       '@aws-sdk/client-kms': 3.515.0
       '@aws-sdk/client-s3': 3.515.0
@@ -93,8 +93,8 @@ packages:
       zod: 3.23.8
     dev: false
 
-  /@atproto/common@0.4.4:
-    resolution: {integrity: sha512-58tMbn6A1Zu296s/l3uIj8z9d7IRHpZvLOfsFRikaQaYrzhJpL2aPY4uFQ8GJcxnsxeUnxBCrQz9we5jVVJI5Q==}
+  /@atproto/common@0.4.5:
+    resolution: {integrity: sha512-LFAGqHcxCI5+b31Xgk+VQQtZU258iGPpHJzNeHVcdh6teIKZi4C2l6YV+m+3CEz+yYcfP7jjUmgqesx7l9Arsg==}
     dependencies:
       '@atproto/common-web': 0.3.1
       '@ipld/dag-cbor': 7.0.3
@@ -146,8 +146,8 @@ packages:
       zod: 3.23.8
     dev: false
 
-  /@atproto/lexicon@0.4.3:
-    resolution: {integrity: sha512-lFVZXe1S1pJP0dcxvJuHP3r/a+EAIBwwU7jUK+r8iLhIja+ml6NmYv8KeFHmIJATh03spEQ9s02duDmFVdCoXg==}
+  /@atproto/lexicon@0.4.4:
+    resolution: {integrity: sha512-QFEmr3rpj/RoAmfX9ALU/asBG/rsVtQZnw+9nOB1/AuIwoxXd+ZyndR6lVUc2+DL4GEjl6W2yvBru5xbQIZWyA==}
     dependencies:
       '@atproto/common-web': 0.3.1
       '@atproto/syntax': 0.3.1
@@ -156,15 +156,15 @@ packages:
       zod: 3.23.8
     dev: false
 
-  /@atproto/oauth-provider@0.2.8:
-    resolution: {integrity: sha512-BgnlnKvPsIfDHRxnZbcOFjtLBfA+M3iWRhzv/t+m15bjmYTRUPwIEhrWg7pYV/mU7u/Q4RqT9l08b+xz6K/uiQ==}
+  /@atproto/oauth-provider@0.2.10:
+    resolution: {integrity: sha512-cF42lo0+Mj+Zq2RXwS2NxmobmtL7YL1vXlYcN6iKflZ8pQ5WvpR/cZKsKEZOT9cEBBTw5MARKTYxbr8CPDKlHg==}
     dependencies:
-      '@atproto-labs/fetch': 0.1.1
-      '@atproto-labs/fetch-node': 0.1.3
+      '@atproto-labs/fetch': 0.1.2
+      '@atproto-labs/fetch-node': 0.1.4
       '@atproto-labs/pipe': 0.1.0
       '@atproto-labs/simple-store': 0.1.1
       '@atproto-labs/simple-store-memory': 0.1.1
-      '@atproto/common': 0.4.4
+      '@atproto/common': 0.4.5
       '@atproto/jwk': 0.1.1
       '@atproto/jwk-jose': 0.1.2
       '@atproto/oauth-types': 0.2.1
@@ -189,22 +189,22 @@ packages:
       zod: 3.23.8
     dev: false
 
-  /@atproto/pds@0.4.74:
-    resolution: {integrity: sha512-/TTZvhNQVX42g9Ms8txGGaOEpU3Ko2m7/iZfJlUIcPcntBr3lIZvQA5xzbkhdgS0/h1WmHUdQ37//YFK9w22ew==}
+  /@atproto/pds@0.4.77:
+    resolution: {integrity: sha512-XZhAWKbKy2lHjQKPSr0IQ4gmwP3wo7EaxBxFD6PgFB/wLVw5Z1MRiawhBOVuGOq7rsfN0ygE3OApqueAI18UOA==}
     hasBin: true
     dependencies:
-      '@atproto-labs/fetch-node': 0.1.3
-      '@atproto/api': 0.13.18
-      '@atproto/aws': 0.2.9
-      '@atproto/common': 0.4.4
+      '@atproto-labs/fetch-node': 0.1.4
+      '@atproto/api': 0.13.21
+      '@atproto/aws': 0.2.10
+      '@atproto/common': 0.4.5
       '@atproto/crypto': 0.4.2
       '@atproto/identity': 0.4.3
-      '@atproto/lexicon': 0.4.3
-      '@atproto/oauth-provider': 0.2.8
-      '@atproto/repo': 0.5.5
+      '@atproto/lexicon': 0.4.4
+      '@atproto/oauth-provider': 0.2.10
+      '@atproto/repo': 0.6.0
       '@atproto/syntax': 0.3.1
-      '@atproto/xrpc': 0.6.4
-      '@atproto/xrpc-server': 0.7.3
+      '@atproto/xrpc': 0.6.5
+      '@atproto/xrpc-server': 0.7.4
       '@did-plc/lib': 0.0.4
       '@hapi/address': 5.1.1
       better-sqlite3: 10.1.0
@@ -241,13 +241,13 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@atproto/repo@0.5.5:
-    resolution: {integrity: sha512-Zu1tw42KBVyFzIh1XYSIvm8V+V9oEKWJR7NnHBgeSMwCc9QwM32jO7uqgvEjZYEXgdYKanGhv/YHLyxtZa5Ckg==}
+  /@atproto/repo@0.6.0:
+    resolution: {integrity: sha512-6YGVhjiHKmqCW5Ce4oY49E3NCEfbvAGowJ5ETXX2sx2l4D2bOL7a2hn5zWqsPHYpWSLjrPfnj7PVpApK0kmL7A==}
     dependencies:
-      '@atproto/common': 0.4.4
+      '@atproto/common': 0.4.5
       '@atproto/common-web': 0.3.1
       '@atproto/crypto': 0.4.2
-      '@atproto/lexicon': 0.4.3
+      '@atproto/lexicon': 0.4.4
       '@ipld/car': 3.2.4
       '@ipld/dag-cbor': 7.0.3
       multiformats: 9.9.0
@@ -259,13 +259,13 @@ packages:
     resolution: {integrity: sha512-fzW0Mg1QUOVCWUD3RgEsDt6d1OZ6DdFmbKcDdbzUfh0t4rhtRAC05KbZYmxuMPWDAiJ4BbbQ5dkAc/mNypMXkw==}
     dev: false
 
-  /@atproto/xrpc-server@0.7.3:
-    resolution: {integrity: sha512-x0qegkN6snrbXJO3v9h2kuh9e90g6ZZkDXv3COiraGS3yRTzIm6i4bMvDSfCI50+0xCNtPKOkpn8taRoRgkyiw==}
+  /@atproto/xrpc-server@0.7.4:
+    resolution: {integrity: sha512-MrAwxfJBQm/kCol3D8qc+vpQzBMzLqvtUbauSSfVVJ10PlGtxg4LlXqcjkAuhrjyrqp3dQH9LHuhDpgVQK+G3w==}
     dependencies:
-      '@atproto/common': 0.4.4
+      '@atproto/common': 0.4.5
       '@atproto/crypto': 0.4.2
-      '@atproto/lexicon': 0.4.3
-      '@atproto/xrpc': 0.6.4
+      '@atproto/lexicon': 0.4.4
+      '@atproto/xrpc': 0.6.5
       cbor-x: 1.5.8
       express: 4.18.2
       http-errors: 2.0.0
@@ -280,10 +280,10 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@atproto/xrpc@0.6.4:
-    resolution: {integrity: sha512-9ZAJ8nsXTqC4XFyS0E1Wlg7bAvonhXQNQ3Ocs1L1LIwFLXvsw/4fNpIHXxvXvqTCVeyHLbImOnE9UiO1c/qIYA==}
+  /@atproto/xrpc@0.6.5:
+    resolution: {integrity: sha512-t6u8iPEVbWge5RhzKZDahSzNDYIAxUtop6Q/X/apAZY1rgreVU0/1sSvvRoRFH19d3UIKjYdLuwFqMi9w8nY3Q==}
     dependencies:
-      '@atproto/lexicon': 0.4.3
+      '@atproto/lexicon': 0.4.4
       zod: 3.23.8
     dev: false
 
@@ -2258,11 +2258,6 @@ packages:
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
     dev: false
 
-  /detect-libc@2.0.2:
-    resolution: {integrity: sha512-UX6sGumvvqSaXgdKGUsgZWqcUyIXZ/vZTrlRT/iobiKhGL0zL4d3osHj3uqllWJK+i+sixDS/3COVEOFbupFyw==}
-    engines: {node: '>=8'}
-    dev: false
-
   /detect-libc@2.0.3:
     resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==}
     engines: {node: '>=8'}
@@ -2771,13 +2766,6 @@ packages:
     engines: {node: 14 || >=16.14}
     dev: false
 
-  /lru-cache@6.0.0:
-    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
-    engines: {node: '>=10'}
-    dependencies:
-      yallist: 4.0.0
-    dev: false
-
   /media-typer@0.3.0:
     resolution: {integrity: sha512-dq+qelQ9akHpcOl/gUVRTxVIOkAJ1wR3QAvb4RsVjS8oVoFjDGTc679wJYmUmknUF5HwMLOgb5O+a3KxfWapPQ==}
     engines: {node: '>= 0.6'}
@@ -2876,7 +2864,7 @@ packages:
     resolution: {integrity: sha512-uPEjtyh2tFEvWYt4Jw7McOD5FPcHkcxm/tHZc5PWaDB3JYq0rGFUbgaAK+CT5pYpQddBfsZVWI08OwoRfdfbcQ==}
     engines: {node: '>=10'}
     dependencies:
-      semver: 7.6.0
+      semver: 7.6.3
     dev: false
 
   /node-gyp-build-optional-packages@5.1.1:
@@ -2884,7 +2872,7 @@ packages:
     hasBin: true
     requiresBuild: true
     dependencies:
-      detect-libc: 2.0.2
+      detect-libc: 2.0.3
     dev: false
     optional: true
 
@@ -3032,7 +3020,7 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
-      detect-libc: 2.0.2
+      detect-libc: 2.0.3
       expand-template: 2.0.3
       github-from-package: 0.0.0
       minimist: 1.2.8
@@ -3198,14 +3186,6 @@ packages:
 
   /semver-compare@1.0.0:
     resolution: {integrity: sha512-YM3/ITh2MJ5MtzaM429anh+x2jiLVjqILF4m4oyQB18W7Ggea7BfqdH/wGMK7dDiMghv/6WG7znWMwUDzJiXow==}
-    dev: false
-
-  /semver@7.6.0:
-    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
     dev: false
 
   /semver@7.6.3:
@@ -3604,10 +3584,6 @@ packages:
         optional: true
       utf-8-validate:
         optional: true
-    dev: false
-
-  /yallist@4.0.0:
-    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: false
 
   /zod@3.23.8:
