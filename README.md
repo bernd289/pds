@@ -1,3 +1,15 @@
+Changes in this Fork:
+- always the newest PDS and other Deps
+- newer Node version
+- migrated from Alpine to Debian
+
+Why I did this?
+- I prefer bewer software
+- the official PDS image had some DNS issues with my setup (seems this was Alpine related)
+
+
+
+
 # PDS
 
 Welcome to the repository for the official Bluesky PDS (Personal Data Server). This repository includes container images and documentation designed to assist technical people with hosting a Bluesky PDS.
