@@ -10,7 +10,7 @@ RUN pnpm install --production --frozen-lockfile > /dev/null
 # Uses assets from build stage to reduce build size
 FROM node:22.12.0-slim
 
-RUN apt update && apt upgrade -y && apt install -y --no-install-recommends --no-install-suggests dumb-init
+RUN apt update && apt upgrade -y && apt install -y curl dumb-init
 
 # Avoid zombie processes, handle signal forwarding
 ENTRYPOINT ["dumb-init", "--"]
