@@ -1,5 +1,5 @@
 Changes in this Fork:
-- always the newest PDS and other Deps (thanks to renovate bot)
+- always the newest PDS and other Deps
 - newer Node version
 - migrated from Alpine to Debian
 - few other little things
