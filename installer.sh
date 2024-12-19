@@ -242,8 +242,8 @@ INSTALLER_MESSAGE
     done
   fi
 
-  apt-get update
-  apt-get install --yes ${REQUIRED_SYSTEM_PACKAGES}
+  apt update
+  apt install --yes ${REQUIRED_SYSTEM_PACKAGES}
 
   #
   # Install Docker
@@ -254,14 +254,14 @@ INSTALLER_MESSAGE
 
     # Remove the existing file, if it exists,
     # so there's no prompt on a second run.
-    rm --force /etc/apt/keyrings/docker.gpg
+    rm -f /etc/apt/keyrings/docker.gpg
     curl --fail --silent --show-error --location "https://download.docker.com/linux/${DISTRIB_ID}/gpg" | \
       gpg --dearmor --output /etc/apt/keyrings/docker.gpg
 
     echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/${DISTRIB_ID} ${DISTRIB_CODENAME} stable" >/etc/apt/sources.list.d/docker.list
 
-    apt-get update
-    apt-get install --yes ${REQUIRED_DOCKER_PACKAGES}
+    apt update
+    apt install --yes ${REQUIRED_DOCKER_PACKAGES}
   fi
 
   #
