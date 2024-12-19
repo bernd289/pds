@@ -15,6 +15,7 @@ services:
       - type: bind
         source: /pds/caddy/etc/caddy
         target: /etc/caddy
+    labels: ["com.centurylinklabs.watchtower.scope=bsky-pds"]
   pds:
     container_name: pds
     image: ghcr.io/bernd289/pds:latest
@@ -25,6 +26,7 @@ services:
         target: /pds
     env_file:
       - /pds/pds.env
+    labels: ["com.centurylinklabs.watchtower.scope=bsky-pds"]
   watchtower:
     container_name: watchtower
     image: containrrr/watchtower:latest
@@ -36,3 +38,5 @@ services:
     environment:
       WATCHTOWER_CLEANUP: true
       WATCHTOWER_SCHEDULE: "@midnight"
+      WATCHTOWER_SCOPE: "bsky-pds"
+    labels: ["com.centurylinklabs.watchtower.scope=bsky-pds"]
