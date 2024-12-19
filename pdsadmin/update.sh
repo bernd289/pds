@@ -22,7 +22,7 @@ curl \
 
 if cmp --quiet "${COMPOSE_FILE}" "${COMPOSE_TEMP_FILE}"; then
   echo "PDS is already up to date"
-  rm --force "${COMPOSE_TEMP_FILE}"
+  rm -f "${COMPOSE_TEMP_FILE}"
   exit 0
 fi
 
