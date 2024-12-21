@@ -1,7 +1,7 @@
 services:
   caddy:
     container_name: caddy
-    image: caddy:2
+    image: caddy:2@sha256:d17c155b627f4ae14cef9cb4143b63c529a8497966b62febcde79f4ecc3857f7
     ports:
       - "80:80"
       - "443:443"
@@ -18,7 +18,7 @@ services:
     labels: ["com.centurylinklabs.watchtower.scope=bsky-pds"]
   pds:
     container_name: pds
-    image: ghcr.io/bernd289/pds:latest
+    image: ghcr.io/bernd289/pds:latest@sha256:8ed23f95b4b74112cda51cf1fccda1ff8c2ab0d9514b62e7e06fed38b11432f9
     restart: unless-stopped
     volumes:
       - type: bind
@@ -29,7 +29,7 @@ services:
     labels: ["com.centurylinklabs.watchtower.scope=bsky-pds"]
   watchtower:
     container_name: watchtower
-    image: containrrr/watchtower:latest
+    image: containrrr/watchtower:latest@sha256:6dd50763bbd632a83cb154d5451700530d1e44200b268a4e9488fefdfcf2b038
     volumes:
       - type: bind
         source: /var/run/docker.sock
