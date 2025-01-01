@@ -21,8 +21,6 @@ COPY --from=build /app /app
 EXPOSE 3000
 ENV PDS_PORT=3000
 ENV NODE_ENV=production
-# potential perf issues w/ io_uring on this version of node
-ENV UV_USE_IO_URING=0
 
 CMD ["node", "--enable-source-maps", "index.js"]
 HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 CMD curl localhost:${PDS_PORT}/xrpc/_health || exit 1
