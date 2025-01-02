@@ -1,13 +1,7 @@
 Changes in this Fork:
 - always the newest PDS and other Deps
 - newer Node version
-- migrate base image from Alpine to Debian
 - few other little things
-
-Why I did this?
-- I prefer newer software
-- the official PDS image had some DNS issues in my setup (seems this was Alpine related)
-
 
 
 
