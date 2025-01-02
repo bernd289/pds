@@ -10,7 +10,8 @@ RUN pnpm install --production --frozen-lockfile > /dev/null
 # Uses assets from build stage to reduce build size
 FROM node:22.12.0-alpine
 
-RUN apk add --update dumb-init curl
+RUN apk upgrade --no-cache
+RUN apk add --no-cache dumb-init curl
 
 # Avoid zombie processes, handle signal forwarding
 ENTRYPOINT ["dumb-init", "--"]
