@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@atproto/pds':
-        specifier: 0.4.82
-        version: 0.4.82
+        specifier: 0.4.83
+        version: 0.4.83
 
 packages:
 
@@ -29,14 +29,14 @@ packages:
   '@atproto-labs/simple-store@0.1.1':
     resolution: {integrity: sha512-WKILW2b3QbAYKh+w5U2x6p5FqqLl0nAeLwGeDY+KjX01K4Dq3vQTR9b/qNp0jZm48CabPQVrqCv0PPU9LgRRRg==}
 
-  '@atproto-labs/xrpc-utils@0.0.1':
-    resolution: {integrity: sha512-nenHwG6shq9p0tXX4HwoU8eWG23hveB4Jw0Y3VuKqHPMcSt3FQytV4POGe40X3opNERrYd406rtAAzHbOzKvhw==}
+  '@atproto-labs/xrpc-utils@0.0.2':
+    resolution: {integrity: sha512-wxUMLFM/PavrQAnLYDDpXLmjEGYt9MBdr6H9wFhEJBL3AY4yUAeYi/XNok4XvwZWe+72iRFizG3XKlhdWxLc0w==}
 
   '@atproto/api@0.13.26':
     resolution: {integrity: sha512-W3zsgCdEuyvP2Qj3Np858kwjv5/pAd/pX3Z5HtLKIYt8uQottAZkuH+2dV+WRovgxHekyCyFJK07NuD4TQ9WMQ==}
 
-  '@atproto/aws@0.2.11':
-    resolution: {integrity: sha512-IEcs1i/x+CbVM1RFZGb77ayN56Pyx9qZUqYDL1mQ3ZzkEQYwfdbS3UdIkagdZ/k1u51dbotd7WuavuF0c/YVVQ==}
+  '@atproto/aws@0.2.12':
+    resolution: {integrity: sha512-1k/esylJJTL0tNJ9LOz6UQaAYwLay8Ulff7sZLJ+Pi5+pq7h5x0ZqWaaIZgNhlkXfpGXIBZ4JS9XRU9XvygDyg==}
 
   '@atproto/common-web@0.3.2':
     resolution: {integrity: sha512-Vx0JtL1/CssJbFAb0UOdvTrkbUautsDfHNOXNTcX2vyPIxH9xOameSqLLunM1hZnOQbJwyjmQCt6TV+bhnanDg==}
@@ -50,11 +50,11 @@ packages:
   '@atproto/crypto@0.1.0':
     resolution: {integrity: sha512-9xgFEPtsCiJEPt9o3HtJT30IdFTGw5cQRSJVIy5CFhqBA4vDLcdXiRDLCjkzHEVbtNCsHUW6CrlfOgbeLPcmcg==}
 
-  '@atproto/crypto@0.4.2':
-    resolution: {integrity: sha512-aeOfPQYCDbhn2hV06oBF2KXrWjf/BK4yL8lfANJKSmKl3tKWCkiW/moi643rUXXxSE72KtWtQeqvNFYnnFJ0ig==}
+  '@atproto/crypto@0.4.3':
+    resolution: {integrity: sha512-YSSUAvkx+ldpXw97NXZWfLx/prgh5YJ2K0BCw51JCJmXSRp6KhhwvOm4J+K/s5hwpssyuDCVTXknyS4PHwaK5g==}
 
-  '@atproto/identity@0.4.4':
-    resolution: {integrity: sha512-JtFmrVm1bWJl5c4iM3ymnZo32PV7gbt1gxBtYkT+ek7AxTLTyWlVue6emiMyLrURvIScbNkKqOTWlVh+GI/s9Q==}
+  '@atproto/identity@0.4.5':
+    resolution: {integrity: sha512-IyW6wk+qfX+z/LmBdjatJgjSJWDTJLSCT/6yQUD/L0mkOjRdxiG7DoYIChaF3xHOPKiIuOGu/fuzhBMxVVcCcw==}
 
   '@atproto/jwk-jose@0.1.2':
     resolution: {integrity: sha512-lDwc/6lLn2aZ/JpyyggyjLFsJPMntrVzryyGUx5aNpuTS8SIuc4Ky0REhxqfLopQXJJZCuRRjagHG3uP05/moQ==}
@@ -71,18 +71,18 @@ packages:
   '@atproto/oauth-types@0.2.1':
     resolution: {integrity: sha512-hDisUXzcq5KU1HMuCYZ8Kcz7BePl7V11bFjjgZvND3mdSphiyBpJ8MCNn3QzAa6cXpFo0w9PDcYMAlCCRZHdVw==}
 
-  '@atproto/pds@0.4.82':
-    resolution: {integrity: sha512-YsfXqmzHpxYPxasM1//ZS/hHSmu+WA+V7xhjpsqdIUAa/iXyvVijk8dvwY66KVKYzlWXGYGsYlzADOZup4WqEA==}
+  '@atproto/pds@0.4.83':
+    resolution: {integrity: sha512-8VE0Q9OzJiY10D4eo3nkL1IAhmryZaGSHuTRwd7tCqS6or+/aX7i+bl2FdTbzwVUpwDyeT0T0uX60/YhTgFisA==}
     hasBin: true
 
-  '@atproto/repo@0.6.1':
-    resolution: {integrity: sha512-dohNGgyLU3U58Fk/r0Rrs54tsCHT3iywmhA36slcDVOqxgJEyc+f7+1846KGCJThxEdTq0T1iXshoG7OpqPpYw==}
+  '@atproto/repo@0.6.2':
+    resolution: {integrity: sha512-0YEWJ38Sj8SwhD8GGQ7Q6GDeZppsRae4JfNLQmtPgAddt5A4iNIK5HLdpGGlT+dC0/ElsEbQpY7mXLuP92Wbtw==}
 
   '@atproto/syntax@0.3.1':
     resolution: {integrity: sha512-fzW0Mg1QUOVCWUD3RgEsDt6d1OZ6DdFmbKcDdbzUfh0t4rhtRAC05KbZYmxuMPWDAiJ4BbbQ5dkAc/mNypMXkw==}
 
-  '@atproto/xrpc-server@0.7.5':
-    resolution: {integrity: sha512-Jo69+gULH9RrmCxuCYJJLKbOW3HBB2IypuzYzTOPzf5WPdRkjJ46gUVF6t4PupPTIO9kLzluK41YuUhtkMaIdg==}
+  '@atproto/xrpc-server@0.7.6':
+    resolution: {integrity: sha512-PU/D6I+ZyfYKMVR6yvoPSsZDDxA6iBbUaIP/SYqAfK2ufmiKgG0sCEE09AiUA4RldDFJZF0GOF0B3o6lUm8yfg==}
 
   '@atproto/xrpc@0.6.6':
     resolution: {integrity: sha512-umXEYVMo9/pyIBoKmIAIi64RXDW9tSXY+wqztlQ6I2GZtjLfNZqmAWU+wADk3SxUe54mvjxxGyA4TtyGtDMfhA==}
@@ -441,12 +441,13 @@ packages:
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
     engines: {node: '>=12'}
 
-  '@noble/curves@1.3.0':
-    resolution: {integrity: sha512-t01iSXPuN+Eqzb4eBX0S5oubSqXbK/xXa1Ne18Hj8f9pStxztHCE2gfboSp/dZRLSqfuLpRK2nDXDK+W9puocA==}
+  '@noble/curves@1.8.0':
+    resolution: {integrity: sha512-j84kjAbzEnQHaSIhRPUmB3/eVXu2k3dKPl2LOrR8fSOIL+89U+7lV117EWHtq/GHM3ReGHM46iRBdZfpc4HRUQ==}
+    engines: {node: ^14.21.3 || >=16}
 
-  '@noble/hashes@1.3.3':
-    resolution: {integrity: sha512-V7/fPHgl+jsVPXqqeOzT8egNj2iBIVt+ECeMMG8TdcnTikP3oaBtUVqpT/gYCR68aEBJSF+XbYUxStjbFMqIIA==}
-    engines: {node: '>= 16'}
+  '@noble/hashes@1.7.0':
+    resolution: {integrity: sha512-HXydb0DgzTpDPwbVeDGCG1gIu7X6+AuU6Zl6av/E/KG8LMsvPntvq+w17CHRpKBmN6Ybdrt1eP3k4cj8DJa78w==}
+    engines: {node: ^14.21.3 || >=16}
 
   '@noble/secp256k1@1.7.1':
     resolution: {integrity: sha512-hOUk6AyBFmqVrv7k5WAw/LpszxVbj9gGN4JRkIX52fdFAj1UA61KXmZDvqVEm+pOyec3+fIeZB02LYa/pWOArw==}
@@ -1671,10 +1672,10 @@ snapshots:
 
   '@atproto-labs/simple-store@0.1.1': {}
 
-  '@atproto-labs/xrpc-utils@0.0.1':
+  '@atproto-labs/xrpc-utils@0.0.2':
     dependencies:
       '@atproto/xrpc': 0.6.6
-      '@atproto/xrpc-server': 0.7.5
+      '@atproto/xrpc-server': 0.7.6
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -1691,16 +1692,16 @@ snapshots:
       tlds: 1.250.0
       zod: 3.23.8
 
-  '@atproto/aws@0.2.11':
+  '@atproto/aws@0.2.12':
     dependencies:
       '@atproto/common': 0.4.6
-      '@atproto/crypto': 0.4.2
-      '@atproto/repo': 0.6.1
+      '@atproto/crypto': 0.4.3
+      '@atproto/repo': 0.6.2
       '@aws-sdk/client-cloudfront': 3.515.0
       '@aws-sdk/client-kms': 3.515.0
       '@aws-sdk/client-s3': 3.515.0
       '@aws-sdk/lib-storage': 3.515.0(@aws-sdk/client-s3@3.515.0)
-      '@noble/curves': 1.3.0
+      '@noble/curves': 1.8.0
       key-encoder: 2.0.3
       multiformats: 9.9.0
       uint8arrays: 3.0.0
@@ -1738,16 +1739,16 @@ snapshots:
       one-webcrypto: 1.0.3
       uint8arrays: 3.0.0
 
-  '@atproto/crypto@0.4.2':
+  '@atproto/crypto@0.4.3':
     dependencies:
-      '@noble/curves': 1.3.0
-      '@noble/hashes': 1.3.3
+      '@noble/curves': 1.8.0
+      '@noble/hashes': 1.7.0
       uint8arrays: 3.0.0
 
-  '@atproto/identity@0.4.4':
+  '@atproto/identity@0.4.5':
     dependencies:
       '@atproto/common-web': 0.3.2
-      '@atproto/crypto': 0.4.2
+      '@atproto/crypto': 0.4.3
 
   '@atproto/jwk-jose@0.1.2':
     dependencies:
@@ -1796,21 +1797,21 @@ snapshots:
       '@atproto/jwk': 0.1.1
       zod: 3.23.8
 
-  '@atproto/pds@0.4.82':
+  '@atproto/pds@0.4.83':
     dependencies:
       '@atproto-labs/fetch-node': 0.1.4
-      '@atproto-labs/xrpc-utils': 0.0.1
+      '@atproto-labs/xrpc-utils': 0.0.2
       '@atproto/api': 0.13.26
-      '@atproto/aws': 0.2.11
+      '@atproto/aws': 0.2.12
       '@atproto/common': 0.4.6
-      '@atproto/crypto': 0.4.2
-      '@atproto/identity': 0.4.4
+      '@atproto/crypto': 0.4.3
+      '@atproto/identity': 0.4.5
       '@atproto/lexicon': 0.4.5
       '@atproto/oauth-provider': 0.2.11
-      '@atproto/repo': 0.6.1
+      '@atproto/repo': 0.6.2
       '@atproto/syntax': 0.3.1
       '@atproto/xrpc': 0.6.6
-      '@atproto/xrpc-server': 0.7.5
+      '@atproto/xrpc-server': 0.7.6
       '@did-plc/lib': 0.0.4
       '@hapi/address': 5.1.1
       better-sqlite3: 10.1.0
@@ -1846,11 +1847,11 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@atproto/repo@0.6.1':
+  '@atproto/repo@0.6.2':
     dependencies:
       '@atproto/common': 0.4.6
       '@atproto/common-web': 0.3.2
-      '@atproto/crypto': 0.4.2
+      '@atproto/crypto': 0.4.3
       '@atproto/lexicon': 0.4.5
       '@ipld/car': 3.2.4
       '@ipld/dag-cbor': 7.0.3
@@ -1860,10 +1861,10 @@ snapshots:
 
   '@atproto/syntax@0.3.1': {}
 
-  '@atproto/xrpc-server@0.7.5':
+  '@atproto/xrpc-server@0.7.6':
     dependencies:
       '@atproto/common': 0.4.6
-      '@atproto/crypto': 0.4.2
+      '@atproto/crypto': 0.4.3
       '@atproto/lexicon': 0.4.5
       '@atproto/xrpc': 0.6.6
       cbor-x: 1.5.8
@@ -2648,11 +2649,11 @@ snapshots:
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
 
-  '@noble/curves@1.3.0':
+  '@noble/curves@1.8.0':
     dependencies:
-      '@noble/hashes': 1.3.3
+      '@noble/hashes': 1.7.0
 
-  '@noble/hashes@1.3.3': {}
+  '@noble/hashes@1.7.0': {}
 
   '@noble/secp256k1@1.7.1': {}
 
