@@ -4,11 +4,6 @@ updates:
     directory: "/service"
     schedule:
       interval: "daily"
-    commit-message:
-      prefix: "chore(deps)"
-    labels:
-      - "dependencies"
-      - "pnpm"
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
