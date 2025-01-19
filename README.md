@@ -1,5 +1,5 @@
-Changes in this Fork of https://github.com/bluesky-social/pds
-- always the newest PDS and other Deps
+Changes in this fork of https://github.com/bluesky-social/pds
+- always the newest PDS and other deps
 - newer Node version
 - few other little things
 
