@@ -1587,8 +1587,8 @@ packages:
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  undici@6.20.1:
-    resolution: {integrity: sha512-AjQF1QsmqfJys+LXfGTNum+qw4S88CojRInG/6t31W/1fk6G59s92bnAvGz5Cmur+kQv2SURXEvvudLmbrE8QA==}
+  undici@6.21.1:
+    resolution: {integrity: sha512-q/1rj5D0/zayJB2FraXdaWxbhWiNKDvu8naDT2dl1yTlvJp4BLtOcp2a5BvgGNQpYYJzau7tf1WgKv3b+7mqpQ==}
     engines: {node: '>=18.17'}
 
   unpipe@1.0.0:
@@ -1655,7 +1655,7 @@ snapshots:
       '@atproto-labs/pipe': 0.1.0
       ipaddr.js: 2.2.0
       psl: 1.9.0
-      undici: 6.20.1
+      undici: 6.21.1
 
   '@atproto-labs/fetch@0.2.0':
     dependencies:
@@ -1838,7 +1838,7 @@ snapshots:
       sharp: 0.33.5
       typed-emitter: 2.1.0
       uint8arrays: 3.0.0
-      undici: 6.20.1
+      undici: 6.21.1
       zod: 3.23.8
     transitivePeerDependencies:
       - aws-crt
@@ -3984,7 +3984,7 @@ snapshots:
 
   undici-types@5.26.5: {}
 
-  undici@6.20.1: {}
+  undici@6.21.1: {}
 
   unpipe@1.0.0: {}
 
