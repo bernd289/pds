@@ -18,6 +18,3 @@ updates:
       interval: "daily"
       time: "20:00"
       timezone: "Europe/Berlin"
-    ignore:
-      - dependency-name: "node"
-        versions: [">= 23.x"]
