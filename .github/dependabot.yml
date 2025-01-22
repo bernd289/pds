@@ -4,11 +4,20 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+      time: "20:00"
+      timezone: "Europe/Berlin"
   - package-ecosystem: "npm"
     directory: "/service"
     schedule:
       interval: "daily"
+      time: "20:00"
+      timezone: "Europe/Berlin"
   - package-ecosystem: "docker"
     directory: "/"
     schedule:
       interval: "daily"
+      time: "20:00"
+      timezone: "Europe/Berlin"
+    ignore:
+      - dependency-name: "node"
+        versions: [">= 23.x"]
