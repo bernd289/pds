@@ -1,6 +1,6 @@
-FROM node:22.13.1-alpine AS build
+FROM node:22.14.0-alpine AS build
 
-RUN npm install -g pnpm
+RUN npm install -g pnpm@9
 
 # Move files into the image and install
 WORKDIR /app
@@ -8,7 +8,7 @@ COPY ./service ./
 RUN pnpm install --production --frozen-lockfile
 
 # Uses assets from build stage to reduce build size
-FROM node:22.13.1-alpine
+FROM node:22.14.0-alpine
 
 RUN apk upgrade --no-cache
 RUN apk add --no-cache dumb-init curl
