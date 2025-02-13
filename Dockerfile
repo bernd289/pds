@@ -1,4 +1,4 @@
-FROM node:20.18.3-alpine3.21 AS build
+FROM node:22.13.1-alpine AS build
 
 RUN npm install -g pnpm
 
@@ -8,7 +8,7 @@ COPY ./service ./
 RUN pnpm install --production --frozen-lockfile
 
 # Uses assets from build stage to reduce build size
-FROM node:20.18.3-alpine3.21
+FROM node:22.13.1-alpine
 
 RUN apk upgrade --no-cache
 RUN apk add --no-cache dumb-init curl
