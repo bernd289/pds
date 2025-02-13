@@ -6,10 +6,7 @@ RUN npm install -g pnpm
 WORKDIR /app
 COPY ./service ./
 
-RUN pnpm install --production --frozen-lockfile
-
-# for pnpm 10+
-RUN pnpm approve-builds
+RUN pnpm install --config.strict-dep-builds=false --production --frozen-lockfile
 
 # Uses assets from build stage to reduce build size
 FROM node:22.14.0-alpine
