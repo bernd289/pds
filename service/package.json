@@ -8,4 +8,7 @@
   "dependencies": {
     "@atproto/pds": "0.4.95"
   }
+  "pnpm": {
+    "neverBuiltDependencies": []
+  }
 }
