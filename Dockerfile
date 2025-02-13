@@ -1,11 +1,15 @@
 FROM node:22.14.0-alpine AS build
 
-RUN npm install -g pnpm@9
+RUN npm install -g pnpm
 
 # Move files into the image and install
 WORKDIR /app
 COPY ./service ./
+
 RUN pnpm install --production --frozen-lockfile
+
+# for pnpm 10+
+RUN pnpm approve-builds
 
 # Uses assets from build stage to reduce build size
 FROM node:22.14.0-alpine
