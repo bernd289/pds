@@ -7,6 +7,7 @@ WORKDIR /app
 COPY ./service ./
 
 RUN pnpm install --production --frozen-lockfile
+RUN pnpm cache delete
 
 # Uses assets from build stage to reduce build size
 FROM node:22.14.0-alpine
