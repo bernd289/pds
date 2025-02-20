@@ -1,6 +1,7 @@
 FROM node:22.14.0-alpine AS build
 
-RUN npm install -g pnpm
+RUN corepack enable
+RUN corepack use pnpm@latest
 
 # Move files into the image and install
 WORKDIR /app
