@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@atproto/pds':
-        specifier: 0.4.100
-        version: 0.4.100
+        specifier: 0.4.101
+        version: 0.4.101
 
 packages:
 
@@ -33,11 +33,11 @@ packages:
   '@atproto-labs/xrpc-utils@0.0.7':
     resolution: {integrity: sha512-mNev88mtNo79h4bkEQYuLoTlejc1zMl9lLwKbpKYfFaaU0IS9VdhiPdRTEcQ6JGYK915OZ5Lv7OJQNF0g9qq9w==}
 
-  '@atproto/api@0.14.4':
-    resolution: {integrity: sha512-R/9xmAs8noZK//wmCoHow99Eg1g5J9y36IYmrU3aRApa0JkSVOfoCwwY42gN+LXDGSY1hP50hyRe8ftUVUMFkA==}
+  '@atproto/api@0.14.5':
+    resolution: {integrity: sha512-UnMOJWtZepMhWRnpL7VASp9R2lPLFjQpSSIOOBIqqhprTUot1aIxyFmz1idI58bSl6SZVA7BWRH+i8XyXSKlNg==}
 
-  '@atproto/aws@0.2.15':
-    resolution: {integrity: sha512-4fR7wEnlGtkchfL7XdQ61yALNbIMpX1xL4H0XEq+o3LzM7/08lw2vhQCDFCqqjOJwWXxefQRsVXG5p7iyy3HPA==}
+  '@atproto/aws@0.2.16':
+    resolution: {integrity: sha512-NXWEBybqiVErKGbcKLrevFaUTMCazb6XtM/HX7EYgyQdtyl4MwzGr93aZcwoSkOFBhJr3t7sNQHC3Tpyh5l+hg==}
     engines: {node: '>=18.7.0'}
 
   '@atproto/common-web@0.4.0':
@@ -77,13 +77,13 @@ packages:
   '@atproto/oauth-types@0.2.3':
     resolution: {integrity: sha512-M+0WW/alS2BfhKtwvdU3rSaLoycw6kTH1kGKeyDdmb/xN/8QjU7T6dkJe+wX4NC7F23xdKfti9DZhBpEtn+/kg==}
 
-  '@atproto/pds@0.4.100':
-    resolution: {integrity: sha512-kuqseNDZ0aiGY8JDw7oki1bWRYgT9xWYwV55gJCh4qRfROaE6/dFA1QXhLdM9aMtDGvDfw73wivK9jlAXeMC8A==}
+  '@atproto/pds@0.4.101':
+    resolution: {integrity: sha512-ZgW8MSRYu1kJ7AP+0nOiyU24OU3/jPqSNJ8MSgF/cpSOHViaAHz+tX3ekVI2TwESpqLBnEilXDQZ6hkoKgCDzQ==}
     engines: {node: '>=18.7.0'}
     hasBin: true
 
-  '@atproto/repo@0.6.5':
-    resolution: {integrity: sha512-Sa95LaEMDtwL9M0kp3vuVQIcgEJI+6EssDLIiuPnJAi9SbEPESdUfEiIR5t2oFCkMwrS7OJQCLdCa7CMy+plUg==}
+  '@atproto/repo@0.7.0':
+    resolution: {integrity: sha512-n0xyMsKuCxRyP7wROg1wX8vUEnt+H0umIyFUlMTz6jb8XPYk88p5XTcTmLV3dNNu0f71JPd2Jzt6/EGub9zxMg==}
     engines: {node: '>=18.7.0'}
 
   '@atproto/syntax@0.3.3':
@@ -670,8 +670,8 @@ packages:
   '@types/elliptic@6.4.18':
     resolution: {integrity: sha512-UseG6H5vjRiNpQvrhy4VF/JXdA3V/Fp5amvveaL+fs28BZ6xIKJBPnUPRlEaZpysD9MbpfaLi8lbl7PGUAkpWw==}
 
-  '@types/node@22.13.4':
-    resolution: {integrity: sha512-ywP2X0DYtX3y08eFVx5fNIw7/uIv8hYUKgXoK8oayJlLnKcRfEYCxWMVE1XagUdVtCJlZT1AU4LXEABW+L1Peg==}
+  '@types/node@22.13.5':
+    resolution: {integrity: sha512-+lTU0PxZXn0Dr1NBtC7Y8cR21AJr87dLLU953CWA6pMxxv/UDc7jYAY90upcrie1nRcD6XNG5HOYEDtgW5TxAg==}
 
   abort-controller@3.0.0:
     resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
@@ -1050,8 +1050,8 @@ packages:
     resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
     engines: {node: 6.* || 8.* || >= 10.*}
 
-  get-intrinsic@1.2.7:
-    resolution: {integrity: sha512-VW6Pxhsrk0KAOqs3WEd0klDiF/+V7gQOpAvY1jVU/LHmaD/kQO4523aiJuikX/QAKYiW6x8Jh+RJej1almdtCA==}
+  get-intrinsic@1.3.0:
+    resolution: {integrity: sha512-9fSjSaos/fRIVIp+xSJlE6lfwhES7LNtKaCBIamHsjr2na1BiABJPo0mOjjz8GJDURarmCPGqaiVg5mfjb98CQ==}
     engines: {node: '>= 0.4'}
 
   get-proto@1.0.1:
@@ -1426,8 +1426,8 @@ packages:
     resolution: {integrity: sha512-3niqt5bXFY1InKU8HKWqqYTYjtrBaxBMnXELXCXUYgtNYGUtZM5rB46HIC430AyacL95iEniGf7RgqsesykLmQ==}
     engines: {node: '>=18.0'}
 
-  rxjs@7.8.1:
-    resolution: {integrity: sha512-AA3TVj+0A2iuIoQkWEK/tqFjBq2j+6PO6Y0zJcvzLAFhEFIO3HL0vls9hWLncZbAAbK0mar7oZ4V079I/qPMxg==}
+  rxjs@7.8.2:
+    resolution: {integrity: sha512-dhKf903U/PQZY6boNNtAGdWbG85WAbjT/1xYoZIC7FAY0yWapOBQVsVrDl58W86//e1VpMNBtRV4MaXfdMySFA==}
 
   safe-buffer@5.2.1:
     resolution: {integrity: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==}
@@ -1694,7 +1694,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@atproto/api@0.14.4':
+  '@atproto/api@0.14.5':
     dependencies:
       '@atproto/common-web': 0.4.0
       '@atproto/lexicon': 0.4.7
@@ -1705,11 +1705,11 @@ snapshots:
       tlds: 1.255.0
       zod: 3.24.2
 
-  '@atproto/aws@0.2.15':
+  '@atproto/aws@0.2.16':
     dependencies:
       '@atproto/common': 0.4.8
       '@atproto/crypto': 0.4.4
-      '@atproto/repo': 0.6.5
+      '@atproto/repo': 0.7.0
       '@aws-sdk/client-cloudfront': 3.750.0
       '@aws-sdk/client-kms': 3.750.0
       '@aws-sdk/client-s3': 3.750.0
@@ -1809,18 +1809,18 @@ snapshots:
       '@atproto/jwk': 0.1.3
       zod: 3.24.2
 
-  '@atproto/pds@0.4.100':
+  '@atproto/pds@0.4.101':
     dependencies:
       '@atproto-labs/fetch-node': 0.1.7
       '@atproto-labs/xrpc-utils': 0.0.7
-      '@atproto/api': 0.14.4
-      '@atproto/aws': 0.2.15
+      '@atproto/api': 0.14.5
+      '@atproto/aws': 0.2.16
       '@atproto/common': 0.4.8
       '@atproto/crypto': 0.4.4
       '@atproto/identity': 0.4.6
       '@atproto/lexicon': 0.4.7
       '@atproto/oauth-provider': 0.3.1
-      '@atproto/repo': 0.6.5
+      '@atproto/repo': 0.7.0
       '@atproto/syntax': 0.3.3
       '@atproto/xrpc': 0.6.9
       '@atproto/xrpc-server': 0.7.11
@@ -1859,7 +1859,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@atproto/repo@0.6.5':
+  '@atproto/repo@0.7.0':
     dependencies:
       '@atproto/common': 0.4.8
       '@atproto/common-web': 0.4.0
@@ -2956,13 +2956,13 @@ snapshots:
 
   '@types/bn.js@5.1.6':
     dependencies:
-      '@types/node': 22.13.4
+      '@types/node': 22.13.5
 
   '@types/elliptic@6.4.18':
     dependencies:
       '@types/bn.js': 5.1.6
 
-  '@types/node@22.13.4':
+  '@types/node@22.13.5':
     dependencies:
       undici-types: 6.20.0
 
@@ -3081,7 +3081,7 @@ snapshots:
   call-bound@1.0.3:
     dependencies:
       call-bind-apply-helpers: 1.0.2
-      get-intrinsic: 1.2.7
+      get-intrinsic: 1.3.0
 
   cbor-extract@2.2.0:
     dependencies:
@@ -3257,7 +3257,7 @@ snapshots:
   es-set-tostringtag@2.1.0:
     dependencies:
       es-errors: 1.3.0
-      get-intrinsic: 1.2.7
+      get-intrinsic: 1.3.0
       has-tostringtag: 1.0.2
       hasown: 2.0.2
 
@@ -3365,7 +3365,7 @@ snapshots:
 
   get-caller-file@2.0.5: {}
 
-  get-intrinsic@1.2.7:
+  get-intrinsic@1.3.0:
     dependencies:
       call-bind-apply-helpers: 1.0.2
       es-define-property: 1.0.1
@@ -3750,7 +3750,7 @@ snapshots:
       safe-stable-stringify: 2.5.0
       semver-compare: 1.0.0
 
-  rxjs@7.8.1:
+  rxjs@7.8.2:
     dependencies:
       tslib: 2.8.1
     optional: true
@@ -3835,14 +3835,14 @@ snapshots:
     dependencies:
       call-bound: 1.0.3
       es-errors: 1.3.0
-      get-intrinsic: 1.2.7
+      get-intrinsic: 1.3.0
       object-inspect: 1.13.4
 
   side-channel-weakmap@1.0.2:
     dependencies:
       call-bound: 1.0.3
       es-errors: 1.3.0
-      get-intrinsic: 1.2.7
+      get-intrinsic: 1.3.0
       object-inspect: 1.13.4
       side-channel-map: 1.0.1
 
@@ -3961,7 +3961,7 @@ snapshots:
 
   typed-emitter@2.1.0:
     optionalDependencies:
-      rxjs: 7.8.1
+      rxjs: 7.8.2
 
   uglify-js@3.19.3:
     optional: true
