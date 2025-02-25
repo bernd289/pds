@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@atproto/pds':
-        specifier: 0.4.102
-        version: 0.4.102
+        specifier: 0.4.103
+        version: 0.4.103
 
 packages:
 
@@ -70,15 +70,15 @@ packages:
   '@atproto/lexicon@0.4.7':
     resolution: {integrity: sha512-/x6h3tAiDNzSi4eXtC8ke65B7UzsagtlGRHmUD95698x5lBRpDnpizj0fZWTZVYed5qnOmz/ZEue+v3wDmO61g==}
 
-  '@atproto/oauth-provider@0.3.1':
-    resolution: {integrity: sha512-xd/rTLPv3ty7vxP6Amc5DqPRwLNi7UOGW6Bsw/oQ6VugGVRNmv58GsfajKl3W+5iib2YvgCkWS4LlUoiavr6gA==}
+  '@atproto/oauth-provider@0.4.0':
+    resolution: {integrity: sha512-epY+4BXNyK7DBpMfCigD0580xNWYqRr6rpb7m3q0Oa5+L9AoJvcWZfUHXw6J7PIlk6jmj/aeDFjE89p+SivyFw==}
     engines: {node: '>=18.7.0'}
 
   '@atproto/oauth-types@0.2.3':
     resolution: {integrity: sha512-M+0WW/alS2BfhKtwvdU3rSaLoycw6kTH1kGKeyDdmb/xN/8QjU7T6dkJe+wX4NC7F23xdKfti9DZhBpEtn+/kg==}
 
-  '@atproto/pds@0.4.102':
-    resolution: {integrity: sha512-T5XwT5XmYIlMzowJz48x9YDYf3WhGlzFpCFjqF2y2YUdtkY0x8Yryy6dMunTQtj1/l3Jjz1tDGZt/KOSnIrVlg==}
+  '@atproto/pds@0.4.103':
+    resolution: {integrity: sha512-7AbMiC+cOPnUcJ4rKMajpWraxdBt+cAbwOPzNxW8xhYOdCXq/fkR3hfs3gCND4P93JCFkT+7up7zXaFoc6SDtQ==}
     engines: {node: '>=18.7.0'}
     hasBin: true
 
@@ -1781,7 +1781,7 @@ snapshots:
       multiformats: 9.9.0
       zod: 3.24.2
 
-  '@atproto/oauth-provider@0.3.1':
+  '@atproto/oauth-provider@0.4.0':
     dependencies:
       '@atproto-labs/fetch': 0.2.1
       '@atproto-labs/fetch-node': 0.1.7
@@ -1796,6 +1796,7 @@ snapshots:
       '@hapi/bourne': 3.0.0
       '@hapi/content': 6.0.0
       cookie: 0.6.0
+      forwarded: 0.2.0
       http-errors: 2.0.0
       ioredis: 5.5.0
       jose: 5.10.0
@@ -1809,7 +1810,7 @@ snapshots:
       '@atproto/jwk': 0.1.3
       zod: 3.24.2
 
-  '@atproto/pds@0.4.102':
+  '@atproto/pds@0.4.103':
     dependencies:
       '@atproto-labs/fetch-node': 0.1.7
       '@atproto-labs/xrpc-utils': 0.0.7
@@ -1819,7 +1820,7 @@ snapshots:
       '@atproto/crypto': 0.4.4
       '@atproto/identity': 0.4.6
       '@atproto/lexicon': 0.4.7
-      '@atproto/oauth-provider': 0.3.1
+      '@atproto/oauth-provider': 0.4.0
       '@atproto/repo': 0.7.0
       '@atproto/syntax': 0.3.3
       '@atproto/xrpc': 0.6.9
