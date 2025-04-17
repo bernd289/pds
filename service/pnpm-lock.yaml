@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@atproto/pds':
-        specifier: 0.4.126
-        version: 0.4.126
+        specifier: 0.4.127
+        version: 0.4.127
 
 packages:
 
@@ -33,8 +33,8 @@ packages:
   '@atproto-labs/xrpc-utils@0.0.11':
     resolution: {integrity: sha512-lGCHoKXL35z5WSzQ4RyXIZCZtpL9tos/uWXxaqwaukZK8SoOSAz+iO0/VMShAhGOv0K3nZsMBMTvn/QN3YxRcw==}
 
-  '@atproto/api@0.15.0':
-    resolution: {integrity: sha512-haSVLbSEqFd+h/VpRcamyzGn+36/lEfDZ7AqUKVA2Qq6ijfUWdzO7RUyOWQ4BiYgqTIrZN1ljnNUhSJxqlIUBQ==}
+  '@atproto/api@0.15.1':
+    resolution: {integrity: sha512-+vNgrHLAid4mRIRyycbyNZoYgeLkr2otGRQeFJCK3gVwnEkBhGIjIDC8ABGJqBZf4lE6dg4CLafb6xzmF8aptQ==}
 
   '@atproto/aws@0.2.20':
     resolution: {integrity: sha512-lTVkux1gqJuwub1GnyMqWtCc4OSCNKOG2MR+2QUx+qu0Jicqeda7J/7rs6nem+6ngsO7JWm2pfCc6GEUqTiHLQ==}
@@ -73,23 +73,23 @@ packages:
   '@atproto/oauth-provider-api@0.1.0':
     resolution: {integrity: sha512-C7rZYuuIjc61boqV0zA/xghYw3I2PPzOSzxlmnUWpmqmKg+vNBgyTT5XyUeIscZ/fU9wKbArR5rmtAF4h8YKlw==}
 
-  '@atproto/oauth-provider-frontend@0.1.1':
-    resolution: {integrity: sha512-3JuTFy3l8KHMNRdDs2gkJAOOoLd9eg+BzkRgHmXND80hrX4OfFyTdAskULJ9Vw+dTUxK689N8C/nNUwtSWig9A==}
+  '@atproto/oauth-provider-frontend@0.1.2':
+    resolution: {integrity: sha512-N6rZtzXH2tgr7QurxameqlrxLB9fPQ1WtaqHLiG1nQZEA5uUwTUOZWIu3rctWGgo/0w17vXvFVq6LFT/X9vDvg==}
     engines: {node: '>=18.7.0'}
 
   '@atproto/oauth-provider-ui@0.1.1':
     resolution: {integrity: sha512-lTZIgrK7Lpy92Uob28cVUzDZ0eoasgVLl659kFLoBNThVdbvfbrhZmQiQK2nLZo0iZJHs1+FhYbnGSZsW1wy7Q==}
     engines: {node: '>=18.7.0'}
 
-  '@atproto/oauth-provider@0.7.1':
-    resolution: {integrity: sha512-A47hFOcn0r7F8ByISLFFts6mMDUGxbPkBiErXpADWzzO24c4jSQnu677lzpYWE5/UQ+6At71ha9BadP6SigbfA==}
+  '@atproto/oauth-provider@0.7.2':
+    resolution: {integrity: sha512-D2cTG2KkeumgMnxzhlHGs5atNUsQWqYUSPmCd/2bbqL3hpdvIPPrOK5IO5YWXaReg/WRy4MoYE3vjkc2qV7SJA==}
     engines: {node: '>=18.7.0'}
 
   '@atproto/oauth-types@0.2.5':
     resolution: {integrity: sha512-CnRNb4iLbhCv+5LaRtCSaoOg2QcQGqaatpFZbEzim/aCXenETdadrBCJo3+YyvZDHzYSy02nRVxWSm4T9e+lYw==}
 
-  '@atproto/pds@0.4.126':
-    resolution: {integrity: sha512-Lo0q2WA4Tuw7nSFID5yJc2MY0jbw//1cwIiHv1cOdg3ELV1Rlm4GlQe8qPgpTnHNy8xtvD9ONaPyJlpQekN3tQ==}
+  '@atproto/pds@0.4.127':
+    resolution: {integrity: sha512-YMcjXtlOtJg50cSkY1R/ixqj/1MPH1vyGXElhzhmCr3ufi2OCS9YpfJ88hgW99PWatAHpDbwhb2BMbfOK4LlEQ==}
     engines: {node: '>=18.7.0'}
 
   '@atproto/repo@0.8.0':
@@ -1664,8 +1664,8 @@ packages:
       utf-8-validate:
         optional: true
 
-  zod@3.24.2:
-    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
+  zod@3.24.3:
+    resolution: {integrity: sha512-HhY1oqzWCQWuUqvBFnsyrtZRhyPeR7SUGv+C4+MsisMuVfSPx8HpwWqH8tRahSlt6M3PiFAcoeFhZAqIXTxoSg==}
 
 snapshots:
 
@@ -1699,7 +1699,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@atproto/api@0.15.0':
+  '@atproto/api@0.15.1':
     dependencies:
       '@atproto/common-web': 0.4.1
       '@atproto/lexicon': 0.4.10
@@ -1708,7 +1708,7 @@ snapshots:
       await-lock: 2.2.2
       multiformats: 9.9.0
       tlds: 1.256.0
-      zod: 3.24.2
+      zod: 3.24.3
 
   '@atproto/aws@0.2.20':
     dependencies:
@@ -1731,14 +1731,14 @@ snapshots:
       graphemer: 1.4.0
       multiformats: 9.9.0
       uint8arrays: 3.0.0
-      zod: 3.24.2
+      zod: 3.24.3
 
   '@atproto/common@0.1.1':
     dependencies:
       '@ipld/dag-cbor': 7.0.3
       multiformats: 9.9.0
       pino: 8.21.0
-      zod: 3.24.2
+      zod: 3.24.3
 
   '@atproto/common@0.4.10':
     dependencies:
@@ -1776,7 +1776,7 @@ snapshots:
   '@atproto/jwk@0.1.5':
     dependencies:
       multiformats: 9.9.0
-      zod: 3.24.2
+      zod: 3.24.3
 
   '@atproto/lexicon@0.4.10':
     dependencies:
@@ -1784,14 +1784,14 @@ snapshots:
       '@atproto/syntax': 0.4.0
       iso-datestring-validator: 2.2.2
       multiformats: 9.9.0
-      zod: 3.24.2
+      zod: 3.24.3
 
   '@atproto/oauth-provider-api@0.1.0':
     dependencies:
       '@atproto/jwk': 0.1.5
       '@atproto/oauth-types': 0.2.5
 
-  '@atproto/oauth-provider-frontend@0.1.1':
+  '@atproto/oauth-provider-frontend@0.1.2':
     optionalDependencies:
       '@atproto/oauth-provider-api': 0.1.0
 
@@ -1799,7 +1799,7 @@ snapshots:
     optionalDependencies:
       '@atproto/oauth-provider-api': 0.1.0
 
-  '@atproto/oauth-provider@0.7.1':
+  '@atproto/oauth-provider@0.7.2':
     dependencies:
       '@atproto-labs/fetch': 0.2.2
       '@atproto-labs/fetch-node': 0.1.8
@@ -1810,7 +1810,7 @@ snapshots:
       '@atproto/jwk': 0.1.5
       '@atproto/jwk-jose': 0.1.6
       '@atproto/oauth-provider-api': 0.1.0
-      '@atproto/oauth-provider-frontend': 0.1.1
+      '@atproto/oauth-provider-frontend': 0.1.2
       '@atproto/oauth-provider-ui': 0.1.1
       '@atproto/oauth-types': 0.2.5
       '@atproto/syntax': 0.4.0
@@ -1825,26 +1825,26 @@ snapshots:
       ioredis: 5.6.1
       jose: 5.10.0
       psl: 1.15.0
-      zod: 3.24.2
+      zod: 3.24.3
     transitivePeerDependencies:
       - supports-color
 
   '@atproto/oauth-types@0.2.5':
     dependencies:
       '@atproto/jwk': 0.1.5
-      zod: 3.24.2
+      zod: 3.24.3
 
-  '@atproto/pds@0.4.126':
+  '@atproto/pds@0.4.127':
     dependencies:
       '@atproto-labs/fetch-node': 0.1.8
       '@atproto-labs/xrpc-utils': 0.0.11
-      '@atproto/api': 0.15.0
+      '@atproto/api': 0.15.1
       '@atproto/aws': 0.2.20
       '@atproto/common': 0.4.10
       '@atproto/crypto': 0.4.4
       '@atproto/identity': 0.4.7
       '@atproto/lexicon': 0.4.10
-      '@atproto/oauth-provider': 0.7.1
+      '@atproto/oauth-provider': 0.7.2
       '@atproto/repo': 0.8.0
       '@atproto/syntax': 0.4.0
       '@atproto/xrpc': 0.6.12
@@ -1876,7 +1876,7 @@ snapshots:
       typed-emitter: 2.1.0
       uint8arrays: 3.0.0
       undici: 6.21.2
-      zod: 3.24.2
+      zod: 3.24.3
     transitivePeerDependencies:
       - aws-crt
       - bufferutil
@@ -1894,7 +1894,7 @@ snapshots:
       multiformats: 9.9.0
       uint8arrays: 3.0.0
       varint: 6.0.0
-      zod: 3.24.2
+      zod: 3.24.3
 
   '@atproto/syntax@0.4.0': {}
 
@@ -1911,7 +1911,7 @@ snapshots:
       rate-limiter-flexible: 2.4.2
       uint8arrays: 3.0.0
       ws: 8.18.1
-      zod: 3.24.2
+      zod: 3.24.3
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -1920,7 +1920,7 @@ snapshots:
   '@atproto/xrpc@0.6.12':
     dependencies:
       '@atproto/lexicon': 0.4.10
-      zod: 3.24.2
+      zod: 3.24.3
 
   '@aws-crypto/crc32@5.2.0':
     dependencies:
@@ -2508,7 +2508,7 @@ snapshots:
       axios: 1.8.4
       multiformats: 9.9.0
       uint8arrays: 3.0.0
-      zod: 3.24.2
+      zod: 3.24.3
     transitivePeerDependencies:
       - debug
 
@@ -4027,4 +4027,4 @@ snapshots:
 
   ws@8.18.1: {}
 
-  zod@3.24.2: {}
+  zod@3.24.3: {}
