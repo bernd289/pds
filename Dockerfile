@@ -1,20 +1,20 @@
 FROM node:22.16.0-alpine AS build
 
-RUN corepack enable
-RUN corepack use pnpm@latest
+RUN corepack enable && \
+    corepack use pnpm@latest
 
 # Move files into the image and install
 WORKDIR /app
 COPY ./service ./
 
-RUN pnpm install --production --frozen-lockfile
-RUN pnpm cache delete
+RUN pnpm install --production --frozen-lockfile && \
+    pnpm cache delete
 
 # Uses assets from build stage to reduce build size
 FROM node:22.16.0-alpine
 
-RUN apk upgrade --no-cache
-RUN apk add --no-cache dumb-init curl
+RUN apk upgrade --no-cache && \
+    apk add --no-cache dumb-init curl
 
 # Avoid zombie processes, handle signal forwarding
 ENTRYPOINT ["dumb-init", "--"]
