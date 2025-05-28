@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@atproto/pds':
-        specifier: 0.4.139
-        version: 0.4.139
+        specifier: 0.4.140
+        version: 0.4.140
 
 packages:
 
@@ -33,8 +33,8 @@ packages:
   '@atproto-labs/xrpc-utils@0.0.14':
     resolution: {integrity: sha512-/f0Dhzi08w3Oqv38wdwQ5bw238GbxhYIcxg08kVReEMTlkyRDC6H5RuqHf8Ff9J3FKqjKHGdxaOdrPNM1hCgeQ==}
 
-  '@atproto/api@0.15.9':
-    resolution: {integrity: sha512-CyAILiIcbN+V5CFAI6MDb247epm25RGkP7HSan5LUaOHiyg1NCAmflWCN/bbMdJX9kLqjAPAG3eN4BUUbYe//Q==}
+  '@atproto/api@0.15.10':
+    resolution: {integrity: sha512-/PsvYoYMA6VGAbMEOU2rOuaNQHkWPU6CVQAUDK2XRlIgFO2d21KEjZsZ4Z3lELvZlcw25fuMp7gLgFRijpk78w==}
 
   '@atproto/aws@0.2.21':
     resolution: {integrity: sha512-bosExZ3YdFjOehNBcNWsC2mZBrAVLO8Ut/JquypXSahFeeXZP/9rd9F1VGf+vAmjFEKagHXQCb6CRFfJyN+I7A==}
@@ -88,8 +88,8 @@ packages:
   '@atproto/oauth-types@0.2.7':
     resolution: {integrity: sha512-2SlDveiSI0oowC+sfuNd/npV8jw/FhokSS26qyUyldTg1g9ZlhxXUfMP4IZOPeZcVn9EszzQRHs1H9ZJqVQIew==}
 
-  '@atproto/pds@0.4.139':
-    resolution: {integrity: sha512-VD1VTSAnbAme4D4Xk/Wdl05qs8YbCe39/i960EyXzw2fYNvL9jMpKm3z0lwhrYN9q7phFhr2ubU2QjfRFDbDAQ==}
+  '@atproto/pds@0.4.140':
+    resolution: {integrity: sha512-22GTXixebGkMh5vJPj81BG4EzoyrLf7z0wgUPCFX88Mx/aQKU0tmd+ZNguvpkmJka8WlhdiqgIiI7CCv6e6Jng==}
     engines: {node: '>=18.7.0'}
 
   '@atproto/repo@0.8.1':
@@ -677,8 +677,8 @@ packages:
   '@types/elliptic@6.4.18':
     resolution: {integrity: sha512-UseG6H5vjRiNpQvrhy4VF/JXdA3V/Fp5amvveaL+fs28BZ6xIKJBPnUPRlEaZpysD9MbpfaLi8lbl7PGUAkpWw==}
 
-  '@types/node@22.15.21':
-    resolution: {integrity: sha512-EV/37Td6c+MgKAbkcLG6vqZ2zEYHD7bvSrzqqs2RIhbA6w3x+Dqz8MZM3sP6kGTeLrdoOgKZe+Xja7tUB2DNkQ==}
+  '@types/node@22.15.23':
+    resolution: {integrity: sha512-7Ec1zaFPF4RJ0eXu1YT/xgiebqwqoJz8rYPDi/O2BcZ++Wpt0Kq9cl0eg6NN6bYbPnR67ZLo7St5Q3UK0SnARw==}
 
   abort-controller@3.0.0:
     resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
@@ -1657,8 +1657,8 @@ packages:
       utf-8-validate:
         optional: true
 
-  zod@3.25.28:
-    resolution: {integrity: sha512-/nt/67WYKnr5by3YS7LroZJbtcCBurDKKPBPWWzaxvVCGuG/NOsiKkrjoOhI8mJ+SQUXEbUzeB3S+6XDUEEj7Q==}
+  zod@3.25.32:
+    resolution: {integrity: sha512-OSm2xTIRfW8CV5/QKgngwmQW/8aPfGdaQFlrGoErlgg/Epm7cjb6K6VEyExfe65a3VybUOnu381edLb0dfJl0g==}
 
 snapshots:
 
@@ -1691,7 +1691,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@atproto/api@0.15.9':
+  '@atproto/api@0.15.10':
     dependencies:
       '@atproto/common-web': 0.4.2
       '@atproto/lexicon': 0.4.11
@@ -1700,7 +1700,7 @@ snapshots:
       await-lock: 2.2.2
       multiformats: 9.9.0
       tlds: 1.259.0
-      zod: 3.25.28
+      zod: 3.25.32
 
   '@atproto/aws@0.2.21':
     dependencies:
@@ -1723,14 +1723,14 @@ snapshots:
       graphemer: 1.4.0
       multiformats: 9.9.0
       uint8arrays: 3.0.0
-      zod: 3.25.28
+      zod: 3.25.32
 
   '@atproto/common@0.1.1':
     dependencies:
       '@ipld/dag-cbor': 7.0.3
       multiformats: 9.9.0
       pino: 8.21.0
-      zod: 3.25.28
+      zod: 3.25.32
 
   '@atproto/common@0.4.11':
     dependencies:
@@ -1768,7 +1768,7 @@ snapshots:
   '@atproto/jwk@0.1.5':
     dependencies:
       multiformats: 9.9.0
-      zod: 3.25.28
+      zod: 3.25.32
 
   '@atproto/lexicon@0.4.11':
     dependencies:
@@ -1776,7 +1776,7 @@ snapshots:
       '@atproto/syntax': 0.4.0
       iso-datestring-validator: 2.2.2
       multiformats: 9.9.0
-      zod: 3.25.28
+      zod: 3.25.32
 
   '@atproto/oauth-provider-api@0.1.2':
     dependencies:
@@ -1816,20 +1816,20 @@ snapshots:
       http-errors: 2.0.0
       ioredis: 5.6.1
       jose: 5.10.0
-      zod: 3.25.28
+      zod: 3.25.32
     transitivePeerDependencies:
       - supports-color
 
   '@atproto/oauth-types@0.2.7':
     dependencies:
       '@atproto/jwk': 0.1.5
-      zod: 3.25.28
+      zod: 3.25.32
 
-  '@atproto/pds@0.4.139':
+  '@atproto/pds@0.4.140':
     dependencies:
       '@atproto-labs/fetch-node': 0.1.9
       '@atproto-labs/xrpc-utils': 0.0.14
-      '@atproto/api': 0.15.9
+      '@atproto/api': 0.15.10
       '@atproto/aws': 0.2.21
       '@atproto/common': 0.4.11
       '@atproto/crypto': 0.4.4
@@ -1867,7 +1867,7 @@ snapshots:
       typed-emitter: 2.1.0
       uint8arrays: 3.0.0
       undici: 6.21.3
-      zod: 3.25.28
+      zod: 3.25.32
     transitivePeerDependencies:
       - aws-crt
       - bufferutil
@@ -1885,7 +1885,7 @@ snapshots:
       multiformats: 9.9.0
       uint8arrays: 3.0.0
       varint: 6.0.0
-      zod: 3.25.28
+      zod: 3.25.32
 
   '@atproto/syntax@0.4.0': {}
 
@@ -1902,7 +1902,7 @@ snapshots:
       rate-limiter-flexible: 2.4.2
       uint8arrays: 3.0.0
       ws: 8.18.2
-      zod: 3.25.28
+      zod: 3.25.32
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -1911,7 +1911,7 @@ snapshots:
   '@atproto/xrpc@0.7.0':
     dependencies:
       '@atproto/lexicon': 0.4.11
-      zod: 3.25.28
+      zod: 3.25.32
 
   '@aws-crypto/crc32@5.2.0':
     dependencies:
@@ -2500,7 +2500,7 @@ snapshots:
       axios: 1.9.0
       multiformats: 9.9.0
       uint8arrays: 3.0.0
-      zod: 3.25.28
+      zod: 3.25.32
     transitivePeerDependencies:
       - debug
 
@@ -2968,13 +2968,13 @@ snapshots:
 
   '@types/bn.js@5.1.6':
     dependencies:
-      '@types/node': 22.15.21
+      '@types/node': 22.15.23
 
   '@types/elliptic@6.4.18':
     dependencies:
       '@types/bn.js': 5.1.6
 
-  '@types/node@22.15.21':
+  '@types/node@22.15.23':
     dependencies:
       undici-types: 6.21.0
 
@@ -4014,4 +4014,4 @@ snapshots:
 
   ws@8.18.2: {}
 
-  zod@3.25.28: {}
+  zod@3.25.32: {}
