@@ -137,7 +137,7 @@ Examples to check (record type `A`):
 
 These should all return your server's public IP.
 
-### Installer on Ubuntu 20.04/22.04/24.04 and Debian 11/12
+### Installer on Ubuntu and Debian
 
 On your server via ssh, download the installer script using wget:
 
