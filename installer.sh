@@ -86,29 +86,12 @@ function main {
 
   # Check for a supported distribution.
   SUPPORTED_OS="false"
-  if [[ "${DISTRIB_ID}" == "ubuntu" ]]; then
-    if [[ "${DISTRIB_CODENAME}" == "focal" ]]; then
-      SUPPORTED_OS="true"
-      echo "* Detected supported distribution Ubuntu 20.04 LTS"
-    elif [[ "${DISTRIB_CODENAME}" == "jammy" ]]; then
-      SUPPORTED_OS="true"
-      echo "* Detected supported distribution Ubuntu 22.04 LTS"
-    elif [[ "${DISTRIB_CODENAME}" == "noble" ]]; then
-      SUPPORTED_OS="true"
-      echo "* Detected supported distribution Ubuntu 24.04 LTS"
-    fi
-  elif [[ "${DISTRIB_ID}" == "debian" ]]; then
-    if [[ "${DISTRIB_CODENAME}" == "bullseye" ]]; then
-      SUPPORTED_OS="true"
-      echo "* Detected supported distribution Debian 11"
-    elif [[ "${DISTRIB_CODENAME}" == "bookworm" ]]; then
-      SUPPORTED_OS="true"
-      echo "* Detected supported distribution Debian 12"
-    fi
+  if [ -f /etc/debian_version ] ; then
+    SUPPORTED_OS="true"
   fi
 
   if [[ "${SUPPORTED_OS}" != "true" ]]; then
-    echo "Sorry, only Ubuntu 20.04, 22.04, 24.04, Debian 11 and Debian 12 are supported by this installer. Exiting..."
+    echo "Sorry, only Ubuntu and Debian are supported by this installer. Exiting..."
     exit 1
   fi
 
