@@ -1,4 +1,4 @@
-FROM node:22.18.0-alpine AS build
+FROM node:24.6.0-alpine3.22 AS build
 
 RUN corepack enable && \
     corepack use pnpm@latest
@@ -11,7 +11,7 @@ RUN pnpm install --production --frozen-lockfile && \
     pnpm cache delete
 
 # Uses assets from build stage to reduce build size
-FROM node:22.18.0-alpine
+FROM node:24.6.0-alpine3.22
 
 RUN apk upgrade --no-cache && \
     apk add --no-cache dumb-init curl
