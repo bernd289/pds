@@ -4,6 +4,7 @@ on:
   schedule:
     # Every Monday morning
     - cron: "00 03 * * 1"
+  workflow_dispatch:
 
 jobs:
   delete-packages:
