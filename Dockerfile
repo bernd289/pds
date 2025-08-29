@@ -1,4 +1,4 @@
-FROM node:22.18.0-alpine3.22 AS build
+FROM node:22.19.0-alpine3.22 AS build
 
 # Move files into the image and install
 WORKDIR /app
@@ -10,7 +10,7 @@ RUN corepack enable && \
     npm uninstall -g corepack
     
 # Uses assets from build stage to reduce build size
-FROM node:22.18.0-alpine3.22
+FROM node:22.19.0-alpine3.22
 
 RUN apk upgrade --no-cache && \
     apk add --no-cache dumb-init curl
