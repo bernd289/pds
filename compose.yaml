@@ -3,8 +3,9 @@ services:
     container_name: caddy
     image: caddy:2
     ports:
-      - "80:80"
-      - "443:443"
+      - "80:80/tcp"
+      - "443:443/tcp"
+      - "443:443/udp"
     depends_on:
       - pds
     restart: unless-stopped
