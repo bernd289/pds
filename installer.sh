@@ -301,6 +301,7 @@ DOCKERD_CONFIG
 		on_demand
 	}
 	reverse_proxy http://pds:3000
+	encode zstd gzip
 }
 CADDYFILE
 
