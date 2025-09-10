@@ -27,7 +27,7 @@ Head over to the [AT Protocol PDS Admins Discord](https://discord.gg/e7hpHxRfBP)
   * [Open your cloud firewall for HTTP and HTTPS](#open-your-cloud-firewall-for-http-and-https)
   * [Configure DNS for your domain](#configure-dns-for-your-domain)
   * [Check that DNS is working as expected](#check-that-dns-is-working-as-expected)
-  * [Installer on Ubuntu and Debian](#installer-on-ubuntu-20042204-and-debian-1112)
+  * [Installer on Ubuntu and Debian](#installer-on-ubuntu-and-debian)
   * [Verifying that your PDS is online and accessible](#verifying-that-your-pds-is-online-and-accessible)
   * [Creating an account using pdsadmin](#creating-an-account-using-pdsadmin)
   * [Creating an account using an invite code](#creating-an-account-using-an-invite-code)
@@ -142,13 +142,13 @@ These should all return your server's public IP.
 On your server via ssh, download the installer script using wget:
 
 ```bash
-wget https://raw.githubusercontent.com/bluesky-social/pds/main/installer.sh
+wget https://raw.githubusercontent.com/bernd289/pds/main/installer.sh
 ```
 
 or download it using curl:
 
 ```bash
-curl https://raw.githubusercontent.com/bluesky-social/pds/main/installer.sh >installer.sh
+curl https://raw.githubusercontent.com/bernd289/pds/main/installer.sh >installer.sh
 ```
 
 And then run the installer using bash:
