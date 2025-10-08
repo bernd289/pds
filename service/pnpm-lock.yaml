@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@atproto/pds':
-        specifier: 0.4.184
-        version: 0.4.184
+        specifier: 0.4.185
+        version: 0.4.185
 
 packages:
 
@@ -38,8 +38,8 @@ packages:
   '@atproto-labs/xrpc-utils@0.0.22':
     resolution: {integrity: sha512-XGDbTmVgibtcR6FwJepD/QKofG1B5EBBPebk/IVF4aHeBE/6jOd7DnfuKrBimv2GJ2JGrlvHXmjYZdfmCtYEbw==}
 
-  '@atproto/api@0.17.1':
-    resolution: {integrity: sha512-MjW6zVP8PsxPhvOpSWIZLoEiFOK0oKIokeHoUgG1CLHGXNnz2TwBGrrPglyiE0j9GYFD5p6lAsHx8Dbx/9j5vg==}
+  '@atproto/api@0.17.2':
+    resolution: {integrity: sha512-luRY9YPaRQFpm3v7a1bTOaekQ/KPCG3gb0jVyaOtfMXDSfIZJh9lr9MtmGPdEp7AvfE8urkngZ+V/p8Ial3z2g==}
 
   '@atproto/aws@0.2.30':
     resolution: {integrity: sha512-oB/whUIWwSOEqUazz5meN3/AlovBdRc224uRPNy9aC6+qmNKfHKiMfo0ytFhGYdm4GtEd2HYwIT3KR/Rtc2RRA==}
@@ -102,8 +102,8 @@ packages:
   '@atproto/oauth-types@0.4.2':
     resolution: {integrity: sha512-gcfNTyFsPJcYDf79M0iKHykWqzxloscioKoerdIN3MTS3htiNOSgZjm2p8ho7pdrElLzea3qktuhTQI39j1XFQ==}
 
-  '@atproto/pds@0.4.184':
-    resolution: {integrity: sha512-TkbDHAIu0IoUU2fTvjs/z3U/cXsC7hTtFBNJiE1wUeiCWqigxOIwSojAqVXU3pgxt4I+64kta5KBS1n4GYPOXg==}
+  '@atproto/pds@0.4.185':
+    resolution: {integrity: sha512-fgsdtao0bMA6xTSyLcj6hlHxe9osbgYBl+XOt5Dy4DHyk1n5TNn36DXXaRkuKjC/pltnEa8Wmd+/oCXdUD8X0g==}
     engines: {node: '>=18.7.0'}
 
   '@atproto/repo@0.8.10':
@@ -925,8 +925,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  disposable-email-domains-js@1.17.0:
-    resolution: {integrity: sha512-1B+LIt8mFY63vLT8m52NQRIuRSnWLi1MomwSxRKn89DkP69SNY8T6XV6yfkIZNhu0YjOgARr6+92KRfrNuUB9w==}
+  disposable-email-domains-js@1.18.0:
+    resolution: {integrity: sha512-yNzqfhO6tPCw3+ZxRc29np6wwkkAlD4fuyAAXhcgrddp/IgFMIEJTunYI3YiLaGxPhORHtgJUJifxFRWERzmow==}
 
   dom-serializer@1.4.1:
     resolution: {integrity: sha512-VHwB3KfrcOOkelEG2ZOfxqLZdfkil8PtJi4P8N2MMXucZq2yLp75ClViUlOVwyoHEDjYU433Aq+5zWP61+RGag==}
@@ -1464,8 +1464,8 @@ packages:
   semver-compare@1.0.0:
     resolution: {integrity: sha512-YM3/ITh2MJ5MtzaM429anh+x2jiLVjqILF4m4oyQB18W7Ggea7BfqdH/wGMK7dDiMghv/6WG7znWMwUDzJiXow==}
 
-  semver@7.7.2:
-    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
+  semver@7.7.3:
+    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1714,7 +1714,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@atproto/api@0.17.1':
+  '@atproto/api@0.17.2':
     dependencies:
       '@atproto/common-web': 0.4.3
       '@atproto/lexicon': 0.5.1
@@ -1853,7 +1853,7 @@ snapshots:
       '@hapi/bourne': 3.0.0
       '@hapi/content': 6.0.0
       cookie: 0.7.2
-      disposable-email-domains-js: 1.17.0
+      disposable-email-domains-js: 1.18.0
       forwarded: 0.2.0
       http-errors: 2.0.0
       ioredis: 5.8.1
@@ -1874,14 +1874,14 @@ snapshots:
       '@atproto/jwk': 0.6.0
       zod: 3.25.76
 
-  '@atproto/pds@0.4.184':
+  '@atproto/pds@0.4.185':
     dependencies:
       '@atproto-labs/fetch-node': 0.1.10
       '@atproto-labs/simple-store': 0.3.0
       '@atproto-labs/simple-store-memory': 0.1.4
       '@atproto-labs/simple-store-redis': 0.0.1(ioredis@5.8.1)
       '@atproto-labs/xrpc-utils': 0.0.22
-      '@atproto/api': 0.17.1
+      '@atproto/api': 0.17.2
       '@atproto/aws': 0.2.30
       '@atproto/common': 0.4.12
       '@atproto/crypto': 0.4.4
@@ -1900,7 +1900,7 @@ snapshots:
       bytes: 3.1.2
       compression: 1.8.1
       cors: 2.8.5
-      disposable-email-domains-js: 1.17.0
+      disposable-email-domains-js: 1.18.0
       express: 4.21.2
       express-async-errors: 3.1.1(express@4.21.2)
       file-type: 16.5.4
@@ -3273,7 +3273,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  disposable-email-domains-js@1.17.0: {}
+  disposable-email-domains-js@1.18.0: {}
 
   dom-serializer@1.4.1:
     dependencies:
@@ -3650,7 +3650,7 @@ snapshots:
 
   node-abi@3.78.0:
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
 
   node-gyp-build-optional-packages@5.1.1:
     dependencies:
@@ -3839,7 +3839,7 @@ snapshots:
 
   semver-compare@1.0.0: {}
 
-  semver@7.7.2: {}
+  semver@7.7.3: {}
 
   send@0.19.0:
     dependencies:
@@ -3874,7 +3874,7 @@ snapshots:
     dependencies:
       color: 4.2.3
       detect-libc: 2.1.2
-      semver: 7.7.2
+      semver: 7.7.3
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.33.5
       '@img/sharp-darwin-x64': 0.33.5
