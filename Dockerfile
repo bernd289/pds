@@ -1,4 +1,4 @@
-FROM node:22.20.0-alpine3.22 AS build
+FROM node:25.0.0-alpine3.22 AS build
 
 # Move files into the image and install
 WORKDIR /app
@@ -8,7 +8,7 @@ RUN corepack enable && \
     corepack pnpm install --production --frozen-lockfile
     
 # Uses assets from build stage to reduce build size
-FROM node:22.20.0-alpine3.22
+FROM node:25.0.0-alpine3.22
 
 RUN apk upgrade --no-cache && \
     apk add --no-cache dumb-init curl
