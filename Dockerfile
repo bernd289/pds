@@ -12,7 +12,8 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
 FROM node:22.20.0-alpine3.22
 
 RUN apk upgrade --no-cache && \
-    apk add --no-cache dumb-init curl
+    apk add --no-cache dumb-init curl && \
+    rm -rf /var/cache/apk/*
 
 # Avoid zombie processes, handle signal forwarding
 ENTRYPOINT ["dumb-init", "--"]
@@ -25,7 +26,8 @@ ENV PDS_PORT=3000
 ENV NODE_ENV=production
 
 CMD ["node", "--enable-source-maps", "index.js"]
-HEALTHCHECK --interval=30s --timeout=30s --start-period=5s --retries=3 CMD curl localhost:${PDS_PORT}/xrpc/_health || exit 1
+HEALTHCHECK --interval=30s --timeout=30s --start-period=30s --retries=3 \
+    CMD curl -f http://localhost:${PDS_PORT}/xrpc/_health || exit 1
 
 LABEL org.opencontainers.image.source=https://github.com/bernd289/pds
 LABEL org.opencontainers.image.description="AT Protocol PDS"
