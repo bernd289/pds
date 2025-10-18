@@ -6,7 +6,9 @@ COPY ./service ./
 
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
     corepack enable && \
-    corepack pnpm install --production --frozen-lockfile
+    corepack pnpm install --production --frozen-lockfile&& \
+    corepack pnpm cache delete && \
+    npm uninstall -g corepack
     
 # Uses assets from build stage to reduce build size
 FROM node:22.20.0-alpine3.22
