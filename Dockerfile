@@ -6,7 +6,7 @@ COPY ./service ./
 
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
     corepack enable && \
-    corepack pnpm install --production --frozen-lockfile&& \
+    corepack pnpm install --production --frozen-lockfile && \
     corepack pnpm cache delete && \
     npm uninstall -g corepack
     
