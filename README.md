@@ -1,6 +1,7 @@
 Changes in this fork of https://github.com/bluesky-social/pds
 - always the newest PDS and other deps
 - newer Node version
+- use goat instead of old pdsadmin scripts
 - few other little things
 
 
@@ -29,11 +30,10 @@ Head over to the [AT Protocol PDS Admins Discord](https://discord.gg/e7hpHxRfBP)
   * [Check that DNS is working as expected](#check-that-dns-is-working-as-expected)
   * [Installer on Ubuntu and Debian](#installer-on-ubuntu-and-debian)
   * [Verifying that your PDS is online and accessible](#verifying-that-your-pds-is-online-and-accessible)
-  * [Creating an account using pdsadmin](#creating-an-account-using-pdsadmin)
+  * [Creating an account using goat pds admin](#creating-an-account-using-goat-pds-admin)
   * [Creating an account using an invite code](#creating-an-account-using-an-invite-code)
   * [Using the Bluesky app with your PDS](#using-the-bluesky-app-with-your-pds)
   * [Setting up SMTP](#setting-up-smtp)
-  * [Updating your PDS](#updating-your-pds)
 
 <!-- tocstop -->
 
@@ -178,20 +178,20 @@ wsdump "wss://example.com/xrpc/com.atproto.sync.subscribeRepos?cursor=0"
 
 Note that there will be no events output on the WebSocket until they are created in the PDS, so the above command may continue to run with no output if things are configured successfully.
 
-### Creating an account using pdsadmin
+### Creating an account using goat pds admin
 
-Using ssh on your server, use `pdsadmin` to create an account if you haven't already.
+Using ssh on your server, use `goat pds admin` to create an account if you haven't already.
 
 ```bash
-sudo pdsadmin account create
+goat pds admin account create
 ```
 
 ### Creating an account using an invite code
 
-Using ssh on your server, use `pdsadmin` to create an invite code.
+Using ssh on your server, use `goat pds admin` to create an invite code.
 
 ```bash
-sudo pdsadmin create-invite-code
+goat pds admin create-invite-code
 ```
 
 When creating an account using the app, enter this invite code.
@@ -222,14 +222,6 @@ PDS_EMAIL_FROM_ADDRESS=admin@your.domain
 ```
 
 _Note: Your PDS will need to be restarted with those variables. This varies depending on your setup. If you followed this installation guide, run `systemctl restart pds`. You might need to restart the server or recreate the container, depending on what you are using._
-
-### Updating your PDS
-
-It is recommended that you keep your PDS up to date with new versions, otherwise things may break. You can use the `pdsadmin` tool to update your PDS.
-
-```bash
-sudo pdsadmin update
-```
 
 ## License
 
