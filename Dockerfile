@@ -21,7 +21,8 @@ ENTRYPOINT ["dumb-init", "--"]
 
 WORKDIR /app
 COPY --from=build /app /app
-RUN chown -R pds:pds /app
+RUN addgroup -S pds && adduser -S pds -G pds && \
+    chown -R pds:pds /app
 
 USER pds
 
