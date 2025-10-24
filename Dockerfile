@@ -14,7 +14,6 @@ FROM node:22.21.0-alpine3.22
 
 RUN apk upgrade --no-cache && \
     apk add --no-cache dumb-init && \
-    rm -rf /var/cache/apk/* && \
     addgroup -S pds && adduser -S pds -G pds
 
 # Avoid zombie processes, handle signal forwarding
@@ -26,11 +25,13 @@ COPY --chown=pds:pds --from=build /app /app
 USER pds
 
 EXPOSE 3000
+
 ENV NODE_ENV=production \
     PDS_PORT=3000 \
     NODE_OPTIONS="--enable-source-maps"
 
 CMD ["node", "index.js"]
+
 HEALTHCHECK --interval=30s --timeout=30s --start-period=30s --retries=3 \
     CMD wget --no-verbose --tries=1 --spider http://localhost:${PDS_PORT}/xrpc/_health || exit 1
 
