@@ -21,6 +21,9 @@ ENTRYPOINT ["dumb-init", "--"]
 
 WORKDIR /app
 COPY --from=build /app /app
+RUN chown -R pds:pds /app
+
+USER pds
 
 EXPOSE 3000
 ENV NODE_ENV=production \
