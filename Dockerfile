@@ -6,7 +6,8 @@ COPY ./service ./
 
 RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
     corepack enable && \
-    corepack pnpm install --production --frozen-lockfile && \
+    corepack pnpm config set store-dir /pnpm/store && \
+    corepack pnpm install --production --frozen-lockfile --prefer-offline && \
     corepack pnpm cache delete && \
     npm uninstall -g corepack
     
@@ -24,10 +25,11 @@ WORKDIR /app
 COPY --from=build /app /app
 
 EXPOSE 3000
-ENV PDS_PORT=3000
-ENV NODE_ENV=production
+ENV NODE_ENV=production \
+    PDS_PORT=3000 \
+    NODE_OPTIONS="--enable-source-maps"
 
-CMD ["node", "--enable-source-maps", "index.js"]
+CMD ["node", "index.js"]
 HEALTHCHECK --interval=30s --timeout=30s --start-period=30s --retries=3 \
     CMD curl -f http://localhost:${PDS_PORT}/xrpc/_health || exit 1
 
