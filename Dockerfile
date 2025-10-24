@@ -14,15 +14,14 @@ FROM node:22.21.0-alpine3.22
 
 RUN apk upgrade --no-cache && \
     apk add --no-cache dumb-init && \
-    rm -rf /var/cache/apk/*
+    rm -rf /var/cache/apk/* && \
+    addgroup -S pds && adduser -S pds -G pds
 
 # Avoid zombie processes, handle signal forwarding
 ENTRYPOINT ["dumb-init", "--"]
 
 WORKDIR /app
-COPY --from=build /app /app
-RUN addgroup -S pds && adduser -S pds -G pds && \
-    chown -R pds:pds /app
+COPY --chown=pds:pds --from=build /app /app
 
 USER pds
 
