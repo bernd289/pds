@@ -1,7 +1,7 @@
 Changes in this fork of https://github.com/bluesky-social/pds
 - always the newest PDS and other deps
 - newer Node version
-- use goat instead of old pdsadmin scripts
+- use [goat](https://github.com/bluesky-social/goat) instead of old pdsadmin scripts
 - few other little things
 
 
