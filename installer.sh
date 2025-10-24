@@ -18,14 +18,12 @@ GENERATE_K256_PRIVATE_KEY_CMD="openssl ecparam --name secp256k1 --genkey --noout
 # The Docker compose file.
 COMPOSE_URL="https://raw.githubusercontent.com/bernd289/pds/main/compose.yaml"
 
-# The pdsadmin script.
-PDSADMIN_URL="https://raw.githubusercontent.com/bernd289/pds/main/pdsadmin.sh"
-
 # System dependencies.
 REQUIRED_SYSTEM_PACKAGES="
   ca-certificates
   curl
   gnupg
+  go
   jq
   lsb-release
   openssl
@@ -380,16 +378,10 @@ SYSTEMD_UNIT_FILE
   fi
 
   #
-  # Download and install pdadmin.
+  # Download and install goat (pdsdmin).
   #
-  echo "* Downloading pdsadmin"
-  curl \
-    --silent \
-    --show-error \
-    --fail \
-    --output "/usr/local/bin/pdsadmin" \
-    "${PDSADMIN_URL}"
-  chmod +x /usr/local/bin/pdsadmin
+  echo "* Downloading goat (pdsadmin)"
+  go install github.com/bluesky-social/goat@latest
 
   cat <<INSTALLER_MESSAGE
 ========================================================================
@@ -399,7 +391,7 @@ PDS installation successful!
 Check service status      : sudo systemctl status pds
 Watch service logs        : sudo docker logs -f pds
 Backup service data       : ${PDS_DATADIR}
-PDS Admin command         : pdsadmin
+PDS Admin command         : goat pds
 
 Required Firewall Ports
 ------------------------------------------------------------------------
@@ -417,7 +409,7 @@ ${PDS_HOSTNAME}              A          ${PUBLIC_IP}
 
 Detected public IP of this server: ${PUBLIC_IP}
 
-To see pdsadmin commands, run "pdsadmin help"
+To see pdsadmin commands, run "goat pds --help"
 
 ========================================================================
 INSTALLER_MESSAGE
@@ -426,7 +418,7 @@ INSTALLER_MESSAGE
   read -p "Create a PDS user account? (y/N): " CREATE_ACCOUNT_PROMPT
 
   if [[ "${CREATE_ACCOUNT_PROMPT}" =~ ^[Yy] ]]; then
-    pdsadmin account create
+    goat pds admin account create
   fi
 
 }
