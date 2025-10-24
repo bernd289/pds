@@ -13,11 +13,11 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
 FROM node:22.21.0-alpine3.22
 
 RUN apk upgrade --no-cache && \
-    apk add --no-cache dumb-init && \
+    apk add --no-cache tini && \
     addgroup -S pds && adduser -S pds -G pds
 
 # Avoid zombie processes, handle signal forwarding
-ENTRYPOINT ["dumb-init", "--"]
+ENTRYPOINT ["tini", "--"]
 
 WORKDIR /app
 COPY --chown=pds:pds --from=build /app /app
