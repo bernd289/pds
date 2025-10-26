@@ -378,7 +378,7 @@ SYSTEMD_UNIT_FILE
   fi
 
   #
-  # Download and install goat (pdsdmin).
+  # Download and install goat (pdsadmin).
   #
   echo "* Downloading goat (pdsadmin)"
   go install github.com/bluesky-social/goat@latest
