@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@atproto/pds':
-        specifier: 0.4.188
-        version: 0.4.188
+        specifier: 0.4.189
+        version: 0.4.189
 
 packages:
 
@@ -38,8 +38,8 @@ packages:
   '@atproto-labs/xrpc-utils@0.0.22':
     resolution: {integrity: sha512-XGDbTmVgibtcR6FwJepD/QKofG1B5EBBPebk/IVF4aHeBE/6jOd7DnfuKrBimv2GJ2JGrlvHXmjYZdfmCtYEbw==}
 
-  '@atproto/api@0.17.4':
-    resolution: {integrity: sha512-MRa0WdxyDiGF7fVKd/2ldvonsHQjsaLUOGw/PHrZ7J01lqlw/jaXLS25FNNYzjPGmGpnIyDCIg4Uucd/OblI9w==}
+  '@atproto/api@0.17.5':
+    resolution: {integrity: sha512-AMm/XFfVJPpPznY0Dk4fvv6alVMrPFtPTyLk8U70wPjvJf4P52AGHXFUjWwoy6mvPHSJ+L1+3LWddzb4gdIMng==}
 
   '@atproto/aws@0.2.30':
     resolution: {integrity: sha512-oB/whUIWwSOEqUazz5meN3/AlovBdRc224uRPNy9aC6+qmNKfHKiMfo0ytFhGYdm4GtEd2HYwIT3KR/Rtc2RRA==}
@@ -102,8 +102,8 @@ packages:
   '@atproto/oauth-types@0.5.0':
     resolution: {integrity: sha512-33xz7HcXhbl+XRqbIMVu3GE02iK1nKe2oMWENASsfZEYbCz2b9ZOarOFuwi7g4LKqpGowGp0iRKsQHFcq4SDaQ==}
 
-  '@atproto/pds@0.4.188':
-    resolution: {integrity: sha512-kSSp94bb6B1afJFc4xyR9Dbg03923l/ip0kpn+IzJ4zxbCNGK2dwcGr71fdFvdc2Geb0rRylMFV/2IHCpdgSEQ==}
+  '@atproto/pds@0.4.189':
+    resolution: {integrity: sha512-s/N7Se07Ofs2zCH+rRZHV7Q6pKDWnbbD/ZXYnhV1wbluM0pV+NZvZu3+DjZz+K+GVBTNBVgYtHmFBpKDqrGcIQ==}
     engines: {node: '>=18.7.0'}
 
   '@atproto/repo@0.8.10':
@@ -742,8 +742,8 @@ packages:
   await-lock@2.2.2:
     resolution: {integrity: sha512-aDczADvlvTGajTDjcjpJMqRkOF6Qdz3YbPZm/PyW6tKPkx2hlYBzxMhEywM/tU72HrVZjgl5VCdRuMlA7pZ8Gw==}
 
-  axios@1.12.2:
-    resolution: {integrity: sha512-vMJzPewAlRyOgxV2dU0Cuz2O8zzzx9VYtbJOaBgXFeLc4IV/Eg50n4LowmehOOR61S8ZMpc2K5Sa7g6A4jfkUw==}
+  axios@1.13.0:
+    resolution: {integrity: sha512-zt40Pz4zcRXra9CVV31KeyofwiNvAbJ5B6YPz9pMJ+yOSLikvPT4Yi5LjfgjRa9CawVYBaD1JQzIVcIvBejKeA==}
 
   balanced-match@1.0.2:
     resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
@@ -1714,7 +1714,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@atproto/api@0.17.4':
+  '@atproto/api@0.17.5':
     dependencies:
       '@atproto/common-web': 0.4.3
       '@atproto/lexicon': 0.5.1
@@ -1874,14 +1874,14 @@ snapshots:
       '@atproto/jwk': 0.6.0
       zod: 3.25.76
 
-  '@atproto/pds@0.4.188':
+  '@atproto/pds@0.4.189':
     dependencies:
       '@atproto-labs/fetch-node': 0.2.0
       '@atproto-labs/simple-store': 0.3.0
       '@atproto-labs/simple-store-memory': 0.1.4
       '@atproto-labs/simple-store-redis': 0.0.1(ioredis@5.8.2)
       '@atproto-labs/xrpc-utils': 0.0.22
-      '@atproto/api': 0.17.4
+      '@atproto/api': 0.17.5
       '@atproto/aws': 0.2.30
       '@atproto/common': 0.4.12
       '@atproto/crypto': 0.4.4
@@ -2558,7 +2558,7 @@ snapshots:
       '@atproto/common': 0.1.1
       '@atproto/crypto': 0.1.0
       '@ipld/dag-cbor': 7.0.3
-      axios: 1.12.2
+      axios: 1.13.0
       multiformats: 9.9.0
       uint8arrays: 3.0.0
       zod: 3.25.76
@@ -3079,7 +3079,7 @@ snapshots:
 
   await-lock@2.2.2: {}
 
-  axios@1.12.2:
+  axios@1.13.0:
     dependencies:
       follow-redirects: 1.15.11
       form-data: 4.0.4
