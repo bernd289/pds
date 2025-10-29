@@ -1,4 +1,4 @@
-FROM node:22.21.0-alpine3.22 AS build
+FROM node:24.11.0-alpine3.22 AS build
 
 # Move files into the image and install
 WORKDIR /app
@@ -10,7 +10,7 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
     corepack pnpm install --production --frozen-lockfile --prefer-offline
     
 # Uses assets from build stage to reduce build size
-FROM node:22.21.0-alpine3.22
+FROM node:24.11.0-alpine3.22
 
 RUN apk upgrade --no-cache && \
     apk add --no-cache tini && \
