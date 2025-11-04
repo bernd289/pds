@@ -48,6 +48,7 @@ METADATA_URLS+=("http://169.254.169.254/hetzner/v1/metadata/public-ipv4") # Hetz
 PDS_DATADIR="${1:-/pds}"
 PDS_HOSTNAME="${2:-}"
 PDS_ADMIN_EMAIL="${3:-}"
+PDS_CONTACT_EMAIL_ADDRESS="${3:-}"
 PDS_DID_PLC_URL="https://plc.directory"
 PDS_BSKY_APP_VIEW_URL="https://api.bsky.app"
 PDS_BSKY_APP_VIEW_DID="did:web:api.bsky.app"
