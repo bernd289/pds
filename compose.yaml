@@ -32,7 +32,7 @@ services:
 
   watchtower:
     container_name: watchtower
-    image: containrrr/watchtower:latest
+    image: ghcr.io/nicholas-fedor/watchtower:latest
     volumes:
       - type: bind
         source: /var/run/docker.sock
