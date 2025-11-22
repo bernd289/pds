@@ -151,8 +151,8 @@ packages:
     resolution: {integrity: sha512-zD0/k+dvmGJarzHWdfU52sR3/RkR7LMr4uNzda6x7k0cYLAuVqkLG9WTvmZeJamXo79tUA6gNFxdP68jCb7izg==}
     engines: {node: '>=18.0.0'}
 
-  '@aws-sdk/client-kms@3.936.0':
-    resolution: {integrity: sha512-Rh2SCIpMqZUtFsgi9CfeTpMrD8Lq1UEBlqQWR2KcPTkf4ypFE3zJNRjZpcWe/QfD6r3Tqs5Hba7ls66Hcp96Sg==}
+  '@aws-sdk/client-kms@3.938.0':
+    resolution: {integrity: sha512-q9ddFlPkQTcJL/paieWa3YcXX1kiUsf+aZy47asDopbYjvZLmYNnfCUE9Oa+W4c17H4Yg8KgnXVxy+J3fIXbRw==}
     engines: {node: '>=18.0.0'}
 
   '@aws-sdk/client-s3@3.937.0':
@@ -1748,7 +1748,7 @@ snapshots:
       '@atproto/crypto': 0.4.4
       '@atproto/repo': 0.8.10
       '@aws-sdk/client-cloudfront': 3.937.0
-      '@aws-sdk/client-kms': 3.936.0
+      '@aws-sdk/client-kms': 3.938.0
       '@aws-sdk/client-s3': 3.937.0
       '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.937.0)
       '@noble/curves': 1.9.7
@@ -2085,7 +2085,7 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-kms@3.936.0':
+  '@aws-sdk/client-kms@3.938.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
