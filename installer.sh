@@ -3,7 +3,7 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-# Disable prompts for apt-get.
+# Disable prompts for apt
 export DEBIAN_FRONTEND="noninteractive"
 
 # System info.
@@ -11,7 +11,7 @@ PLATFORM="$(uname --hardware-platform || true)"
 DISTRIB_CODENAME="$(lsb_release --codename --short || true)"
 DISTRIB_ID="$(lsb_release --id --short | tr '[:upper:]' '[:lower:]' || true)"
 
-# Secure generator comands
+# Secure generator commands
 GENERATE_SECURE_SECRET_CMD="openssl rand --hex 16"
 GENERATE_K256_PRIVATE_KEY_CMD="openssl ecparam --name secp256k1 --genkey --noout --outform DER | tail --bytes=+8 | head --bytes=32 | xxd --plain --cols 32"
 
@@ -32,10 +32,9 @@ REQUIRED_SYSTEM_PACKAGES="
 "
 # Docker packages.
 REQUIRED_DOCKER_PACKAGES="
-  containerd.io
-  docker-ce
-  docker-ce-cli
-  docker-compose-plugin
+  containerd
+  docker.io
+  docker-compose-v2
 "
 
 PUBLIC_IP=""
@@ -116,7 +115,7 @@ function main {
     echo "  sudo rm -rf ${PDS_DATADIR}"
     echo
     echo "3. Re-run this installation script"
-      echo
+    echo
     echo "  sudo bash ${0}"
     echo
     echo "For assistance, check https://github.com/bernd289/pds"
@@ -231,17 +230,6 @@ INSTALLER_MESSAGE
   # Install Docker
   #
   if ! docker version >/dev/null 2>&1; then
-    echo "* Installing Docker"
-    mkdir --parents /etc/apt/keyrings
-
-    # Remove the existing file, if it exists,
-    # so there's no prompt on a second run.
-    rm -f /etc/apt/keyrings/docker.gpg
-    curl --fail --silent --show-error --location "https://download.docker.com/linux/${DISTRIB_ID}/gpg" | \
-      gpg --dearmor --output /etc/apt/keyrings/docker.gpg
-
-    echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/${DISTRIB_ID} ${DISTRIB_CODENAME} stable" >/etc/apt/sources.list.d/docker.list
-
     apt update
     apt install --yes ${REQUIRED_DOCKER_PACKAGES}
   fi
@@ -374,7 +362,7 @@ SYSTEMD_UNIT_FILE
     fi
     if ! ufw status | grep --quiet '^443[/ ]'; then
       echo "* Enabling access on TCP port 443 using ufw"
-      ufw allow 443/tcp >/dev/null
+      ufw allow 443 >/dev/null
     fi
   fi
 
@@ -399,7 +387,7 @@ Required Firewall Ports
 Service                Direction  Port   Protocol  Source
 -------                ---------  ----   --------  ----------------------
 HTTP TLS verification  Inbound    80     TCP       Any
-HTTP Control Panel     Inbound    443    TCP       Any
+HTTP Control Panel     Inbound    443    TCP/UDP   Any
 
 Required DNS entries
 ------------------------------------------------------------------------

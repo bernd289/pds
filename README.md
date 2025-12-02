@@ -85,7 +85,7 @@ Ensure that you can ssh to your server and have root access.
 **Server Requirements**
 * Public IPv4 address
 * Public DNS name
-* Public inbound internet access permitted on port 80/tcp and 443/tcp
+* Public inbound internet access permitted on port 80/tcp, 443/tcp and 443/udp
 
 **Server Recommendations**
 |                  |              |
@@ -106,7 +106,7 @@ One of the most common sources of misconfiguration is not opening firewall ports
 In your cloud provider's console, the following ports should be open to inbound access from the public internet.
 
 * 80/tcp (Used only for TLS certification verification)
-* 443/tcp (Used for all application requests)
+* 443/tcp, 443/udp (Used for all application requests)
 
 **Note:** there is no need to set up TLS or redirect requests from port 80 to 443 because the Caddy web server, included in the Docker compose file, will handle this for you.
 
