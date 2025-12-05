@@ -13,9 +13,9 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
 FROM node:22.21.1-trixie-slim AS run
 
 RUN apt-get update && \
-    apt-get upgrade -y && \
     apt-get install -y tini && \
     apt-get clean && \
+    rm -rf /var/lib/apt/lists/* && \
     groupadd -r pds && \
     useradd -r -g pds -m pds
 
