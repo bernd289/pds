@@ -12,10 +12,10 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
 # Uses assets from build stage to reduce build size
 FROM node:22.21.1-trixie-slim AS run
 
-RUN apt update && \
-    apt upgrade -y && \
-    apt install -y tini && \
-    apt clean && \
+RUN apt-get update && \
+    apt-get upgrade -y && \
+    apt-get install -y tini && \
+    apt-get clean && \
     groupadd -r pds && \
     useradd -r -g pds -m pds
 
