@@ -1,4 +1,4 @@
-FROM node:22.21.1-alpine3.22 AS build
+FROM node:22.21.1-trixie-slim AS build
 
 # Move files into the image and install
 WORKDIR /app
@@ -10,11 +10,14 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
     corepack pnpm install --production --frozen-lockfile --prefer-offline
     
 # Uses assets from build stage to reduce build size
-FROM node:22.21.1-alpine3.22 AS run
+FROM node:22.21.1-trixie-slim AS run
 
-RUN apk upgrade --no-cache && \
-    apk add --no-cache tini && \
-    addgroup -S pds && adduser -S pds -G pds
+RUN apt update && \
+    apt upgrade -y && \
+    apt install -y tini && \
+    apt clean && \
+    groupadd -r pds && \
+    useradd -r -g pds -m pds
 
 # Avoid zombie processes, handle signal forwarding
 ENTRYPOINT ["tini", "--"]
