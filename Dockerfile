@@ -13,7 +13,7 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
 FROM node:22.21.1-trixie-slim AS run
 
 RUN apt-get update && \
-    apt-get install -y tini && \
+    apt-get install -y curl tini && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* && \
     groupadd -r pds && \
@@ -36,7 +36,7 @@ ENV NODE_ENV=production \
 CMD ["node", "index.js"]
 
 HEALTHCHECK --interval=30s --timeout=30s --start-period=30s --retries=3 \
-    CMD wget --no-verbose --tries=1 --spider http://localhost:${PDS_PORT}/xrpc/_health || exit 1
+    CMD curl --fail --silent --show-error http://localhost:${PDS_PORT}/xrpc/_health || exit 1
 
 LABEL org.opencontainers.image.source=https://github.com/bernd289/pds
 LABEL org.opencontainers.image.description="AT Protocol PDS"
