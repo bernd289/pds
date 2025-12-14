@@ -698,8 +698,8 @@ packages:
   '@types/elliptic@6.4.18':
     resolution: {integrity: sha512-UseG6H5vjRiNpQvrhy4VF/JXdA3V/Fp5amvveaL+fs28BZ6xIKJBPnUPRlEaZpysD9MbpfaLi8lbl7PGUAkpWw==}
 
-  '@types/node@25.0.1':
-    resolution: {integrity: sha512-czWPzKIAXucn9PtsttxmumiQ9N0ok9FrBwgRWrwmVLlp86BrMExzvXRLFYRJ+Ex3g6yqj+KuaxfX1JTgV2lpfg==}
+  '@types/node@25.0.2':
+    resolution: {integrity: sha512-gWEkeiyYE4vqjON/+Obqcoeffmk0NF15WSBwSs7zwVA2bAbTaE0SJ7P0WNGoJn8uE7fiaV5a7dKYIJriEqOrmA==}
 
   abort-controller@3.0.0:
     resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
@@ -1622,8 +1622,8 @@ packages:
     resolution: {integrity: sha512-hU/10obOIu62MGYjdskASR3CUAiYaFTtC9Pa6vHyf//mAipSvSQg6od2CnJswq7fvzNS3zJhxoRkgNVaHurWKw==}
     engines: {node: '>=18.17'}
 
-  unicode-segmenter@0.14.1:
-    resolution: {integrity: sha512-yHedxlEpUyD+u1UE8qAuCMXVdMLn7yUdlmd8WN7FGmO1ICnpE7LJfnmuXBB+T0zkie3qHsy8fSucqceI/MylOg==}
+  unicode-segmenter@0.14.2:
+    resolution: {integrity: sha512-penbCWKcFvDOvcYSIOX87y+Nb6xv9SQZGSNocVsmJSuedkbxzJ1WeAuBoJRdFILzTrTsgrLdcDlMr7oHWUfB7w==}
 
   unpipe@1.0.0:
     resolution: {integrity: sha512-pjy2bYhSsufwWlKwPc+l3cN7+wuJlK6uz0YdJEOlQDbl6jo/YlPi4mb8agUkVC8BF7V8NuzeyPNqRksA3hztKQ==}
@@ -1824,7 +1824,7 @@ snapshots:
       multiformats: 9.9.0
       tslib: 2.8.1
       uint8arrays: 3.0.0
-      unicode-segmenter: 0.14.1
+      unicode-segmenter: 0.14.2
 
   '@atproto/lex-document@0.0.5':
     dependencies:
@@ -3085,13 +3085,13 @@ snapshots:
 
   '@types/bn.js@5.2.0':
     dependencies:
-      '@types/node': 25.0.1
+      '@types/node': 25.0.2
 
   '@types/elliptic@6.4.18':
     dependencies:
       '@types/bn.js': 5.2.0
 
-  '@types/node@25.0.1':
+  '@types/node@25.0.2':
     dependencies:
       undici-types: 7.16.0
 
@@ -4103,7 +4103,7 @@ snapshots:
 
   undici@6.22.0: {}
 
-  unicode-segmenter@0.14.1: {}
+  unicode-segmenter@0.14.2: {}
 
   unpipe@1.0.0: {}
 
