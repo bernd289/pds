@@ -100,7 +100,7 @@ function main {
   fi
 
   # Check if PDS is already installed.
-  if [[ -e "${PDS_DATADIR}/pds.sqlite" ]]; then
+  if [[ -e "${PDS_DATADIR}/account.sqlite" ]]; then
     echo
     echo "ERROR: pds is already configured in ${PDS_DATADIR}"
     echo
@@ -327,6 +327,8 @@ PDS_CONFIG
 
   # Replace the /pds paths with the ${PDS_DATADIR} path.
   sed --in-place "s|/pds|${PDS_DATADIR}|g" "${PDS_DATADIR}/compose.yaml"
+
+  chown -R 991:991 "${PDS_DATADIR}"
 
   #
   # Create the systemd service.
