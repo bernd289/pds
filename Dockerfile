@@ -12,8 +12,10 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
 # Uses assets from build stage to reduce build size
 FROM node:22.21.1-alpine3.23 AS run
 
-RUN apk upgrade --no-cache --scripts=no apk-tools && \
-    apk add --no-cache tini && \
+# TODO: Remove once base image contains fixed apk-tools https://gitlab.alpinelinux.org/alpine/aports/-/issues/17775#note_567275
+RUN apk upgrade --no-cache --scripts=no apk-tools
+
+RUN apk add --no-cache tini && \
     addgroup -g 991 -S pds && \
     adduser  -u 991 -S pds -G pds
 
