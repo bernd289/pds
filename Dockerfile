@@ -13,13 +13,16 @@ RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
 FROM node:22.21.1-alpine3.23 AS run
 
 RUN apk upgrade --no-cache --scripts=no apk-tools && \
-    apk add --no-cache tini
+    apk add --no-cache tini && \
+    addgroup -g 991 -S pds && \
+    adduser  -u 991 -S pds -G pds
 
 # Avoid zombie processes, handle signal forwarding
 ENTRYPOINT ["tini", "--"]
 
 WORKDIR /app
-COPY --from=build /app /app
+COPY --chown=991:991 --from=build /app /app
+USER pds
 
 EXPOSE 3000
 
