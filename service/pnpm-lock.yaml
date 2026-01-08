@@ -41,8 +41,8 @@ packages:
   '@atproto-labs/xrpc-utils@0.0.24':
     resolution: {integrity: sha512-wWXd2Ht47UsL/UbDCr3twMFSZrh0xSI56u4O3kz0DTU4G+530mCG71mMVE6eeYcR+j6FEjp7o2Ld6c7wFklYGw==}
 
-  '@atproto/api@0.18.12':
-    resolution: {integrity: sha512-b4MdUhYzebb6nQLo8LLZvBC9yvlzF69XqZeKewvmz9SleK2sJX2cqAPj78IStjNzT/3Xm9vVQrq9DkCkhSiTiQ==}
+  '@atproto/api@0.18.13':
+    resolution: {integrity: sha512-CULZ01pSJDltLS/Gc9MMrhFzB6OM3ezyZw7KoeLT/sBfwgA1ddA4mWdTh7DIRosPRigXtA05bnoiCutZbQDo+Q==}
 
   '@atproto/aws@0.2.31':
     resolution: {integrity: sha512-jzw0v4KttNqeEZtkIujIOCvWABJl4m8WQuSOlJtYeJhn/xaBC1+CNt7qnvYCzBd+T5nncZU8junHSEbOMdVwiA==}
@@ -1710,7 +1710,7 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@atproto/api@0.18.12':
+  '@atproto/api@0.18.13':
     dependencies:
       '@atproto/common-web': 0.4.11
       '@atproto/lexicon': 0.6.0
@@ -1914,7 +1914,7 @@ snapshots:
       '@atproto-labs/simple-store-memory': 0.1.4
       '@atproto-labs/simple-store-redis': 0.0.1(ioredis@5.9.1)
       '@atproto-labs/xrpc-utils': 0.0.24
-      '@atproto/api': 0.18.12
+      '@atproto/api': 0.18.13
       '@atproto/aws': 0.2.31
       '@atproto/common': 0.5.7
       '@atproto/crypto': 0.4.5
