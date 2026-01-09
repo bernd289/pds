@@ -4,7 +4,7 @@ FROM node:22.21.1-alpine3.23 AS build
 WORKDIR /app
 COPY ./service ./
 
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store \
+RUN --mount=type=cache,id=pnpm,target=/root/.local/share/pnpm/store \
     corepack enable && \
     corepack pnpm config set store-dir /pnpm/store && \
     corepack pnpm install --production --frozen-lockfile --prefer-offline
