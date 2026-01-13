@@ -27,7 +27,6 @@ EXPOSE 3000
 
 ENV NODE_ENV=production \
     PDS_PORT=3000 \
-    NODE_OPTIONS="--max-old-space-size=256"
 
 CMD ["node", "index.js"]
 
