@@ -5,6 +5,7 @@ registries:
     url: dhi.io
     username: ${{ secrets.DOCKER_USER }}
     password: ${{ secrets.DOCKER_PASSWORD }}
+    replaces-base: false
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
