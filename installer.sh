@@ -330,6 +330,7 @@ PDS_CONFIG
   sed --in-place "s|/pds|${PDS_DATADIR}|g" "${PDS_DATADIR}/compose.yaml"
 
   chown -R 1000:1000 "${PDS_DATADIR}"
+  chown -R 65532:65532 "${PDS_DATADIR}/caddy/"
 
   #
   # Create the systemd service.
