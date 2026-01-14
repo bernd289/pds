@@ -4,10 +4,9 @@ FROM dhi.io/node:22.22.0-alpine3.23 AS build
 WORKDIR /app
 COPY ./service ./
 
-RUN --mount=type=cache,id=pnpm,target=/root/.local/share/pnpm/store \
+RUN npm install -g corepack@latest \
     corepack enable && \
-    corepack pnpm config set store-dir /pnpm/store && \
-    corepack pnpm install --production --frozen-lockfile --prefer-offline
+    corepack pnpm install --production --frozen-lockfile
     
 # Uses assets from build stage to reduce build size
 FROM dhi.io/node:22.22.0-alpine3.23 AS run
