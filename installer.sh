@@ -329,7 +329,7 @@ PDS_CONFIG
   # Replace the /pds paths with the ${PDS_DATADIR} path.
   sed --in-place "s|/pds|${PDS_DATADIR}|g" "${PDS_DATADIR}/compose.yaml"
 
-  chown -R 991:991 "${PDS_DATADIR}"
+  chown -R 1000:1000 "${PDS_DATADIR}"
 
   #
   # Create the systemd service.
