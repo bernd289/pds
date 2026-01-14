@@ -12,12 +12,9 @@ RUN --mount=type=cache,id=pnpm,target=/root/.local/share/pnpm/store \
 # Uses assets from build stage to reduce build size
 FROM dhi.io/node:22.22.0-alpine3.23 AS run
 
-RUN addgroup -g 991 -S pds && \
-    adduser  -u 991 -S pds -G pds
-
 WORKDIR /app
-COPY --chown=991:991 --from=build /app /app
-USER pds
+COPY --chown=node:node --from=build /app /app
+USER node
 
 EXPOSE 3000
 
