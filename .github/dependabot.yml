@@ -12,14 +12,14 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "20:00"
+      time: "06:00"
       timezone: "Europe/Berlin"
 
   - package-ecosystem: "npm"
     directory: "/service"
     schedule:
       interval: "daily"
-      time: "20:00"
+      time: "06:00"
       timezone: "Europe/Berlin"
 
   - package-ecosystem: "docker"
@@ -28,5 +28,5 @@ updates:
     - dhi
     schedule:
       interval: "daily"
-      time: "20:00"
+      time: "06:00"
       timezone: "Europe/Berlin"
