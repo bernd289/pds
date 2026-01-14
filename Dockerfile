@@ -1,13 +1,12 @@
-FROM dhi.io/node:22.22.0-alpine3.23 AS build
+FROM node:22.21.1-alpine3.23 AS build
 
 # Move files into the image and install
 WORKDIR /app
 COPY ./service ./
 
-RUN npm install -g corepack@latest \
-    corepack enable && \
+RUN corepack enable && \
     corepack pnpm install --production --frozen-lockfile
-    
+
 # Uses assets from build stage to reduce build size
 FROM dhi.io/node:22.22.0-alpine3.23 AS run
 
