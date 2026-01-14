@@ -1,4 +1,4 @@
-FROM node:22.21.1-alpine3.23 AS build
+FROM dhi.io/node:22.22.0-alpine3.23 AS build
 
 # Move files into the image and install
 WORKDIR /app
@@ -10,14 +10,10 @@ RUN --mount=type=cache,id=pnpm,target=/root/.local/share/pnpm/store \
     corepack pnpm install --production --frozen-lockfile --prefer-offline
     
 # Uses assets from build stage to reduce build size
-FROM node:22.21.1-alpine3.23 AS run
+FROM dhi.io/node:22.22.0-alpine3.23 AS run
 
-RUN apk add --no-cache tini && \
-    addgroup -g 991 -S pds && \
+RUN addgroup -g 991 -S pds && \
     adduser  -u 991 -S pds -G pds
-
-# Avoid zombie processes, handle signal forwarding
-ENTRYPOINT ["tini", "--"]
 
 WORKDIR /app
 COPY --chown=991:991 --from=build /app /app

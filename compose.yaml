@@ -21,6 +21,7 @@ services:
   pds:
     container_name: pds
     image: ghcr.io/bernd289/pds:latest
+    init: true
     restart: unless-stopped
     volumes:
       - type: bind
