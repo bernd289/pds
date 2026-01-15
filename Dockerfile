@@ -4,8 +4,7 @@ FROM dhi.io/node:22-alpine3.23-sfw-dev@sha256:bbfb299f30cb7099c97a05a3a37447a2b7
 WORKDIR /app
 COPY ./service ./
 
-RUN corepack enable && \
-    corepack pnpm install --production --frozen-lockfile
+RUN sfw pnpm install --production --frozen-lockfile
 
 # Uses assets from build stage to reduce build size
 FROM dhi.io/node:22-alpine3.23@sha256:01f8ceb2bc46d59094b3a4fc18e1f945c76a13e9efe9d1160dfb0884804739f0 AS run
