@@ -1,4 +1,4 @@
-FROM dhi.io/node:22.22.0-alpine3.23-dev AS build
+FROM dhi.io/node:22-alpine3.23-dev@sha256:3f8fe22ab83f13a31beee72906f10e8baa03308aaa3d9e2fb1d10e7de6f5f257 AS build
 
 # Move files into the image and install
 WORKDIR /app
@@ -8,7 +8,7 @@ RUN corepack enable && \
     corepack pnpm install --production --frozen-lockfile
 
 # Uses assets from build stage to reduce build size
-FROM dhi.io/node:22.22.0-alpine3.23 AS run
+FROM dhi.io/node:22-alpine3.23@sha256:01f8ceb2bc46d59094b3a4fc18e1f945c76a13e9efe9d1160dfb0884804739f0 AS run
 
 WORKDIR /app
 COPY --chown=node:node --from=build /app /app
