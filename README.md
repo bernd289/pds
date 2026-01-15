@@ -1,6 +1,7 @@
 Changes in this fork of https://github.com/bluesky-social/pds
 - always the newest PDS and other deps
 - newer Node version
+- based on [Docker Hardened Images](https://www.docker.com/blog/docker-hardened-images-for-every-developer) + [Socket Firewall](https://socket.dev/blog/socket-firewall-now-available-in-docker-hardened-images)
 - use [goat](https://github.com/bluesky-social/goat) instead of old pdsadmin scripts
 - few other little things
 
