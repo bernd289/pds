@@ -1428,8 +1428,8 @@ packages:
     resolution: {integrity: sha512-DJnGAeenTdpMEH6uAJRK/uiyEIH9WVsUmoLwzudwGJUwZPp80PDBWPHXSAGNPwNvIXAbe7MSUB1zQFugFml66A==}
     engines: {node: '>=4'}
 
-  roarr@7.21.2:
-    resolution: {integrity: sha512-RyXI+aNxwVyfF71a9cqz/jhXWbycnVh7GXnnJUniIBXKTOJQF3rmpNexStXt8TUcKyiXCwyfYzboZLMYUllPDA==}
+  roarr@7.21.4:
+    resolution: {integrity: sha512-qvfUKCrpPzhWmQ4NxRYnuwhkI5lwmObhBU06BCK/lpj6PID9nL4Hk6XDwek2foKI+TMaV+Yw//XZshGF2Lox/Q==}
     engines: {node: '>=18.0'}
 
   rxjs@7.8.2:
@@ -3559,7 +3559,7 @@ snapshots:
     dependencies:
       delay: 5.0.0
       p-wait-for: 3.2.0
-      roarr: 7.21.2
+      roarr: 7.21.4
       type-fest: 2.19.0
 
   iconv-lite@0.4.24:
@@ -3836,7 +3836,7 @@ snapshots:
     dependencies:
       redis-errors: 1.2.0
 
-  roarr@7.21.2:
+  roarr@7.21.4:
     dependencies:
       fast-printf: 1.6.10
       safe-stable-stringify: 2.5.0
