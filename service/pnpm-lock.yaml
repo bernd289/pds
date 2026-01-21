@@ -856,8 +856,8 @@ packages:
     resolution: {integrity: sha512-yki5XnKuf750l50uGTllt6kKILY4nQ1eNIQatoXEByZ5dWgnKqbnqmTrBE5B4N7lrMJKQ2ytWMiTO2o0v6Ew/w==}
     engines: {node: '>= 0.6'}
 
-  core-js@3.47.0:
-    resolution: {integrity: sha512-c3Q2VVkGAUyupsjRnaNX6u8Dq2vAdzm9iuPj5FW0fRxzlxgq9Q39MDq10IvmQSpLgHQNyQzQmOo6bgGHmH3NNg==}
+  core-js@3.48.0:
+    resolution: {integrity: sha512-zpEHTy1fjTMZCKLHUZoVeylt9XrzaIN2rbPXEt0k+q7JE5CkCZdo6bNq55bn24a69CH7ErAVLKijxJja4fw+UQ==}
 
   cors@2.8.5:
     resolution: {integrity: sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==}
@@ -1816,7 +1816,7 @@ snapshots:
   '@atproto/lex-document@0.0.10':
     dependencies:
       '@atproto/lex-schema': 0.0.9
-      core-js: 3.47.0
+      core-js: 3.48.0
       tslib: 2.8.1
 
   '@atproto/lex-json@0.0.8':
@@ -3257,7 +3257,7 @@ snapshots:
 
   cookie@0.7.2: {}
 
-  core-js@3.47.0: {}
+  core-js@3.48.0: {}
 
   cors@2.8.5:
     dependencies:
