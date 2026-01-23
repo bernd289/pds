@@ -4,8 +4,7 @@ FROM dhi.io/node:24-alpine3.23-sfw-dev@sha256:5391e41e7e96ee218bc7865ed753535f9b
 WORKDIR /app
 COPY ./service ./
 
-RUN apk add --no-cache python3 make g++ && \
-    sfw pnpm install --production --frozen-lockfile
+RUN sfw pnpm install --production --frozen-lockfile
 
 # Uses assets from build stage to reduce build size
 FROM dhi.io/node:24-alpine3.23@sha256:ceecd317a0886a01f59a07d46f4fc18b4b063be90a9c9d863e8111789fcbba7b AS run
