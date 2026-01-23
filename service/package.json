@@ -9,6 +9,9 @@
     "@atproto/pds": "0.4.205"
   },
   "pnpm": {
-    "neverBuiltDependencies": []
+    "neverBuiltDependencies": [],
+    "overrides": {
+      "better-sqlite3": "^12.6.2"
+    }
   }
 }
