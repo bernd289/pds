@@ -7,7 +7,7 @@ COPY ./service ./
 RUN sfw pnpm install --production --frozen-lockfile
 
 # Uses assets from build stage to reduce build size
-FROM dhi.io/node:22-alpine3.23@sha256:a447b0d63019b70aa5bc6a10fc8c6cd70f7974b1c766f35ba7c0273d5415c3df AS run
+FROM dhi.io/node:22-alpine3.23@sha256:b90d6b063a0c1990a6f680aed30b579e58d95287461e533eb2d614fbdd133158 AS run
 
 WORKDIR /app
 COPY --chown=node:node --from=build /app /app
