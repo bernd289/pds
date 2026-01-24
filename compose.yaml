@@ -10,12 +10,11 @@ services:
       - pds
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: /pds/caddy/data
-        target: /data
-      - type: bind
-        source: /pds/caddy/etc/caddy
-        target: /etc/caddy
+      - ./caddy/data:/data
+      - ./caddy/etc/caddy:/etc/caddy
+    environment:
+      - XDG_DATA_HOME=/data
+      - XDG_CONFIG_HOME=/config
 
   pds:
     container_name: pds
@@ -23,8 +22,6 @@ services:
     init: true
     restart: unless-stopped
     volumes:
-      - type: bind
-        source: /pds
-        target: /pds
+      - ./:/pds
     env_file:
-      - /pds/pds.env
+      - ./pds.env
