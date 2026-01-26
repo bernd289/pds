@@ -2,7 +2,7 @@
 
 This is my personal repository and is provided for my own experiments and learning purposes.  
 The code is provided **as-is**, without any warranty or guarantee of correctness or fitness for any purpose. 
-
+You should not rely on this code or Docker image in production or for any critical use.
 
 ### Changes in this fork of https://github.com/bluesky-social/pds
 - always the newest PDS and other deps
