@@ -191,15 +191,18 @@ Note that there will be no events output on the WebSocket until they are created
 Using ssh on your server, use `goat pds admin` to create an account if you haven't already.
 
 ```bash
-goat pds admin account create
+goat pds admin account create --admin-password `PDS_ADMIN_PASSWORD` --handle newuser.pds.net --email new-user@email.com --password new-password
 ```
+
+> [!NOTE]
+> You can find `PDS_ADMIN_PASSWORD` in `/pds/pds.env` following installation.
 
 ### Creating an account using an invite code
 
 Using ssh on your server, use `goat pds admin` to create an invite code.
 
 ```bash
-goat pds admin create-invite-code
+goat pds admin --admin-password PDS_ADMIN_PASSWORD create-invites
 ```
 
 When creating an account using the app, enter this invite code.
