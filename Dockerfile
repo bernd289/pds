@@ -1,4 +1,4 @@
-FROM dhi.io/node:24-alpine3.23-sfw-dev@sha256:5391e41e7e96ee218bc7865ed753535f9ba509a7f09aa17518e54c497a450b03 AS build
+FROM dhi.io/node:24-alpine3.23-sfw-dev@sha256:ede868798b57bcedaac1d70957462a35077c9c5098f7a7a0d929eeb5d50d2230 AS build
 
 # Move files into the image and install
 WORKDIR /app
