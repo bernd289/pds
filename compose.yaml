@@ -12,9 +12,6 @@ services:
     volumes:
       - ./caddy/data:/data
       - ./caddy/etc/caddy:/etc/caddy
-    environment:
-      - XDG_DATA_HOME=/data
-      - XDG_CONFIG_HOME=/config
 
   pds:
     container_name: pds
