@@ -17,8 +17,7 @@
       "glob": "^13",
       "@noble/curves": "^2",
       "@noble/hashes": "^2",
-      "zod": "^4",
-      "express": "^5"
+      "zod": "^4"
     }
   }
 }
