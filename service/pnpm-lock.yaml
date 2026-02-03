@@ -9,7 +9,6 @@ overrides:
   nodemailer: ^7
   undici: ^7
   glob: ^13
-  zod: ^4
 
 importers:
 
@@ -1445,8 +1444,8 @@ packages:
       utf-8-validate:
         optional: true
 
-  zod@4.3.6:
-    resolution: {integrity: sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg==}
+  zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
 
 snapshots:
 
@@ -1457,7 +1456,7 @@ snapshots:
       '@atproto-labs/simple-store': 0.3.0
       '@atproto-labs/simple-store-memory': 0.1.4
       '@atproto/did': 0.3.0
-      zod: 4.3.6
+      zod: 3.25.76
 
   '@atproto-labs/fetch-node@0.2.0':
     dependencies:
@@ -1502,7 +1501,7 @@ snapshots:
       await-lock: 2.2.2
       multiformats: 9.9.0
       tlds: 1.261.0
-      zod: 4.3.6
+      zod: 3.25.76
 
   '@atproto/aws@0.2.31':
     dependencies:
@@ -1526,14 +1525,14 @@ snapshots:
       '@atproto/lex-data': 0.0.10
       '@atproto/lex-json': 0.0.10
       '@atproto/syntax': 0.4.3
-      zod: 4.3.6
+      zod: 3.25.76
 
   '@atproto/common@0.1.1':
     dependencies:
       '@ipld/dag-cbor': 7.0.3
       multiformats: 9.9.0
       pino: 8.21.0
-      zod: 4.3.6
+      zod: 3.25.76
 
   '@atproto/common@0.5.10':
     dependencies:
@@ -1560,7 +1559,7 @@ snapshots:
 
   '@atproto/did@0.3.0':
     dependencies:
-      zod: 4.3.6
+      zod: 3.25.76
 
   '@atproto/identity@0.4.10':
     dependencies:
@@ -1575,7 +1574,7 @@ snapshots:
   '@atproto/jwk@0.6.0':
     dependencies:
       multiformats: 9.9.0
-      zod: 4.3.6
+      zod: 3.25.76
 
   '@atproto/lex-cbor@0.0.10':
     dependencies:
@@ -1631,7 +1630,7 @@ snapshots:
       '@atproto/syntax': 0.4.3
       iso-datestring-validator: 2.2.2
       multiformats: 9.9.0
-      zod: 4.3.6
+      zod: 3.25.76
 
   '@atproto/oauth-provider-api@0.3.7':
     dependencies:
@@ -1675,7 +1674,7 @@ snapshots:
       http-errors: 2.0.1
       ioredis: 5.9.2
       jose: 5.10.0
-      zod: 4.3.6
+      zod: 3.25.76
     transitivePeerDependencies:
       - supports-color
 
@@ -1688,7 +1687,7 @@ snapshots:
     dependencies:
       '@atproto/did': 0.3.0
       '@atproto/jwk': 0.6.0
-      zod: 4.3.6
+      zod: 3.25.76
 
   '@atproto/pds@0.4.207':
     dependencies:
@@ -1737,7 +1736,7 @@ snapshots:
       typed-emitter: 2.1.0
       uint8arrays: 3.0.0
       undici: 7.20.0
-      zod: 4.3.6
+      zod: 3.25.76
     transitivePeerDependencies:
       - aws-crt
       - bufferutil
@@ -1755,7 +1754,7 @@ snapshots:
       multiformats: 9.9.0
       uint8arrays: 3.0.0
       varint: 6.0.0
-      zod: 4.3.6
+      zod: 3.25.76
 
   '@atproto/syntax@0.4.3':
     dependencies:
@@ -1783,7 +1782,7 @@ snapshots:
       mime-types: 2.1.35
       rate-limiter-flexible: 2.4.2
       ws: 8.19.0
-      zod: 4.3.6
+      zod: 3.25.76
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -1792,7 +1791,7 @@ snapshots:
   '@atproto/xrpc@0.7.7':
     dependencies:
       '@atproto/lexicon': 0.6.1
-      zod: 4.3.6
+      zod: 3.25.76
 
   '@aws-crypto/crc32@5.2.0':
     dependencies:
@@ -2388,7 +2387,7 @@ snapshots:
       axios: 1.13.4
       multiformats: 9.9.0
       uint8arrays: 3.0.0
-      zod: 4.3.6
+      zod: 3.25.76
     transitivePeerDependencies:
       - debug
 
@@ -3658,4 +3657,4 @@ snapshots:
 
   ws@8.19.0: {}
 
-  zod@4.3.6: {}
+  zod@3.25.76: {}
