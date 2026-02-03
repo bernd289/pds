@@ -15,8 +15,6 @@
       "nodemailer": "^7",
       "undici": "^7",
       "glob": "^13",
-      "@noble/curves": "^2",
-      "@noble/hashes": "^2",
       "zod": "^4"
     }
   }
