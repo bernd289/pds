@@ -14,7 +14,9 @@
       "better-sqlite3": "^12",
       "nodemailer": "^7",
       "undici": "^7",
-      "glob": "^13"
+      "glob": "^13",
+      "@noble/curves": "^2",
+      "@noble/hashes": "^2"
     }
   }
 }
