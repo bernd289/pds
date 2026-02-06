@@ -6,6 +6,8 @@ services:
       - "80:80/tcp"
       - "443:443/tcp"
       - "443:443/udp"
+    networks:
+      - proxy
     depends_on:
       - pds
     restart: unless-stopped
@@ -18,7 +20,19 @@ services:
     image: ghcr.io/bernd289/pds:latest
     init: true
     restart: unless-stopped
+    networks:
+      - proxy
     volumes:
       - ./:/pds
     env_file:
       - ./pds.env
+
+networks:
+  proxy:
+    name: proxy
+    external: true
+    ip6net:
+     enable_ipv6: true
+    ipam:
+      config:
+        - subnet: FD00:1234::/64

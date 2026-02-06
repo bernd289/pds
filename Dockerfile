@@ -1,12 +1,10 @@
 FROM dhi.io/node:24-alpine3.23-sfw-dev@sha256:6e4f83de37db03591e1496bd8ab44be469b895431aa56beb41c33cc97ce24192 AS build
 
-# Move files into the image and install
 WORKDIR /app
 COPY ./service ./
 
 RUN sfw pnpm install --production --frozen-lockfile
 
-# Uses assets from build stage to reduce build size
 FROM dhi.io/node:24-alpine3.23@sha256:fb4c555fa9c49cb8c7b4eb1950cec4f93a11f409781a39d8883504e53d0a8c49 AS run
 
 WORKDIR /app
