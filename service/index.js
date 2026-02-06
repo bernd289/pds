@@ -1,10 +1,16 @@
 "use strict";
-import { PDS, envToCfg, envToSecrets, readEnv, httpLogger } from "@atproto/pds";
-import { version } from "@atproto/pds/package.json";
+const {
+  PDS,
+  envToCfg,
+  envToSecrets,
+  readEnv,
+  httpLogger,
+} = require("@atproto/pds");
+const pkg = require("@atproto/pds/package.json");
 
 const main = async () => {
   const env = readEnv();
-  env.version ||= version;
+  env.version ||= pkg.version;
   const cfg = envToCfg(env);
   const secrets = envToSecrets(env);
   const pds = await PDS.create(cfg, secrets);
