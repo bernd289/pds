@@ -120,8 +120,8 @@ packages:
     resolution: {integrity: sha512-BLNZmtOwoHu2qk/Oi6dUR8TcXQaJre6wgW8YjkW5bKf+Vftn3PGzh8bKgr1fQZDYweZ6AF148imA2OzVSAaLHQ==}
     engines: {node: '>=18.7.0'}
 
-  '@atproto/oauth-provider@0.15.8':
-    resolution: {integrity: sha512-huxqpxVdhfiAC0TUndzpOFqVZ5JqQcXiYWsSEwb47cvVkG9Rg4szEA6IBulsbb/pMeBZ+OuNsz3EnoGzJQaORA==}
+  '@atproto/oauth-provider@0.15.9':
+    resolution: {integrity: sha512-nuyOVw5piS/iEk7xKEtdulRbcFZ7HBB0gPXL62z5IpxmluEvLem/VLqsntj2OK/mtP6xhnIfFHP5pb5+PnLuYQ==}
     engines: {node: '>=18.7.0'}
 
   '@atproto/oauth-scopes@0.3.1':
@@ -129,6 +129,9 @@ packages:
 
   '@atproto/oauth-types@0.6.2':
     resolution: {integrity: sha512-2cuboM4RQBCYR8NQC5uGRkW6KgCgKyq/B5/+tnMmWZYtZGVUQvsUWQHK/ZiMCnVXbcDNtc/RIEJQJDZ8FXMoxg==}
+
+  '@atproto/oauth-types@0.6.3':
+    resolution: {integrity: sha512-jdKuoPknJuh/WjI+mYk7agSbx9mNVMbS6Dr3k1z2YMY2oRiCQjxYBuo4MLKATbxj05nMQaZRWlHRUazoAu5Cng==}
 
   '@atproto/pds@0.4.208':
     resolution: {integrity: sha512-XQsSOEwqIEXHApNHuGwFKtqbO7lz1KUEGxFnF4akagv3yFkjuxeat/JLMT7JdydjP7z+lraI2/phOoPrOGAzTQ==}
@@ -1650,7 +1653,7 @@ snapshots:
     optionalDependencies:
       '@atproto/oauth-provider-api': 0.3.7
 
-  '@atproto/oauth-provider@0.15.8':
+  '@atproto/oauth-provider@0.15.9':
     dependencies:
       '@atproto-labs/fetch': 0.2.3
       '@atproto-labs/fetch-node': 0.2.0
@@ -1667,7 +1670,7 @@ snapshots:
       '@atproto/oauth-provider-frontend': 0.2.9
       '@atproto/oauth-provider-ui': 0.4.3
       '@atproto/oauth-scopes': 0.3.1
-      '@atproto/oauth-types': 0.6.2
+      '@atproto/oauth-types': 0.6.3
       '@atproto/syntax': 0.4.3
       '@hapi/accept': 6.0.3
       '@hapi/address': 5.1.1
@@ -1694,6 +1697,12 @@ snapshots:
       '@atproto/jwk': 0.6.0
       zod: 3.25.76
 
+  '@atproto/oauth-types@0.6.3':
+    dependencies:
+      '@atproto/did': 0.3.0
+      '@atproto/jwk': 0.6.0
+      zod: 3.25.76
+
   '@atproto/pds@0.4.208':
     dependencies:
       '@atproto-labs/fetch-node': 0.2.0
@@ -1709,7 +1718,7 @@ snapshots:
       '@atproto/lex-cbor': 0.0.11
       '@atproto/lex-data': 0.0.11
       '@atproto/lexicon': 0.6.1
-      '@atproto/oauth-provider': 0.15.8
+      '@atproto/oauth-provider': 0.15.9
       '@atproto/oauth-scopes': 0.3.1
       '@atproto/repo': 0.8.12
       '@atproto/syntax': 0.4.3
