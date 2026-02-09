@@ -658,8 +658,8 @@ packages:
     resolution: {integrity: sha512-ZTgYYLMOXY9qKU/57FAo8F+HA2dGX7bqGc71txDRC1rS4frdFI5R7NhluHxH6M0YItAP0sHB4uqAOcYKxO6uGA==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
 
-  bowser@2.13.1:
-    resolution: {integrity: sha512-OHawaAbjwx6rqICCKgSG0SAnT05bzd7ppyKLVUITZpANBaaMFBAsaNkto3LoQ31tyFP5kNujE8Cdx85G9VzOkw==}
+  bowser@2.14.1:
+    resolution: {integrity: sha512-tzPjzCxygAKWFOJP011oxFHs57HzIhOEracIgAePE4pqB3LikALKnSzUyU4MGs9/iCEUuHlAJTjTc5M+u7YEGg==}
 
   brorand@1.1.0:
     resolution: {integrity: sha512-cKV8tMCEpQs4hK/ik71d6LrPOnpkpGBR0wzxqr68g2m/LB2GxVYQroAjMJZRVM1Y4BCjCKc3vAamxSzOY2RP+w==}
@@ -2370,7 +2370,7 @@ snapshots:
     dependencies:
       '@aws-sdk/types': 3.973.1
       '@smithy/types': 4.12.0
-      bowser: 2.13.1
+      bowser: 2.14.1
       tslib: 2.8.1
 
   '@aws-sdk/util-user-agent-node@3.972.5':
@@ -2865,7 +2865,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  bowser@2.13.1: {}
+  bowser@2.14.1: {}
 
   brorand@1.1.0: {}
 
