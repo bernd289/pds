@@ -1,11 +1,11 @@
-FROM dhi.io/node:24-alpine3.23-sfw-dev@sha256:57af8405bdcd14b746cb7f6c9a8edfacfa38e0504d1d6a87fe5da08aeeaeac44 AS build
+FROM dhi.io/node:24-alpine3.23-sfw-dev@sha256:6e440ce7983780138a90185da8ad99f278ea90a313feaeb7c7716fefe4fcf8c9 AS build
 
 WORKDIR /app
 COPY ./service ./
 
 RUN sfw pnpm install --production --frozen-lockfile
 
-FROM dhi.io/node:24-alpine3.23@sha256:2c7f367d83a6e9b22d72adb80e0088f8e60bf0d8e89f23921f88603a513d5d47 AS run
+FROM dhi.io/node:24-alpine3.23@sha256:9ce39d017bd97d421d8ddd6224b4c5222df66a932387c81f7e10ec25a8224ad8 AS run
 
 WORKDIR /app
 COPY --chown=node:node --from=build /app /app
