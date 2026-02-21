@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       packages: write
+      actions: write
 
     steps:
       - name: Delete container images
