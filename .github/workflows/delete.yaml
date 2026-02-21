@@ -7,7 +7,7 @@ on:
 
 jobs:
   delete-packages:
-    runs-on: ubuntu-slim
+    runs-on: ubuntu-latest
     permissions:
       packages: write
 
