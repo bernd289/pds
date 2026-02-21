@@ -6,7 +6,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  delete-packages:
+  github_maintenance:
+    name: Execute Maintenance:
     runs-on: ubuntu-latest
     permissions:
       packages: write
