@@ -28,3 +28,6 @@ jobs:
           repository: ${{ github.repository }}
           retention_days: 30
           keep_minimum_runs: 5
+
+      - name: Delete cache
+        uses: toshimaru/delete-action-cache@main
