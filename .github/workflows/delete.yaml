@@ -7,7 +7,6 @@ on:
 
 jobs:
   github_maintenance:
-    name: Execute Maintenance:
     runs-on: ubuntu-latest
     permissions:
       packages: write
