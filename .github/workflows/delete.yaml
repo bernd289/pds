@@ -1,4 +1,4 @@
-name: Delete packages
+name: GitHub Maintenance
 
 on:
   schedule:
@@ -17,4 +17,13 @@ jobs:
         with: 
           package-name: pds
           package-type: container
-          min-versions-to-keep: 100
+          min-versions-to-keep: 30
+
+      - name: Delete workflow runs
+        uses: viascom/github-maintenance-action@v0.2.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_base_url: 'https://api.github.com'
+          repository: ${{ github.repository }}
+          retention_days: 30
+          keep_minimum_runs: 5
