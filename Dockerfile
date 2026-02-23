@@ -5,7 +5,7 @@ COPY ./service ./
 
 RUN sfw pnpm install --production --frozen-lockfile
 
-FROM dhi.io/node:24-alpine3.23@sha256:9ce39d017bd97d421d8ddd6224b4c5222df66a932387c81f7e10ec25a8224ad8 AS run
+FROM dhi.io/node:24-alpine3.23@sha256:c81ed8bde45ba521b82e9667e0a82a56ca00deee15eb81d46a0171f581fd9380 AS run
 
 WORKDIR /app
 COPY --chown=node:node --from=build /app /app
