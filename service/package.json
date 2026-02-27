@@ -11,7 +11,7 @@
   "pnpm": {
     "neverBuiltDependencies": [],
     "overrides": {
-      "better-sqlite3": "file:./wrap-sqlite",
+      "better-sqlite3": "^12",
       "nodemailer": "^7",
       "undici": "^7",
       "glob": "^13",
