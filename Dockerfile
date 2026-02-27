@@ -1,4 +1,4 @@
-FROM dhi.io/node:24-alpine3.23-sfw-dev@sha256:f802d417645e24edfee1e13a471bdc7a75f4ca697149c585220072caafa3df8d AS build
+FROM dhi.io/node:24-alpine3.23-sfw-dev@sha256:e902344a6de4bc2f1df964eb059a3ea1881afe1e8253a8372e599a26fe980f6b AS build
 
 WORKDIR /app
 COPY ./service ./
