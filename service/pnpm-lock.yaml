@@ -593,8 +593,8 @@ packages:
   '@types/elliptic@6.4.18':
     resolution: {integrity: sha512-UseG6H5vjRiNpQvrhy4VF/JXdA3V/Fp5amvveaL+fs28BZ6xIKJBPnUPRlEaZpysD9MbpfaLi8lbl7PGUAkpWw==}
 
-  '@types/node@25.3.2':
-    resolution: {integrity: sha512-RpV6r/ij22zRRdyBPcxDeKAzH43phWVKEjL2iksqo1Vz3CuBUrgmPpPhALKiRfU7OMCmeeO9vECBMsV0hMTG8Q==}
+  '@types/node@25.3.3':
+    resolution: {integrity: sha512-DpzbrH7wIcBaJibpKo9nnSQL0MTRdnWttGyE5haGwK86xgMOkFLp7vEyfQPGLOJh5wNYiJ3V9PmUMDhV9u8kkQ==}
 
   abort-controller@3.0.0:
     resolution: {integrity: sha512-h8lQ8tacZYnR3vNQTgibj+tODHI5/+l06Au2Pcriv/Gmet0eaj4TwWH41sO9wnHDiQsEj19q0drzdWdeAHtweg==}
@@ -780,8 +780,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  disposable-email-domains-js@1.21.0:
-    resolution: {integrity: sha512-PKRzcII8n40uiMUYMVjFTlubk8VwWHdbJth1bBtWswjwiI88j1Uw8FVrfXQvHnj56Z8P9nCkcCn/i5VF4u47Cw==}
+  disposable-email-domains-js@1.22.0:
+    resolution: {integrity: sha512-5miXovN3Qujy07FczD1Z7To6UfHv6U6AhGy2DNXPaD7+Ga1kzR0l5IRNnRuIOVcPgBZ8n855kubx1/ZECDXI/Q==}
 
   dom-serializer@1.4.1:
     resolution: {integrity: sha512-VHwB3KfrcOOkelEG2ZOfxqLZdfkil8PtJi4P8N2MMXucZq2yLp75ClViUlOVwyoHEDjYU433Aq+5zWP61+RGag==}
@@ -1211,8 +1211,8 @@ packages:
   proxy-from-env@1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
 
-  pump@3.0.3:
-    resolution: {integrity: sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA==}
+  pump@3.0.4:
+    resolution: {integrity: sha512-VS7sjc6KR7e1ukRFhQSY5LM2uBWAUPiOPa/A3mkKmiMwSmRFUITt0xuj+/lesgnCv+dPIEYlkzrcyXgquIHMcA==}
 
   qs@6.14.2:
     resolution: {integrity: sha512-V/yCWTTF7VJ9hIh18Ugr2zhJMP01MY7c5kh4J870L7imm6/DIzBsNLTXzMwUA3yZ5b/KBqLx8Kp3uRvd7xSe3Q==}
@@ -1671,7 +1671,7 @@ snapshots:
       '@hapi/bourne': 3.0.0
       '@hapi/content': 6.0.0
       cookie: 0.7.2
-      disposable-email-domains-js: 1.21.0
+      disposable-email-domains-js: 1.22.0
       forwarded: 0.2.0
       http-errors: 2.0.1
       ioredis: 5.10.0
@@ -1724,7 +1724,7 @@ snapshots:
       bytes: 3.1.2
       compression: 1.8.1
       cors: 2.8.6
-      disposable-email-domains-js: 1.21.0
+      disposable-email-domains-js: 1.22.0
       express: 4.22.1
       express-async-errors: 3.1.1(express@4.22.1)
       file-type: 16.5.4
@@ -2734,13 +2734,13 @@ snapshots:
 
   '@types/bn.js@5.2.0':
     dependencies:
-      '@types/node': 25.3.2
+      '@types/node': 25.3.3
 
   '@types/elliptic@6.4.18':
     dependencies:
       '@types/bn.js': 5.2.0
 
-  '@types/node@25.3.2':
+  '@types/node@25.3.3':
     dependencies:
       undici-types: 7.18.2
 
@@ -2922,7 +2922,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  disposable-email-domains-js@1.21.0: {}
+  disposable-email-domains-js@1.22.0: {}
 
   dom-serializer@1.4.1:
     dependencies:
@@ -3360,7 +3360,7 @@ snapshots:
       mkdirp-classic: 0.5.3
       napi-build-utils: 2.0.0
       node-abi: 4.26.0
-      pump: 3.0.3
+      pump: 3.0.4
       rc: 1.2.8
       simple-get: 4.0.1
       tar-fs: 2.1.4
@@ -3377,7 +3377,7 @@ snapshots:
 
   proxy-from-env@1.1.0: {}
 
-  pump@3.0.3:
+  pump@3.0.4:
     dependencies:
       end-of-stream: 1.4.5
       once: 1.4.0
@@ -3552,7 +3552,7 @@ snapshots:
     dependencies:
       chownr: 1.1.4
       mkdirp-classic: 0.5.3
-      pump: 3.0.3
+      pump: 3.0.4
       tar-stream: 2.2.0
 
   tar-stream@2.2.0:
