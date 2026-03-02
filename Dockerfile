@@ -3,7 +3,8 @@ FROM dhi.io/node:24-alpine3.23-sfw-dev@sha256:6b7c1686532c18aca400e640242163ff25
 WORKDIR /app
 COPY ./service ./
 
-RUN SFW_DEBUG=true sfw pnpm install --production --frozen-lockfile
+RUN corepack enable && corepack prepare pnpm@latest --activate && \
+    SFW_DEBUG=true sfw pnpm install --production --frozen-lockfile
 
 FROM dhi.io/node:24-alpine3.23@sha256:ae7cb02cb03e3d5a9fbdebec225655028ee169bd5262a7d09f62a1f1b5e5507d AS run
 
