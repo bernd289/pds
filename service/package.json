@@ -11,6 +11,7 @@
   "pnpm": {
     "neverBuiltDependencies": [],
     "overrides": {
+      "@types/node": "^24",
       "better-sqlite3": "^12",
       "nodemailer": "^7",
       "undici": "^7",
