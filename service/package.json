@@ -17,8 +17,7 @@
       "undici": "^7",
       "glob": "^13",
       "node-abi": "^4",
-      "bn.js": "^5",
-      "file-type": "^21"
+      "bn.js": "^5"
     }
   }
 }
