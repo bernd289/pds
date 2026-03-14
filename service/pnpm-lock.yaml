@@ -1411,8 +1411,8 @@ packages:
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
-  undici@7.24.1:
-    resolution: {integrity: sha512-5xoBibbmnjlcR3jdqtY2Lnx7WbrD/tHlT01TmvqZUFVc9Q1w4+j5hbnapTqbcXITMH1ovjq/W7BkqBilHiVAaA==}
+  undici@7.24.2:
+    resolution: {integrity: sha512-P9J1HWYV/ajFr8uCqk5QixwiRKmB1wOamgS0e+o2Z4A44Ej2+thFVRLG/eA7qprx88XXhnV5Bl8LHXTURpzB3Q==}
     engines: {node: '>=20.18.1'}
 
   unicode-segmenter@0.14.5:
@@ -1473,7 +1473,7 @@ snapshots:
       '@atproto-labs/fetch': 0.2.3
       '@atproto-labs/pipe': 0.1.1
       ipaddr.js: 2.3.0
-      undici: 7.24.1
+      undici: 7.24.2
 
   '@atproto-labs/fetch@0.2.3':
     dependencies:
@@ -1750,7 +1750,7 @@ snapshots:
       pino-http: 8.6.1
       typed-emitter: 2.1.0
       uint8arrays: 3.0.0
-      undici: 7.24.1
+      undici: 7.24.2
       zod: 3.25.76
     transitivePeerDependencies:
       - aws-crt
@@ -3621,7 +3621,7 @@ snapshots:
 
   undici-types@7.16.0: {}
 
-  undici@7.24.1: {}
+  undici@7.24.2: {}
 
   unicode-segmenter@0.14.5: {}
 
