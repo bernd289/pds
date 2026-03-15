@@ -781,8 +781,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  disposable-email-domains-js@1.22.0:
-    resolution: {integrity: sha512-5miXovN3Qujy07FczD1Z7To6UfHv6U6AhGy2DNXPaD7+Ga1kzR0l5IRNnRuIOVcPgBZ8n855kubx1/ZECDXI/Q==}
+  disposable-email-domains-js@1.24.0:
+    resolution: {integrity: sha512-IQz+XkhJYCaT58q2l9Pz5MFAHsHp1vJs3smTeEVpv7/6rvubc9RMbaFb8rQgBoIounXPAJyura5ynovFKrlQrg==}
 
   dom-serializer@1.4.1:
     resolution: {integrity: sha512-VHwB3KfrcOOkelEG2ZOfxqLZdfkil8PtJi4P8N2MMXucZq2yLp75ClViUlOVwyoHEDjYU433Aq+5zWP61+RGag==}
@@ -1678,7 +1678,7 @@ snapshots:
       '@hapi/bourne': 3.0.0
       '@hapi/content': 6.0.0
       cookie: 0.7.2
-      disposable-email-domains-js: 1.22.0
+      disposable-email-domains-js: 1.24.0
       forwarded: 0.2.0
       http-errors: 2.0.1
       ioredis: 5.10.0
@@ -1731,7 +1731,7 @@ snapshots:
       bytes: 3.1.2
       compression: 1.8.1
       cors: 2.8.6
-      disposable-email-domains-js: 1.22.0
+      disposable-email-domains-js: 1.24.0
       express: 4.22.1
       express-async-errors: 3.1.1(express@4.22.1)
       file-type: 16.5.4
@@ -2934,7 +2934,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  disposable-email-domains-js@1.22.0: {}
+  disposable-email-domains-js@1.24.0: {}
 
   dom-serializer@1.4.1:
     dependencies:
