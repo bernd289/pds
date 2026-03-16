@@ -1113,8 +1113,8 @@ packages:
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  node-abi@4.27.0:
-    resolution: {integrity: sha512-M6PypnnjGwr6Wv1O7twPpnJiie8MeLoBSh99zF1jnRRU2NLgxO/fUEQW1rfAhAKzPa/fvQ4PKitt1O+c8l243Q==}
+  node-abi@4.28.0:
+    resolution: {integrity: sha512-Qfp5XZL1cJDOabOT8H5gnqMTmM4NjvYzHp4I/Kt/Sl76OVkOBBHRFlPspGV0hYvMoqQsypFjT/Yp7Km0beXW9g==}
     engines: {node: '>=22.12.0'}
 
   nodemailer-html-to-text@3.2.0:
@@ -3286,7 +3286,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  node-abi@4.27.0:
+  node-abi@4.28.0:
     dependencies:
       semver: 7.7.4
 
@@ -3378,7 +3378,7 @@ snapshots:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 2.0.0
-      node-abi: 4.27.0
+      node-abi: 4.28.0
       pump: 3.0.4
       rc: 1.2.8
       simple-get: 4.0.1
