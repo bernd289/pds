@@ -1,11 +1,11 @@
-FROM dhi.io/node:24-debian13-sfw-dev@sha256:11d24d132863ab312a4c1a65266de99591da3aa173259280194ca8ec0c9b44e1 AS build
+FROM dhi.io/node:24-alpine3.23-sfw-dev@sha256:ca48c21018a734e60a5758683f0e9a6ca7f973aa322021036166db209fd38e41 AS build
 
 WORKDIR /app
 COPY ./service ./
 
 RUN pnpm install --production --frozen-lockfile
 
-FROM dhi.io/node:24-debian13@sha256:ed4210054472352fa933c1057fd04ebab26382c6cebb50b772e40b9759a57679 AS run
+FROM dhi.io/node:24-alpine3.23@sha256:01b40b3d18e603a8199b822c0078fee8fb8934f388e90857e464bc7ebd214d11 AS run
 
 WORKDIR /app
 COPY --chown=node:node --from=build /app /app
