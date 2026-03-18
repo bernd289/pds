@@ -4,7 +4,7 @@ WORKDIR /app
 COPY ./service ./
 
 RUN corepack enable && \
-    pnpm install --production --frozen-lockfile
+    sfw pnpm install --production --frozen-lockfile
 
 FROM dhi.io/node:24-alpine3.23@sha256:ae7cb02cb03e3d5a9fbdebec225655028ee169bd5262a7d09f62a1f1b5e5507d AS run
 
