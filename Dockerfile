@@ -1,4 +1,4 @@
-FROM node:24-trixie@sha256:8bd2aa8811c33803aa1677674e5388a4524e8bf1d286200afefb9a4c9bd473ef AS build
+FROM node:24-trixie@sha256:dcc3e56b82427ddc3b91ca2b18499450d670fc58251d944e5107d8ef2899f841 AS build
 
 WORKDIR /app
 COPY ./service ./
