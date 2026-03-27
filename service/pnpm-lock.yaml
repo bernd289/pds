@@ -7,7 +7,7 @@ settings:
 overrides:
   '@types/node': ^24
   better-sqlite3: ^12
-  nodemailer: ^7
+  nodemailer: ^8
   undici: ^7
   glob: ^13
   node-abi: ^4
@@ -1173,8 +1173,8 @@ packages:
     resolution: {integrity: sha512-RJUC6640QV1PzTHHapOrc6IzrAJUZtk2BdVdINZ9VTLm+mcQNyBO9LYyhrnufkzqiD9l8hPLJ97rSyK4WanPNg==}
     engines: {node: '>= 10.23.0'}
 
-  nodemailer@7.0.13:
-    resolution: {integrity: sha512-PNDFSJdP+KFgdsG3ZzMXCgquO7I6McjY2vlqILjtJd0hy8wEvtugS9xKRF2NWlPNGxvLCXlTNIae4serI7dinw==}
+  nodemailer@8.0.4:
+    resolution: {integrity: sha512-k+jf6N8PfQJ0Fe8ZhJlgqU5qJU44Lpvp2yvidH3vp1lPnVQMgi4yEEMPXg5eJS1gFIJTVq1NHBk7Ia9ARdSBdQ==}
     engines: {node: '>=6.0.0'}
 
   object-assign@4.1.1:
@@ -1857,7 +1857,7 @@ snapshots:
       jose: 5.10.0
       key-encoder: 2.0.3
       kysely: 0.22.0
-      nodemailer: 7.0.13
+      nodemailer: 8.0.4
       nodemailer-html-to-text: 3.2.0
       p-queue: 6.6.2
       pino: 8.21.0
@@ -3444,7 +3444,7 @@ snapshots:
     dependencies:
       html-to-text: 7.1.1
 
-  nodemailer@7.0.13: {}
+  nodemailer@8.0.4: {}
 
   object-assign@4.1.1: {}
 
