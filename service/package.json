@@ -13,7 +13,7 @@
     "overrides": {
       "@types/node": "^24",
       "better-sqlite3": "^12",
-      "nodemailer": "^8",
+      "nodemailer": "^8.0.4",
       "undici": "^7",
       "glob": "^13",
       "node-abi": "^4",
