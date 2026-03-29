@@ -10,7 +10,7 @@ overrides:
   nodemailer: ^8.0.4
   undici: ^7
   glob: ^13.0.6
-  node-abi: ^4
+  node-abi: ^4.28.0
   bn.js: ^5
 
 importers:
