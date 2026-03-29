@@ -9,7 +9,7 @@ overrides:
   better-sqlite3: ^12
   nodemailer: ^8
   undici: ^7
-  glob: ^13
+  glob: ^13.0.6
   node-abi: ^4
   bn.js: ^5
 
