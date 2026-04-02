@@ -8,7 +8,7 @@ overrides:
   '@types/node': ^24.12.0
   better-sqlite3: ^12.8.0
   nodemailer: ^8.0.4
-  undici: ^7.24.7
+  undici: ^8.0.0
   glob: ^13.0.6
   node-abi: ^4.28.0
   bn.js: ^5.2.3
@@ -1491,9 +1491,9 @@ packages:
   undici-types@7.16.0:
     resolution: {integrity: sha512-Zz+aZWSj8LE6zoxD+xrjh4VfkIG8Ya6LvYkZqtUQGJPZjYl53ypCaUwWqo7eI0x66KBGeRo+mlBEkMSeSZ38Nw==}
 
-  undici@7.24.7:
-    resolution: {integrity: sha512-H/nlJ/h0ggGC+uRL3ovD+G0i4bqhvsDOpbDv7At5eFLlj2b41L8QliGbnl2H7SnDiYhENphh1tQFJZf+MyfLsQ==}
-    engines: {node: '>=20.18.1'}
+  undici@8.0.0:
+    resolution: {integrity: sha512-RGabV5g1ggSX5mU4k+B8BLWgb418gDbg0wAVFeiU00iOxtw4ufGsE6GFsuSd2uqOKooWSLf71JGapOFYpE8f+A==}
+    engines: {node: '>=22.19.0'}
 
   unicode-segmenter@0.14.5:
     resolution: {integrity: sha512-jHGmj2LUuqDcX3hqY12Ql+uhUTn8huuxNZGq7GvtF6bSybzH3aFgedYu/KTzQStEgt1Ra2F3HxadNXsNjb3m3g==}
@@ -1569,7 +1569,7 @@ snapshots:
       '@atproto-labs/fetch': 0.2.3
       '@atproto-labs/pipe': 0.1.1
       ipaddr.js: 2.3.0
-      undici: 7.24.7
+      undici: 8.0.0
 
   '@atproto-labs/fetch@0.2.3':
     dependencies:
@@ -1865,7 +1865,7 @@ snapshots:
       pino-http: 8.6.1
       typed-emitter: 2.1.0
       uint8arrays: 3.0.0
-      undici: 7.24.7
+      undici: 8.0.0
       zod: 3.25.76
     transitivePeerDependencies:
       - aws-crt
@@ -3796,7 +3796,7 @@ snapshots:
 
   undici-types@7.16.0: {}
 
-  undici@7.24.7: {}
+  undici@8.0.0: {}
 
   unicode-segmenter@0.14.5: {}
 
