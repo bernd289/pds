@@ -150,8 +150,8 @@ packages:
     resolution: {integrity: sha512-hl85f7CJniLoJS5bwOSnLjN7X4kS1ETs5yetKJyJRVZE4SgM+nWPRd+D08dAzeU+VAZi4fjeZXOlOLJtS4Y0KQ==}
     engines: {node: '>=18.7.0'}
 
-  '@atproto/syntax@0.5.2':
-    resolution: {integrity: sha512-W41szOnkppoHr0iCUrzL8gy3OD6qmDyp1UvUgmTx2oFQfgbudpz51T/gznesiCcqiUT5obfHdx4PJ+WdlEOE7Q==}
+  '@atproto/syntax@0.5.3':
+    resolution: {integrity: sha512-gzhlHOJHm5KXdCc17fXi1fXM81ccs5jJfNgCui84ay9JGvczxegpYHNqdMlv+iBuhtBzFIjgx6ChjRxN/kO8kQ==}
 
   '@atproto/ws-client@0.0.4':
     resolution: {integrity: sha512-dox1XIymuC7/ZRhUqKezIGgooZS45C6vHCfu0PnWjfvsLCK2kAlnvX4IBkA/WpcoijDhQ9ejChnFbo/sLmgvAg==}
@@ -187,16 +187,16 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-cloudfront@3.1022.0':
-    resolution: {integrity: sha512-FfchQfmDeuTPHwz2OX5bGALWXzKwBekab8n2islfUev1O4byqOidpkEudZNjTB3hteJ/WM9pHinnBGc+unLUBQ==}
+  '@aws-sdk/client-cloudfront@3.1023.0':
+    resolution: {integrity: sha512-odws6wL5U8Xq4QdqzzpSejlRBFcXOfiG+y54tUdwymgs8hxomn2AVlslnv4CgO0Qb/KFGkGFnMsop2lSUbQhpA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-kms@3.1022.0':
-    resolution: {integrity: sha512-Ykqu9k03Akpzo0snC/TvJoQV1YBC/P+Oag7ZCyYggVy/MdK/8q/+go4pWw06VlcfF8/uRrzG0qtO5ymOYEwrUA==}
+  '@aws-sdk/client-kms@3.1023.0':
+    resolution: {integrity: sha512-hIfLVro4DpPt0pFdX7hc3I9pUmOQMIblmg66kzzylVzkIpyVcwRKDejBvFTYTyqUt4a9AmobuxlBgfVif2gRxA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-s3@3.1022.0':
-    resolution: {integrity: sha512-PhdIW0LxjzcMlBiCldRefnyZk84wtYGnEV0sNGOD55DZTvZsibG2XHvQiL1aFliKugfAhuIpNmFkctI2n2I3Dg==}
+  '@aws-sdk/client-s3@3.1023.0':
+    resolution: {integrity: sha512-IvNy49sdoCWd3fgHQxail3y0UQdfKj1Xk0VPu9HTwlog60o9Lmp5ykjZ2LlIuHEPaxq4Siih707GB/ulUWgetw==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.973.26':
@@ -1226,8 +1226,8 @@ packages:
   path-browserify@1.0.1:
     resolution: {integrity: sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==}
 
-  path-expression-matcher@1.2.0:
-    resolution: {integrity: sha512-DwmPWeFn+tq7TiyJ2CxezCAirXjFxvaiD03npak3cRjlP9+OjTmSy1EpIrEbh+l6JgUundniloMLDQ/6VTdhLQ==}
+  path-expression-matcher@1.2.1:
+    resolution: {integrity: sha512-d7gQQmLvAKXKXE2GeP9apIGbMYKz88zWdsn/BN2HRWVQsDFdUY36WSLTY0Jvd4HWi7Fb30gQ62oAOzdgJA6fZw==}
     engines: {node: '>=14.0.0'}
 
   path-scurry@2.0.2:
@@ -1604,10 +1604,10 @@ snapshots:
       '@atproto/common-web': 0.4.19
       '@atproto/crypto': 0.4.5
       '@atproto/repo': 0.9.0
-      '@aws-sdk/client-cloudfront': 3.1022.0
-      '@aws-sdk/client-kms': 3.1022.0
-      '@aws-sdk/client-s3': 3.1022.0
-      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1022.0)
+      '@aws-sdk/client-cloudfront': 3.1023.0
+      '@aws-sdk/client-kms': 3.1023.0
+      '@aws-sdk/client-s3': 3.1023.0
+      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1023.0)
       '@noble/curves': 1.9.7
       key-encoder: 2.0.3
       multiformats: 9.9.0
@@ -1619,7 +1619,7 @@ snapshots:
     dependencies:
       '@atproto/lex-data': 0.0.14
       '@atproto/lex-json': 0.0.14
-      '@atproto/syntax': 0.5.2
+      '@atproto/syntax': 0.5.3
       zod: 3.25.76
 
   '@atproto/common@0.1.1':
@@ -1711,7 +1711,7 @@ snapshots:
       '@atproto/lex-document': 0.0.18
       '@atproto/lex-resolver': 0.0.20
       '@atproto/lex-schema': 0.0.17
-      '@atproto/syntax': 0.5.2
+      '@atproto/syntax': 0.5.3
       tslib: 2.8.1
 
   '@atproto/lex-json@0.0.14':
@@ -1728,13 +1728,13 @@ snapshots:
       '@atproto/lex-document': 0.0.18
       '@atproto/lex-schema': 0.0.17
       '@atproto/repo': 0.9.0
-      '@atproto/syntax': 0.5.2
+      '@atproto/syntax': 0.5.3
       tslib: 2.8.1
 
   '@atproto/lex-schema@0.0.17':
     dependencies:
       '@atproto/lex-data': 0.0.14
-      '@atproto/syntax': 0.5.2
+      '@atproto/syntax': 0.5.3
       '@standard-schema/spec': 1.1.0
       iso-datestring-validator: 2.2.2
       tslib: 2.8.1
@@ -1753,7 +1753,7 @@ snapshots:
   '@atproto/lexicon@0.6.2':
     dependencies:
       '@atproto/common-web': 0.4.19
-      '@atproto/syntax': 0.5.2
+      '@atproto/syntax': 0.5.3
       iso-datestring-validator: 2.2.2
       multiformats: 9.9.0
       zod: 3.25.76
@@ -1789,7 +1789,7 @@ snapshots:
       '@atproto/oauth-provider-ui': 0.4.3
       '@atproto/oauth-scopes': 0.3.2
       '@atproto/oauth-types': 0.6.3
-      '@atproto/syntax': 0.5.2
+      '@atproto/syntax': 0.5.3
       '@hapi/accept': 6.0.3
       '@hapi/address': 5.1.1
       '@hapi/bourne': 3.0.0
@@ -1807,7 +1807,7 @@ snapshots:
   '@atproto/oauth-scopes@0.3.2':
     dependencies:
       '@atproto/did': 0.3.0
-      '@atproto/syntax': 0.5.2
+      '@atproto/syntax': 0.5.3
 
   '@atproto/oauth-types@0.6.2':
     dependencies:
@@ -1839,7 +1839,7 @@ snapshots:
       '@atproto/oauth-provider': 0.15.15
       '@atproto/oauth-scopes': 0.3.2
       '@atproto/repo': 0.9.0
-      '@atproto/syntax': 0.5.2
+      '@atproto/syntax': 0.5.3
       '@atproto/xrpc': 0.7.7
       '@atproto/xrpc-server': 0.10.18
       '@did-plc/lib': 0.0.4
@@ -1881,11 +1881,11 @@ snapshots:
       '@atproto/crypto': 0.4.5
       '@atproto/lex-cbor': 0.0.15
       '@atproto/lex-data': 0.0.14
-      '@atproto/syntax': 0.5.2
+      '@atproto/syntax': 0.5.3
       varint: 6.0.0
       zod: 3.25.76
 
-  '@atproto/syntax@0.5.2':
+  '@atproto/syntax@0.5.3':
     dependencies:
       tslib: 2.8.1
 
@@ -1971,7 +1971,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-cloudfront@3.1022.0':
+  '@aws-sdk/client-cloudfront@3.1023.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
@@ -2017,7 +2017,7 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-kms@3.1022.0':
+  '@aws-sdk/client-kms@3.1023.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
@@ -2061,7 +2061,7 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-s3@3.1022.0':
+  '@aws-sdk/client-s3@3.1023.0':
     dependencies:
       '@aws-crypto/sha1-browser': 5.2.0
       '@aws-crypto/sha256-browser': 5.2.0
@@ -2246,9 +2246,9 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1022.0)':
+  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1023.0)':
     dependencies:
-      '@aws-sdk/client-s3': 3.1022.0
+      '@aws-sdk/client-s3': 3.1023.0
       '@smithy/abort-controller': 4.2.12
       '@smithy/middleware-endpoint': 4.4.28
       '@smithy/smithy-client': 4.12.8
@@ -3195,12 +3195,12 @@ snapshots:
 
   fast-xml-builder@1.1.4:
     dependencies:
-      path-expression-matcher: 1.2.0
+      path-expression-matcher: 1.2.1
 
   fast-xml-parser@5.5.8:
     dependencies:
       fast-xml-builder: 1.1.4
-      path-expression-matcher: 1.2.0
+      path-expression-matcher: 1.2.1
       strnum: 2.2.2
 
   fdir@6.5.0(picomatch@4.0.4):
@@ -3482,7 +3482,7 @@ snapshots:
 
   path-browserify@1.0.1: {}
 
-  path-expression-matcher@1.2.0: {}
+  path-expression-matcher@1.2.1: {}
 
   path-scurry@2.0.2:
     dependencies:
