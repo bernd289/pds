@@ -1,4 +1,4 @@
-FROM dhi.io/node:24-alpine3.23-sfw-dev@sha256:1d7cb31268922bf55ec2e262905f9c9c300bbdd2b7cbb23d20497420f82603aa AS build
+FROM dhi.io/node:24-alpine3.23-sfw-dev@sha256:8ed1a1c6b79c37d0f566983edd2e14eba81fa2b89d5f99605b63ccdcef4840de AS build
 
 WORKDIR /app
 COPY ./service ./
@@ -6,7 +6,7 @@ COPY ./service ./
 RUN corepack enable && \
     sfw pnpm install --production --frozen-lockfile
 
-FROM dhi.io/node:24-alpine3.23@sha256:42bc474bf95f56c62205c8bafe51633e58a9dad67e598a6326cc1458ff3b5b4b AS run
+FROM dhi.io/node:24-alpine3.23@sha256:52280ec4ad86ef1dbd8bb0999b66c7b309cde16391b4e4ea277505d7ffb71d3d AS run
 
 WORKDIR /app
 COPY --chown=node:node --from=build /app /app
