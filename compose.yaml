@@ -1,7 +1,7 @@
 services:
   caddy:
     container_name: caddy
-    image: caddy:2
+    image: dhi.io/caddy:2
     ports:
       - "80:80/tcp"
       - "443:443/tcp"

@@ -1,9 +1,16 @@
 version: 2
+registries:
+  dhi:
+    type: docker-registry
+    url: dhi.io
+    username: ${{ secrets.DOCKER_USER }}
+    password: ${{ secrets.DOCKER_PASSWORD }}
+    replaces-base: true
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
       day: "monday"
       time: "06:00"
       timezone: "Europe/Berlin"
@@ -13,7 +20,7 @@ updates:
     directory: "/service"
     versioning-strategy: increase
     schedule:
-      interval: "weekly"
+      interval: "daily"
       day: "monday"
       time: "06:00"
       timezone: "Europe/Berlin"
@@ -23,7 +30,7 @@ updates:
     directory: "/"
     registries: "*"
     schedule:
-      interval: "weekly"
+      interval: "daily"
       day: "monday"
       time: "06:00"
       timezone: "Europe/Berlin"
