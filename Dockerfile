@@ -23,6 +23,6 @@ HEALTHCHECK --interval=30s --timeout=30s --start-period=30s --retries=3 \
 
 CMD ["index.js"]
 
-LABEL org.opencontainers.image.source=https://github.com/bernd289/pds
-LABEL org.opencontainers.image.description="AT Protocol PDS"
-LABEL org.opencontainers.image.licenses=MIT
+LABEL org.opencontainers.image.source=https://github.com/bernd289/pds \
+      org.opencontainers.image.description="AT Protocol PDS" \
+      org.opencontainers.image.licenses=MIT
