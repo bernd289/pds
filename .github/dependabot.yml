@@ -3,8 +3,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "daily"
       time: "06:00"
       timezone: "Europe/Berlin"
     commit-message:
@@ -13,8 +12,7 @@ updates:
     directory: "/service"
     versioning-strategy: increase
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "daily"
       time: "06:00"
       timezone: "Europe/Berlin"
     commit-message:
@@ -23,8 +21,7 @@ updates:
     directory: "/"
     registries: "*"
     schedule:
-      interval: "weekly"
-      day: "monday"
+      interval: "daily"
       time: "06:00"
       timezone: "Europe/Berlin"
     commit-message:
