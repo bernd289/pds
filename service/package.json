@@ -11,13 +11,14 @@
   "pnpm": {
     "neverBuiltDependencies": [],
     "overrides": {
-      "@types/node": "^24.12.2",
-      "better-sqlite3": "^12.9.0",
-      "nodemailer": "^8.0.5",
-      "undici": "^7.25.0",
-      "glob": "^13.0.6",
-      "node-abi": "^4.28.0",
-      "bn.js": "^5.2.3"
+      "@types/node": "^24",
+      "better-sqlite3": "^12",
+      "nodemailer": "^8",
+      "undici": "^7",
+      "glob": "^13",
+      "node-abi": "^4",
+      "bn.js": "^5",
+      "qs": "^6"
     }
   }
 }
