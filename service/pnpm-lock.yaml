@@ -181,16 +181,16 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-cloudfront@3.1043.0':
-    resolution: {integrity: sha512-0vnJdNmw0Q41yd21GQYgG6Iij3+ByqCS8YlZ3xloUGjRaavr0b1/pXrQJMDVuFNeDQOaVpAWaArr6VPmCz1ATg==}
+  '@aws-sdk/client-cloudfront@3.1044.0':
+    resolution: {integrity: sha512-nBEFD0myeGy2d6eTcA97UpEnE87Roc0AqPM2aN69JWVgchHNUDT60/USj59of28afUy97+CClk3/v8uSkVuC2g==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-kms@3.1043.0':
-    resolution: {integrity: sha512-LYB6mom4s6CJorv7qmkO6OEEFZ/UOG4WMY7rxc3qovB6xHkrn4EYzb50+PVGoMjVT7xHK9U68iAavkIppgNIsw==}
+  '@aws-sdk/client-kms@3.1044.0':
+    resolution: {integrity: sha512-cDO/4ar8IcGY/GLus4FIdbqBMv2N70tHVwbApedK+cmls77afUX0RsgajGgQX19VZWId3AJrQa1jbfmSZS/q8A==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-s3@3.1043.0':
-    resolution: {integrity: sha512-QrDh9PACpmijOgbVnvQIvoWFZcMEBoGw0qiQRfGvsUEcB1JPCS2U5R0irB4XQSmsBlQUNlNeXVfpx3JI++NqrA==}
+  '@aws-sdk/client-s3@3.1044.0':
+    resolution: {integrity: sha512-yT3g0Oi0b+pJBJswNxRwWLLBoExQhRx9Iz2rUy1xV0slMogTQN+DSjChI95XTDtpGEcY0qnIK6UYX0XCYdhOKg==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.974.8':
@@ -1162,8 +1162,8 @@ packages:
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
 
-  node-abi@4.30.0:
-    resolution: {integrity: sha512-D7v3slBz2jgsBLCY9FnFsD0nlXvuKd49Pl9L+Vj+7ZlivHsLK2mkekQo7vZwYco+kyb4OJlaWfYdr3+27vfYtA==}
+  node-abi@4.31.0:
+    resolution: {integrity: sha512-Erq5w/t3syw3s4sDsUaX4QttIdBPsGKTT1DTRsCkTonGggczhlDKm/wDX3o+HPJpQ41EjXCbcmXf0tgr5YZJXw==}
     engines: {node: '>=22.12.0'}
 
   nodemailer-html-to-text@3.2.0:
@@ -1601,10 +1601,10 @@ snapshots:
       '@atproto/common-web': 0.4.21
       '@atproto/crypto': 0.4.5
       '@atproto/repo': 0.9.1
-      '@aws-sdk/client-cloudfront': 3.1043.0
-      '@aws-sdk/client-kms': 3.1043.0
-      '@aws-sdk/client-s3': 3.1043.0
-      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1043.0)
+      '@aws-sdk/client-cloudfront': 3.1044.0
+      '@aws-sdk/client-kms': 3.1044.0
+      '@aws-sdk/client-s3': 3.1044.0
+      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1044.0)
       '@noble/curves': 1.9.7
       key-encoder: 2.0.3
       multiformats: 9.9.0
@@ -1957,7 +1957,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-cloudfront@3.1043.0':
+  '@aws-sdk/client-cloudfront@3.1044.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
@@ -2003,7 +2003,7 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-kms@3.1043.0':
+  '@aws-sdk/client-kms@3.1044.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
@@ -2047,7 +2047,7 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-s3@3.1043.0':
+  '@aws-sdk/client-s3@3.1044.0':
     dependencies:
       '@aws-crypto/sha1-browser': 5.2.0
       '@aws-crypto/sha256-browser': 5.2.0
@@ -2233,9 +2233,9 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1043.0)':
+  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1044.0)':
     dependencies:
-      '@aws-sdk/client-s3': 3.1043.0
+      '@aws-sdk/client-s3': 3.1044.0
       '@smithy/abort-controller': 4.2.14
       '@smithy/middleware-endpoint': 4.4.32
       '@smithy/smithy-client': 4.12.13
@@ -3428,7 +3428,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  node-abi@4.30.0:
+  node-abi@4.31.0:
     dependencies:
       semver: 7.7.4
 
@@ -3524,7 +3524,7 @@ snapshots:
       minimist: 1.2.8
       mkdirp-classic: 0.5.3
       napi-build-utils: 2.0.0
-      node-abi: 4.30.0
+      node-abi: 4.31.0
       pump: 3.0.4
       rc: 1.2.8
       simple-get: 4.0.1
