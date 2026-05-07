@@ -4,6 +4,7 @@ WORKDIR /app
 COPY ./service ./
 
 RUN corepack enable && \
+    corepack prepare pnpm@10 --activate && \
     npm i -g sfw && \
     sfw pnpm install --production --frozen-lockfile
 
