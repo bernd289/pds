@@ -810,8 +810,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  disposable-email-domains-js@1.24.0:
-    resolution: {integrity: sha512-IQz+XkhJYCaT58q2l9Pz5MFAHsHp1vJs3smTeEVpv7/6rvubc9RMbaFb8rQgBoIounXPAJyura5ynovFKrlQrg==}
+  disposable-email-domains-js@1.25.0:
+    resolution: {integrity: sha512-G16ih6YqeZV9CozhVW8IASgSAhGaJ2Tr58RRtZ8Ff5glhTCEav2VX74ciETHZ01n9D57aQasEvDzaBmzATYdYw==}
 
   dom-serializer@1.4.1:
     resolution: {integrity: sha512-VHwB3KfrcOOkelEG2ZOfxqLZdfkil8PtJi4P8N2MMXucZq2yLp75ClViUlOVwyoHEDjYU433Aq+5zWP61+RGag==}
@@ -1428,8 +1428,8 @@ packages:
     resolution: {integrity: sha512-4gB8na07fecVVkOI6Rs4e7T6NOTki5EmL7TUduTs6bu3EdnSycntVJ4re8kgZA+wx9IueI2Y11bfbgwtzuE0KQ==}
     engines: {node: '>=0.10.0'}
 
-  strnum@2.2.3:
-    resolution: {integrity: sha512-oKx6RUCuHfT3oyVjtnrmn19H1SiCqgJSg+54XqURKp5aCMbrXrhLjRN9TjuwMjiYstZ0MzDrHqkGZ5dFTKd+zg==}
+  strnum@2.3.0:
+    resolution: {integrity: sha512-ums3KNd42PGyx5xaoVTO1mjU1bH3NpY4vsrVlnv9PNGqQj8wd7rJ6nEypLrJ7z5vxK5RP0yMLo6J/Gsm62DI5Q==}
 
   strtok3@6.3.0:
     resolution: {integrity: sha512-fZtbhtvI9I48xDSywd/somNqgUHl2L2cstmXCCif0itOf96jeW18MBSyrLuNicYQVkvpOxkZtkzujiTJ9LW5Jw==}
@@ -1787,7 +1787,7 @@ snapshots:
       '@hapi/bourne': 3.0.0
       '@hapi/content': 6.0.2
       cookie: 0.7.2
-      disposable-email-domains-js: 1.24.0
+      disposable-email-domains-js: 1.25.0
       forwarded: 0.2.0
       http-errors: 2.0.1
       ioredis: 5.10.1
@@ -1833,7 +1833,7 @@ snapshots:
       better-sqlite3: 12.9.0
       compression: 1.8.1
       cors: 2.8.6
-      disposable-email-domains-js: 1.24.0
+      disposable-email-domains-js: 1.25.0
       express: 4.22.1
       express-async-errors: 3.1.1(express@4.22.1)
       file-type: 16.5.4
@@ -3064,7 +3064,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  disposable-email-domains-js@1.24.0: {}
+  disposable-email-domains-js@1.25.0: {}
 
   dom-serializer@1.4.1:
     dependencies:
@@ -3194,7 +3194,7 @@ snapshots:
       '@nodable/entities': 2.1.0
       fast-xml-builder: 1.1.9
       path-expression-matcher: 1.5.0
-      strnum: 2.2.3
+      strnum: 2.3.0
 
   fdir@6.5.0(picomatch@4.0.4):
     optionalDependencies:
@@ -3720,7 +3720,7 @@ snapshots:
 
   strip-json-comments@2.0.1: {}
 
-  strnum@2.2.3: {}
+  strnum@2.3.0: {}
 
   strtok3@6.3.0:
     dependencies:
