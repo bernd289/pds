@@ -7,16 +7,5 @@
   "license": "MIT",
   "dependencies": {
     "@atproto/pds": "0.4.224"
-  },
-  "pnpm": {
-    "neverBuiltDependencies": [],
-    "overrides": {
-      "@types/node": "^24",
-      "undici": "^7",
-      "nodemailer": "^8",
-      "glob": "^13",
-      "node-abi": "^4",
-      "bn.js": "^5"
-    }
   }
 }
