@@ -126,8 +126,8 @@ packages:
     resolution: {integrity: sha512-zliMiRW4ttSNFreKxyvSpaYQjeWrKpV/lutnXI9BNE8Ysgnw8Rltm0bR7kG/y0OlyClxhhU/vAG+OR8NpjhU1Q==}
     engines: {node: '>=22'}
 
-  '@atproto/lex-schema@0.1.0':
-    resolution: {integrity: sha512-YU9vq3RbqG9+OZcHYVUviPQodAWupUmamqNYa5Bd0Rx3XDuQE8S34b3gMXX3XA6qsTBq3WCe16Racj9QHMl+sg==}
+  '@atproto/lex-schema@0.1.1':
+    resolution: {integrity: sha512-/PX8q2Pd5PT9ozb9Pvw6gRifsGIU1LA/ccnu0IMyvstpCeAYyvdN6y0iHlUrzN0iSNTwStfA9H3hVaVaeZyDVQ==}
     engines: {node: '>=22'}
 
   '@atproto/lex@0.1.0':
@@ -135,8 +135,8 @@ packages:
     engines: {node: '>=22'}
     hasBin: true
 
-  '@atproto/lexicon@0.7.0':
-    resolution: {integrity: sha512-75WFG3cOMnr90gLFGloTglgaEbSQSjD0E3muXerLxS94o7qZlonIQWz4/2FqUvy5KYBuYqq7wFWaGFMOq6OkNg==}
+  '@atproto/lexicon@0.7.1':
+    resolution: {integrity: sha512-voNfNED5KUxn3vpo7N5DMRblBDfWf7kSfdKhJFC1RrLCxg38YbBzzURNVQJ32bp13Oot8kYfyXBWxTgtKLvw8w==}
     engines: {node: '>=22'}
 
   '@atproto/oauth-provider-api@0.5.0':
@@ -167,8 +167,8 @@ packages:
     resolution: {integrity: sha512-dGnU3R+geXepOZFIn3YUu6WaXLuT1NxqNvusR/JmAqPjjT6dT4tjouZeDPrumSnZm2f5Z8xMeDfVxpMWQ4stFw==}
     engines: {node: '>=22'}
 
-  '@atproto/syntax@0.6.0':
-    resolution: {integrity: sha512-Z3Zrj4y/HLAF1SKVm4Fyhv/JUhrAMDyWqB5PJKvKA5/A8jxwZXpupFC6sNFRh4rlLS9Sl07L8gtvLO3RMG5jxQ==}
+  '@atproto/syntax@0.6.1':
+    resolution: {integrity: sha512-kA4dQDoMPpWCH8N0Q4KoSq024u5MkVfDVa8DdhyLjGA72z/khbOf1jXKPv7NIL2oEc9aj7geKELdvqyf4ogopA==}
     engines: {node: '>=22'}
 
   '@atproto/ws-client@0.1.0':
@@ -1457,7 +1457,7 @@ snapshots:
     dependencies:
       '@atproto/lex-data': 0.1.0
       '@atproto/lex-json': 0.1.0
-      '@atproto/syntax': 0.6.0
+      '@atproto/syntax': 0.6.1
       zod: 3.25.76
 
   '@atproto/common@0.1.1':
@@ -1511,7 +1511,7 @@ snapshots:
   '@atproto/lex-builder@0.1.0':
     dependencies:
       '@atproto/lex-document': 0.1.0
-      '@atproto/lex-schema': 0.1.0
+      '@atproto/lex-schema': 0.1.1
       prettier: 3.8.3
       ts-morph: 27.0.2
       tslib: 2.8.1
@@ -1526,7 +1526,7 @@ snapshots:
     dependencies:
       '@atproto/lex-data': 0.1.0
       '@atproto/lex-json': 0.1.0
-      '@atproto/lex-schema': 0.1.0
+      '@atproto/lex-schema': 0.1.1
       tslib: 2.8.1
 
   '@atproto/lex-data@0.1.0':
@@ -1538,7 +1538,7 @@ snapshots:
 
   '@atproto/lex-document@0.1.0':
     dependencies:
-      '@atproto/lex-schema': 0.1.0
+      '@atproto/lex-schema': 0.1.1
       core-js: 3.49.0
       tslib: 2.8.1
 
@@ -1549,8 +1549,8 @@ snapshots:
       '@atproto/lex-data': 0.1.0
       '@atproto/lex-document': 0.1.0
       '@atproto/lex-resolver': 0.1.0
-      '@atproto/lex-schema': 0.1.0
-      '@atproto/syntax': 0.6.0
+      '@atproto/lex-schema': 0.1.1
+      '@atproto/syntax': 0.6.1
       tslib: 2.8.1
 
   '@atproto/lex-json@0.1.0':
@@ -1565,17 +1565,16 @@ snapshots:
       '@atproto/lex-client': 0.1.0
       '@atproto/lex-data': 0.1.0
       '@atproto/lex-document': 0.1.0
-      '@atproto/lex-schema': 0.1.0
+      '@atproto/lex-schema': 0.1.1
       '@atproto/repo': 0.10.0
-      '@atproto/syntax': 0.6.0
+      '@atproto/syntax': 0.6.1
       tslib: 2.8.1
 
-  '@atproto/lex-schema@0.1.0':
+  '@atproto/lex-schema@0.1.1':
     dependencies:
       '@atproto/lex-data': 0.1.0
-      '@atproto/syntax': 0.6.0
+      '@atproto/syntax': 0.6.1
       '@standard-schema/spec': 1.1.0
-      iso-datestring-validator: 2.2.2
       tslib: 2.8.1
 
   '@atproto/lex@0.1.0':
@@ -1585,15 +1584,14 @@ snapshots:
       '@atproto/lex-data': 0.1.0
       '@atproto/lex-installer': 0.1.0
       '@atproto/lex-json': 0.1.0
-      '@atproto/lex-schema': 0.1.0
+      '@atproto/lex-schema': 0.1.1
       tslib: 2.8.1
       yargs: 17.7.2
 
-  '@atproto/lexicon@0.7.0':
+  '@atproto/lexicon@0.7.1':
     dependencies:
       '@atproto/common-web': 0.5.0
-      '@atproto/syntax': 0.6.0
-      iso-datestring-validator: 2.2.2
+      '@atproto/syntax': 0.6.1
       multiformats: 13.4.2
       zod: 3.25.76
 
@@ -1623,7 +1621,7 @@ snapshots:
       '@atproto/oauth-provider-ui': 0.6.0
       '@atproto/oauth-scopes': 0.4.0
       '@atproto/oauth-types': 0.7.0
-      '@atproto/syntax': 0.6.0
+      '@atproto/syntax': 0.6.1
       '@hapi/accept': 6.0.3
       '@hapi/address': 5.1.1
       '@hapi/bourne': 3.0.0
@@ -1641,7 +1639,7 @@ snapshots:
   '@atproto/oauth-scopes@0.4.0':
     dependencies:
       '@atproto/did': 0.4.0
-      '@atproto/syntax': 0.6.0
+      '@atproto/syntax': 0.6.1
 
   '@atproto/oauth-types@0.7.0':
     dependencies:
@@ -1667,7 +1665,7 @@ snapshots:
       '@atproto/oauth-provider': 0.17.0
       '@atproto/oauth-scopes': 0.4.0
       '@atproto/repo': 0.10.0
-      '@atproto/syntax': 0.6.0
+      '@atproto/syntax': 0.6.1
       '@atproto/xrpc': 0.8.0
       '@atproto/xrpc-server': 0.11.0
       '@did-plc/lib': 0.0.4
@@ -1708,12 +1706,13 @@ snapshots:
       '@atproto/crypto': 0.5.0
       '@atproto/lex-cbor': 0.1.0
       '@atproto/lex-data': 0.1.0
-      '@atproto/syntax': 0.6.0
+      '@atproto/syntax': 0.6.1
       varint: 6.0.0
       zod: 3.25.76
 
-  '@atproto/syntax@0.6.0':
+  '@atproto/syntax@0.6.1':
     dependencies:
+      iso-datestring-validator: 2.2.2
       tslib: 2.8.1
 
   '@atproto/ws-client@0.1.0':
@@ -1732,8 +1731,8 @@ snapshots:
       '@atproto/lex-client': 0.1.0
       '@atproto/lex-data': 0.1.0
       '@atproto/lex-json': 0.1.0
-      '@atproto/lex-schema': 0.1.0
-      '@atproto/lexicon': 0.7.0
+      '@atproto/lex-schema': 0.1.1
+      '@atproto/lexicon': 0.7.1
       '@atproto/ws-client': 0.1.0
       '@atproto/xrpc': 0.8.0
       express: 4.22.2
@@ -1748,7 +1747,7 @@ snapshots:
 
   '@atproto/xrpc@0.8.0':
     dependencies:
-      '@atproto/lexicon': 0.7.0
+      '@atproto/lexicon': 0.7.1
       zod: 3.25.76
 
   '@aws-crypto/crc32@5.2.0':
