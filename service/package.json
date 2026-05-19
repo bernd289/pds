@@ -9,16 +9,6 @@
     "@atproto/pds": "0.4.224"
   },
   "pnpm": {
-    "neverBuiltDependencies": [],
-    "overrides": {
-      "@types/node": "^24",
-      "better-sqlite3": "^12",
-      "nodemailer": "^8",
-      "undici": "^7",
-      "glob": "^13",
-      "node-abi": "^4",
-      "bn.js": "^5",
-      "qs": "^6"
-    }
+    "neverBuiltDependencies": []
   }
 }
