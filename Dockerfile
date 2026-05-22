@@ -8,7 +8,7 @@ RUN npm i -g corepack && \
     npm i -g sfw && \
     sfw pnpm install --production --frozen-lockfile
 
-FROM gcr.io/distroless/nodejs24-debian13:latest@sha256:e70510b44870c5686983f2b11f22b884f2dfacf86aea69b6b0edb2ccb3f237f4 AS run
+FROM gcr.io/distroless/nodejs24-debian13:latest@sha256:e7192174b2b2e5db60cb8f8fc3dcb8cb8e0456f961387c4e0556118f09dcb7c8 AS run
 
 WORKDIR /app
 COPY --chown=1000:1000 --from=build /app /app
