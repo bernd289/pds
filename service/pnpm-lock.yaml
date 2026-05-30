@@ -206,16 +206,16 @@ packages:
   '@aws-crypto/util@5.2.0':
     resolution: {integrity: sha512-4RkU9EsI6ZpBve5fseQlGNUWKMa1RLPQ1dnjnQoe07ldfIzcsGb5hC5W0Dm7u423KWzawlrpbjXBrXCEv9zazQ==}
 
-  '@aws-sdk/client-cloudfront@3.1056.0':
-    resolution: {integrity: sha512-sve1ALv/2RviaNRxsOLMHDs128lRII1CLp+yOJwon8FyxoSj22kuZ35VUmW+yGJWg5hZgf5OYXI9L9FNYa4qHQ==}
+  '@aws-sdk/client-cloudfront@3.1057.0':
+    resolution: {integrity: sha512-SSDMS+oxch09VWLBeQDEnHcQ7v1Q/YVBrA/YarjYKnqWzJO9bgoLOIN0mYG9SdcRXnyH8Bn6aIEtosanGjU5wQ==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-kms@3.1056.0':
-    resolution: {integrity: sha512-80TRTRzGnH1Ml6siG2siSdGoTjo9ELQgqwgwO450v+vRC35hLtJrIzMxeFo3+fg/8i8Jpo4KIGh5L8bFMenCjg==}
+  '@aws-sdk/client-kms@3.1057.0':
+    resolution: {integrity: sha512-S0LA7ks4eo2JpyG7UkpcNNgckYygi8H9URhG56tcD/ffYmydLPkXZeTl/Aj/BwMRe3dklMwrXTSRyknDmY2mXg==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-s3@3.1056.0':
-    resolution: {integrity: sha512-WfMZEM2eC96anIT0RzR/QmhaefWKsNjOHNv09ORBkcA++ULBnm1fRau+KKGEIbr5nDnf9BTG7E7U3oOVklQS8g==}
+  '@aws-sdk/client-s3@3.1057.0':
+    resolution: {integrity: sha512-4MV5+ph7WSLEqStKYdWf2EIHIvLpPzV8xN98jWSVJfUpp5j7T8dyN3AROPPsKWvCme8hbx1ybCjtK76ALCZUYg==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.974.15':
@@ -234,16 +234,16 @@ packages:
     resolution: {integrity: sha512-TT76RN1NkI9WoyZqCNxOw6/WBMF7pYOTJcXbMokNFU+euSG40Kaf/t/FhDACVZWP+43wEM6ZynIPIkzS1wR1iA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/credential-provider-ini@3.972.45':
-    resolution: {integrity: sha512-sJe5ZWibO4s7RWjFQ8Zol76KxoJcIYyEZH1/wxQSBMSIAAxzaJ8cS/ITAaIHWUQvDKQdt18+cJAHKWB7n1Jmrg==}
+  '@aws-sdk/credential-provider-ini@3.972.46':
+    resolution: {integrity: sha512-hvcgcwOiS0nb2XFb5Op1Pz/vYaWz5K8kKullziGpdNRuG0NwzRXseuPt2CoBqknHGaSPVesu1aOn2OcctEYdCA==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/credential-provider-login@3.972.45':
     resolution: {integrity: sha512-MZQv4SNjByk1iOKmrqmzcUF/uCB05wjvEHyXKxmGQTUANTIVayX6HPUF0bzkWLvtnkH7sAn9kUCfkXbSpj9sDA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/credential-provider-node@3.972.46':
-    resolution: {integrity: sha512-cS4w0jzDRb1jOlkiJS3y80OxddHzkky/MN9k3NYs5jganNKVLjF0lpvjlwS118oGMr3cdAfOlVdo8gLurTSE7w==}
+  '@aws-sdk/credential-provider-node@3.972.47':
+    resolution: {integrity: sha512-HrId+C0DWA5qDIyLG64/kjUB2RNtPypxmABnIctK+TA1P1kHlOYoE/Wf5T5tKOMKgb08P7k/zNyhvfJ3lh5Oag==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/credential-provider-process@3.972.41':
@@ -366,8 +366,8 @@ packages:
     resolution: {integrity: sha512-Kt8phUg45M15EjhYAbZ+fFikYneijLu9Liugz8ZsYz2i8j0hzGv27LWKpEHYRfvj+LyCOSijpcR/2i8RouV+cA==}
     engines: {node: '>=18.0.0'}
 
-  '@smithy/credential-provider-imds@4.3.5':
-    resolution: {integrity: sha512-yiF8xHpdkaTfzLVqFzsP6WvNghEK+qZzLYWFD13L2SsFhbXwBGlxdocKF95qjr7s5lE5NRage+EJFK4mAsx88Q==}
+  '@smithy/credential-provider-imds@4.3.6':
+    resolution: {integrity: sha512-tHhdiWZfG1ZIh2YcRfPJmY2gHcBmqbAzqm3ER4TIDFYsSEqTD5tICT7cgQ/kI8LRakxp12myOYyK68XPn7MnHw==}
     engines: {node: '>=18.0.0'}
 
   '@smithy/fetch-http-handler@5.4.5':
@@ -989,8 +989,8 @@ packages:
     resolution: {integrity: sha512-RJUC6640QV1PzTHHapOrc6IzrAJUZtk2BdVdINZ9VTLm+mcQNyBO9LYyhrnufkzqiD9l8hPLJ97rSyK4WanPNg==}
     engines: {node: '>= 10.23.0'}
 
-  nodemailer@8.0.9:
-    resolution: {integrity: sha512-5ofa7BUN8+C+Hckh5V2GjeeOGRQBx0CJQA6KxrvuZfC8iU4/q7sLn8XrtEEhJkjV6HdyIiQs7Bba6bTao8JhkA==}
+  nodemailer@8.0.10:
+    resolution: {integrity: sha512-BLFuSth7QtHOkBzyqTehWWyub0NTRDuK2Q2SQfnGLsrJnzyU+Yeh4WpV1eZGuARFj1xQJHIdnTuJZLP+b9R1GQ==}
     engines: {node: '>=6.0.0'}
 
   object-assign@4.1.1:
@@ -1427,10 +1427,10 @@ snapshots:
       '@atproto/common-web': 0.5.0
       '@atproto/crypto': 0.5.0
       '@atproto/repo': 0.10.0
-      '@aws-sdk/client-cloudfront': 3.1056.0
-      '@aws-sdk/client-kms': 3.1056.0
-      '@aws-sdk/client-s3': 3.1056.0
-      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1056.0)
+      '@aws-sdk/client-cloudfront': 3.1057.0
+      '@aws-sdk/client-kms': 3.1057.0
+      '@aws-sdk/client-s3': 3.1057.0
+      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1057.0)
       '@noble/curves': 1.9.7
       key-encoder: 2.0.3
       multiformats: 13.4.2
@@ -1668,7 +1668,7 @@ snapshots:
       jose: 5.10.0
       key-encoder: 2.0.3
       kysely: 0.22.0
-      nodemailer: 8.0.9
+      nodemailer: 8.0.10
       nodemailer-html-to-text: 3.2.0
       p-queue: 8.1.1
       pino: 8.21.0
@@ -1781,12 +1781,12 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-cloudfront@3.1056.0':
+  '@aws-sdk/client-cloudfront@3.1057.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/core': 3.974.15
-      '@aws-sdk/credential-provider-node': 3.972.46
+      '@aws-sdk/credential-provider-node': 3.972.47
       '@aws-sdk/types': 3.973.9
       '@smithy/core': 3.24.5
       '@smithy/fetch-http-handler': 5.4.5
@@ -1794,12 +1794,12 @@ snapshots:
       '@smithy/types': 4.14.2
       tslib: 2.8.1
 
-  '@aws-sdk/client-kms@3.1056.0':
+  '@aws-sdk/client-kms@3.1057.0':
     dependencies:
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/core': 3.974.15
-      '@aws-sdk/credential-provider-node': 3.972.46
+      '@aws-sdk/credential-provider-node': 3.972.47
       '@aws-sdk/types': 3.973.9
       '@smithy/core': 3.24.5
       '@smithy/fetch-http-handler': 5.4.5
@@ -1807,13 +1807,13 @@ snapshots:
       '@smithy/types': 4.14.2
       tslib: 2.8.1
 
-  '@aws-sdk/client-s3@3.1056.0':
+  '@aws-sdk/client-s3@3.1057.0':
     dependencies:
       '@aws-crypto/sha1-browser': 5.2.0
       '@aws-crypto/sha256-browser': 5.2.0
       '@aws-crypto/sha256-js': 5.2.0
       '@aws-sdk/core': 3.974.15
-      '@aws-sdk/credential-provider-node': 3.972.46
+      '@aws-sdk/credential-provider-node': 3.972.47
       '@aws-sdk/middleware-bucket-endpoint': 3.972.17
       '@aws-sdk/middleware-expect-continue': 3.972.14
       '@aws-sdk/middleware-flexible-checksums': 3.974.23
@@ -1862,7 +1862,7 @@ snapshots:
       '@smithy/types': 4.14.2
       tslib: 2.8.1
 
-  '@aws-sdk/credential-provider-ini@3.972.45':
+  '@aws-sdk/credential-provider-ini@3.972.46':
     dependencies:
       '@aws-sdk/core': 3.974.15
       '@aws-sdk/credential-provider-env': 3.972.41
@@ -1874,7 +1874,7 @@ snapshots:
       '@aws-sdk/nested-clients': 3.997.13
       '@aws-sdk/types': 3.973.9
       '@smithy/core': 3.24.5
-      '@smithy/credential-provider-imds': 4.3.5
+      '@smithy/credential-provider-imds': 4.3.6
       '@smithy/types': 4.14.2
       tslib: 2.8.1
 
@@ -1887,17 +1887,17 @@ snapshots:
       '@smithy/types': 4.14.2
       tslib: 2.8.1
 
-  '@aws-sdk/credential-provider-node@3.972.46':
+  '@aws-sdk/credential-provider-node@3.972.47':
     dependencies:
       '@aws-sdk/credential-provider-env': 3.972.41
       '@aws-sdk/credential-provider-http': 3.972.43
-      '@aws-sdk/credential-provider-ini': 3.972.45
+      '@aws-sdk/credential-provider-ini': 3.972.46
       '@aws-sdk/credential-provider-process': 3.972.41
       '@aws-sdk/credential-provider-sso': 3.972.45
       '@aws-sdk/credential-provider-web-identity': 3.972.45
       '@aws-sdk/types': 3.973.9
       '@smithy/core': 3.24.5
-      '@smithy/credential-provider-imds': 4.3.5
+      '@smithy/credential-provider-imds': 4.3.6
       '@smithy/types': 4.14.2
       tslib: 2.8.1
 
@@ -1928,9 +1928,9 @@ snapshots:
       '@smithy/types': 4.14.2
       tslib: 2.8.1
 
-  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1056.0)':
+  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1057.0)':
     dependencies:
-      '@aws-sdk/client-s3': 3.1056.0
+      '@aws-sdk/client-s3': 3.1057.0
       '@smithy/abort-controller': 4.2.15
       '@smithy/middleware-endpoint': 4.5.5
       '@smithy/smithy-client': 4.13.5
@@ -2095,7 +2095,7 @@ snapshots:
       '@smithy/types': 4.14.2
       tslib: 2.8.1
 
-  '@smithy/credential-provider-imds@4.3.5':
+  '@smithy/credential-provider-imds@4.3.6':
     dependencies:
       '@smithy/core': 3.24.5
       '@smithy/types': 4.14.2
@@ -2744,7 +2744,7 @@ snapshots:
     dependencies:
       html-to-text: 7.1.1
 
-  nodemailer@8.0.9: {}
+  nodemailer@8.0.10: {}
 
   object-assign@4.1.1: {}
 
