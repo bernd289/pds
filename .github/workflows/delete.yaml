@@ -14,14 +14,14 @@ jobs:
 
     steps:
       - name: Delete container images
-        uses: actions/delete-package-versions@v5
+        uses: actions/delete-package-versions@e5bc658cc4c965c472efe991f8beea3981499c55 #v5.0.0
         with: 
           package-name: pds
           package-type: container
           min-versions-to-keep: 30
 
       - name: Delete workflow runs
-        uses: viascom/github-maintenance-action@v0.2.0
+        uses: viascom/github-maintenance-action@100787bdd54a85f51117c429b6b4d93a6a52eaf6 #v0.2.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_base_url: 'https://api.github.com'
@@ -30,4 +30,4 @@ jobs:
           keep_minimum_runs: 5
 
       - name: Delete cache
-        uses: toshimaru/delete-action-cache@main
+        uses: toshimaru/delete-action-cache@a12c3ca71338e3312989302c48edeb5ce66293b7 #main
