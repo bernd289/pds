@@ -3,8 +3,7 @@ FROM node:24-trixie-slim@sha256:05c08ce4291e9a58f59456a7985176defb12cdd42271f35f
 WORKDIR /app
 COPY ./service ./
 
-RUN npm i -g corepack && \
-    corepack prepare pnpm@11 --activate && \
+RUN npm i -g pnpm@11 && \
     npm i -g sfw && \
     sfw pnpm install --production --frozen-lockfile
 
