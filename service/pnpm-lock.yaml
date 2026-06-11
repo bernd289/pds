@@ -17,8 +17,8 @@ importers:
   .:
     dependencies:
       '@atproto/pds':
-        specifier: 0.5.2
-        version: 0.5.2
+        specifier: 0.5.3
+        version: 0.5.3
     devDependencies:
       '@atproto/lex':
         specifier: ^0.1.3
@@ -74,8 +74,8 @@ packages:
   '@atproto/common@0.1.1':
     resolution: {integrity: sha512-GYwot5wF/z8iYGSPjrLHuratLc0CVgovmwfJss7+BUOB6y2/Vw8+1Vw0n9DDI0gb5vmx3UI8z0uJgC8aa8yuJg==}
 
-  '@atproto/common@0.6.1':
-    resolution: {integrity: sha512-mXR4R8nYFgs4gncFXNyIcxMcjuvpeCn3spu4pIlfWsri+MxXPr4jHWkjyv+b2JIvI+nns3L3ElFKWPEO4GlZdA==}
+  '@atproto/common@0.6.2':
+    resolution: {integrity: sha512-1RexlWRNYqKkwzO9BzaidM+GXoBPfRquOeG1Pgas+2nyovL7tkklx6ZMdwILKRmxXDjzkAdjF/v2gyEwMDImFg==}
     engines: {node: '>=22'}
 
   '@atproto/crypto@0.1.0':
@@ -166,8 +166,8 @@ packages:
     resolution: {integrity: sha512-YE+HOg/4a9a6X0+75wDUoL3KQFoM8FcWlrAa/h8lZozBLddaekJUM85Vg7aW4nD59tEvXH7kBLJOS6ZpeWpxxA==}
     engines: {node: '>=22'}
 
-  '@atproto/pds@0.5.2':
-    resolution: {integrity: sha512-ngYD9F+joxUGOF0qz8/+CM/fZTRlNQAxIAiApPVQArqigF3puo5TTljLUwMEv5nE3JA5wMawI8HSLDcGBK9c1g==}
+  '@atproto/pds@0.5.3':
+    resolution: {integrity: sha512-w45VNilbbDbzEvUH3kunTGJ9hbgiQw+9PrAIRBMWWFkUFMN5kD4qVmTVANpV+5B2JTRNMBdh4zVksKIWZThLJg==}
     engines: {node: '>=22'}
 
   '@atproto/repo@0.10.0':
@@ -1444,7 +1444,7 @@ snapshots:
 
   '@atproto/aws@0.3.0':
     dependencies:
-      '@atproto/common': 0.6.1
+      '@atproto/common': 0.6.2
       '@atproto/common-web': 0.5.0
       '@atproto/crypto': 0.5.0
       '@atproto/repo': 0.10.0
@@ -1471,7 +1471,7 @@ snapshots:
       pino: 8.21.0
       zod: 3.25.76
 
-  '@atproto/common@0.6.1':
+  '@atproto/common@0.6.2':
     dependencies:
       '@atproto/common-web': 0.5.0
       '@atproto/lex-cbor': 0.1.0
@@ -1615,7 +1615,7 @@ snapshots:
       '@atproto-labs/pipe': 0.2.0
       '@atproto-labs/simple-store': 0.4.0
       '@atproto-labs/simple-store-memory': 0.2.0
-      '@atproto/common': 0.6.1
+      '@atproto/common': 0.6.2
       '@atproto/did': 0.5.0
       '@atproto/jwk': 0.7.0
       '@atproto/jwk-jose': 0.2.0
@@ -1651,7 +1651,7 @@ snapshots:
       '@atproto/jwk': 0.7.0
       zod: 3.25.76
 
-  '@atproto/pds@0.5.2':
+  '@atproto/pds@0.5.3':
     dependencies:
       '@atproto-labs/fetch-node': 0.3.0
       '@atproto-labs/simple-store': 0.4.0
@@ -1659,7 +1659,7 @@ snapshots:
       '@atproto-labs/simple-store-redis': 0.1.0(ioredis@5.11.1)
       '@atproto-labs/xrpc-utils': 0.1.0
       '@atproto/aws': 0.3.0
-      '@atproto/common': 0.6.1
+      '@atproto/common': 0.6.2
       '@atproto/crypto': 0.5.0
       '@atproto/did': 0.5.0
       '@atproto/identity': 0.5.0
@@ -1706,7 +1706,7 @@ snapshots:
 
   '@atproto/repo@0.10.0':
     dependencies:
-      '@atproto/common': 0.6.1
+      '@atproto/common': 0.6.2
       '@atproto/common-web': 0.5.0
       '@atproto/crypto': 0.5.0
       '@atproto/lex-cbor': 0.1.0
@@ -1722,7 +1722,7 @@ snapshots:
 
   '@atproto/ws-client@0.1.0':
     dependencies:
-      '@atproto/common': 0.6.1
+      '@atproto/common': 0.6.2
       ws: 8.21.0
     transitivePeerDependencies:
       - bufferutil
@@ -1730,7 +1730,7 @@ snapshots:
 
   '@atproto/xrpc-server@0.11.1':
     dependencies:
-      '@atproto/common': 0.6.1
+      '@atproto/common': 0.6.2
       '@atproto/crypto': 0.5.0
       '@atproto/lex-cbor': 0.1.0
       '@atproto/lex-client': 0.1.3
