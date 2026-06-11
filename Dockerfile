@@ -7,7 +7,7 @@ RUN npm i -g pnpm@11 && \
     npm i -g sfw && \
     sfw pnpm install --production --frozen-lockfile
 
-FROM gcr.io/distroless/nodejs24-debian13:latest@sha256:e7192174b2b2e5db60cb8f8fc3dcb8cb8e0456f961387c4e0556118f09dcb7c8 AS run
+FROM gcr.io/distroless/nodejs24-debian13:latest@sha256:10e262383ceb3a2a5f6f5ceaca5ecebe74951eff21868a055589676eec3a8001 AS run
 
 WORKDIR /app
 COPY --chown=1000:1000 --from=build /app /app
