@@ -17,8 +17,8 @@ importers:
   .:
     dependencies:
       '@atproto/pds':
-        specifier: 0.5.3
-        version: 0.5.3
+        specifier: 0.5.4
+        version: 0.5.4
     devDependencies:
       '@atproto/lex':
         specifier: ^0.1.3
@@ -150,12 +150,12 @@ packages:
     resolution: {integrity: sha512-xdFMEf5h8U9VBWwVz8R+lnUyFtvrj9vVyjPIIdboGtmaYprSJB8Xaq1uC6POsRwXWi05N6rGOBE6swemTeAFjA==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-provider-ui@0.7.2':
-    resolution: {integrity: sha512-wjt8F8qkbsDsZKXYTbW697enOzOOysCepqgnTrz15vpt7F8j+wY3yfVIoTi33iTTrSHkN1KXA+a49/yU/o2Ylg==}
+  '@atproto/oauth-provider-ui@0.7.3':
+    resolution: {integrity: sha512-fBvEquvpPawX/q1roudd17cDsTb03UMiP3jowdIT5fyGJH9t/mX0aqDEl4QxBr8rSMj3Pon8L+TZZ4MNQlY27A==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-provider@0.18.2':
-    resolution: {integrity: sha512-oP/Lc8rGRzyMYlspqgGx+21Izg931PiihKTuMBDOH1+oI/6XJy3NVxa5a7gVxveqzR9mkSklep+35mznG4eszA==}
+  '@atproto/oauth-provider@0.18.3':
+    resolution: {integrity: sha512-6ry5KKvIiBG5mb2yixOhjGlaB9qHMArwmljLAChekj7+I46+l6SSylMoWpAHCeBkxlbB1JYoeiKv6hVe0bR7xA==}
     engines: {node: '>=22'}
 
   '@atproto/oauth-scopes@0.5.0':
@@ -166,8 +166,8 @@ packages:
     resolution: {integrity: sha512-YE+HOg/4a9a6X0+75wDUoL3KQFoM8FcWlrAa/h8lZozBLddaekJUM85Vg7aW4nD59tEvXH7kBLJOS6ZpeWpxxA==}
     engines: {node: '>=22'}
 
-  '@atproto/pds@0.5.3':
-    resolution: {integrity: sha512-w45VNilbbDbzEvUH3kunTGJ9hbgiQw+9PrAIRBMWWFkUFMN5kD4qVmTVANpV+5B2JTRNMBdh4zVksKIWZThLJg==}
+  '@atproto/pds@0.5.4':
+    resolution: {integrity: sha512-XkTF2eh1y5OPWE2sjOeKp4HefDh4ZXwncTN+S4ZbLR5LOdxLXiBPtimQ6jXAjBVFP/M2/UQQ1KyLWudDM/1V4Q==}
     engines: {node: '>=22'}
 
   '@atproto/repo@0.10.0':
@@ -346,8 +346,8 @@ packages:
   '@noble/secp256k1@1.7.2':
     resolution: {integrity: sha512-/qzwYl5eFLH8OWIecQWM31qld2g1NfjgylK+TNhqtaUKP37Nm+Y+z30Fjhw0Ct8p9yCQEm2N3W/AckdIb3SMcQ==}
 
-  '@nodable/entities@2.1.1':
-    resolution: {integrity: sha512-Pig3HxDIoMgjdEH8OCf/dkcTmLFjJRjWuq8jSnklu284/TKOPibSRERmOykiwmyXTtv61mP+44f3GMx0tLAyjg==}
+  '@nodable/entities@2.2.0':
+    resolution: {integrity: sha512-9uGyhaQavEUMC8AIddIjau4NsnsXhou+j5sBAGojCM1oxmQpVKTWR/9JxABD6UAv12vpIms55fPZKFQEhG6uBg==}
 
   '@smithy/abort-controller@4.2.16':
     resolution: {integrity: sha512-YH0c/t1n8dhzz/NyIEoqoHyn4tBvrtESNRUV+ar6to4eqA3jN2OGqhe9hAicmVCokd+EC3puYXsMAG6PDZVEgg==}
@@ -1604,11 +1604,11 @@ snapshots:
       '@atproto/jwk': 0.7.0
       '@atproto/oauth-types': 0.7.1
 
-  '@atproto/oauth-provider-ui@0.7.2':
+  '@atproto/oauth-provider-ui@0.7.3':
     optionalDependencies:
       '@atproto/oauth-provider-api': 0.6.1
 
-  '@atproto/oauth-provider@0.18.2':
+  '@atproto/oauth-provider@0.18.3':
     dependencies:
       '@atproto-labs/fetch': 0.3.0
       '@atproto-labs/fetch-node': 0.3.0
@@ -1622,7 +1622,7 @@ snapshots:
       '@atproto/lex-document': 0.1.0
       '@atproto/lex-resolver': 0.1.0
       '@atproto/oauth-provider-api': 0.6.1
-      '@atproto/oauth-provider-ui': 0.7.2
+      '@atproto/oauth-provider-ui': 0.7.3
       '@atproto/oauth-scopes': 0.5.0
       '@atproto/oauth-types': 0.7.1
       '@atproto/syntax': 0.6.1
@@ -1651,7 +1651,7 @@ snapshots:
       '@atproto/jwk': 0.7.0
       zod: 3.25.76
 
-  '@atproto/pds@0.5.3':
+  '@atproto/pds@0.5.4':
     dependencies:
       '@atproto-labs/fetch-node': 0.3.0
       '@atproto-labs/simple-store': 0.4.0
@@ -1667,7 +1667,7 @@ snapshots:
       '@atproto/lex-cbor': 0.1.0
       '@atproto/lex-data': 0.1.1
       '@atproto/lex-json': 0.1.0
-      '@atproto/oauth-provider': 0.18.2
+      '@atproto/oauth-provider': 0.18.3
       '@atproto/oauth-scopes': 0.5.0
       '@atproto/repo': 0.10.0
       '@atproto/syntax': 0.6.1
@@ -2071,7 +2071,7 @@ snapshots:
 
   '@noble/secp256k1@1.7.2': {}
 
-  '@nodable/entities@2.1.1': {}
+  '@nodable/entities@2.2.0': {}
 
   '@smithy/abort-controller@4.2.16':
     dependencies:
@@ -2524,7 +2524,7 @@ snapshots:
 
   fast-xml-parser@5.7.3:
     dependencies:
-      '@nodable/entities': 2.1.1
+      '@nodable/entities': 2.2.0
       fast-xml-builder: 1.2.0
       path-expression-matcher: 1.5.0
       strnum: 2.4.0
