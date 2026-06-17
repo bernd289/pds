@@ -17,8 +17,8 @@ importers:
   .:
     dependencies:
       '@atproto/pds':
-        specifier: 0.5.5
-        version: 0.5.5
+        specifier: 0.5.6
+        version: 0.5.6
     devDependencies:
       '@atproto/lex':
         specifier: ^0.1.4
@@ -146,16 +146,16 @@ packages:
     resolution: {integrity: sha512-LVZcTr5+9Qh0okZnNmfRiIDPfbL/6rRxf4goiQxPxwDzaeUDhn4M209i1drmiitbCO1qRLJA2hHF54yNA75Cig==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-provider-api@0.6.2':
-    resolution: {integrity: sha512-51d9NhtrosbLvnyip/4iye0LfklT4DI5uh2SfG6Pt3leDZr9zOejrSR1wPDsZq2ZOwgJtCRssH95aTo3vpTdpw==}
+  '@atproto/oauth-provider-api@0.7.0':
+    resolution: {integrity: sha512-XEVUhIHQ/7ERdgShVjFAHtru0WMKTICte3A+0zWVcpispt3wdFRvy1pJLKaGjbjcQ8pTArLAoNpsp8Ga36/WUg==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-provider-ui@0.7.4':
-    resolution: {integrity: sha512-ljcAPYaUAMovsUV9UIXvaMl3xiiIdTZMqAlJrIy8ZdNgG7iH/k4vPBPwJmhdV4uzcTixyzdpsJd5VGwoclwEQg==}
+  '@atproto/oauth-provider-ui@0.8.0':
+    resolution: {integrity: sha512-2IjOaEeFe2CMycEjmvgc/wRM27QPzfxApS42BfTabG/MjBELAm6X3XrI6oMJ8xQzYJMz7D6IsBCYLXxnPZJcWA==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-provider@0.18.4':
-    resolution: {integrity: sha512-2/c48lrREo21iUuTglXSYJA09JYib1q3lI5npxuGxAvoabHKDK6o8tySdfVQTna3xPP1xUw6o4FHixthzCuZ9A==}
+  '@atproto/oauth-provider@0.19.0':
+    resolution: {integrity: sha512-Udc1MxBPi2gfxSaucH8oG3SNOIcMBLlFjnInRL2SWg2LXF1v4VuDFP5u/31KUlRJNbifrN2cBgr6X1xnMV2GYw==}
     engines: {node: '>=22'}
 
   '@atproto/oauth-scopes@0.5.1':
@@ -166,8 +166,8 @@ packages:
     resolution: {integrity: sha512-NEFoAv075N7nqqLGvJxNz3cfIvH443DAaVp2TnVDJkFip3NSdjvigRVELYcqPUyOmnCVCe/5Wob3jxBFod0ucw==}
     engines: {node: '>=22'}
 
-  '@atproto/pds@0.5.5':
-    resolution: {integrity: sha512-bDdAtMD0VuYqnGDAKOJ58hsuCm1dVZJ3fEfSAahlosI8GNY+BjzDz3TZj8HLgN3gn+XDCeG9ZMpQ9MQhthMrMA==}
+  '@atproto/pds@0.5.6':
+    resolution: {integrity: sha512-6PHdsC12TjLZxOmEz6uWFsZU90f0ic8p7t66LdkoflpHoOU1GKTzn3dUDxZg6jc8B4/W/bdmi2q6rwXAGgnujw==}
     engines: {node: '>=22'}
 
   '@atproto/repo@0.10.1':
@@ -909,9 +909,9 @@ packages:
   key-encoder@2.0.3:
     resolution: {integrity: sha512-fgBtpAGIr/Fy5/+ZLQZIPPhsZEcbSlYu/Wu96tNDFNSjSACw5lEIOFeaVdQ/iwrb8oxjlWi6wmWdH76hV6GZjg==}
 
-  kysely@0.22.0:
-    resolution: {integrity: sha512-ZE3qWtnqLOalodzfK5QUEcm7AEulhxsPNuKaGFsC3XiqO92vMLm+mAHk/NnbSIOtC4RmGm0nsv700i8KDp1gfQ==}
-    engines: {node: '>=14.0.0'}
+  kysely@0.29.2:
+    resolution: {integrity: sha512-s6WVJyEZrbm6jhBpiKHsGHyePMrVQKJ85wZCFCr9W4QHv6WTjWIrdvTmO9hDEA3bNK0xkrE2DqrHsXMLWuZpQg==}
+    engines: {node: '>=22.0.0'}
 
   lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
@@ -1599,16 +1599,17 @@ snapshots:
       multiformats: 13.4.2
       zod: 3.25.76
 
-  '@atproto/oauth-provider-api@0.6.2':
+  '@atproto/oauth-provider-api@0.7.0':
     dependencies:
       '@atproto/jwk': 0.7.1
       '@atproto/oauth-types': 0.7.2
+      '@atproto/syntax': 0.6.2
 
-  '@atproto/oauth-provider-ui@0.7.4':
+  '@atproto/oauth-provider-ui@0.8.0':
     optionalDependencies:
-      '@atproto/oauth-provider-api': 0.6.2
+      '@atproto/oauth-provider-api': 0.7.0
 
-  '@atproto/oauth-provider@0.18.4':
+  '@atproto/oauth-provider@0.19.0':
     dependencies:
       '@atproto-labs/fetch': 0.3.1
       '@atproto-labs/fetch-node': 0.3.1
@@ -1621,8 +1622,8 @@ snapshots:
       '@atproto/jwk-jose': 0.2.1
       '@atproto/lex-document': 0.1.1
       '@atproto/lex-resolver': 0.1.1
-      '@atproto/oauth-provider-api': 0.6.2
-      '@atproto/oauth-provider-ui': 0.7.4
+      '@atproto/oauth-provider-api': 0.7.0
+      '@atproto/oauth-provider-ui': 0.8.0
       '@atproto/oauth-scopes': 0.5.1
       '@atproto/oauth-types': 0.7.2
       '@atproto/syntax': 0.6.2
@@ -1651,7 +1652,7 @@ snapshots:
       '@atproto/jwk': 0.7.1
       zod: 3.25.76
 
-  '@atproto/pds@0.5.5':
+  '@atproto/pds@0.5.6':
     dependencies:
       '@atproto-labs/fetch-node': 0.3.1
       '@atproto-labs/simple-store': 0.4.1
@@ -1667,7 +1668,7 @@ snapshots:
       '@atproto/lex-cbor': 0.1.1
       '@atproto/lex-data': 0.1.2
       '@atproto/lex-json': 0.1.1
-      '@atproto/oauth-provider': 0.18.4
+      '@atproto/oauth-provider': 0.19.0
       '@atproto/oauth-scopes': 0.5.1
       '@atproto/repo': 0.10.1
       '@atproto/syntax': 0.6.2
@@ -1688,7 +1689,7 @@ snapshots:
       ioredis: 5.11.1
       jose: 5.10.0
       key-encoder: 2.0.3
-      kysely: 0.22.0
+      kysely: 0.29.2
       nodemailer: 8.0.11
       nodemailer-html-to-text: 3.2.0
       p-queue: 8.1.1
@@ -2708,7 +2709,7 @@ snapshots:
       bn.js: 5.2.3
       elliptic: 6.6.1
 
-  kysely@0.22.0: {}
+  kysely@0.29.2: {}
 
   lru-cache@10.4.3: {}
 
