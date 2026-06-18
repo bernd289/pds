@@ -7,7 +7,7 @@ settings:
 overrides:
   '@types/node': ^24
   undici: ^7
-  nodemailer: ^8
+  nodemailer: ^9
   glob: ^13
   node-abi: ^4
   bn.js: ^5
@@ -1010,8 +1010,8 @@ packages:
     resolution: {integrity: sha512-RJUC6640QV1PzTHHapOrc6IzrAJUZtk2BdVdINZ9VTLm+mcQNyBO9LYyhrnufkzqiD9l8hPLJ97rSyK4WanPNg==}
     engines: {node: '>= 10.23.0'}
 
-  nodemailer@8.0.11:
-    resolution: {integrity: sha512-nrO/pDAUKl+wXX+lx16tDLbnm0fW6sK/x8mgohaCpg+CdCEl482bD4tCuAZk2DyliruiNTIZxRCoWkDqJEnAiA==}
+  nodemailer@9.0.1:
+    resolution: {integrity: sha512-Gwv8SQewT616ZM/URn0H54b8PWo/Wum7md3EW2aWy1lO27+WZCX+Xyak3J+NlmHUjDh5ME+uesJUDRbR3Ye8Bw==}
     engines: {node: '>=6.0.0'}
 
   object-assign@4.1.1:
@@ -1690,7 +1690,7 @@ snapshots:
       jose: 5.10.0
       key-encoder: 2.0.3
       kysely: 0.29.2
-      nodemailer: 8.0.11
+      nodemailer: 9.0.1
       nodemailer-html-to-text: 3.2.0
       p-queue: 8.1.1
       pino: 8.21.0
@@ -2773,7 +2773,7 @@ snapshots:
     dependencies:
       html-to-text: 7.1.1
 
-  nodemailer@8.0.11: {}
+  nodemailer@9.0.1: {}
 
   object-assign@4.1.1: {}
 
