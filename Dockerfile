@@ -20,7 +20,7 @@ ENV NODE_ENV=production \
 HEALTHCHECK --interval=30s --timeout=30s --start-period=30s --retries=3 \
     CMD ["node", "-e", "require('http').get('http://localhost:3000/xrpc/_health', (res) => process.exit(res.statusCode === 200 ? 0 : 1)).on('error', () => process.exit(1))"]
 
-CMD ["node", "--enable-source-maps", "index.ts"]
+CMD ["node", "index.ts"]
 
 LABEL org.opencontainers.image.source=https://github.com/bernd289/pds \
       org.opencontainers.image.description="AT Protocol PDS" \
