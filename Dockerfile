@@ -1,4 +1,4 @@
-FROM node:24-trixie-slim@sha256:287c662bed62f3c7b68ea68544814eaff9d7ed2254d2fc9627f2df5957bb7401 AS build
+FROM node:24-alpine3.24@sha256:156b55f92e98ccd5ef49578a8cea0df4679826564bad1c9d4ef04462b9f0ded6 AS build
 
 WORKDIR /app
 COPY ./service ./
@@ -7,11 +7,11 @@ RUN npm i -g pnpm@11 && \
     npm i -g sfw && \
     sfw pnpm install --production --frozen-lockfile
 
-FROM gcr.io/distroless/nodejs24-debian13:latest@sha256:10e262383ceb3a2a5f6f5ceaca5ecebe74951eff21868a055589676eec3a8001 AS run
+FROM node:24-alpine3.24@sha256:156b55f92e98ccd5ef49578a8cea0df4679826564bad1c9d4ef04462b9f0ded6 AS run
 
 WORKDIR /app
-COPY --chown=1000:1000 --from=build /app /app
-USER 1000:1000
+COPY --chown=node:node --from=build /app /app
+USER node:node
 
 EXPOSE 3000
 
@@ -19,7 +19,7 @@ ENV NODE_ENV=production \
     PDS_PORT=3000
 
 HEALTHCHECK --interval=30s --timeout=30s --start-period=30s --retries=3 \
-    CMD ["/nodejs/bin/node", "-e", "require('http').get('http://localhost:3000/xrpc/_health', (res) => process.exit(res.statusCode === 200 ? 0 : 1)).on('error', () => process.exit(1))"]
+    CMD ["node", "-e", "require('http').get('http://localhost:3000/xrpc/_health', (res) => process.exit(res.statusCode === 200 ? 0 : 1)).on('error', () => process.exit(1))"]
 
 CMD ["index.ts"]
 
