@@ -4,7 +4,7 @@ WORKDIR /app
 COPY ./service ./
 
 RUN wget -O /usr/local/bin/sfw \
-      https://github.com/SocketDev/sfw-free/releases/download/v1.12.0/sfw-free-musl-linux-x86_64 \
+      https://github.com/SocketDev/sfw-free/releases/latest/download/sfw-free-musl-linux-x86_64 \
  && chmod +x /usr/local/bin/sfw \
  && npm i -g pnpm@11 \
  && sfw pnpm install --production --frozen-lockfile
