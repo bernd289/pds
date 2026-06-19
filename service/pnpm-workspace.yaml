@@ -1,7 +1,7 @@
 overrides:
   '@types/node': '^24'
   nodemailer: '^9'
-  glob: '^13'
+  glob: npm:tinyglobby@latest
 
 neverBuiltDependencies: []
 
