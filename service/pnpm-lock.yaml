@@ -14,8 +14,8 @@ importers:
   .:
     dependencies:
       '@atproto/pds':
-        specifier: 0.5.7
-        version: 0.5.7
+        specifier: 0.5.8
+        version: 0.5.8
     devDependencies:
       '@atproto/lex':
         specifier: ^0.1.4
@@ -151,8 +151,8 @@ packages:
     resolution: {integrity: sha512-rUK5kS8YMns3mM+Eowqa4O0SxQCwxwBwRiurK+J1b3F7nVr6f09LEIo+mcF/EkAJQvwhDnMOHxbV+HX4MzZvxQ==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-provider@0.19.1':
-    resolution: {integrity: sha512-wRLYd93EmXdT2W4ebwbUrC34Era3x4o002trXzzbKDrD15t54n11CJtOK/AhyLOgrHrJGtB0+A/zIIkQToQpow==}
+  '@atproto/oauth-provider@0.19.2':
+    resolution: {integrity: sha512-GXXnTdAcI1KlwjU8CFdTYWb+Qt04DG8QZ5pbCtqFbalhN+TA/MvP77rpkp2gZx5QP2LtQCaHuAo+TyJOovZMew==}
     engines: {node: '>=22'}
 
   '@atproto/oauth-scopes@0.5.1':
@@ -163,8 +163,8 @@ packages:
     resolution: {integrity: sha512-NEFoAv075N7nqqLGvJxNz3cfIvH443DAaVp2TnVDJkFip3NSdjvigRVELYcqPUyOmnCVCe/5Wob3jxBFod0ucw==}
     engines: {node: '>=22'}
 
-  '@atproto/pds@0.5.7':
-    resolution: {integrity: sha512-3vPvFljlbnPdl//bN6497gIFqNgn/PZo5i82/P6xR+qsZAsGcEvJSdzGUsuDfSgL9Ccz32PnAnIUKthtQnglAw==}
+  '@atproto/pds@0.5.8':
+    resolution: {integrity: sha512-A2y8B+szP2IZEfOpVeeOe5ZoG4GtJvQp4vVdDOusSyJObCgmgemAQlz3cIU8UWX7b3+dPx0Q7bNL7QSJ7cdssg==}
     engines: {node: '>=22'}
 
   '@atproto/repo@0.10.1':
@@ -1566,7 +1566,7 @@ snapshots:
     optionalDependencies:
       '@atproto/oauth-provider-api': 0.7.0
 
-  '@atproto/oauth-provider@0.19.1':
+  '@atproto/oauth-provider@0.19.2':
     dependencies:
       '@atproto-labs/fetch': 0.3.1
       '@atproto-labs/fetch-node': 0.3.2
@@ -1609,7 +1609,7 @@ snapshots:
       '@atproto/jwk': 0.7.1
       zod: 3.25.76
 
-  '@atproto/pds@0.5.7':
+  '@atproto/pds@0.5.8':
     dependencies:
       '@atproto-labs/fetch-node': 0.3.2
       '@atproto-labs/simple-store': 0.4.1
@@ -1625,7 +1625,7 @@ snapshots:
       '@atproto/lex-cbor': 0.1.1
       '@atproto/lex-data': 0.1.2
       '@atproto/lex-json': 0.1.1
-      '@atproto/oauth-provider': 0.19.1
+      '@atproto/oauth-provider': 0.19.2
       '@atproto/oauth-scopes': 0.5.1
       '@atproto/repo': 0.10.1
       '@atproto/syntax': 0.6.2
