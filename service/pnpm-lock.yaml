@@ -151,8 +151,8 @@ packages:
     resolution: {integrity: sha512-rUK5kS8YMns3mM+Eowqa4O0SxQCwxwBwRiurK+J1b3F7nVr6f09LEIo+mcF/EkAJQvwhDnMOHxbV+HX4MzZvxQ==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-provider@0.19.2':
-    resolution: {integrity: sha512-GXXnTdAcI1KlwjU8CFdTYWb+Qt04DG8QZ5pbCtqFbalhN+TA/MvP77rpkp2gZx5QP2LtQCaHuAo+TyJOovZMew==}
+  '@atproto/oauth-provider@0.19.3':
+    resolution: {integrity: sha512-iaZVfD2NdmVss0grB3URHzjBm0AYPoYRN+bIAgVvpg5Xjl5VW8R83EFOpOqO5thIBV3xKN9SE0EHQfDOfF5HVA==}
     engines: {node: '>=22'}
 
   '@atproto/oauth-scopes@0.5.1':
@@ -1566,7 +1566,7 @@ snapshots:
     optionalDependencies:
       '@atproto/oauth-provider-api': 0.7.0
 
-  '@atproto/oauth-provider@0.19.2':
+  '@atproto/oauth-provider@0.19.3':
     dependencies:
       '@atproto-labs/fetch': 0.3.1
       '@atproto-labs/fetch-node': 0.3.2
@@ -1625,7 +1625,7 @@ snapshots:
       '@atproto/lex-cbor': 0.1.1
       '@atproto/lex-data': 0.1.2
       '@atproto/lex-json': 0.1.1
-      '@atproto/oauth-provider': 0.19.2
+      '@atproto/oauth-provider': 0.19.3
       '@atproto/oauth-scopes': 0.5.1
       '@atproto/repo': 0.10.1
       '@atproto/syntax': 0.6.2
