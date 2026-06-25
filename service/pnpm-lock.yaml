@@ -14,8 +14,8 @@ importers:
   .:
     dependencies:
       '@atproto/pds':
-        specifier: 0.5.9
-        version: 0.5.9
+        specifier: 0.5.10
+        version: 0.5.10
     devDependencies:
       '@atproto/lex':
         specifier: ^0.1.5
@@ -151,8 +151,8 @@ packages:
     resolution: {integrity: sha512-RiGvkX3w2DM4MyLe6iwxMCMlg2/i/LulhZUMLfT4YJoFvN2KCogWJyz0Iwqrw7Pv6uwaqpbzBKJbPom0y7NLSA==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-provider@0.19.5':
-    resolution: {integrity: sha512-7gEUzvMqa2NT/grh2h1tZ6iveBIfETtRAZtqSDkSaAR/zJIKxLE3G8oC1N8iZ0NnZfrOtudktx1YRw5rXkr+vA==}
+  '@atproto/oauth-provider@0.19.6':
+    resolution: {integrity: sha512-d75mP+1fMebWznkiQGUprmy2DLBWPPmI5PgY11+zXCZUXLycUsj6lTP6l/i0l2B65bRE2FyXNV79rISPUKtK5A==}
     engines: {node: '>=22'}
 
   '@atproto/oauth-scopes@0.5.2':
@@ -163,8 +163,8 @@ packages:
     resolution: {integrity: sha512-ndtwZQDawNLG6UBeJ31oXbtcITFbR+h48vAvyLs1FyZcXX6tEHniuG2Sd+4sUsrzHAMS/PGAEjUpTijObQIXzw==}
     engines: {node: '>=22'}
 
-  '@atproto/pds@0.5.9':
-    resolution: {integrity: sha512-scHa3kmKCQhraMyf8CenX0HEF6QD4GVufflB3D1B8AjOdAQQY5Ay+TGPaYBXqSUFLl0oEKe//tWWU5DyUZmN5A==}
+  '@atproto/pds@0.5.10':
+    resolution: {integrity: sha512-XY/P4NeE7+msZ4q2dreSsYwFV7xYfPBuo8lMrjNgu3NsoJXfXxchKtgTg5SDD746ZXdkGMdVTCaMpdtA9RazhQ==}
     engines: {node: '>=22'}
 
   '@atproto/repo@0.10.2':
@@ -1602,7 +1602,7 @@ snapshots:
     optionalDependencies:
       '@atproto/oauth-provider-api': 0.7.2
 
-  '@atproto/oauth-provider@0.19.5':
+  '@atproto/oauth-provider@0.19.6':
     dependencies:
       '@atproto-labs/fetch': 0.3.2
       '@atproto-labs/fetch-node': 0.3.3
@@ -1645,7 +1645,7 @@ snapshots:
       '@atproto/jwk': 0.7.2
       zod: 3.25.76
 
-  '@atproto/pds@0.5.9':
+  '@atproto/pds@0.5.10':
     dependencies:
       '@atproto-labs/fetch-node': 0.3.3
       '@atproto-labs/simple-store': 0.4.2
@@ -1661,7 +1661,7 @@ snapshots:
       '@atproto/lex-cbor': 0.1.2
       '@atproto/lex-data': 0.1.3
       '@atproto/lex-json': 0.1.2
-      '@atproto/oauth-provider': 0.19.5
+      '@atproto/oauth-provider': 0.19.6
       '@atproto/oauth-scopes': 0.5.2
       '@atproto/repo': 0.10.2
       '@atproto/syntax': 0.6.3
