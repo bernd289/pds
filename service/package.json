@@ -7,10 +7,10 @@
   "main": "index.ts",
   "license": "MIT",
   "dependencies": {
-    "@atproto/pds": "0.5.11"
+    "@atproto/pds": "0.5.12"
   },
   "devDependencies": {
-    "@atproto/lex": "^0.1.5",
+    "@atproto/lex": "^0.1.6",
     "@types/express": "^5.0.6"
   }
 }
