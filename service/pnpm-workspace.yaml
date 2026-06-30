@@ -1,5 +1,5 @@
 overrides:
-  '@types/node': '^24'
+  '@types/node': '^26'
   nodemailer: '^9'
   glob: npm:tinyglobby@latest
 
