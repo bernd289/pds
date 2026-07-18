@@ -837,8 +837,8 @@ packages:
   key-encoder@2.0.3:
     resolution: {integrity: sha512-fgBtpAGIr/Fy5/+ZLQZIPPhsZEcbSlYu/Wu96tNDFNSjSACw5lEIOFeaVdQ/iwrb8oxjlWi6wmWdH76hV6GZjg==}
 
-  kysely@0.29.3:
-    resolution: {integrity: sha512-VHtBdW6XB/pgoTSqraM3UAa2rYoYdNXqnNPpX+8XXP+cwYbVEFuAp3HyPt1vpNfU9l7Y2kpUrA9QDPsy8uUqOQ==}
+  kysely@0.29.4:
+    resolution: {integrity: sha512-y5mVgQNkMbs1eK9Xyc0pmNdabN2wHhRYY/5r4W5HrUT1rYCEPeVNSj1RUJeSDKT3U0p+mXCvLgkrFuIafYI6BA==}
     engines: {node: '>=22.0.0'}
 
   lru-cache@10.4.3:
@@ -1625,7 +1625,7 @@ snapshots:
       ioredis: 5.11.1
       jose: 5.10.0
       key-encoder: 2.0.3
-      kysely: 0.29.3
+      kysely: 0.29.4
       nodemailer: 9.0.3
       nodemailer-html-to-text: 3.2.0
       p-queue: 8.1.1
@@ -2524,7 +2524,7 @@ snapshots:
       bn.js: 4.12.5
       elliptic: 6.6.1
 
-  kysely@0.29.3: {}
+  kysely@0.29.4: {}
 
   lru-cache@10.4.3: {}
 
