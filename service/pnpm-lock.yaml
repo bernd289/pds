@@ -15,7 +15,7 @@ importers:
     dependencies:
       '@atproto/pds':
         specifier: 0.5.19
-        version: 0.5.19
+        version: 0.5.19(debug@4.4.3)
     devDependencies:
       '@atproto/lex':
         specifier: ^0.3.0
@@ -191,16 +191,16 @@ packages:
     resolution: {integrity: sha512-IImkbEyXdV6/uaF5r6Wkk+8718mQw1ll83j0a4a30R3JM/rHVFdWAiT4jtJpFjJiIwM/oJ6SxIxr0z2TaQUGqw==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-cloudfront@3.1089.0':
-    resolution: {integrity: sha512-p9mX8VjvjlV65HEHgdH37Xkvo7ObxFvTA1SeRtSIW+YKEUgkeIq8L0pN/ARayraAWF1uNxLs02JxwH9FuGaazQ==}
+  '@aws-sdk/client-cloudfront@3.1090.0':
+    resolution: {integrity: sha512-dNo7RTDHKKKRT/d9O7jUtZR0d6Dz9LlMOu27eJ/B8ADZMDxDx3UbrihqI2y97CaqGhj6foIFfi4n7yu+hiOHrA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-kms@3.1089.0':
-    resolution: {integrity: sha512-65zOkcR+nh5XTnSqtpDlNJv2B/AHqqz9MF+7P7x83LJXpMzWE779nOdpRk1Wz53Mila7wS05KYqOaHMoGyQ1SQ==}
+  '@aws-sdk/client-kms@3.1090.0':
+    resolution: {integrity: sha512-Lc3mbnvyzqJ/vdsyRG7FJpUtjr717zTRQtN0R50YlQBnXMccCdf7cCG9urCifn3vdwQwSoQ4lWNhDQyAFtteWA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-s3@3.1089.0':
-    resolution: {integrity: sha512-Sc+JOtNeP+v+XdP9Rb4Hh+uhiNO2hh/CZQbKYooNakhOIgK6/K0cjoDCEGeFmkG0vf2DopTmSctzKlcKwy1BPw==}
+  '@aws-sdk/client-s3@3.1090.0':
+    resolution: {integrity: sha512-R6GX9cd1jljwzZ8xFmgAI/hHCuX1MobIKBdsymv7WL9SENvO9Vgz9KOR6avTnu0Ao+w1LmxnTe+jqmZXEn7Q/Q==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.975.3':
@@ -239,11 +239,11 @@ packages:
     resolution: {integrity: sha512-gHQb/Kt0chjk/JQDa/GJDqmAvEuVn8n7z10wK2h0LFM9TUDRkohgOO4aEF+s2sBLM0br7Cl5W6P7phgjrrJvLQ==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/lib-storage@3.1089.0':
-    resolution: {integrity: sha512-Ly0bsr49in42ZRtnRbwaBo/0xv7kCWSu1/qT9V56s9JGsunJzzmTIFlvz7dwy6ISK/Dh3mFc5vrO91sj3G3YhQ==}
+  '@aws-sdk/lib-storage@3.1090.0':
+    resolution: {integrity: sha512-b3KVOQnhHK30J9ZjUwKvB9Ka0ly06HywRQsZzIxSe7MGhKmFpPIGe61WF+OaLPoZmOQ4VOxZeEdgWE0G3HgJxw==}
     engines: {node: '>=20.0.0'}
     peerDependencies:
-      '@aws-sdk/client-s3': ^3.1089.0
+      '@aws-sdk/client-s3': ^3.1090.0
 
   '@aws-sdk/middleware-sdk-s3@3.972.64':
     resolution: {integrity: sha512-RBi43anhDBUv+HCfxCOXwGOE7GmT4n7ChV04Mwr22RhXTNcamW/iWnJlOotDPCZSrJ4dEvhZSiWWQMwLX+ZhFA==}
@@ -1386,10 +1386,10 @@ snapshots:
       '@atproto/common-web': 0.5.6
       '@atproto/crypto': 0.5.4
       '@atproto/repo': 0.10.6
-      '@aws-sdk/client-cloudfront': 3.1089.0
-      '@aws-sdk/client-kms': 3.1089.0
-      '@aws-sdk/client-s3': 3.1089.0
-      '@aws-sdk/lib-storage': 3.1089.0(@aws-sdk/client-s3@3.1089.0)
+      '@aws-sdk/client-cloudfront': 3.1090.0
+      '@aws-sdk/client-kms': 3.1090.0
+      '@aws-sdk/client-s3': 3.1090.0
+      '@aws-sdk/lib-storage': 3.1090.0(@aws-sdk/client-s3@3.1090.0)
       '@noble/curves': 1.9.7
       key-encoder: 2.0.3
       multiformats: 13.4.2
@@ -1588,7 +1588,7 @@ snapshots:
       '@atproto/jwk': 0.7.4
       zod: 3.25.76
 
-  '@atproto/pds@0.5.19':
+  '@atproto/pds@0.5.19(debug@4.4.3)':
     dependencies:
       '@atproto-labs/fetch-node': 0.3.5
       '@atproto-labs/simple-store': 0.4.4
@@ -1610,7 +1610,7 @@ snapshots:
       '@atproto/syntax': 0.7.2
       '@atproto/xrpc': 0.8.6
       '@atproto/xrpc-server': 0.11.10
-      '@did-plc/lib': 0.0.4
+      '@did-plc/lib': 0.0.4(debug@4.4.3)
       '@hapi/address': 5.1.1
       better-sqlite3: 12.11.1
       compression: 1.8.1
@@ -1700,7 +1700,7 @@ snapshots:
       '@smithy/types': 4.16.1
       tslib: 2.8.1
 
-  '@aws-sdk/client-cloudfront@3.1089.0':
+  '@aws-sdk/client-cloudfront@3.1090.0':
     dependencies:
       '@aws-sdk/core': 3.975.3
       '@aws-sdk/credential-provider-node': 3.972.70
@@ -1711,7 +1711,7 @@ snapshots:
       '@smithy/types': 4.16.1
       tslib: 2.8.1
 
-  '@aws-sdk/client-kms@3.1089.0':
+  '@aws-sdk/client-kms@3.1090.0':
     dependencies:
       '@aws-sdk/core': 3.975.3
       '@aws-sdk/credential-provider-node': 3.972.70
@@ -1722,7 +1722,7 @@ snapshots:
       '@smithy/types': 4.16.1
       tslib: 2.8.1
 
-  '@aws-sdk/client-s3@3.1089.0':
+  '@aws-sdk/client-s3@3.1090.0':
     dependencies:
       '@aws-sdk/checksums': 3.1000.18
       '@aws-sdk/core': 3.975.3
@@ -1831,9 +1831,9 @@ snapshots:
       '@smithy/types': 4.16.1
       tslib: 2.8.1
 
-  '@aws-sdk/lib-storage@3.1089.0(@aws-sdk/client-s3@3.1089.0)':
+  '@aws-sdk/lib-storage@3.1090.0(@aws-sdk/client-s3@3.1090.0)':
     dependencies:
-      '@aws-sdk/client-s3': 3.1089.0
+      '@aws-sdk/client-s3': 3.1090.0
       '@smithy/core': 3.29.5
       '@smithy/types': 4.16.1
       buffer: 5.6.0
@@ -1889,12 +1889,12 @@ snapshots:
 
   '@aws/lambda-invoke-store@0.3.0': {}
 
-  '@did-plc/lib@0.0.4':
+  '@did-plc/lib@0.0.4(debug@4.4.3)':
     dependencies:
       '@atproto/common': 0.1.1
       '@atproto/crypto': 0.1.0
       '@ipld/dag-cbor': 7.0.3
-      axios: 1.18.1
+      axios: 1.18.1(debug@4.4.3)
       multiformats: 9.9.0
       uint8arrays: 3.0.0
       zod: 3.25.76
@@ -2064,9 +2064,9 @@ snapshots:
 
   atomic-sleep@1.0.0: {}
 
-  axios@1.18.1:
+  axios@1.18.1(debug@4.4.3):
     dependencies:
-      follow-redirects: 1.16.0
+      follow-redirects: 1.16.0(debug@4.4.3)
       form-data: 4.0.6
       https-proxy-agent: 5.0.1
       proxy-from-env: 2.1.0
@@ -2375,7 +2375,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  follow-redirects@1.16.0: {}
+  follow-redirects@1.16.0(debug@4.4.3):
+    optionalDependencies:
+      debug: 4.4.3
 
   form-data@4.0.6:
     dependencies:
