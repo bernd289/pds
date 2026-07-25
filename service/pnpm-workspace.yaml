@@ -10,6 +10,8 @@ minimumReleaseAgeExclude:
   - '@atproto/*'
   - '@bsky.app/*'
   - '@atproto-labs/*'
+  - '@aws-sdk/*'
+  - '@smithy/*'
 
 allowBuilds:
   better-sqlite3: true
