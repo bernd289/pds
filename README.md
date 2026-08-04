@@ -6,6 +6,6 @@ You should not rely on this code or Docker image in production or for any critic
 
 ### Changes in this fork of https://github.com/bluesky-social/pds
 - always the newest PDS and other deps
-- [Socket Firewall](https://socket.dev/blog/introducing-socket-firewall)
+- based on [Docker Hardened Images](https://www.docker.com/blog/docker-hardened-images-for-every-developer) + [Socket Firewall](https://socket.dev/blog/socket-firewall-now-available-in-docker-hardened-images)
 - I prefer using [goat](https://github.com/bluesky-social/goat) on the host system instead of including it in the cointainer
 - few other little things
