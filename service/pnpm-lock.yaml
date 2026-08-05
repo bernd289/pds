@@ -191,16 +191,16 @@ packages:
     resolution: {integrity: sha512-CGznePoL+1oWCSzqmkvlYMpWQEZohPR3LntjKXXfVH+oh6Kd8d+yHLkjpiAGwPIHAxFe4OAq3aKfRnv/wqWIyA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-cloudfront@3.1103.0':
-    resolution: {integrity: sha512-WjqHLohn8OnSpBrTTE2pen7w7BvWKQ1dmSzCTKjwZACqh0v6IbtK/B4pWWsnCBPtTEf+j+hm5DtySFf4N0JmHQ==}
+  '@aws-sdk/client-cloudfront@3.1104.0':
+    resolution: {integrity: sha512-dMUB4lCDuiceexvrEivTJAm8Pat6QuIorlLO3IwC2h8TRX/X460LDIosfduFXoIegv1HJ6XbrdVjmMBvO2v/xQ==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-kms@3.1103.0':
-    resolution: {integrity: sha512-gYdlyiASPS3Zu9a9jpJlKfEw3FGD4CB8lnuvUTpio1xmboltQjbnaTZ7JR12raiPcv51ODFfES1sUT+QXu3+Fw==}
+  '@aws-sdk/client-kms@3.1104.0':
+    resolution: {integrity: sha512-nAf/oxiYsyVwkMk793I6yrye5BFcnJmbLEXTG79yt+VENdFPSZKAVk4myWmU/0M2dKEj+VTxY8KQHFbsOtW5yg==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-s3@3.1103.0':
-    resolution: {integrity: sha512-FO7SB2vLhZRN3lBHVhMhRm3YKSHK8e917qjB8LMEEhU69cQ0Ahd/OMyezu+KqNANqEtyxfSnFVvYt81x6ZKGZA==}
+  '@aws-sdk/client-s3@3.1104.0':
+    resolution: {integrity: sha512-YCAVqUokR7KwpU8EZaciZhM7M3f2SirT8NJ/BgAy5qfycIuqRTXGXVbeJEdMg+Zk8BZscOHaiDoED2s/4SO8mA==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.977.6':
@@ -1406,10 +1406,10 @@ snapshots:
       '@atproto/common-web': 0.5.8
       '@atproto/crypto': 0.5.4
       '@atproto/repo': 0.10.8
-      '@aws-sdk/client-cloudfront': 3.1103.0
-      '@aws-sdk/client-kms': 3.1103.0
-      '@aws-sdk/client-s3': 3.1103.0
-      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1103.0)
+      '@aws-sdk/client-cloudfront': 3.1104.0
+      '@aws-sdk/client-kms': 3.1104.0
+      '@aws-sdk/client-s3': 3.1104.0
+      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1104.0)
       '@noble/curves': 1.9.7
       key-encoder: 2.0.3
       multiformats: 13.4.2
@@ -1719,7 +1719,7 @@ snapshots:
       '@smithy/types': 4.16.1
       tslib: 2.8.1
 
-  '@aws-sdk/client-cloudfront@3.1103.0':
+  '@aws-sdk/client-cloudfront@3.1104.0':
     dependencies:
       '@aws-sdk/core': 3.977.6
       '@aws-sdk/credential-provider-node': 3.972.78
@@ -1730,7 +1730,7 @@ snapshots:
       '@smithy/types': 4.16.1
       tslib: 2.8.1
 
-  '@aws-sdk/client-kms@3.1103.0':
+  '@aws-sdk/client-kms@3.1104.0':
     dependencies:
       '@aws-sdk/core': 3.977.6
       '@aws-sdk/credential-provider-node': 3.972.78
@@ -1741,7 +1741,7 @@ snapshots:
       '@smithy/types': 4.16.1
       tslib: 2.8.1
 
-  '@aws-sdk/client-s3@3.1103.0':
+  '@aws-sdk/client-s3@3.1104.0':
     dependencies:
       '@aws-sdk/checksums': 3.1000.26
       '@aws-sdk/core': 3.977.6
@@ -1850,9 +1850,9 @@ snapshots:
       '@smithy/types': 4.16.1
       tslib: 2.8.1
 
-  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1103.0)':
+  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1104.0)':
     dependencies:
-      '@aws-sdk/client-s3': 3.1103.0
+      '@aws-sdk/client-s3': 3.1104.0
       '@smithy/abort-controller': 4.3.3
       '@smithy/middleware-endpoint': 4.6.16
       '@smithy/smithy-client': 4.14.16
