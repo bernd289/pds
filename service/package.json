@@ -7,10 +7,10 @@
   "main": "index.ts",
   "license": "MIT",
   "dependencies": {
-    "@atproto/pds": "0.5.24"
+    "@atproto/pds": "0.5.25"
   },
   "devDependencies": {
-    "@atproto/lex": "^0.3.3",
+    "@atproto/lex": "^0.3.4",
     "@types/express": "^5.0.6"
   },
   "packageManager": "pnpm@11.20.0+sha512.9a6f330a95b66446ea088faf1521405a8a01f07fde7124cc9958dfed52d4bb436737e65b08f85f37b46fcba375092558ac51262b816844b22f63406ed166bfee"
