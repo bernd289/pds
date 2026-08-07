@@ -1,72 +1,59 @@
-import type { Request, Response } from "express";
-import type { AtIdentifierString } from "@atproto/lex";
-import { PDS, httpLogger } from "@atproto/pds";
+import type { AtIdentifierString } from '@atproto/lex'
+import { PDS, httpLogger } from '@atproto/pds'
+import type { Request, Response } from 'express'
 
 void PDS.run({
-  onCreated(pds) {
-    pds.app.get("/tls-check", async (req, res) => {
-      await checkHandleRoute(pds, req, res);
-    });
-  },
-}).catch((err) => {
-  // Do not propagate the error to Node's UnhandledRejection handler,
-  // so telemetry still has a chance to flush.
-  console.error("PDS failed to start:", err);
-  process.exitCode = 1;
-
-  // Last-resort exit in case resources were not properly cleaned up.
-  setTimeout(() => process.exit(process.exitCode || 1), 5000).unref();
-});
-
-async function checkHandleRoute(
-  pds: PDS,
-  req: Request,
-  res: Response,
-): Promise<Response> {
-  try {
-    const { domain } = req.query;
-
-    if (!domain || typeof domain !== "string") {
-      return res.status(400).json({
-        error: "InvalidRequest",
-        message: "bad or missing domain query param",
-      });
-    }
-
-    if (domain === pds.ctx.cfg.service.hostname) {
-      return res.json({ success: true });
-    }
-
-    const isHostedHandle =
-      pds.ctx.cfg.identity.serviceHandleDomains.find((availableDomain) =>
-        domain.endsWith(availableDomain),
-      );
-
-    if (!isHostedHandle) {
-      return res.status(400).json({
-        error: "InvalidRequest",
-        message: "handles are not provided on this domain",
-      });
-    }
-
-    const account = await pds.ctx.accountManager.getAccount(
-      domain as AtIdentifierString,
-    );
-
-    if (!account) {
-      return res.status(404).json({
-        error: "NotFound",
-        message: "handle not found for this domain",
-      });
-    }
-
-    return res.json({ success: true });
-  } catch (err) {
-    httpLogger.error({ err }, "check handle failed");
-
-    return res.status(500).json({
-      error: "InternalServerError",
-      message: "Internal Server Error",
-    });
+  onCreated: (pds) => {
+    pds.app.get('/tls-check', async (req, res) => {
+      try {
+        const { domain } = req.query
+        if (!domain || typeof domain !== 'string') {
+          return res.status(400).json({
+            error: 'InvalidRequest',
+            message: 'bad or missing domain query param'
+          })
+        }
+        if (domain === pds.ctx.cfg.service.hostname) {
+          return res.json({ success: true })
+        }
+        const isHostedHandle = pds.ctx.cfg.identity.serviceHandleDomains.find(
+          (avail) => domain.endsWith(avail)
+        )
+        if (!isHostedHandle) {
+          return res.status(400).json({
+            error: 'InvalidRequest',
+            message: 'handles are not provided on this domain'
+          })
+        }
+        const account = await pds.ctx.accountManager.getAccount(
+          domain as AtIdentifierString
+        )
+        if (!account) {
+          return res.status(404).json({
+            error: 'NotFound',
+            message: 'handle not found for this domain'
+          })
+        }
+        return res.json({ success: true })
+      } catch (err) {
+        httpLogger.error({ err }, 'check handle failed')
+        return res.status(500).json({
+          error: 'InternalServerError',
+          message: 'Internal Server Error'
+        })
+      }
+    })
   }
-}
+}).catch((err) => {
+  // @NOTE we don't want to let the error propagate to the UnhandledRejection
+  // handler, because that would cause Node to exit, which won't allow telemetry
+  // to flush. Instead, we log the error and set the exit code.
+  console.error('PDS failed to start:', err)
+  process.exitCode = 1
+
+  // In case the some resource were not properly cleaned up, we force exit after
+  // a short delay. This is a last resort, and should not be necessary if the
+  // PDS is implemented correctly. The delay is to give the telemetry a chance
+  // to flush.
+  setTimeout(() => process.exit(process.exitCode || 1), 5000).unref()
+})
