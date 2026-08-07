@@ -4,8 +4,8 @@ import { PDS, httpLogger } from "@atproto/pds";
 
 void PDS.run({
   onCreated(pds) {
-    pds.app.get("/tls-check", (req, res) => {
-      void checkHandleRoute(pds, req, res);
+    pds.app.get("/tls-check", async (req, res) => {
+      await checkHandleRoute(pds, req, res);
     });
   },
 }).catch((err) => {
