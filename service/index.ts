@@ -1,6 +1,5 @@
 import type { AtIdentifierString } from '@atproto/lex'
 import { PDS, httpLogger } from '@atproto/pds'
-import type { Request, Response } from 'express'
 
 void PDS.run({
   onCreated: (pds) => {
