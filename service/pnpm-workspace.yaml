@@ -1,6 +1,7 @@
 overrides:
   '@types/node': '^26'
   nodemailer: '^9'
+  glob: npm:tinyglobby@latest
   '@opentelemetry/propagator-jaeger': '^2'
 
 neverBuiltDependencies: []
