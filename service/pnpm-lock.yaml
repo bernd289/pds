@@ -18,8 +18,8 @@ importers:
         specifier: ^0.3.6
         version: 0.3.6
       '@atproto/pds':
-        specifier: 0.5.28
-        version: 0.5.28(debug@4.4.3)
+        specifier: 0.5.29
+        version: 0.5.29(debug@4.4.3)
 
 packages:
 
@@ -33,6 +33,10 @@ packages:
 
   '@atproto-labs/fetch@0.3.5':
     resolution: {integrity: sha512-iDFZEoNqfL17EVKE+uNzdUD7YF8LWhEhxeBtP6x+PNuAxoXv3ip9vLmB8nNzNxFwVn++FipfDtSiPqmziv1bdA==}
+    engines: {node: '>=22'}
+
+  '@atproto-labs/opentelemetry-node@0.1.0':
+    resolution: {integrity: sha512-YvuAHbiIdoCQTIdcTWOXRx8jFn9VEo89xu+CRH4yQQ6F60b+h76wgam0TsNxPd/lKLFmRwaqd/EhUYRRF2k2fg==}
     engines: {node: '>=22'}
 
   '@atproto-labs/pipe@0.2.4':
@@ -53,12 +57,12 @@ packages:
     resolution: {integrity: sha512-vfvoDhu6ds6BT3Pqe+d2/LBU1WpDRtt69y6zltlfMCoucPm82m1j50/Wb6xTvv+oZ+2j0JyZVXsmXQ12SWYQJg==}
     engines: {node: '>=22'}
 
-  '@atproto-labs/xrpc-utils@0.1.17':
-    resolution: {integrity: sha512-Ceo5u/Um+Ubbsx655hOdkKFo+HfarAsf/BoQOc3LypArUMmT9s4x9nTKvIDrj/mzeN7ts1URC4FJCFBE8oOOgg==}
+  '@atproto-labs/xrpc-utils@0.1.18':
+    resolution: {integrity: sha512-w5/Wp2vCifeCImkOlXCG4l7iBJeUNx7NFKm5uueIriaK3C6viVFmsxnqdmQ6c7o0cxOPjiUqwxuQL42J2tEqlA==}
     engines: {node: '>=22'}
 
-  '@atproto/aws@0.3.13':
-    resolution: {integrity: sha512-FHmpSyL9Ny5XOmcRbxmaLB5pVVl4MOIowjYnSHmutODfKXDVuhQBzmb8dWayqOczBRzumdNCYkvqHVBAUumTfg==}
+  '@atproto/aws@0.3.14':
+    resolution: {integrity: sha512-93nHMz6gkrrPqwXYhNlsXSmu/PTfeew4dhiJjonHwubmS1xgJ1L4ePQ/sGczjwccnJ1U64lbC7jBaL7ilkHAuQ==}
     engines: {node: '>=22'}
 
   '@atproto/common-web@0.5.9':
@@ -144,12 +148,12 @@ packages:
     resolution: {integrity: sha512-HTW4P3oYOE6h2GZ9+SsDyrsY6XZuYLeMrP5pdjpWQWCWXeQqKcZkpxEMhUvSQN7qaO31CNzqTzxF8kUGtDknWQ==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-provider-ui@0.9.2':
-    resolution: {integrity: sha512-m59lmXPqUf+qfNxg51j8Eqk+0nFtwQq/ibAPF57ipw3jDd6uk0n7Km+uPyyTG29UGKcUwcJZ7yyg2DctTvQlEw==}
+  '@atproto/oauth-provider-ui@0.10.0':
+    resolution: {integrity: sha512-OIAWz4pfRD1kW/5a1ADOTguKVcy52XNr24vcNoWsEl98VKi2ZbKGNvOkSKP3euv+/wDpe2a+L6wPWH4ihr1tFQ==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-provider@0.22.2':
-    resolution: {integrity: sha512-Y6p91UbKXALkcuhKdSq5Pg/u1cBpIH8RYXbmPnSNzFwrREtL6Xs0cXT7JcQcaRx4QZQZRTRTFb1ObmYBn7p1xw==}
+  '@atproto/oauth-provider@0.22.3':
+    resolution: {integrity: sha512-VLyzNgHYds/Gii3K498fb29f5QsUL48+fk2ng3qpRMzyIlB+AHvspIuf0DWFRlSqVl7oSzVhowiJBewhaKeHzQ==}
     engines: {node: '>=22'}
 
   '@atproto/oauth-scopes@0.5.9':
@@ -160,8 +164,8 @@ packages:
     resolution: {integrity: sha512-x75O0HsKB1IGfBikAQrrTX6EL8Rt4Q0+wMcwhZQRGPk/N/WqbYbsW3Powj4R8ZJKSfWCpVfaw32Piu1pTi891Q==}
     engines: {node: '>=22'}
 
-  '@atproto/pds@0.5.28':
-    resolution: {integrity: sha512-ukvwuYvjHLM8afgQagHTGUI9sYEuz4wN7VIYQARsyJQYJb/xmaXfK9XuGauj50SNWo38tSmXmm/oMpQDhvn6pg==}
+  '@atproto/pds@0.5.29':
+    resolution: {integrity: sha512-ZmY6FxjgIVU2ReFqLtkrRfd1GoUQT2wB5CoCbNi9l5rv8bVm16jSEpT/FadblJj3exrkTLEg9DCrQxOwH2dg3Q==}
     engines: {node: '>=22'}
 
   '@atproto/repo@0.10.11':
@@ -176,8 +180,8 @@ packages:
     resolution: {integrity: sha512-HCGkqH/Ksxpgg/xCyIvH5hK6o8Lg2PxcEA790GCEV9MspCZB/xIesHZVgJN0cEvklGe+6pNCOZE1B5kj9q1ONA==}
     engines: {node: '>=22'}
 
-  '@atproto/xrpc-server@0.12.4':
-    resolution: {integrity: sha512-3W8brvq1bnIshfR237qFQMOfqGcdVqKhOnwRbeXYFEtbQjCGske9Gn9B+wc4hHzcEGOGkksPfCZO1pmBXD2BXQ==}
+  '@atproto/xrpc-server@0.12.5':
+    resolution: {integrity: sha512-H0qb3/6ZZq5b0xTB5WGFPW2TZAPspSLkInsHeq5ANw8dnRruKWJERxgOxM3GTXb5kI2d6Bud/581AXLhuVgn4A==}
     engines: {node: '>=22'}
 
   '@atproto/xrpc@0.8.10':
@@ -895,17 +899,11 @@ packages:
   '@types/aws-lambda@8.10.162':
     resolution: {integrity: sha512-Fn658grtLOci1oxi1391vvDWJRKNGWRSqfxRkmN/Iy3c0tQH1USMKEXcPYHLvope+ZgTFocx9FRQJx1muBL6qw==}
 
-  '@types/bn.js@5.2.0':
-    resolution: {integrity: sha512-DLbJ1BPqxvQhIGbeu8VbUC1DiAiahHtAYvA0ZEAa4P31F7IaArc8z3C3BRQdWX4mtLQuABG4yzp76ZrS02Ui1Q==}
-
   '@types/bunyan@1.8.11':
     resolution: {integrity: sha512-758fRH7umIMk5qt5ELmRMff4mLDlN+xyYzC+dkPTdKwbSkJFvz6xwyScrytPU0QIBbRRwbiE8/BIg8bpajerNQ==}
 
   '@types/connect@3.4.38':
     resolution: {integrity: sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug==}
-
-  '@types/elliptic@6.4.18':
-    resolution: {integrity: sha512-UseG6H5vjRiNpQvrhy4VF/JXdA3V/Fp5amvveaL+fs28BZ6xIKJBPnUPRlEaZpysD9MbpfaLi8lbl7PGUAkpWw==}
 
   '@types/memcached@2.2.10':
     resolution: {integrity: sha512-AM9smvZN55Gzs2wRrqeMHVP7KE8KWgCJO/XL5yCly2xF6EKa4YlbpK+cLSAH4NG/Ah64HrlegmGqW8kYws7Vxg==}
@@ -976,9 +974,6 @@ packages:
   array-flatten@1.1.1:
     resolution: {integrity: sha512-PCVAQswWemu6UdxsDFFX/+gVeYqKAod3D3UVm91jHwynguOwAvYPhx8nNlM++NqRcK6CxxpUafjmhIdKiHibqg==}
 
-  asn1.js@5.4.1:
-    resolution: {integrity: sha512-+I//4cYPccV8LdmBLiX8CYvf9Sp3vQsrqu2QNXRcrbiWvcx/UdlFiqUJJzxRQxgsZmvhXhn4cSKeSmoFjVdupA==}
-
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
@@ -1013,9 +1008,6 @@ packages:
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
 
-  bn.js@4.12.5:
-    resolution: {integrity: sha512-3aRg6/JxfffFD+OlOjOFR3Vo79l39ooBTFucxx+MT3dhCtzn3EmiUPQo+6/OZuI2jbXi3YKgmiTFBgChQMwIRQ==}
-
   body-parser@1.20.6:
     resolution: {integrity: sha512-p5tAzS57i5MV9fZFDj9LeIiTZEufbSe2eDozP+ElheSUq1m74CRq1jI4mYNDdVs9vQztXFLuk/Gd6BWTdwRJ5g==}
     engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
@@ -1026,9 +1018,6 @@ packages:
   brace-expansion@5.0.9:
     resolution: {integrity: sha512-ScQ4IuvIEF1TMlP7Zt+vjJ//9zlPb2SDcxWxM3bk8s6t6GGdJ7KO1dCcTidOPJKePW30LE/2cT7wCyPho9/Wxg==}
     engines: {node: 20 || >=22}
-
-  brorand@1.1.0:
-    resolution: {integrity: sha512-cKV8tMCEpQs4hK/ik71d6LrPOnpkpGBR0wzxqr68g2m/LB2GxVYQroAjMJZRVM1Y4BCjCKc3vAamxSzOY2RP+w==}
 
   buffer@5.6.0:
     resolution: {integrity: sha512-/gDYp/UtU0eA1ys8bOs9J6a+E/KWIY+DZ+Q2WESNUA0jFRsJOc0SNUO6xJ5SGA1xueg3NL65W6s+NY5l9cunuw==}
@@ -1200,9 +1189,6 @@ packages:
 
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
-
-  elliptic@6.6.1:
-    resolution: {integrity: sha512-RaddvvMatK2LJHqFJ+YA4WysVN5Ita9E35botqIYspQ4TkRAlCicdzKOjlyv/1Za5RyTNn7di//eEV0uTAfe3g==}
 
   emoji-regex@10.6.0:
     resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
@@ -1391,9 +1377,6 @@ packages:
     resolution: {integrity: sha512-NqADB8VjPFLM2V0VvHUewwwsw0ZWBaIdgo+ieHtK3hasLz4qeCRjYcqfB6AQrBggRKppKF8L52/VqdVsO47Dlw==}
     engines: {node: '>= 0.4'}
 
-  hash.js@1.1.7:
-    resolution: {integrity: sha512-taOaskGt4z4SOANNseOviYDvjEJinIkRgmp7LbKP2YTTmVxWBl87s/uzK9r+44BclBSp2X7K1hqeNfz9JbBeXA==}
-
   hasown@2.0.4:
     resolution: {integrity: sha512-T2UbfbBEF32wiepXIsMlTW9+dDYC6wMh/t/vYA4tuOMKqWz/n3vr1NFSxQiyP+zk2mXsoMA/i/7qV6LKut1t1A==}
     engines: {node: '>= 0.4'}
@@ -1401,9 +1384,6 @@ packages:
   he@1.2.0:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
     hasBin: true
-
-  hmac-drbg@1.0.1:
-    resolution: {integrity: sha512-Tti3gMqLdZfhOQY1Mzf/AanLiqh1WTiJgEj26ZuYQ9fbkLomzGchCws4FyrSd4VkpBfiNhaE1On+lOz894jvXg==}
 
   html-to-text@7.1.1:
     resolution: {integrity: sha512-c9QWysrfnRZevVpS8MlE7PyOdSuIOjg8Bt8ZE10jMU/BEngA6j3llj4GRfAmtQzcd1FjKE0sWu5IHXRUH9YxIQ==}
@@ -1474,9 +1454,6 @@ packages:
   json-bigint@1.0.0:
     resolution: {integrity: sha512-SiPv/8VpZuWbvLSMtTDU8hEfrZWg/mH/nV/b4o0CYbSxu1UIQPLdwKOCIyLQX+VIPO5vrLX3i8qtqFyhdPSUSQ==}
 
-  key-encoder@2.0.3:
-    resolution: {integrity: sha512-fgBtpAGIr/Fy5/+ZLQZIPPhsZEcbSlYu/Wu96tNDFNSjSACw5lEIOFeaVdQ/iwrb8oxjlWi6wmWdH76hV6GZjg==}
-
   kysely@0.29.5:
     resolution: {integrity: sha512-ooa+eSbBNPTo3MycPEuW5jdrxQdQwdtB3LC3h43FiXQbIry5tR0C5lDG7eealK0E4D7XjrnOP5DIUg/LyjRMYQ==}
     engines: {node: '>=22.0.0'}
@@ -1529,12 +1506,6 @@ packages:
   mimic-response@3.1.0:
     resolution: {integrity: sha512-z0yWI+4FDrrweS8Zmt4Ej5HdJmky15+L2e6Wgn3+iK5fWzb6T3fhNFq2+MeTRb064c6Wr4N/wv0DzQTjNzHNGQ==}
     engines: {node: '>=10'}
-
-  minimalistic-assert@1.0.1:
-    resolution: {integrity: sha512-UtJcAD4yEaGtjPezWuO9wC4nwUnVH/8/Im3yEHQP4b67cXlD/Qr9hdITCU1xDbSEXg2XKNaP8jsReV7vQd00/A==}
-
-  minimalistic-crypto-utils@1.0.1:
-    resolution: {integrity: sha512-JIYlbt6g8i5jKfJ3xz7rF0LXmv2TkDxBLUkiBeZ7bAx4GnnNMr8xFpGnOxn6GhTEHx3SjRrZEoU+j04prX1ktg==}
 
   minimatch@10.2.6:
     resolution: {integrity: sha512-vpLQEs+VLCr1nU0BXS07maYoFwlDAH0gngQuuttxIwutDFEMHq2blX+8vpgxDdK3J1PwjCJiep77OitTZ4Ll1A==}
@@ -2100,6 +2071,23 @@ snapshots:
     dependencies:
       '@atproto-labs/pipe': 0.2.4
 
+  '@atproto-labs/opentelemetry-node@0.1.0':
+    dependencies:
+      '@opentelemetry/api': 1.9.1
+      '@opentelemetry/auto-instrumentations-node': 0.77.0(@opentelemetry/api@1.9.1)(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))
+      '@opentelemetry/core': 2.10.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/instrumentation': 0.219.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/instrumentation-express': 0.67.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/instrumentation-http': 0.219.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/instrumentation-pino': 0.65.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/instrumentation-runtime-node': 0.32.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/instrumentation-undici': 0.29.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/resource-detector-container': 0.8.12(@opentelemetry/api@1.9.1)
+      '@opentelemetry/sdk-node': 0.219.0(@opentelemetry/api@1.9.1)
+      '@opentelemetry/semantic-conventions': 1.43.0
+    transitivePeerDependencies:
+      - supports-color
+
   '@atproto-labs/pipe@0.2.4': {}
 
   '@atproto-labs/simple-store-memory@0.2.6':
@@ -2114,16 +2102,16 @@ snapshots:
 
   '@atproto-labs/simple-store@0.5.1': {}
 
-  '@atproto-labs/xrpc-utils@0.1.17':
+  '@atproto-labs/xrpc-utils@0.1.18':
     dependencies:
       '@atproto/xrpc': 0.8.10
-      '@atproto/xrpc-server': 0.12.4
+      '@atproto/xrpc-server': 0.12.5
     transitivePeerDependencies:
       - bufferutil
       - supports-color
       - utf-8-validate
 
-  '@atproto/aws@0.3.13':
+  '@atproto/aws@0.3.14':
     dependencies:
       '@atproto/common': 0.8.0
       '@atproto/common-web': 0.5.9
@@ -2134,7 +2122,6 @@ snapshots:
       '@aws-sdk/client-s3': 3.1110.0
       '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1110.0)
       '@noble/curves': 1.9.7
-      key-encoder: 2.0.3
       multiformats: 13.4.2
       uint8arrays: 5.1.1
 
@@ -2285,11 +2272,11 @@ snapshots:
       '@atproto/oauth-types': 0.7.5
       '@atproto/syntax': 0.7.4
 
-  '@atproto/oauth-provider-ui@0.9.2':
+  '@atproto/oauth-provider-ui@0.10.0':
     dependencies:
       '@atproto/oauth-provider-api': 0.8.0
 
-  '@atproto/oauth-provider@0.22.2':
+  '@atproto/oauth-provider@0.22.3':
     dependencies:
       '@atproto-labs/fetch-node': 0.3.7
       '@atproto-labs/pipe': 0.2.4
@@ -2302,7 +2289,7 @@ snapshots:
       '@atproto/lex-document': 0.1.9
       '@atproto/lex-resolver': 0.2.8
       '@atproto/oauth-provider-api': 0.8.0
-      '@atproto/oauth-provider-ui': 0.9.2
+      '@atproto/oauth-provider-ui': 0.10.0
       '@atproto/oauth-scopes': 0.5.9
       '@atproto/oauth-types': 0.7.5
       '@atproto/syntax': 0.7.4
@@ -2331,14 +2318,15 @@ snapshots:
       '@atproto/jwk': 0.7.4
       zod: 3.25.76
 
-  '@atproto/pds@0.5.28(debug@4.4.3)':
+  '@atproto/pds@0.5.29(debug@4.4.3)':
     dependencies:
       '@atproto-labs/fetch-node': 0.3.7
+      '@atproto-labs/opentelemetry-node': 0.1.0
       '@atproto-labs/simple-store': 0.5.1
       '@atproto-labs/simple-store-memory': 0.2.6
       '@atproto-labs/simple-store-redis': 0.1.6(ioredis@5.11.1)
-      '@atproto-labs/xrpc-utils': 0.1.17
-      '@atproto/aws': 0.3.13
+      '@atproto-labs/xrpc-utils': 0.1.18
+      '@atproto/aws': 0.3.14
       '@atproto/common': 0.8.0
       '@atproto/crypto': 0.5.4
       '@atproto/did': 0.5.4
@@ -2347,28 +2335,18 @@ snapshots:
       '@atproto/lex-cbor': 0.1.6
       '@atproto/lex-data': 0.1.7
       '@atproto/lex-json': 0.1.6
-      '@atproto/oauth-provider': 0.22.2
+      '@atproto/oauth-provider': 0.22.3
       '@atproto/oauth-scopes': 0.5.9
       '@atproto/repo': 0.10.11
       '@atproto/syntax': 0.7.4
-      '@atproto/xrpc-server': 0.12.4
+      '@atproto/xrpc-server': 0.12.5
       '@did-plc/lib': 0.0.4(debug@4.4.3)
       '@hapi/address': 5.1.1
+      '@noble/curves': 1.9.7
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/api-logs': 0.219.0
-      '@opentelemetry/auto-instrumentations-node': 0.77.0(@opentelemetry/api@1.9.1)(@opentelemetry/core@2.10.0(@opentelemetry/api@1.9.1))
-      '@opentelemetry/core': 2.10.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/instrumentation': 0.219.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/instrumentation-aws-sdk': 0.74.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/instrumentation-express': 0.67.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/instrumentation-http': 0.219.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/instrumentation-ioredis': 0.67.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/instrumentation-pino': 0.65.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/instrumentation-runtime-node': 0.32.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/instrumentation-undici': 0.29.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/resource-detector-container': 0.8.12(@opentelemetry/api@1.9.1)
-      '@opentelemetry/sdk-node': 0.219.0(@opentelemetry/api@1.9.1)
-      '@opentelemetry/semantic-conventions': 1.43.0
       better-sqlite3: 12.11.1
       compression: 1.8.1
       cors: 2.8.6
@@ -2380,7 +2358,6 @@ snapshots:
       http-terminator: 3.2.0
       ioredis: 5.11.1
       jose: 5.10.0
-      key-encoder: 2.0.3
       kysely: 0.29.5
       nodemailer: 9.0.5
       nodemailer-html-to-text: 3.2.0
@@ -2421,7 +2398,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@atproto/xrpc-server@0.12.4':
+  '@atproto/xrpc-server@0.12.5':
     dependencies:
       '@atproto/common': 0.8.0
       '@atproto/crypto': 0.5.4
@@ -3516,10 +3493,6 @@ snapshots:
 
   '@types/aws-lambda@8.10.162': {}
 
-  '@types/bn.js@5.2.0':
-    dependencies:
-      '@types/node': 26.2.0
-
   '@types/bunyan@1.8.11':
     dependencies:
       '@types/node': 26.2.0
@@ -3527,10 +3500,6 @@ snapshots:
   '@types/connect@3.4.38':
     dependencies:
       '@types/node': 26.2.0
-
-  '@types/elliptic@6.4.18':
-    dependencies:
-      '@types/bn.js': 5.2.0
 
   '@types/memcached@2.2.10':
     dependencies:
@@ -3603,13 +3572,6 @@ snapshots:
 
   array-flatten@1.1.1: {}
 
-  asn1.js@5.4.1:
-    dependencies:
-      bn.js: 4.12.5
-      inherits: 2.0.4
-      minimalistic-assert: 1.0.1
-      safer-buffer: 2.1.2
-
   asynckit@0.4.0: {}
 
   atomic-sleep@1.0.0: {}
@@ -3647,8 +3609,6 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
 
-  bn.js@4.12.5: {}
-
   body-parser@1.20.6:
     dependencies:
       bytes: 3.1.2
@@ -3671,8 +3631,6 @@ snapshots:
   brace-expansion@5.0.9:
     dependencies:
       balanced-match: 4.0.4
-
-  brorand@1.1.0: {}
 
   buffer@5.6.0:
     dependencies:
@@ -3825,16 +3783,6 @@ snapshots:
       gopd: 1.2.0
 
   ee-first@1.1.1: {}
-
-  elliptic@6.6.1:
-    dependencies:
-      bn.js: 4.12.5
-      brorand: 1.1.0
-      hash.js: 1.1.7
-      hmac-drbg: 1.0.1
-      inherits: 2.0.4
-      minimalistic-assert: 1.0.1
-      minimalistic-crypto-utils: 1.0.1
 
   emoji-regex@10.6.0: {}
 
@@ -4043,22 +3991,11 @@ snapshots:
     dependencies:
       has-symbols: 1.1.0
 
-  hash.js@1.1.7:
-    dependencies:
-      inherits: 2.0.4
-      minimalistic-assert: 1.0.1
-
   hasown@2.0.4:
     dependencies:
       function-bind: 1.1.2
 
   he@1.2.0: {}
-
-  hmac-drbg@1.0.1:
-    dependencies:
-      hash.js: 1.1.7
-      minimalistic-assert: 1.0.1
-      minimalistic-crypto-utils: 1.0.1
 
   html-to-text@7.1.1:
     dependencies:
@@ -4152,13 +4089,6 @@ snapshots:
     dependencies:
       bignumber.js: 9.3.1
 
-  key-encoder@2.0.3:
-    dependencies:
-      '@types/elliptic': 6.4.18
-      asn1.js: 5.4.1
-      bn.js: 4.12.5
-      elliptic: 6.6.1
-
   kysely@0.29.5: {}
 
   lodash.camelcase@4.3.0: {}
@@ -4190,10 +4120,6 @@ snapshots:
   mime@1.6.0: {}
 
   mimic-response@3.1.0: {}
-
-  minimalistic-assert@1.0.1: {}
-
-  minimalistic-crypto-utils@1.0.1: {}
 
   minimatch@10.2.6:
     dependencies:
