@@ -6,7 +6,7 @@ COPY ./service ./
 RUN npm i -g pnpm@11 \
  && sfw pnpm install --prod --frozen-lockfile
 
-FROM dhi.io/node:26-alpine@sha256:019a466db59568d3f50abafaa9020ea6cef74ccd4173c753e8634189c461cfd0 AS run
+FROM dhi.io/node:26-alpine@sha256:282cb9422b3c54012479cf4642d5aee93c1123d1ef3339744c13b11bec27f6d5 AS run
 
 WORKDIR /app
 COPY --chown=node:node --from=build /app /app
