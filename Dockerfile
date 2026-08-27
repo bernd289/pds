@@ -1,12 +1,15 @@
-FROM dhi.io/node:26-alpine-sfw-dev@sha256:421f0766daaee3636f9a524dc6423e26d16e14039d6d4e0b732d04ad4d672786 AS build
+FROM node:26-alpine@sha256:21dfe16f83cea461b3c23b5af6c97791309b6298c6e076c722a82b1e19c3a23b AS build
 
 WORKDIR /app
 COPY ./service ./
 
-RUN npm i -g pnpm@11 \
+RUN wget -O /usr/local/bin/sfw \
+      https://github.com/SocketDev/sfw-free/releases/latest/download/sfw-free-musl-linux-x86_64 \
+ && chmod +x /usr/local/bin/sfw \
+ && npm i -g pnpm@11 \
  && sfw pnpm install --prod --frozen-lockfile
 
-FROM dhi.io/node:26-alpine@sha256:282cb9422b3c54012479cf4642d5aee93c1123d1ef3339744c13b11bec27f6d5 AS run
+FROM node:26-alpine@sha256:21dfe16f83cea461b3c23b5af6c97791309b6298c6e076c722a82b1e19c3a23b AS run
 
 WORKDIR /app
 COPY --chown=node:node --from=build /app /app

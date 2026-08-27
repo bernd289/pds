@@ -1,10 +1,4 @@
 version: 2
-registries:
-  dhi:
-    type: docker-registry
-    url: dhi.io
-    username: ${{ secrets.DOCKER_USER }}
-    password: ${{ secrets.DOCKER_PASSWORD }}
 updates:
   - package-ecosystem: "github-actions"
     directory: "/"
