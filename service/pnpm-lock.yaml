@@ -192,16 +192,16 @@ packages:
     resolution: {integrity: sha512-Dtu0gr4dnATZAPwEYbpCsG+MpLM7OAliy2gTepEFQwl1vZ6DL3QMH2FveMa3HLvPsOdhJsPRB3KtxVhph9T75A==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-cloudfront@3.1123.0':
-    resolution: {integrity: sha512-UxytnGyGuFjGUtf9xge1CKucRqljLPUKBMjpFzF5qV4G9gBAL1XQm4kzU91vRJf9TsMPHXDtNAZWBHvvsaXfgg==}
+  '@aws-sdk/client-cloudfront@3.1124.0':
+    resolution: {integrity: sha512-eCTPtU83/AkZK51LnUG4mMTiog6ojkdhQCT7Ilc76rowtREPAZJem2AIUS2r3Qrm2+mhWWvU1kF3j1l1UoDt4A==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-kms@3.1123.0':
-    resolution: {integrity: sha512-ZXNVyy87TNWzwE4WzDNI0QOUN+STf8FIkM52s5hJsbMynQzojObqpPZFVHRSiHqHoP9QqFiIxaUmaQwzxIIkNA==}
+  '@aws-sdk/client-kms@3.1124.0':
+    resolution: {integrity: sha512-tvTp4yOY+N6cKOEZWRHaszpqV6epQr6SfVW9COJ+7IqJG6sxMAshgE5Xrz6mJBDRHtbXwXY29FnADRlIp65TFw==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-s3@3.1123.0':
-    resolution: {integrity: sha512-InD/KXgF4clIFtqo8yzQQG755/BBoLstsC5WITLrMckKUUaACQgbpbZcdsySAXU3Uukp/3RV0Aiv5H3eDNGXcw==}
+  '@aws-sdk/client-s3@3.1124.0':
+    resolution: {integrity: sha512-f20BksgVlXufcf/mijde1LAjwM/iSDdG3mGtN3yRFOUzXtlFEOjxNi1Rf2Kb+rSgoiOSpO0hUOna9Bs+J1gX2A==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.977.9':
@@ -896,8 +896,8 @@ packages:
   '@ts-morph/common@0.28.1':
     resolution: {integrity: sha512-W74iWf7ILp1ZKNYXY5qbddNaml7e9Sedv5lvU1V8lftlitkc9Pq1A+jlH23ltDgWYeZFFEqGCD1Ies9hqu3O+g==}
 
-  '@types/aws-lambda@8.10.162':
-    resolution: {integrity: sha512-Fn658grtLOci1oxi1391vvDWJRKNGWRSqfxRkmN/Iy3c0tQH1USMKEXcPYHLvope+ZgTFocx9FRQJx1muBL6qw==}
+  '@types/aws-lambda@8.10.163':
+    resolution: {integrity: sha512-+4zuoEB3S8RIhimtOFT7zAEk2SbpwrKjjGl9CyYnQR6k08uynxfauIIB0pDU1ssr05F8oyGiETwpn+8eXZMqPw==}
 
   '@types/bunyan@1.8.11':
     resolution: {integrity: sha512-758fRH7umIMk5qt5ELmRMff4mLDlN+xyYzC+dkPTdKwbSkJFvz6xwyScrytPU0QIBbRRwbiE8/BIg8bpajerNQ==}
@@ -911,8 +911,8 @@ packages:
   '@types/mysql@2.15.27':
     resolution: {integrity: sha512-YfWiV16IY0OeBfBCk8+hXKmdTKrKlwKN1MNKAPBu5JYxLwBEZl7QzeEpGnlZb3VMGJrrGmB84gXiH+ofs/TezA==}
 
-  '@types/node@26.4.0':
-    resolution: {integrity: sha512-faiGnoIrLH/V8cibOMEAZ8pMw6oXqSukl29ra4mN8GdaB2ZewzeaLj+INpV5N+Z1eKWzY+IzaIZH2EIR6YZRNQ==}
+  '@types/node@26.4.1':
+    resolution: {integrity: sha512-k97ENvZWtvA6yqz5/FS6a7duDgOPEeOQOc2iKS/nY6mX6qJUKtLnWzQS+Xj6tXweyj6ZcTAK2Qecetnvi9nCLA==}
 
   '@types/oracledb@6.5.2':
     resolution: {integrity: sha512-kK1eBS/Adeyis+3OlBDMeQQuasIDLUYXsi2T15ccNJ0iyUpQ4xDF7svFu3+bGVrI0CMBUclPciz+lsQR3JX3TQ==}
@@ -1563,8 +1563,8 @@ packages:
     resolution: {integrity: sha512-RJUC6640QV1PzTHHapOrc6IzrAJUZtk2BdVdINZ9VTLm+mcQNyBO9LYyhrnufkzqiD9l8hPLJ97rSyK4WanPNg==}
     engines: {node: '>= 10.23.0'}
 
-  nodemailer@9.1.0:
-    resolution: {integrity: sha512-xj1Ri5Sau3qpPffHJwi2bY0oWVVWYq62Ph17l+2v1xXpxjqTls3YPc3L8dub9mcJpxj+1ucNnuYVqLlgh4pmDA==}
+  nodemailer@9.1.1:
+    resolution: {integrity: sha512-izw9mVKFix6YSnC9eLgV6g1opl9DUlRio9ZNcq+Wu9Ujn2UwF+8Nl0B8nz22kEC+CTZCvinkxwJ0DeFbb6NwcQ==}
     engines: {node: '>=6.0.0'}
 
   object-assign@4.1.1:
@@ -1885,8 +1885,8 @@ packages:
     resolution: {integrity: sha512-ki4hZQfh5rX0QDLLkOCj+h+CVNkqmp/CMf8v8kZpkNVK6jGQooMytqzLZYUVYIZcFZ6yDB70EfD8POcFXiF5oA==}
     engines: {node: '>=18'}
 
-  systeminformation@5.33.6:
-    resolution: {integrity: sha512-hMOQG/eRUzuopuYGGdl8ntkau0nEC7fOaRoTUg1RSr2GTQIk2VNa76DA0+ApajkGfzmcgAupgIP/vt+jtoe5EA==}
+  systeminformation@5.33.7:
+    resolution: {integrity: sha512-ndIY+FxSMednjy1OAi7Av72fOPfaD2NMcwOS0uCLkX1F9GdqDn5eyHuMnTycjoabH5K2NqH1wPLBiaSbNbgQGg==}
     engines: {node: '>=10.0.0'}
     os: [darwin, linux, win32, freebsd, openbsd, netbsd, sunos, android]
     hasBin: true
@@ -2117,10 +2117,10 @@ snapshots:
       '@atproto/common-web': 0.5.10
       '@atproto/crypto': 0.5.4
       '@atproto/repo': 0.10.12
-      '@aws-sdk/client-cloudfront': 3.1123.0
-      '@aws-sdk/client-kms': 3.1123.0
-      '@aws-sdk/client-s3': 3.1123.0
-      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1123.0)
+      '@aws-sdk/client-cloudfront': 3.1124.0
+      '@aws-sdk/client-kms': 3.1124.0
+      '@aws-sdk/client-s3': 3.1124.0
+      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1124.0)
       '@noble/curves': 1.9.7
       multiformats: 13.4.2
       uint8arrays: 5.1.1
@@ -2359,7 +2359,7 @@ snapshots:
       ioredis: 5.11.1
       jose: 5.10.0
       kysely: 0.29.5
-      nodemailer: 9.1.0
+      nodemailer: 9.1.1
       nodemailer-html-to-text: 3.2.0
       opentelemetry-plugin-better-sqlite3: 1.13.0(better-sqlite3@12.11.1)
       p-queue: 8.1.1
@@ -2433,7 +2433,7 @@ snapshots:
       '@smithy/types': 4.17.2
       tslib: 2.8.1
 
-  '@aws-sdk/client-cloudfront@3.1123.0':
+  '@aws-sdk/client-cloudfront@3.1124.0':
     dependencies:
       '@aws-sdk/core': 3.977.9
       '@aws-sdk/credential-provider-node': 3.972.82
@@ -2444,7 +2444,7 @@ snapshots:
       '@smithy/types': 4.17.2
       tslib: 2.8.1
 
-  '@aws-sdk/client-kms@3.1123.0':
+  '@aws-sdk/client-kms@3.1124.0':
     dependencies:
       '@aws-sdk/core': 3.977.9
       '@aws-sdk/credential-provider-node': 3.972.82
@@ -2455,7 +2455,7 @@ snapshots:
       '@smithy/types': 4.17.2
       tslib: 2.8.1
 
-  '@aws-sdk/client-s3@3.1123.0':
+  '@aws-sdk/client-s3@3.1124.0':
     dependencies:
       '@aws-sdk/checksums': 3.1000.29
       '@aws-sdk/core': 3.977.9
@@ -2564,9 +2564,9 @@ snapshots:
       '@smithy/types': 4.17.2
       tslib: 2.8.1
 
-  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1123.0)':
+  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1124.0)':
     dependencies:
-      '@aws-sdk/client-s3': 3.1123.0
+      '@aws-sdk/client-s3': 3.1124.0
       '@smithy/abort-controller': 4.4.2
       '@smithy/middleware-endpoint': 4.7.2
       '@smithy/smithy-client': 4.15.2
@@ -2895,7 +2895,7 @@ snapshots:
       '@opentelemetry/instrumentation': 0.219.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/propagator-aws-xray': 2.2.0(@opentelemetry/api@1.9.1)
       '@opentelemetry/semantic-conventions': 1.43.0
-      '@types/aws-lambda': 8.10.162
+      '@types/aws-lambda': 8.10.163
     transitivePeerDependencies:
       - supports-color
 
@@ -3009,7 +3009,7 @@ snapshots:
     dependencies:
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/instrumentation': 0.219.0(@opentelemetry/api@1.9.1)
-      systeminformation: 5.33.6
+      systeminformation: 5.33.7
     transitivePeerDependencies:
       - supports-color
 
@@ -3491,31 +3491,31 @@ snapshots:
       path-browserify: 1.0.1
       tinyglobby: 0.2.17
 
-  '@types/aws-lambda@8.10.162': {}
+  '@types/aws-lambda@8.10.163': {}
 
   '@types/bunyan@1.8.11':
     dependencies:
-      '@types/node': 26.4.0
+      '@types/node': 26.4.1
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 26.4.0
+      '@types/node': 26.4.1
 
   '@types/memcached@2.2.10':
     dependencies:
-      '@types/node': 26.4.0
+      '@types/node': 26.4.1
 
   '@types/mysql@2.15.27':
     dependencies:
-      '@types/node': 26.4.0
+      '@types/node': 26.4.1
 
-  '@types/node@26.4.0':
+  '@types/node@26.4.1':
     dependencies:
       undici-types: 8.3.0
 
   '@types/oracledb@6.5.2':
     dependencies:
-      '@types/node': 26.4.0
+      '@types/node': 26.4.1
 
   '@types/pg-pool@2.0.7':
     dependencies:
@@ -3523,19 +3523,19 @@ snapshots:
 
   '@types/pg@8.15.6':
     dependencies:
-      '@types/node': 26.4.0
+      '@types/node': 26.4.1
       pg-protocol: 1.16.0
       pg-types: 2.2.0
 
   '@types/pg@8.23.1':
     dependencies:
-      '@types/node': 26.4.0
+      '@types/node': 26.4.1
       pg-protocol: 1.16.0
       pg-types: 2.2.0
 
   '@types/tedious@4.0.14':
     dependencies:
-      '@types/node': 26.4.0
+      '@types/node': 26.4.1
 
   abort-controller@3.0.0:
     dependencies:
@@ -4163,7 +4163,7 @@ snapshots:
     dependencies:
       html-to-text: 7.1.1
 
-  nodemailer@9.1.0: {}
+  nodemailer@9.1.1: {}
 
   object-assign@4.1.1: {}
 
@@ -4322,7 +4322,7 @@ snapshots:
       '@protobufjs/path': 1.1.2
       '@protobufjs/pool': 1.1.0
       '@protobufjs/utf8': 1.1.2
-      '@types/node': 26.4.0
+      '@types/node': 26.4.1
       long: 5.3.2
 
   proxy-addr@2.0.7:
@@ -4536,7 +4536,7 @@ snapshots:
     dependencies:
       '@tokenizer/token': 0.3.0
 
-  systeminformation@5.33.6: {}
+  systeminformation@5.33.7: {}
 
   tar-fs@2.1.5:
     dependencies:
