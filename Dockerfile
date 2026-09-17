@@ -1,4 +1,4 @@
-FROM node:26-alpine@sha256:ef24c5053d50fdc3e4e56eb4e7ddb7861874ab0fdc797046ba897581deb8e868 AS build
+FROM node:26-alpine@sha256:2c45bdcbf63561a54da9549612084b43ca309854a4110c87857d609ddeb61c9e AS build
 
 WORKDIR /app
 COPY ./service ./
@@ -9,7 +9,7 @@ RUN wget -O /usr/local/bin/sfw \
  && npm i -g pnpm@11 \
  && sfw pnpm install --prod --frozen-lockfile
 
-FROM node:26-alpine@sha256:ef24c5053d50fdc3e4e56eb4e7ddb7861874ab0fdc797046ba897581deb8e868 AS run
+FROM node:26-alpine@sha256:2c45bdcbf63561a54da9549612084b43ca309854a4110c87857d609ddeb61c9e AS run
 
 WORKDIR /app
 COPY --chown=node:node --from=build /app /app
