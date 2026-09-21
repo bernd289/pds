@@ -1322,8 +1322,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  disposable-email-domains-js@1.25.0:
-    resolution: {integrity: sha512-G16ih6YqeZV9CozhVW8IASgSAhGaJ2Tr58RRtZ8Ff5glhTCEav2VX74ciETHZ01n9D57aQasEvDzaBmzATYdYw==}
+  disposable-email-domains-js@1.26.0:
+    resolution: {integrity: sha512-pSqALZAiuw6HDC1HqhhtvShRnniUNObQ6kzwa5N280XbyxxCPBZnQQ7fO6Uk/CNTi4cAaKE1UZl3Mc30Zfj4UA==}
 
   dom-serializer@1.4.1:
     resolution: {integrity: sha512-VHwB3KfrcOOkelEG2ZOfxqLZdfkil8PtJi4P8N2MMXucZq2yLp75ClViUlOVwyoHEDjYU433Aq+5zWP61+RGag==}
@@ -2040,8 +2040,8 @@ packages:
     resolution: {integrity: sha512-ki4hZQfh5rX0QDLLkOCj+h+CVNkqmp/CMf8v8kZpkNVK6jGQooMytqzLZYUVYIZcFZ6yDB70EfD8POcFXiF5oA==}
     engines: {node: '>=18'}
 
-  systeminformation@5.33.12:
-    resolution: {integrity: sha512-7x1LtTPaopmrXUJmnxW6I98YIDihwiZEETD+hzI9X/GGIghcz8r38vlZ+TAqwQTOhPuZPB1xn/AJ2GPzvn9JfQ==}
+  systeminformation@5.33.13:
+    resolution: {integrity: sha512-GtyakkchTQKymM1WeAB652zi3rM1q00RKdc+jZe9KGstuc/mWUwAnQGN/RE5gVYvHIR8xYOUIUD9irVKDtA0wA==}
     engines: {node: '>=10.0.0'}
     os: [darwin, linux, win32, freebsd, openbsd, netbsd, sunos, android]
     hasBin: true
@@ -2195,8 +2195,8 @@ packages:
     resolution: {integrity: sha512-GZtjxm/J/4TSxuL3FNYjCmLktBTnIw/rVmKSIyKeYAZpmJB2ig9VauCC5xsa82GNKVKDAqpOn3KVzNt0zmrU0g==}
     engines: {node: '>=12'}
 
-  yargs@18.1.0:
-    resolution: {integrity: sha512-2rAgRKu54VsHkqI0/tYkmluGXHD4KW7yZoycuqDQ15QOTnc2VVfy0nN/1eMhnQLO00A+dwtK20xuCnc1YGeUyg==}
+  yargs@18.2.0:
+    resolution: {integrity: sha512-9OpKOLeaoNFecEp7P6iYbzze/5CqWoH7N3SMs/6y1XF4nMvFMspEGZzJ6uFi9MmQwXhyzqYoSEKO3tvA3Z/o2w==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=23}
 
   zod@3.25.76:
@@ -2414,7 +2414,7 @@ snapshots:
       '@atproto/lex-json': 0.1.6
       '@atproto/lex-schema': 0.2.7
       tslib: 2.8.1
-      yargs: 18.1.0
+      yargs: 18.2.0
 
   '@atproto/lexicon@0.7.14':
     dependencies:
@@ -2455,7 +2455,7 @@ snapshots:
       '@hapi/bourne': 3.0.0
       '@hapi/content': 6.0.2
       cookie: 0.7.2
-      disposable-email-domains-js: 1.25.0
+      disposable-email-domains-js: 1.26.0
       forwarded: 0.2.0
       http-errors: 2.0.1
       ioredis: 5.11.1
@@ -2507,7 +2507,7 @@ snapshots:
       better-sqlite3: 12.11.1
       compression: 1.8.2
       cors: 2.8.6
-      disposable-email-domains-js: 1.25.0
+      disposable-email-domains-js: 1.26.0
       express: 4.22.3
       express-async-errors: 3.1.1(express@4.22.3)
       file-type: 22.1.1
@@ -3166,7 +3166,7 @@ snapshots:
     dependencies:
       '@opentelemetry/api': 1.9.1
       '@opentelemetry/instrumentation': 0.219.0(@opentelemetry/api@1.9.1)
-      systeminformation: 5.33.12
+      systeminformation: 5.33.13
     transitivePeerDependencies:
       - supports-color
 
@@ -3908,7 +3908,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  disposable-email-domains-js@1.25.0: {}
+  disposable-email-domains-js@1.26.0: {}
 
   dom-serializer@1.4.1:
     dependencies:
@@ -4688,7 +4688,7 @@ snapshots:
     dependencies:
       '@tokenizer/token': 0.3.0
 
-  systeminformation@5.33.12: {}
+  systeminformation@5.33.13: {}
 
   tar-fs@2.1.5:
     dependencies:
@@ -4817,7 +4817,7 @@ snapshots:
       y18n: 5.0.8
       yargs-parser: 21.1.1
 
-  yargs@18.1.0:
+  yargs@18.2.0:
     dependencies:
       cliui: 9.0.1
       escalade: 3.2.0
