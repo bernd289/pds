@@ -6,7 +6,7 @@ COPY ./service ./
 RUN wget -O /usr/local/bin/sfw \
       https://github.com/SocketDev/sfw-free/releases/latest/download/sfw-free-musl-linux-x86_64 \
  && chmod +x /usr/local/bin/sfw \
- && npm i -g pnpm@11 \
+ && npm i -g pnpm@12 \
  && sfw pnpm install --prod --frozen-lockfile
 
 FROM node:26-alpine@sha256:0b36e8c136b94cd4fcf02188228e76c31ad5872eef3fec8cbd2eee500cfd9e80 AS run
