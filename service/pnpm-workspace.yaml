@@ -8,9 +8,6 @@ neverBuiltDependencies: []
 
 minimumReleaseAge: 720
 minimumReleaseAgeExclude:
-  - pnpm
-  - '@pnpm/*'
-  - '@smithy/*'
   - '@atproto/*'
   - '@bsky.app/*'
   - '@atproto-labs/*'
