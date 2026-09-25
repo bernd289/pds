@@ -4,6 +4,8 @@ overrides:
   glob: npm:tinyglobby@latest
   '@opentelemetry/propagator-jaeger': '^2'
 
+autoDedupe: true
+
 neverBuiltDependencies: []
 
 minimumReleaseAge: 720
