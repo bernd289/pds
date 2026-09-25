@@ -53,5 +53,6 @@ jobs:
             ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           outputs: type=registry,compression=zstd,compression-level=3,force-compression=true
+          sbom: true
           cache-from: type=gha
           cache-to: type=gha,mode=max
