@@ -1,6 +1,6 @@
 overrides:
   '@types/node': '^26'
-  nodemailer: '^9'
+  nodemailer: '^10'
   glob: npm:tinyglobby@latest
 
 autoDedupe: true
