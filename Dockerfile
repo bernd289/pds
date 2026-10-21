@@ -1,4 +1,4 @@
-FROM node:26-alpine@sha256:6f08a523443ddedf52941874c203475b0ad503e859ad70cb26ab8be9a517dbd5 AS build
+FROM node:26-alpine@sha256:9bd229b644e391df00fb989efa732335aefc6170a05d8c163c5c8ca9870da401 AS build
 
 WORKDIR /app
 COPY ./service ./
@@ -18,7 +18,7 @@ RUN node -e "\
   copyFileSync(pdsRequire.resolve('@atproto-labs/fetch-node/emudhra-preload'), '/app/emudhra-preload.mjs');"
 
 
-FROM node:26-alpine@sha256:6f08a523443ddedf52941874c203475b0ad503e859ad70cb26ab8be9a517dbd5 AS run
+FROM node:26-alpine@sha256:9bd229b644e391df00fb989efa732335aefc6170a05d8c163c5c8ca9870da401 AS run
 
 WORKDIR /app
 COPY --chown=node:node --from=build /app /app
