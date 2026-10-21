@@ -8,6 +8,6 @@
   "license": "MIT",
   "dependencies": {
     "@atproto/lex": "^0.4.1",
-    "@atproto/pds": "0.5.43"
+    "@atproto/pds": "0.5.44"
   }
 }
