@@ -9,15 +9,6 @@ RUN wget -O /usr/local/bin/sfw \
  && npm i -g pnpm@12 \
  && sfw pnpm install --prod --no-optional --frozen-lockfile
 
- 
-# Copy the upstream eMudhra TLS mitigation into the image
-RUN node -e "\
-  const { copyFileSync } = require('node:fs'); \
-  const { createRequire } = require('node:module'); \
-  const pdsRequire = createRequire(require.resolve('@atproto/pds/package.json')); \
-  copyFileSync(pdsRequire.resolve('@atproto-labs/fetch-node/emudhra-preload'), '/app/emudhra-preload.mjs');"
-
-
 FROM node:26-alpine@sha256:9bd229b644e391df00fb989efa732335aefc6170a05d8c163c5c8ca9870da401 AS run
 
 WORKDIR /app
@@ -32,8 +23,7 @@ ENV NODE_ENV=production \
 HEALTHCHECK --interval=30s --timeout=30s --start-period=30s --retries=3 \
     CMD ["node", "-e", "require('http').get('http://localhost:3000/xrpc/_health', (res) => process.exit(res.statusCode === 200 ? 0 : 1)).on('error', () => process.exit(1))"]
 
-CMD ["node", "--import=/app/emudhra-preload.mjs", "index.ts"]
-
+CMD ["node", "index.ts"]
 
 LABEL org.opencontainers.image.source=https://github.com/bernd289/pds \
       org.opencontainers.image.description="AT Protocol PDS" \
