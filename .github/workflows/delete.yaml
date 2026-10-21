@@ -21,7 +21,7 @@ jobs:
           min-versions-to-keep: 30
 
       - name: Delete workflow runs
-        uses: viascom/github-maintenance-action@100787bdd54a85f51117c429b6b4d93a6a52eaf6 #v0.2.0
+        uses: viascom/github-maintenance-action@6ebd39530c77ae0ff2b009df88bf87e299eb5b19 #v1.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_base_url: 'https://api.github.com'
