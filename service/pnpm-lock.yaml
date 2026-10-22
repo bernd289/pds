@@ -8,6 +8,8 @@ overrides:
   nodemailer: ^10
   better-sqlite3: ^13
   undici: ^8
+  undici_v6: npm:undici@^8
+  undici_v7: npm:undici@^8
 
 pnpmfileChecksum: sha256-w5yQVBlSHkV21Rvm+cFdpDb077u/gIw49V7JtoY70Dg=
 
@@ -1140,14 +1142,6 @@ packages:
   uint8arrays@5.1.1:
     resolution: {integrity: sha512-9muQwa4wZG4dKi9gMAIBtnk2Pw87SRpvWTH6lOGm19V2Uqxr4uomUf2PGqPnWc+qs06sN8owUU4jfcoWOcfwVQ==}
 
-  undici@6.29.1:
-    resolution: {integrity: sha512-EvRlUt/QqAEvXdQeRMYUfwOQsfzpDztykrG2owGEE/rBOBoYv9uF39ZzsNDh4lTFHhTr2XOZjKkYgueD12ZmGA==}
-    engines: {node: '>=18.17'}
-
-  undici@7.30.1:
-    resolution: {integrity: sha512-03KrMbjIFDWQR5RNPrSw3bd1r12JpyFQl9/yxjUbJtqkjmllqC5lFjZh6ujeuJCKr8EOQvRW872Oy/az+nLYxg==}
-    engines: {node: '>=20.18.1'}
-
   undici@8.12.3:
     resolution: {integrity: sha512-+fdndUTwBP86cVjihTp21hZHo7d6oj1c/47XPA3lL8mM0XHs+C4EkcjmgRsFnFk2f/UONGDy9ItBItmXsLOQHw==}
     engines: {node: '>=22.19.0'}
@@ -1223,8 +1217,8 @@ snapshots:
       '@atproto-labs/fetch': 0.4.0
       '@atproto-labs/pipe': 0.2.4
       ipaddr.js: 2.5.0
-      undici_v6: undici@6.29.1
-      undici_v7: undici@7.30.1
+      undici_v6: undici@8.12.3
+      undici_v7: undici@8.12.3
       undici_v8: undici@8.12.3
 
   '@atproto-labs/fetch@0.4.0':
@@ -2697,10 +2691,6 @@ snapshots:
   uint8arrays@5.1.1:
     dependencies:
       multiformats: 13.4.2
-
-  undici@6.29.1: {}
-
-  undici@7.30.1: {}
 
   undici@8.12.3: {}
 

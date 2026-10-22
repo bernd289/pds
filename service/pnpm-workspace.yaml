@@ -1,7 +1,9 @@
 overrides:
   nodemailer: '^10'
   better-sqlite3: '^13'
-  undici: '^8'
+  undici: ^8
+  undici_v6: npm:undici@^8
+  undici_v7: npm:undici@^8
 
 autoDedupe: true
 
