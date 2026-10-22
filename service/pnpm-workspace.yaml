@@ -2,6 +2,7 @@ overrides:
   '@types/node': '^26'
   nodemailer: '^10'
   glob: npm:tinyglobby@latest
+  better-sqlite3: '^13'
 
 autoDedupe: true
 
