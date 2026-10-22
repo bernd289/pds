@@ -1,7 +1,6 @@
 overrides:
   '@types/node': '^26'
   nodemailer: '^10'
-  glob: npm:tinyglobby@latest
   better-sqlite3: '^13'
 
 autoDedupe: true
@@ -19,4 +18,3 @@ minimumReleaseAgeExclude:
 allowBuilds:
   better-sqlite3: true
   core-js: true
-  protobufjs: true

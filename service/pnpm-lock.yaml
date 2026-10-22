@@ -7,7 +7,6 @@ settings:
 overrides:
   '@types/node': ^26
   nodemailer: ^10
-  glob: npm:tinyglobby@latest
   better-sqlite3: ^13
 
 pnpmfileChecksum: sha256-w5yQVBlSHkV21Rvm+cFdpDb077u/gIw49V7JtoY70Dg=
