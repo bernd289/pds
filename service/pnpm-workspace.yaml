@@ -1,5 +1,4 @@
 overrides:
-  '@types/node': '^26'
   nodemailer: '^10'
   better-sqlite3: '^13'
 
