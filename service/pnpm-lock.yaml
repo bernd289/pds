@@ -7,6 +7,7 @@ settings:
 overrides:
   nodemailer: ^10
   better-sqlite3: ^13
+  undici: ^8
 
 pnpmfileChecksum: sha256-w5yQVBlSHkV21Rvm+cFdpDb077u/gIw49V7JtoY70Dg=
 

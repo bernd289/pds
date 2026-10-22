@@ -1,6 +1,7 @@
 overrides:
   nodemailer: '^10'
   better-sqlite3: '^13'
+  undici: '^8'
 
 autoDedupe: true
 
