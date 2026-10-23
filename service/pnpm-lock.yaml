@@ -21,8 +21,8 @@ importers:
         specifier: ^0.4.2
         version: 0.4.2
       '@atproto/pds':
-        specifier: 0.5.47
-        version: 0.5.47(debug@4.4.3)
+        specifier: 0.5.48
+        version: 0.5.48(debug@4.4.3)
 
 packages:
 
@@ -177,8 +177,8 @@ packages:
     resolution: {integrity: sha512-HhY0n6BJtFlxHJTOwT34uf7BiMaEluuwiZqHkamWoFvl+Gk7bPgWhPslr4kX2J/7ryFxhdsKVj1tjWjy0AhjTw==}
     engines: {node: '>=22'}
 
-  '@atproto/pds@0.5.47':
-    resolution: {integrity: sha512-Gm0yVBXfHIzMwbmZpH7Pb1zfNMlLdGwIJUqxFEX4pneLg7HFfdEJ55TEEiCtNwE0oVuvLJmTuAa35qvrxIk3gg==}
+  '@atproto/pds@0.5.48':
+    resolution: {integrity: sha512-Vhu1Vu77wf0oe4OBQNcIdiGiMbv9n+bdvBoexse+kdZhFjt88Xqnb8VLnao5RWk2LXemBSHy2VqPZSkU7orrrA==}
     engines: {node: '>=22'}
 
   '@atproto/repo@0.11.1':
@@ -1485,7 +1485,7 @@ snapshots:
       '@atproto/jwk': 0.7.4
       zod: 3.25.76
 
-  '@atproto/pds@0.5.47(debug@4.4.3)':
+  '@atproto/pds@0.5.48(debug@4.4.3)':
     dependencies:
       '@atproto-labs/fetch-node': 0.4.3
       '@atproto-labs/simple-store': 0.5.1
