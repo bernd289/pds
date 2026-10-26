@@ -16,6 +16,7 @@ minimumReleaseAgeExclude:
   - '@atproto-labs/*'
   - '@aws-sdk/*'
   - '@smithy/*'
+  - '@did-plc/*'
 
 allowBuilds:
   better-sqlite3: true
