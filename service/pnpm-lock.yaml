@@ -38,8 +38,8 @@ packages:
     resolution: {integrity: sha512-9HEcZuCU4nWAzV3XZ7nwbDPdV8tbhICzyYeyE5SPHTPuuKS6C3i5WOdwGP1diCCUaYF3Vadw5ArVlQPtXnn73w==}
     engines: {node: '>=22'}
 
-  '@atproto-labs/handle-resolver-node@0.2.14':
-    resolution: {integrity: sha512-O7vJyelVurDZfSbh57GgdRaMhGyLA1RPeFX8yVaeLDoGNhhexy6uoXqwPAylPUDjzCc29OPLhfv6Jozi3SqT3A==}
+  '@atproto-labs/handle-resolver-node@0.2.15':
+    resolution: {integrity: sha512-ksH6h268dkDAXft45guvYPI/8CnJFlibyBKqpzX75kezQ+Hj8RLbVaScpsnywkE6Jqt31y8E/dW8dyMXKDqidg==}
     engines: {node: '>=22'}
 
   '@atproto-labs/handle-resolver@0.4.10':
@@ -1225,7 +1225,7 @@ snapshots:
     dependencies:
       '@atproto-labs/pipe': 0.2.4
 
-  '@atproto-labs/handle-resolver-node@0.2.14':
+  '@atproto-labs/handle-resolver-node@0.2.15':
     dependencies:
       '@atproto-labs/fetch-node': 0.4.3
       '@atproto-labs/handle-resolver': 0.4.10
@@ -1370,7 +1370,7 @@ snapshots:
       '@atproto-labs/did-resolver': 0.3.11
       '@atproto-labs/fetch-node': 0.4.3
       '@atproto-labs/handle-resolver': 0.4.10
-      '@atproto-labs/handle-resolver-node': 0.2.14
+      '@atproto-labs/handle-resolver-node': 0.2.15
       '@atproto/did': 0.5.6
       '@atproto/lex-builder': 0.1.18
       '@atproto/lex-cbor': 0.1.7
