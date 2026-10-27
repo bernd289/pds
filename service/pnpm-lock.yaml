@@ -18,8 +18,8 @@ importers:
   .:
     dependencies:
       '@atproto/lex':
-        specifier: ^0.4.2
-        version: 0.4.2
+        specifier: ^0.4.3
+        version: 0.4.3
       '@atproto/pds':
         specifier: 0.5.49
         version: 0.5.49(debug@4.4.3)
@@ -127,8 +127,8 @@ packages:
     resolution: {integrity: sha512-snXkPN3oPaX7bw6brKlfME/15hQbbN4eFP3WN+0HeeklC4LXF+JZS2q+/Bi+acyj9VCcuvklI33xf0nmQmlIaQ==}
     engines: {node: '>=22'}
 
-  '@atproto/lex-installer@0.2.2':
-    resolution: {integrity: sha512-oRgT+oW6z00fT+h9KJPWJTSPKyD5QBm4GEov1iy9fYiIXFrWfGG1nSaJr5YbGM7hxkVSuZjE1Xc42YdsLrx6rw==}
+  '@atproto/lex-installer@0.2.3':
+    resolution: {integrity: sha512-DR79PVYmQDAVch43FdrxeG9dtEM9m/4adUvqJhwJpuxGxyIuJAqoZoq4ZmFSAc8l2zUmpRjUorPqy+1woH3bLg==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -148,8 +148,8 @@ packages:
     resolution: {integrity: sha512-RkY6c77VTWUior/D2UsfBG/bAba5fNMZhjxB0/V1nN4XIgOs8fIo2c42WdFtCelVzc06Dr5oO62FjqSWulfdpg==}
     engines: {node: '>=22'}
 
-  '@atproto/lex@0.4.2':
-    resolution: {integrity: sha512-5agIAaGJPgy+91r2WIbEE7jhWkSMVxdz6enRjwx79kTX3KeKDQXl+jyyZ1i/6Rj39r2AjBTY/JGuFs+VUI6+Xw==}
+  '@atproto/lex@0.4.3':
+    resolution: {integrity: sha512-FKoTZiHh00+qV9+suyDDvcjBtSkyldZuUeqss58a3AGI/YdtvGkwexMqzgnOrK17xBZ42O9i+HzobQAEV66Sfw==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -1365,7 +1365,7 @@ snapshots:
       core-js: 3.51.0
       tslib: 2.8.1
 
-  '@atproto/lex-installer@0.2.2':
+  '@atproto/lex-installer@0.2.3':
     dependencies:
       '@atproto-labs/did-resolver': 0.3.11
       '@atproto-labs/fetch-node': 0.4.3
@@ -1415,12 +1415,12 @@ snapshots:
       '@standard-schema/spec': 1.1.0
       tslib: 2.8.1
 
-  '@atproto/lex@0.4.2':
+  '@atproto/lex@0.4.3':
     dependencies:
       '@atproto/lex-builder': 0.1.18
       '@atproto/lex-client': 0.4.0
       '@atproto/lex-data': 0.1.8
-      '@atproto/lex-installer': 0.2.2
+      '@atproto/lex-installer': 0.2.3
       '@atproto/lex-json': 0.1.7
       '@atproto/lex-schema': 0.2.9
       tslib: 2.8.1
@@ -1497,7 +1497,7 @@ snapshots:
       '@atproto/crypto': 0.5.7
       '@atproto/did': 0.5.6
       '@atproto/identity': 0.5.20
-      '@atproto/lex': 0.4.2
+      '@atproto/lex': 0.4.3
       '@atproto/lex-cbor': 0.1.7
       '@atproto/lex-data': 0.1.8
       '@atproto/lex-document': 0.1.14
