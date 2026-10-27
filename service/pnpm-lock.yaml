@@ -213,16 +213,16 @@ packages:
     resolution: {integrity: sha512-DSo+EqLq2PkS8gjit311LliRrYzydneP6vRhxMzDh9c8P3wWGzHf4fjmQN3d8sl4qh+aMqzn9+o+gZZo4+uqIQ==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-cloudfront@3.1157.0':
-    resolution: {integrity: sha512-BAoYp4gWA/laGT0cV3DI3bC4NbCYzV7zwwBKIjCUMokDGS9tFG5qy99JKYE3mOLMIVYcZqEPbk5XA4FP4LEz2Q==}
+  '@aws-sdk/client-cloudfront@3.1158.0':
+    resolution: {integrity: sha512-DFzASPZ0NLgBfe2my6SXJwG7fowNZyumKhYbaSXa/zVJS5iDXphCJXzHA5olHPlLAs2fZOfdZY3JnaUrg1Wb3g==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-kms@3.1157.0':
-    resolution: {integrity: sha512-LYExMX+IW5QNyeyRDV+MUUStxjYhSBL6XjayuYco1d77qsngIK3/XIT5nkKydcEwtjCzbs8Dc1F+xMS6lq0ASQ==}
+  '@aws-sdk/client-kms@3.1158.0':
+    resolution: {integrity: sha512-uOO8r4mFEuFBMy5KJ+suxj5XWiNXkXkOoO5APVUHitRW4ESyCVrkTscyogb/6jFxyTPwPJ1EikGZhmJFC6V6uQ==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-s3@3.1157.0':
-    resolution: {integrity: sha512-fbZIxqZVzK/PMLj9az3+ieAcYdZhzpTrfIVAnrE4PnRc1C6SokMDnaxAJycKTNmzLlY1fvmlItZWBDPUEFlGLQ==}
+  '@aws-sdk/client-s3@3.1158.0':
+    resolution: {integrity: sha512-ytaS0QeydANmiLo20kXtAKHKxEriqVgtIC7WnRXfjYEgH3yfjxaxJvYEWQKLU0g8Fpb1Um287KfBIO/eg6aqXA==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.978.6':
@@ -427,8 +427,8 @@ packages:
     resolution: {integrity: sha512-kNOjDqAh7px0XWNI+4QbzoiR/nTkHAWNud2uvnJquD1/x5a7EQZMJT0AczqK0Qn67oY/TTQ1LbUKajZpp3I9tQ==}
     engines: {node: '>=8.0.0'}
 
-  axios@1.20.0:
-    resolution: {integrity: sha512-r8aOh8j9cGKpgQAqpzrUHnSIc6a59Y3Xf/cv8sy1DrHCkZHzQGEuoq1tARk6qSyDdtQGSDgpb9kFlruzPvrgwg==}
+  axios@1.21.0:
+    resolution: {integrity: sha512-YCzXMB53Q9PZBsh7yN7wtapit4WepwcHS2fP8QhGsBxSz5YtgYobV7GGlWlAJi+RxfU77GQTQi2DSLUma42EYA==}
 
   balanced-match@4.0.4:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
@@ -1280,10 +1280,10 @@ snapshots:
       '@atproto/common-web': 0.5.15
       '@atproto/crypto': 0.5.7
       '@atproto/repo': 0.11.1
-      '@aws-sdk/client-cloudfront': 3.1157.0
-      '@aws-sdk/client-kms': 3.1157.0
-      '@aws-sdk/client-s3': 3.1157.0
-      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1157.0)
+      '@aws-sdk/client-cloudfront': 3.1158.0
+      '@aws-sdk/client-kms': 3.1158.0
+      '@aws-sdk/client-s3': 3.1158.0
+      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1158.0)
       '@noble/curves': 1.9.7
       multiformats: 13.4.2
       uint8arrays: 5.1.1
@@ -1624,7 +1624,7 @@ snapshots:
       '@smithy/types': 4.19.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-cloudfront@3.1157.0':
+  '@aws-sdk/client-cloudfront@3.1158.0':
     dependencies:
       '@aws-sdk/core': 3.978.6
       '@aws-sdk/credential-provider-node': 3.972.89
@@ -1635,7 +1635,7 @@ snapshots:
       '@smithy/types': 4.19.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-kms@3.1157.0':
+  '@aws-sdk/client-kms@3.1158.0':
     dependencies:
       '@aws-sdk/core': 3.978.6
       '@aws-sdk/credential-provider-node': 3.972.89
@@ -1646,7 +1646,7 @@ snapshots:
       '@smithy/types': 4.19.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-s3@3.1157.0':
+  '@aws-sdk/client-s3@3.1158.0':
     dependencies:
       '@aws-sdk/checksums': 3.1001.6
       '@aws-sdk/core': 3.978.6
@@ -1755,9 +1755,9 @@ snapshots:
       '@smithy/types': 4.19.0
       tslib: 2.8.1
 
-  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1157.0)':
+  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1158.0)':
     dependencies:
-      '@aws-sdk/client-s3': 3.1157.0
+      '@aws-sdk/client-s3': 3.1158.0
       '@smithy/abort-controller': 4.4.2
       '@smithy/middleware-endpoint': 4.7.2
       '@smithy/smithy-client': 4.15.2
@@ -1821,7 +1821,7 @@ snapshots:
       '@atproto/common': 0.1.1
       '@atproto/crypto': 0.1.0
       '@ipld/dag-cbor': 7.0.3
-      axios: 1.20.0(debug@4.4.3)
+      axios: 1.21.0(debug@4.4.3)
       multiformats: 9.9.0
       uint8arrays: 3.0.0
       zod: 3.25.76
@@ -1965,7 +1965,7 @@ snapshots:
 
   atomic-sleep@1.0.0: {}
 
-  axios@1.20.0(debug@4.4.3):
+  axios@1.21.0(debug@4.4.3):
     dependencies:
       follow-redirects: 1.16.2(debug@4.4.3)
       form-data: 4.0.6
