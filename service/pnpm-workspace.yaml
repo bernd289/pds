@@ -7,6 +7,9 @@ overrides:
 
 autoDedupe: true
 
+lockfile:
+  includeResolutionSettings: true
+
 neverBuiltDependencies: []
 
 minimumReleaseAge: 720
