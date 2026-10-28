@@ -21,8 +21,8 @@ importers:
         specifier: ^0.4.4
         version: 0.4.4
       '@atproto/pds':
-        specifier: 0.5.51
-        version: 0.5.51(debug@4.4.3)
+        specifier: 0.5.52
+        version: 0.5.52(debug@4.4.3)
 
 packages:
 
@@ -68,8 +68,8 @@ packages:
     resolution: {integrity: sha512-vfvoDhu6ds6BT3Pqe+d2/LBU1WpDRtt69y6zltlfMCoucPm82m1j50/Wb6xTvv+oZ+2j0JyZVXsmXQ12SWYQJg==}
     engines: {node: '>=22'}
 
-  '@atproto-labs/xrpc-utils@0.1.27':
-    resolution: {integrity: sha512-Oa770A2KbNDgjRGgz/ikg2u/oZrpRVYjTEnl/LDvgy+rv/Nx9xk4h0l4lS/nP+W5xaVvlhNjMcAXvuvI4eajWQ==}
+  '@atproto-labs/xrpc-utils@0.1.28':
+    resolution: {integrity: sha512-YtkSi0Y6tqRnSPpv8rZHjtNeIJVaD543zf1H45lZOpMyYdPTfG5WOst8fD8QzBoXYYPaxgutcT3mWTfv+WXvFg==}
     engines: {node: '>=22'}
 
   '@atproto/aws@0.3.21':
@@ -185,8 +185,8 @@ packages:
     resolution: {integrity: sha512-HhY0n6BJtFlxHJTOwT34uf7BiMaEluuwiZqHkamWoFvl+Gk7bPgWhPslr4kX2J/7ryFxhdsKVj1tjWjy0AhjTw==}
     engines: {node: '>=22'}
 
-  '@atproto/pds@0.5.51':
-    resolution: {integrity: sha512-n3lSCRmKhN25hYD3bEaMr+JylPUSdf77Cb4PW4EZrystSJH/xAr9TBz9ZpTRePuxFCHUnllop/B2x4zN8vkTow==}
+  '@atproto/pds@0.5.52':
+    resolution: {integrity: sha512-IEDHJuaU3OktTbQu/DRqHuziATbjIEboNvmc6h7DaxRpJPRBmO9OFtB8CrVjJDWmlTxOBUdmpu+VweTLx0EABw==}
     engines: {node: '>=22'}
 
   '@atproto/repo@0.11.2':
@@ -336,10 +336,6 @@ packages:
 
   '@noble/secp256k1@1.7.2':
     resolution: {integrity: sha512-/qzwYl5eFLH8OWIecQWM31qld2g1NfjgylK+TNhqtaUKP37Nm+Y+z30Fjhw0Ct8p9yCQEm2N3W/AckdIb3SMcQ==}
-
-  '@opentelemetry/api-logs@0.219.0':
-    resolution: {integrity: sha512-FFx7YnaYJlIjqWW/AG/yAZ0L/NEY724PipXXXQLdtZPbLwBGbUMTGL1i/esI56TWfTUXxhLfpgrnWJCG8aUJyg==}
-    engines: {node: '>=8.0.0'}
 
   '@opentelemetry/api@1.10.0':
     resolution: {integrity: sha512-lMkyes8iHrG+mk6WH7X70MdCLI2RS0FwNBY1PyQ8UemaijE2m5mv5A0Niy3HtbYTFrgkUEQjFMXmSAk2hQDuPQ==}
@@ -1265,7 +1261,7 @@ snapshots:
 
   '@atproto-labs/simple-store@0.5.1': {}
 
-  '@atproto-labs/xrpc-utils@0.1.27':
+  '@atproto-labs/xrpc-utils@0.1.28':
     dependencies:
       '@atproto/xrpc': 0.8.16
       '@atproto/xrpc-server': 0.13.7
@@ -1511,13 +1507,13 @@ snapshots:
       '@atproto/jwk': 0.7.4
       zod: 3.25.76
 
-  '@atproto/pds@0.5.51(debug@4.4.3)':
+  '@atproto/pds@0.5.52(debug@4.4.3)':
     dependencies:
       '@atproto-labs/fetch-node': 0.4.3
       '@atproto-labs/simple-store': 0.5.1
       '@atproto-labs/simple-store-memory': 0.2.6
       '@atproto-labs/simple-store-redis': 0.1.6(ioredis@5.11.1)
-      '@atproto-labs/xrpc-utils': 0.1.27
+      '@atproto-labs/xrpc-utils': 0.1.28
       '@atproto/aws': 0.3.21
       '@atproto/common': 0.8.7
       '@atproto/crypto': 0.5.7
@@ -1537,7 +1533,6 @@ snapshots:
       '@hapi/address': 5.1.1
       '@noble/curves': 1.9.7
       '@opentelemetry/api': 1.10.0
-      '@opentelemetry/api-logs': 0.219.0
       better-sqlite3: 13.0.3
       compression: 1.8.2
       cors: 2.8.6
@@ -1864,10 +1859,6 @@ snapshots:
   '@noble/hashes@1.8.0': {}
 
   '@noble/secp256k1@1.7.2': {}
-
-  '@opentelemetry/api-logs@0.219.0':
-    dependencies:
-      '@opentelemetry/api': 1.10.0
 
   '@opentelemetry/api@1.10.0': {}
 
