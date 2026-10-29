@@ -221,8 +221,8 @@ packages:
     resolution: {integrity: sha512-afayeOZhcKtjyPLwOgPcsIVSNeMo5j3I7fyscFWroc4hVnrmIdDCx/eIkZ3qm+gwKG7h0REEg2iNRk2/8kqk2Q==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-kms@3.1158.0':
-    resolution: {integrity: sha512-uOO8r4mFEuFBMy5KJ+suxj5XWiNXkXkOoO5APVUHitRW4ESyCVrkTscyogb/6jFxyTPwPJ1EikGZhmJFC6V6uQ==}
+  '@aws-sdk/client-kms@3.1159.0':
+    resolution: {integrity: sha512-XEquVsc1uBPjrYfe4xUKE6p75zp7DfcS4EPjoFHx8m8i0AryCMJCx3TLX6BeEo/1QM4lhal620jpIARIz4dMGg==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/client-s3@3.1159.0':
@@ -1281,7 +1281,7 @@ snapshots:
       '@atproto/crypto': 0.5.7
       '@atproto/repo': 0.11.2
       '@aws-sdk/client-cloudfront': 3.1159.0
-      '@aws-sdk/client-kms': 3.1158.0
+      '@aws-sdk/client-kms': 3.1159.0
       '@aws-sdk/client-s3': 3.1159.0
       '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1159.0)
       '@noble/curves': 1.9.7
@@ -1634,7 +1634,7 @@ snapshots:
       '@smithy/types': 4.19.0
       tslib: 2.8.1
 
-  '@aws-sdk/client-kms@3.1158.0':
+  '@aws-sdk/client-kms@3.1159.0':
     dependencies:
       '@aws-sdk/core': 3.978.7
       '@aws-sdk/credential-provider-node': 3.972.90
