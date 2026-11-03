@@ -4,6 +4,7 @@ overrides:
   undici_v6: npm:undici@^8
   undici_v7: npm:undici@^8
   undici_v8: npm:undici@^8
+  '@atproto/lex-schema': 0.2.9
 
 autoDedupe: true
 
