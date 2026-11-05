@@ -21,6 +21,7 @@ minimumReleaseAgeExclude:
   - '@aws-sdk/*'
   - '@smithy/*'
   - '@did-plc/*'
+  - 'undici'
 
 allowBuilds:
   better-sqlite3: true
