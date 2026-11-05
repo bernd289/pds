@@ -14,6 +14,7 @@ overrides:
   undici_v6: npm:undici@^8
   undici_v7: npm:undici@^8
   undici_v8: npm:undici@^8
+  '@atproto/lex-schema': 0.2.9
 
 pnpmfileChecksum: sha256-w5yQVBlSHkV21Rvm+cFdpDb077u/gIw49V7JtoY70Dg=
 
@@ -152,8 +153,8 @@ packages:
     resolution: {integrity: sha512-Dzzg+MuOv0P2FdnVOHDteaF8mdE+unTQev9uVe38AOiSrNTNlxAApiX6bHR1mItquVgTK9tSwGzjnCFZJcRmxA==}
     engines: {node: '>=22'}
 
-  '@atproto/lex-schema@0.2.10':
-    resolution: {integrity: sha512-yVRj03EkWAjVGQlHdbcesAZsPwRMGtPmfmro/Q0hqcgtRap3+Am1ntlCg8UzRxuxwnwixxmtcFpizPB1MCMYBg==}
+  '@atproto/lex-schema@0.2.9':
+    resolution: {integrity: sha512-RkY6c77VTWUior/D2UsfBG/bAba5fNMZhjxB0/V1nN4XIgOs8fIo2c42WdFtCelVzc06Dr5oO62FjqSWulfdpg==}
     engines: {node: '>=22'}
 
   '@atproto/lex@0.4.4':
@@ -1344,7 +1345,7 @@ snapshots:
   '@atproto/lex-builder@0.1.18':
     dependencies:
       '@atproto/lex-document': 0.1.15
-      '@atproto/lex-schema': 0.2.10
+      '@atproto/lex-schema': 0.2.9
       prettier: 3.9.10
       ts-morph: 27.0.2
       tslib: 2.9.1
@@ -1360,7 +1361,7 @@ snapshots:
     dependencies:
       '@atproto/lex-data': 0.1.9
       '@atproto/lex-rpc': 0.0.1
-      '@atproto/lex-schema': 0.2.10
+      '@atproto/lex-schema': 0.2.9
       tslib: 2.9.1
 
   '@atproto/lex-data@0.1.9':
@@ -1372,7 +1373,7 @@ snapshots:
   '@atproto/lex-document@0.1.15':
     dependencies:
       '@atproto/lex-data': 0.1.9
-      '@atproto/lex-schema': 0.2.10
+      '@atproto/lex-schema': 0.2.9
       tslib: 2.9.1
 
   '@atproto/lex-installer@0.2.4':
@@ -1388,7 +1389,7 @@ snapshots:
       '@atproto/lex-document': 0.1.15
       '@atproto/lex-resolver': 0.4.1
       '@atproto/lex-rpc': 0.0.1
-      '@atproto/lex-schema': 0.2.10
+      '@atproto/lex-schema': 0.2.9
       '@atproto/syntax': 0.7.7
       prettier: 3.9.10
       tslib: 2.9.1
@@ -1406,7 +1407,7 @@ snapshots:
       '@atproto/lex-data': 0.1.9
       '@atproto/lex-document': 0.1.15
       '@atproto/lex-rpc': 0.0.1
-      '@atproto/lex-schema': 0.2.10
+      '@atproto/lex-schema': 0.2.9
       '@atproto/repo': 0.11.2
       '@atproto/syntax': 0.7.7
       tslib: 2.9.1
@@ -1415,10 +1416,10 @@ snapshots:
     dependencies:
       '@atproto/lex-data': 0.1.9
       '@atproto/lex-json': 0.1.8
-      '@atproto/lex-schema': 0.2.10
+      '@atproto/lex-schema': 0.2.9
       tslib: 2.9.1
 
-  '@atproto/lex-schema@0.2.10':
+  '@atproto/lex-schema@0.2.9':
     dependencies:
       '@atproto/lex-data': 0.1.9
       '@atproto/syntax': 0.7.7
@@ -1432,7 +1433,7 @@ snapshots:
       '@atproto/lex-data': 0.1.9
       '@atproto/lex-installer': 0.2.4
       '@atproto/lex-json': 0.1.8
-      '@atproto/lex-schema': 0.2.10
+      '@atproto/lex-schema': 0.2.9
       tslib: 2.9.1
       yargs: 18.2.0
 
@@ -1592,7 +1593,7 @@ snapshots:
       '@atproto/lex-client': 0.4.0
       '@atproto/lex-data': 0.1.9
       '@atproto/lex-json': 0.1.8
-      '@atproto/lex-schema': 0.2.10
+      '@atproto/lex-schema': 0.2.9
       '@atproto/lexicon': 0.7.18
       '@atproto/ws-client': 0.2.1
       '@atproto/xrpc': 0.8.16
