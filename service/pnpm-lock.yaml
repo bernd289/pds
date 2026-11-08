@@ -864,8 +864,8 @@ packages:
     resolution: {integrity: sha512-RJUC6640QV1PzTHHapOrc6IzrAJUZtk2BdVdINZ9VTLm+mcQNyBO9LYyhrnufkzqiD9l8hPLJ97rSyK4WanPNg==}
     engines: {node: '>= 10.23.0'}
 
-  nodemailer@10.3.1:
-    resolution: {integrity: sha512-uF0AFsJC07Y1vdW7p580DKAnh7rAO+4UPSSB3mDCPNDufoiaOebV6JmrzpxB14OjEEEiBsNdYoM2Y+fN8M7BBA==}
+  nodemailer@10.4.0:
+    resolution: {integrity: sha512-fyy6r4Q5euRJ9Qr3Cts9K7SZrfe9zmz9oLOYiAR02MEJRDRci+99y0OoYBYBgpLffOqkkjXrB/d26VfiMje/kA==}
     engines: {node: '>=20.0.0'}
 
   object-assign@4.1.1:
@@ -1547,7 +1547,7 @@ snapshots:
       ioredis: 5.11.1
       jose: 5.10.0
       kysely: 0.29.8
-      nodemailer: 10.3.1
+      nodemailer: 10.4.0
       nodemailer-html-to-text: 3.2.0
       p-queue: 8.1.1
       pino: 10.4.0
@@ -2402,7 +2402,7 @@ snapshots:
     dependencies:
       html-to-text: 7.1.1
 
-  nodemailer@10.3.1: {}
+  nodemailer@10.4.0: {}
 
   object-assign@4.1.1: {}
 
