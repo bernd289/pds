@@ -25,8 +25,8 @@ importers:
         specifier: ^0.4.8
         version: 0.4.8
       '@atproto/pds':
-        specifier: 0.5.56
-        version: 0.5.56(debug@4.4.3)
+        specifier: 0.5.57
+        version: 0.5.57(debug@4.4.3)
 
 packages:
 
@@ -72,8 +72,8 @@ packages:
     resolution: {integrity: sha512-vfvoDhu6ds6BT3Pqe+d2/LBU1WpDRtt69y6zltlfMCoucPm82m1j50/Wb6xTvv+oZ+2j0JyZVXsmXQ12SWYQJg==}
     engines: {node: '>=22'}
 
-  '@atproto-labs/xrpc-utils@0.1.31':
-    resolution: {integrity: sha512-/ESRf/S9L9NygkwJ6Ep3gSszFl4j5eSnoB0qtD7lbL7zD8gOcZ7Ha+NvaMCotS/PZWSJhSQl9BaVB/+vKVtZrw==}
+  '@atproto-labs/xrpc-utils@0.1.32':
+    resolution: {integrity: sha512-WfhmEeea9TyuLN0/Yyvz+kJaFW4LJDn9qxNlbq+5Agwd6nJzCdy82r2FcIG8NzfUulSdtbbPvh/vsSJtSjAYnw==}
     engines: {node: '>=22'}
 
   '@atproto/aws@0.3.24':
@@ -189,8 +189,8 @@ packages:
     resolution: {integrity: sha512-HhY0n6BJtFlxHJTOwT34uf7BiMaEluuwiZqHkamWoFvl+Gk7bPgWhPslr4kX2J/7ryFxhdsKVj1tjWjy0AhjTw==}
     engines: {node: '>=22'}
 
-  '@atproto/pds@0.5.56':
-    resolution: {integrity: sha512-1IorVaCMfDSWORsJjt5J7h0XguwkBXflAsOw6eOyPK/nIRVCr++C0Sqhajt12z8ax5TA2+RfEdXvmFjXd+Z5Hw==}
+  '@atproto/pds@0.5.57':
+    resolution: {integrity: sha512-3O8zLy/eUbbIGMvFCq0h8rOkL+UzW4iX8TzSi2p2moCswc+5azTiwokAYB+zycofIKNvny//jwvf0JSvRo5ZJg==}
     engines: {node: '>=22'}
 
   '@atproto/repo@0.11.5':
@@ -205,8 +205,8 @@ packages:
     resolution: {integrity: sha512-HCGkqH/Ksxpgg/xCyIvH5hK6o8Lg2PxcEA790GCEV9MspCZB/xIesHZVgJN0cEvklGe+6pNCOZE1B5kj9q1ONA==}
     engines: {node: '>=22'}
 
-  '@atproto/xrpc-server@0.13.10':
-    resolution: {integrity: sha512-c+gyEEE3mQ7hJDbIuBEYImDFzikd34Eei9kcAG9WIIzpkDdHO6CZEo2dsQJ72/bowlWxuBftRoUJezjJVF0yZQ==}
+  '@atproto/xrpc-server@0.13.11':
+    resolution: {integrity: sha512-gKgD52Ss3nPvZqLS7G6Q09RfnIl/kVlBWh/2c6R8E4dqubstVuFtEp9idEVx/ezEea1XQWXOgSXM/N9AGCVFkQ==}
     engines: {node: '>=22'}
 
   '@atproto/xrpc@0.8.18':
@@ -1262,10 +1262,10 @@ snapshots:
 
   '@atproto-labs/simple-store@0.5.1': {}
 
-  '@atproto-labs/xrpc-utils@0.1.31':
+  '@atproto-labs/xrpc-utils@0.1.32':
     dependencies:
       '@atproto/xrpc': 0.8.18
-      '@atproto/xrpc-server': 0.13.10
+      '@atproto/xrpc-server': 0.13.11
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -1508,13 +1508,13 @@ snapshots:
       '@atproto/jwk': 0.7.4
       zod: 3.25.76
 
-  '@atproto/pds@0.5.56(debug@4.4.3)':
+  '@atproto/pds@0.5.57(debug@4.4.3)':
     dependencies:
       '@atproto-labs/fetch-node': 0.4.5
       '@atproto-labs/simple-store': 0.5.1
       '@atproto-labs/simple-store-memory': 0.2.6
       '@atproto-labs/simple-store-redis': 0.1.6(ioredis@5.11.1)
-      '@atproto-labs/xrpc-utils': 0.1.31
+      '@atproto-labs/xrpc-utils': 0.1.32
       '@atproto/aws': 0.3.24
       '@atproto/common': 0.8.10
       '@atproto/crypto': 0.5.7
@@ -1530,7 +1530,7 @@ snapshots:
       '@atproto/oauth-scopes': 0.5.14
       '@atproto/repo': 0.11.5
       '@atproto/syntax': 0.7.7
-      '@atproto/xrpc-server': 0.13.10
+      '@atproto/xrpc-server': 0.13.11
       '@did-plc/lib': 0.0.4(debug@4.4.3)
       '@hapi/address': 5.1.1
       '@noble/curves': 1.9.7
@@ -1585,7 +1585,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@atproto/xrpc-server@0.13.10':
+  '@atproto/xrpc-server@0.13.11':
     dependencies:
       '@atproto/common': 0.8.10
       '@atproto/crypto': 0.5.7
