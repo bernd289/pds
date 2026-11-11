@@ -21,6 +21,7 @@ minimumReleaseAgeExclude:
   - '@smithy/*'
   - '@did-plc/*'
   - 'undici'
+  - 'better-sqlite3'
 
 allowBuilds:
   better-sqlite3: true
