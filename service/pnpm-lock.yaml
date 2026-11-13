@@ -25,8 +25,8 @@ importers:
         specifier: ^0.4.8
         version: 0.4.8
       '@atproto/pds':
-        specifier: 0.5.57
-        version: 0.5.57(debug@4.4.3)
+        specifier: 0.5.58
+        version: 0.5.58(debug@4.4.3)
 
 packages:
 
@@ -72,8 +72,8 @@ packages:
     resolution: {integrity: sha512-vfvoDhu6ds6BT3Pqe+d2/LBU1WpDRtt69y6zltlfMCoucPm82m1j50/Wb6xTvv+oZ+2j0JyZVXsmXQ12SWYQJg==}
     engines: {node: '>=22'}
 
-  '@atproto-labs/xrpc-utils@0.1.32':
-    resolution: {integrity: sha512-WfhmEeea9TyuLN0/Yyvz+kJaFW4LJDn9qxNlbq+5Agwd6nJzCdy82r2FcIG8NzfUulSdtbbPvh/vsSJtSjAYnw==}
+  '@atproto-labs/xrpc-utils@0.1.33':
+    resolution: {integrity: sha512-pALlKDU99T6ZNz+17jWkeHTGUtwQjKpMJt7n2aPUgVKcgMMqCiDMIT0RcIzj3xB10PvoYn17s4RKcCBumn/GmA==}
     engines: {node: '>=22'}
 
   '@atproto/aws@0.3.24':
@@ -189,8 +189,8 @@ packages:
     resolution: {integrity: sha512-HhY0n6BJtFlxHJTOwT34uf7BiMaEluuwiZqHkamWoFvl+Gk7bPgWhPslr4kX2J/7ryFxhdsKVj1tjWjy0AhjTw==}
     engines: {node: '>=22'}
 
-  '@atproto/pds@0.5.57':
-    resolution: {integrity: sha512-3O8zLy/eUbbIGMvFCq0h8rOkL+UzW4iX8TzSi2p2moCswc+5azTiwokAYB+zycofIKNvny//jwvf0JSvRo5ZJg==}
+  '@atproto/pds@0.5.58':
+    resolution: {integrity: sha512-G319w7vKY+T6WIz2NQYpPKOr9CAdft6eFFtlvlVI3IXoIo4S2VwNQW8BmAug4mu2aGriH/2/Oxvv+jNcGFQ9wA==}
     engines: {node: '>=22'}
 
   '@atproto/repo@0.11.5':
@@ -205,8 +205,8 @@ packages:
     resolution: {integrity: sha512-HCGkqH/Ksxpgg/xCyIvH5hK6o8Lg2PxcEA790GCEV9MspCZB/xIesHZVgJN0cEvklGe+6pNCOZE1B5kj9q1ONA==}
     engines: {node: '>=22'}
 
-  '@atproto/xrpc-server@0.13.11':
-    resolution: {integrity: sha512-gKgD52Ss3nPvZqLS7G6Q09RfnIl/kVlBWh/2c6R8E4dqubstVuFtEp9idEVx/ezEea1XQWXOgSXM/N9AGCVFkQ==}
+  '@atproto/xrpc-server@0.13.12':
+    resolution: {integrity: sha512-obrfXmomJfJZMJr4GckfBRCq/DSpH5uWPAkYFtEyrzQqCI7U7+E5+cfbCCruQGabPz1qVHcoSQ8DAwjFg/8Hlg==}
     engines: {node: '>=22'}
 
   '@atproto/xrpc@0.8.18':
@@ -217,16 +217,16 @@ packages:
     resolution: {integrity: sha512-OHlfkNzDFjYnwNPABhwAkDTUi0HPjfsKUHJDR0bSMORpCXNzRpInPCNCIT08xKDhjaPlcLJ+2Av+Sk7hHnuC8A==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-cloudfront@3.1167.0':
-    resolution: {integrity: sha512-xADVzvXdw02c5xDKbClF5GLFd79swPpb44jGvJP716QTe0ckyYSZI0E7rgfPmXDs2LLwB5A6hCBynGTpxU7TIw==}
+  '@aws-sdk/client-cloudfront@3.1168.0':
+    resolution: {integrity: sha512-PwEKy2dD8DtI4MERYKN2bHHPv5Lhn+Cys+XuPBuZXUhC3rOlzg1KynwSjBfT+mI7/u18+cK8GsRFpSmOPSVM7Q==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-kms@3.1167.0':
-    resolution: {integrity: sha512-IfAsvp6x29nmlLFyBwiIlmH9ayZDutyv0pchXykHBoLoCBVlRdlpAAYDWKPb0fYw9xD+ES6np1QFTKgdw6rJ0g==}
+  '@aws-sdk/client-kms@3.1168.0':
+    resolution: {integrity: sha512-VNIRdIXE1reOD/ViNiJM8lBUbmk5eo2EprKlNJPBR31uKjPzB/dHhuOdOIcRF/lecN+khvFRSZrDgvqgvEo/tg==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-s3@3.1167.0':
-    resolution: {integrity: sha512-HMOyvnlf0+7DFjZjMxGYluL3kbaJMFfslmL7KVda7KFJU/gb0KROGuKhrv2s0abQ0Nryd006yGy0dsxz3BpK+w==}
+  '@aws-sdk/client-s3@3.1168.0':
+    resolution: {integrity: sha512-7NcVxqy7Vc6I8A3KOZFORGh+zfMCd4S5aje55tBNBfshddz+F1NZwxLXblt44TC6nw0Hgx5os3AM2d/P0McELQ==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/core@3.981.0':
@@ -591,8 +591,8 @@ packages:
   emoji-regex@10.6.0:
     resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
 
-  encodeurl@2.0.1:
-    resolution: {integrity: sha512-Ev/hIyePLZtpL98x562lvPtenrUfGr0lfaf44HFZ+hDEwso7ccV9QAZrEVLg0hxNAzygaAFxy2dYaAKKM0G06A==}
+  encodeurl@2.0.2:
+    resolution: {integrity: sha512-ddmxiyS6ETq/v5/+mdA4fykK7JgEmqcShrGmQFTaKf5o43tL8XLuMzNLLsspuIC3/qGupS7Ci2TF+feJRkYY0w==}
     engines: {node: '>= 0.8'}
 
   entities@2.2.0:
@@ -783,8 +783,8 @@ packages:
   jose@5.10.0:
     resolution: {integrity: sha512-s+3Al/p9g32Iq+oqXxkW//7jk2Vig6FF1CFqzVXoTUXt2qz89YWbL+OwS17NFYEvxC35n0FKeGO2LGYSxeM2Gg==}
 
-  kysely@0.29.8:
-    resolution: {integrity: sha512-ixHU1H4R+LeC5Y0nAhYgiGRFpFRHm2DXKEmJSs/vbes9sKXyssyzxzE/NYiOJX5fY0BL28biCre3GqlCqUwyXQ==}
+  kysely@0.29.9:
+    resolution: {integrity: sha512-K48ErswC3MlIcBqR0pYIIEl+n9rIgwxgzaM1FxKHMXn7egxr1NHj7bCeF98mXl9A3/QoL5I7mo5S/mLXgeDgGA==}
     engines: {node: '>=22.0.0'}
 
   lru-cache@10.4.3:
@@ -948,8 +948,8 @@ packages:
     resolution: {integrity: sha512-ip4qdzjkAyDDZklUaZkcRFb2iA118H9SgRh8yzTkSQK8HilsOJF7rSY8HoW5+I0M46AZgX/pxbprf2vvzQCE0Q==}
     hasBin: true
 
-  prettier@3.10.0:
-    resolution: {integrity: sha512-mBi4765LgjO1PFjlEs7pUeK0nb1bw71c+N4/ItfeUWNdY5cV2pRKaFpbbFRYmDJMO+5ZwzGxHRqHxFZna7iv5w==}
+  prettier@3.10.1:
+    resolution: {integrity: sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1262,10 +1262,10 @@ snapshots:
 
   '@atproto-labs/simple-store@0.5.1': {}
 
-  '@atproto-labs/xrpc-utils@0.1.32':
+  '@atproto-labs/xrpc-utils@0.1.33':
     dependencies:
       '@atproto/xrpc': 0.8.18
-      '@atproto/xrpc-server': 0.13.11
+      '@atproto/xrpc-server': 0.13.12
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -1277,10 +1277,10 @@ snapshots:
       '@atproto/common-web': 0.5.17
       '@atproto/crypto': 0.5.7
       '@atproto/repo': 0.11.5
-      '@aws-sdk/client-cloudfront': 3.1167.0
-      '@aws-sdk/client-kms': 3.1167.0
-      '@aws-sdk/client-s3': 3.1167.0
-      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1167.0)
+      '@aws-sdk/client-cloudfront': 3.1168.0
+      '@aws-sdk/client-kms': 3.1168.0
+      '@aws-sdk/client-s3': 3.1168.0
+      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1168.0)
       '@noble/curves': 1.9.7
       multiformats: 13.4.2
       uint8arrays: 5.1.1
@@ -1345,7 +1345,7 @@ snapshots:
     dependencies:
       '@atproto/lex-document': 0.1.16
       '@atproto/lex-schema': 0.2.11
-      prettier: 3.10.0
+      prettier: 3.10.1
       ts-morph: 27.0.2
       tslib: 2.9.1
       yargs: 18.2.0
@@ -1389,7 +1389,7 @@ snapshots:
       '@atproto/lex-rpc': 0.0.3
       '@atproto/lex-schema': 0.2.11
       '@atproto/syntax': 0.7.7
-      prettier: 3.10.0
+      prettier: 3.10.1
       tslib: 2.9.1
       yargs: 18.2.0
 
@@ -1508,13 +1508,13 @@ snapshots:
       '@atproto/jwk': 0.7.4
       zod: 3.25.76
 
-  '@atproto/pds@0.5.57(debug@4.4.3)':
+  '@atproto/pds@0.5.58(debug@4.4.3)':
     dependencies:
       '@atproto-labs/fetch-node': 0.4.5
       '@atproto-labs/simple-store': 0.5.1
       '@atproto-labs/simple-store-memory': 0.2.6
       '@atproto-labs/simple-store-redis': 0.1.6(ioredis@5.11.1)
-      '@atproto-labs/xrpc-utils': 0.1.32
+      '@atproto-labs/xrpc-utils': 0.1.33
       '@atproto/aws': 0.3.24
       '@atproto/common': 0.8.10
       '@atproto/crypto': 0.5.7
@@ -1530,7 +1530,7 @@ snapshots:
       '@atproto/oauth-scopes': 0.5.14
       '@atproto/repo': 0.11.5
       '@atproto/syntax': 0.7.7
-      '@atproto/xrpc-server': 0.13.11
+      '@atproto/xrpc-server': 0.13.12
       '@did-plc/lib': 0.0.4(debug@4.4.3)
       '@hapi/address': 5.1.1
       '@noble/curves': 1.9.7
@@ -1546,7 +1546,7 @@ snapshots:
       http-terminator: 3.2.0
       ioredis: 5.11.1
       jose: 5.10.0
-      kysely: 0.29.8
+      kysely: 0.29.9
       nodemailer: 10.5.0
       nodemailer-html-to-text: 3.2.0
       p-queue: 8.1.1
@@ -1585,7 +1585,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@atproto/xrpc-server@0.13.11':
+  '@atproto/xrpc-server@0.13.12':
     dependencies:
       '@atproto/common': 0.8.10
       '@atproto/crypto': 0.5.7
@@ -1621,7 +1621,7 @@ snapshots:
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/client-cloudfront@3.1167.0':
+  '@aws-sdk/client-cloudfront@3.1168.0':
     dependencies:
       '@aws-sdk/core': 3.981.0
       '@aws-sdk/credential-provider-node': 3.972.97
@@ -1632,7 +1632,7 @@ snapshots:
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/client-kms@3.1167.0':
+  '@aws-sdk/client-kms@3.1168.0':
     dependencies:
       '@aws-sdk/core': 3.981.0
       '@aws-sdk/credential-provider-node': 3.972.97
@@ -1643,7 +1643,7 @@ snapshots:
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/client-s3@3.1167.0':
+  '@aws-sdk/client-s3@3.1168.0':
     dependencies:
       '@aws-sdk/checksums': 3.1002.5
       '@aws-sdk/core': 3.981.0
@@ -1752,9 +1752,9 @@ snapshots:
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1167.0)':
+  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1168.0)':
     dependencies:
-      '@aws-sdk/client-s3': 3.1167.0
+      '@aws-sdk/client-s3': 3.1168.0
       '@smithy/abort-controller': 4.4.2
       '@smithy/middleware-endpoint': 4.7.2
       '@smithy/smithy-client': 4.15.2
@@ -2123,7 +2123,7 @@ snapshots:
 
   emoji-regex@10.6.0: {}
 
-  encodeurl@2.0.1: {}
+  encodeurl@2.0.2: {}
 
   entities@2.2.0: {}
 
@@ -2169,7 +2169,7 @@ snapshots:
       cookie-signature: 1.0.7
       debug: 2.6.9
       depd: 2.0.0
-      encodeurl: 2.0.1
+      encodeurl: 2.0.2
       escape-html: 1.0.3
       etag: 1.8.1
       finalhandler: 1.3.2
@@ -2214,7 +2214,7 @@ snapshots:
   finalhandler@1.3.2:
     dependencies:
       debug: 2.6.9
-      encodeurl: 2.0.1
+      encodeurl: 2.0.2
       escape-html: 1.0.3
       on-finished: 2.4.2
       parseurl: 1.3.3
@@ -2350,7 +2350,7 @@ snapshots:
 
   jose@5.10.0: {}
 
-  kysely@0.29.8: {}
+  kysely@0.29.9: {}
 
   lru-cache@10.4.3: {}
 
@@ -2491,7 +2491,7 @@ snapshots:
       sonic-boom: 3.8.1
       thread-stream: 2.7.0
 
-  prettier@3.10.0: {}
+  prettier@3.10.1: {}
 
   process-warning@3.0.0: {}
 
@@ -2567,7 +2567,7 @@ snapshots:
       debug: 2.6.9
       depd: 2.0.0
       destroy: 1.2.0
-      encodeurl: 2.0.1
+      encodeurl: 2.0.2
       escape-html: 1.0.3
       etag: 1.8.1
       fresh: 0.5.2
@@ -2582,7 +2582,7 @@ snapshots:
 
   serve-static@1.16.3:
     dependencies:
-      encodeurl: 2.0.1
+      encodeurl: 2.0.2
       escape-html: 1.0.3
       parseurl: 1.3.3
       send: 0.19.2
