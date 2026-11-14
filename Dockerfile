@@ -7,7 +7,8 @@ RUN wget -O /usr/local/bin/sfw \
       https://github.com/SocketDev/sfw-free/releases/latest/download/sfw-free-musl-linux-x86_64 \
  && chmod +x /usr/local/bin/sfw \
  && npm i -g pnpm@12 \
- && sfw pnpm install --prod --no-optional --frozen-lockfile
+ && sfw pnpm install --prod --no-optional --frozen-lockfile \
+ && find /app/node_modules/.pnpm -path '*/better-sqlite3/prebuilds/*.node' ! -name "linuxmusl-$(node -p 'process.arch').node" -delete
 
 FROM node:26-alpine@sha256:6bd9ab43c0ec0190ca7b2d193906cb8b7edf6e7f4afa43ddeccd6452710bffb5 AS run
 
