@@ -1310,8 +1310,8 @@ packages:
   uint8arrays@5.1.1:
     resolution: {integrity: sha512-9muQwa4wZG4dKi9gMAIBtnk2Pw87SRpvWTH6lOGm19V2Uqxr4uomUf2PGqPnWc+qs06sN8owUU4jfcoWOcfwVQ==}
 
-  undici@8.12.4:
-    resolution: {integrity: sha512-8Mx+uNKKER2bA4AdtedkqRbwUCIJFr2nJckXRe5yrDqzePqwLP7VNcctN8/XdmDSbF7mS+jJKIszlL+vbam1VA==}
+  undici@8.13.0:
+    resolution: {integrity: sha512-mxbeyRlRhHUTWE1zf/FwDOXTKMhE1vMQRz/o2oOir/5fIWsB79TeZrByMkj019EdDuxPg03jprCjFLxLkmxTCQ==}
     engines: {node: '>=22.19.0'}
 
   unicode-segmenter@0.14.5:
@@ -1385,9 +1385,9 @@ snapshots:
       '@atproto-labs/fetch': 0.4.3
       '@atproto-labs/pipe': 0.2.5
       ipaddr.js: 2.5.0
-      undici_v6: undici@8.12.4
-      undici_v7: undici@8.12.4
-      undici_v8: undici@8.12.4
+      undici_v6: undici@8.13.0
+      undici_v7: undici@8.13.0
+      undici_v8: undici@8.13.0
 
   '@atproto-labs/fetch@0.4.3':
     dependencies:
@@ -1737,7 +1737,7 @@ snapshots:
       pino-http: 11.0.0
       strtok3: 10.8.0
       uint8arrays: 5.1.1
-      undici: 8.12.4
+      undici: 8.13.0
       zod: 3.25.76
     transitivePeerDependencies:
       - bufferutil
@@ -2889,7 +2889,7 @@ snapshots:
     dependencies:
       multiformats: 13.4.2
 
-  undici@8.12.4: {}
+  undici@8.13.0: {}
 
   unicode-segmenter@0.14.5: {}
 
