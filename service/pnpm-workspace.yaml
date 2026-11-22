@@ -10,8 +10,6 @@ autoDedupe: true
 lockfile:
   includeResolutionSettings: true
 
-neverBuiltDependencies: []
-
 minimumReleaseAge: 720
 minimumReleaseAgeExclude:
   - '@atproto/*'
