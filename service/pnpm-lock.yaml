@@ -22,36 +22,36 @@ importers:
   .:
     dependencies:
       '@atproto/lex':
-        specifier: ^0.6.2
-        version: 0.6.2
+        specifier: ^0.7.0
+        version: 0.7.0
       '@atproto/pds':
-        specifier: 0.5.65
-        version: 0.5.65(debug@4.4.3)
+        specifier: 0.5.66
+        version: 0.5.66(debug@4.4.3)
 
 packages:
 
-  '@atproto-labs/did-resolver@0.3.14':
-    resolution: {integrity: sha512-Yp9/87LEPguiVtx9SJYO8uZTJmTCT+FBJya8laxezAT+4ChRCRAxgWF9Es28UAigwoJ/SO08kHa2Ynj5D0BLww==}
+  '@atproto-labs/did-resolver@0.3.15':
+    resolution: {integrity: sha512-8Wajv3vsfHjyS2ZrJulhJw5cLFY5IYKKJOOCek+rDzrvLiMteayEiM/EpKleUx3mr6Ei31LRUE2iaOMv+bz+Ng==}
     engines: {node: '>=22'}
 
-  '@atproto-labs/fetch-node@0.4.6':
-    resolution: {integrity: sha512-LD9UGCQ5pVLjANZRuWD+oPWWCkqhPQhdnQaZEZ6KwlrqBb98VK2jxhf3NcwlZOnvBdu/tnMV1ZUEvKnKPxUr5A==}
+  '@atproto-labs/fetch-node@0.5.0':
+    resolution: {integrity: sha512-ONcfpatw21g36tE9xjh7tPlF8sTu7nsevojEPSXGzDlFzM5oRRV12O7pdJDtnLvPaXiO1xxYt8A7h7oWvmtuLQ==}
     engines: {node: '>=22'}
 
-  '@atproto-labs/fetch@0.4.3':
-    resolution: {integrity: sha512-Da747rqMhHOSbwEBUfpyCpg3kKwhPZNGLNTFBVc/JQ+KTsDmUy64quRwFqXEy+pd8xoaQ0fodaLDHGbD/LNK7Q==}
+  '@atproto-labs/fetch@0.5.0':
+    resolution: {integrity: sha512-/Fn+UdZlepm4fFzE0IYznkydxTuOMEJBQZtcHQBRwA3eB6u93RdShIvjC1CpK2UMt1R/H4W2aI9jOlRYmyuSyg==}
     engines: {node: '>=22'}
 
-  '@atproto-labs/handle-resolver-node@0.2.18':
-    resolution: {integrity: sha512-QoXHyrIa5oEZRRMYMAwXmKyNr2nvGj4Hw+GRsUk62IWz5at/+K1qWRjC8+A+iGQqFQ8aZgqjkAVhEoiUkBoe0A==}
+  '@atproto-labs/handle-resolver-node@0.2.19':
+    resolution: {integrity: sha512-3970cTCxCasBv7+cU0kYXqYgCT5Hml8/RwQOLPPSXzzcLHN8dOmTmXm+noJjkhbGNnpWp0XZuR4YDFp2ju1hDQ==}
     engines: {node: '>=22'}
 
   '@atproto-labs/handle-resolver@0.4.11':
     resolution: {integrity: sha512-K9ogJhLHAewBPAe0pkNTBDKSP+CieilXjvL/iD3+MAIGEp29yVinXMSfiybAoPVT6rBqfukslv3N2apFz0NIGw==}
     engines: {node: '>=22'}
 
-  '@atproto-labs/identity-resolver@0.4.14':
-    resolution: {integrity: sha512-N/Ni291K6wCHTpVQ7+Mx4BcuCQpyfV4z4GEXcr3Px7CMZD5Vm8B4oD/m+gTBMR5Ni39tH4v8uIA0b/0t1FrzmA==}
+  '@atproto-labs/identity-resolver@0.4.15':
+    resolution: {integrity: sha512-LECsMaH1lYRHmrWP+Y7xUns2MXRmcfCc/2nJoZ4V3+dXHdmWf1TSN5a72JTTE+CEz52tolkho0cWsMd7qu1NFw==}
     engines: {node: '>=22'}
 
   '@atproto-labs/pipe@0.2.5':
@@ -72,8 +72,8 @@ packages:
     resolution: {integrity: sha512-ecARZs4rBFY5OEr2XnsXBEx3IOgd9VGAdjiG0TUWgV6gIBIXbLm8QvMfn345yIZs99DY2q+Jbj0al/Bzuw3yBg==}
     engines: {node: '>=22'}
 
-  '@atproto-labs/xrpc-utils@0.1.37':
-    resolution: {integrity: sha512-CdRojFvhJlmgx9nwPdXDRQqLqPTlCRunqt3A+4pDGZ7LBA0lyTb2RxySK22zoxm9Tvl1kDXIfII4ACNbW8gwpQ==}
+  '@atproto-labs/xrpc-utils@0.1.38':
+    resolution: {integrity: sha512-d/pK2IX7UqsnH+GfAtJhHOjGfLGfcTZZ6nR6utaR804dy5dV2NK6Ft+6wdL9g+d3G9zqKZgWgzMVv4hsntGiiQ==}
     engines: {node: '>=22'}
 
   '@atproto/aws@0.3.27':
@@ -102,8 +102,8 @@ packages:
     resolution: {integrity: sha512-8bLfOnaoWBmg9S8naqzk5mG8zYAXfSKT4odB5OHcCAd1o7p6RFb0Rk9WGobEgboKtxP2CIeul6mzI5PUT4v6Gg==}
     engines: {node: '>=22'}
 
-  '@atproto/identity@0.5.26':
-    resolution: {integrity: sha512-w9zjlGi48UzwDWnRpcjKzLR/24P4Nlmb11gwXVh7eRZCoNgr+fC+N+Zn9BZjQK/O/NOIQ8eucepabsydkqNJXg==}
+  '@atproto/identity@0.5.27':
+    resolution: {integrity: sha512-m3pVbCf8rgNkJJWsJkMV9dPzM6385wF03t9s0+h0peQ+kQbj9ljbkyoIQUmNkxWG4nZ/4/o3I/kUlKUIauazJw==}
     engines: {node: '>=22'}
 
   '@atproto/jwk-jose@0.2.4':
@@ -114,8 +114,8 @@ packages:
     resolution: {integrity: sha512-tq7TUDmNfe1yDfpRgdGQMJdl9TUlJmREQNCag9yg5w8Evu+TOiFiLgiOCbo7X4ouRPSgd1DpOzXbUa8UyKKMZA==}
     engines: {node: '>=22'}
 
-  '@atproto/lex-builder@0.1.22':
-    resolution: {integrity: sha512-fxn5u6EZGs7tpd87+aiJ2MopQYH03jKf/8LiuwCaQZ4DtnjyA81zApMkvqTPXo+R6L60UI9bfvu0rkEQixV6Lg==}
+  '@atproto/lex-builder@0.1.23':
+    resolution: {integrity: sha512-rwLLqq//Xj+QfwsdjmGoGJw8mBilKfrtTf3X1W6GqD1xT2Vnz+psQwlcB6XoDVKvVYfsSnIO9gl/FS2K/sn4og==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -123,20 +123,20 @@ packages:
     resolution: {integrity: sha512-gcsGIMLJNh9Wxc3h8NxeBvVsFUWpXiGAmwZ6otOqgakdmH8XyUkpVhvdaFRFFIktOeHn95RTYvK29B4FuFg62g==}
     engines: {node: '>=22'}
 
-  '@atproto/lex-client@0.6.2':
-    resolution: {integrity: sha512-wp3IC93+vC4/RH/rT7GvpJPX96l36ay4g8HkEKUpIvgP4oX0UiRIQgdKXaYepzjWs5hIf3NaWzkUXWt4Vjw2ZA==}
+  '@atproto/lex-client@0.7.0':
+    resolution: {integrity: sha512-CDtCkUGbpk3zVnF4J5mRgOjGCp/Qn9AYnRh4FoGY+WM52xoPd8nRXI1U66SIiUjFw380l++Q8MsnM2qhTQsVUw==}
     engines: {node: '>=22'}
 
   '@atproto/lex-data@0.1.11':
     resolution: {integrity: sha512-m4fZaj9tGcGlRdsP9fLr8+UCutv8ahClYNGkrS+29ZGcen9E4336wggUyzq/XTOKo69Qa2FRVG79pareXh7mFQ==}
     engines: {node: '>=22'}
 
-  '@atproto/lex-document@0.1.18':
-    resolution: {integrity: sha512-gTkacmRJwQbh8PqCxLrOf3OfYpl2+36TH9mSjllFCxeVe43IOFIS9JJAmkx5rNVojENxwiUiyFcjxtK1MEjg9g==}
+  '@atproto/lex-document@0.1.19':
+    resolution: {integrity: sha512-oN2bFRF2CRrhD9blsRkkeTDMAWwUyiiw6YoXdt2EYRrO/eAKCLQX+1BN8AmR3LejkofjeK/IxvgWUxOLAmryQQ==}
     engines: {node: '>=22'}
 
-  '@atproto/lex-installer@0.2.12':
-    resolution: {integrity: sha512-OkRIFPqjIWQ6dIm/ew4nEsoJ6T0oIFP3LZv7PBsdBDxQw59v0p9zMy+sezPnKaRTLctGNN7NZdECj6PCbDMydw==}
+  '@atproto/lex-installer@0.2.13':
+    resolution: {integrity: sha512-QfD/n/9oWltfK0zoG4IvGspR0EgJJqbutiPR4dauzEj87e6sMbyyQz/REjxxvo8IxLAiZwU+bY/cg8fO7HC+SQ==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -144,20 +144,20 @@ packages:
     resolution: {integrity: sha512-ZsU6qtE0eM5P+gzdZseHwRjOAXIt8K5Q+5Q+clMo6y0VV72ieTUK5WcffNFkj6+NUJIBKGy3QmlbnI6eu4xBZA==}
     engines: {node: '>=22'}
 
-  '@atproto/lex-resolver@0.4.9':
-    resolution: {integrity: sha512-PbXDnCJ5v0m9q+qDohMEmmVMLmWLcaDEFaXQ2SVlpEJr7JjOL0KA2FzkswIpIF9UNHwvwoTBAaaxvXUZTcDiuA==}
+  '@atproto/lex-resolver@0.4.10':
+    resolution: {integrity: sha512-9wW99sJHW+9Ual9qJuDDWnD4VPkuAwTSK3ffveBY5WnToU445SYRkoR3HE3E/dWXYazEPvEr3xiwsleV4iDwhA==}
     engines: {node: '>=22'}
 
-  '@atproto/lex-rpc@0.2.2':
-    resolution: {integrity: sha512-BwwvWaXIKO/Co4fhrZy1MBU5vxkSaHB6I5G7PhsCIl5D85CcVy7nBZXECrv8tPj4goPnEzXcmTQzDgscEHWiDw==}
+  '@atproto/lex-rpc@0.3.0':
+    resolution: {integrity: sha512-C8XIm04ymvQO8sNAfjek4fsu55053k2c9VUnJZ55/JHB9DwGmur1Rn6F3li6YevVV5CupvSi1a80CpPg2trjZg==}
     engines: {node: '>=22'}
 
-  '@atproto/lex-schema@0.3.1':
-    resolution: {integrity: sha512-/ZESLZxjTUk9t4bcK/gfVijPxC5SiORVyRqBB++WAENXbNRR9PJ0KOcAIepPSOYp4Mb1C8Q8YwxEf2x8gfI3NQ==}
+  '@atproto/lex-schema@0.3.2':
+    resolution: {integrity: sha512-6KcI6hl2M4XBzuhebmZFMVoeRmsXDx1qgvZvcrqF9SGOF2q//NyJByyzjchLDWJK6PJOlM7l6AJvZFfxXm8aOw==}
     engines: {node: '>=22'}
 
-  '@atproto/lex@0.6.2':
-    resolution: {integrity: sha512-fXfmoDoxBuKg6XtH5HyI6LAfP6l+yE+QOa3GHTKkMYtzJ2Do3qH18nHKF6BiQHvPnpvg+JUPMKC+XTpiXRSYUg==}
+  '@atproto/lex@0.7.0':
+    resolution: {integrity: sha512-uj3WVWv2Ua+QN1U6BalegSR7J/tr7CaTd73fnU38VwbvFpy5d2Ue9fJOqvuFzBfbb/YOV9EshgHWinAf+y0URA==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -173,12 +173,12 @@ packages:
     resolution: {integrity: sha512-NYPHzBS4s1MGmnQQKaROejRbfvcdW7EPtyA1V+X1q0CvZ94FSbUtqjZVWEk89Lm0Eq/rn5Fi3kMd1ivsOqp8XQ==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-provider@0.27.2':
-    resolution: {integrity: sha512-Oy9WFJ7AspeYXRtDjj9MaFRW/FLHByD1K93bwyICj9oedecGYn2Te8RJlSQzVUzDcXwu3YGW7Koqf5ATyZSBCA==}
+  '@atproto/oauth-provider@0.27.3':
+    resolution: {integrity: sha512-rzXMFtXoBvUgf4mJfZRVPC7Zrx2AQq99RaYgM/SRX/q7JXfHXdndnJtZsGS2MfGFhuTd2HzLu3t+mdZ5SAS6Zw==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-resolver@0.0.4':
-    resolution: {integrity: sha512-g3R4rf4uXUcjD5nC5wi9P1XDB65Op0BnEZ0QgR0QMpQZD2tVGKU23TuT6up3/h1oY+qIVDeMEQZZKNMMW3OARQ==}
+  '@atproto/oauth-resolver@0.0.5':
+    resolution: {integrity: sha512-VA0JdlaOWKhHe9A7z8U5j4cPeeDS2LyWW17xAggPJYuXRNuxM+ALhN2DlcxnfLapDGzoVX2FzNLPlIIYC3oITA==}
     engines: {node: '>=22'}
 
   '@atproto/oauth-scopes@0.5.16':
@@ -189,8 +189,8 @@ packages:
     resolution: {integrity: sha512-+N96r3o0/lBbuHhATsQ3K6vjyd7l1XA5oRUOPjXn3iCzY1H87DAf2TTGyZv4qyg3cwDtFeKKha/OErMBq1jkwg==}
     engines: {node: '>=22'}
 
-  '@atproto/pds@0.5.65':
-    resolution: {integrity: sha512-DUU9RclSwkJmGZJjgg2P22/m26HMpmYdyMDO+D7T5tJ5+YKSjSUQYzk26Hw1EgoyNWv4iyrcy5OLQrfKDJIR+w==}
+  '@atproto/pds@0.5.66':
+    resolution: {integrity: sha512-sS7pYV8HkTuiuCvWQPnwT27JL0Wr1vyTI5nAiRbb1mRpOKwpk61UN4tobw5qi5KaRcTvi1hyoPiEFgL/gtilPw==}
     engines: {node: ^22.22.3 || ^24.11.1 || >=25.1.0}
 
   '@atproto/repo@0.11.8':
@@ -205,64 +205,64 @@ packages:
     resolution: {integrity: sha512-Gs7kDmJ6t6xcJ+hq3+xMCw/+3mKfaWTv5/lFwe8FaAfubCdkHgWNXnRswEYhe8tnFVJcrpuHzVF4pdf7Tm1bxg==}
     engines: {node: '>=22'}
 
-  '@atproto/xrpc-server@0.13.16':
-    resolution: {integrity: sha512-k2K5lIGH2dCEXucJqvzwlIUJ721hkmtuO8pfZfYba0SaC9nHBiNHfatwY9b0xXTQhiOFT9Qb6oB+rUmk2iXM6Q==}
+  '@atproto/xrpc-server@0.13.17':
+    resolution: {integrity: sha512-+oKcJWhSx2xICkaV55Pxn532YYIDA79TZoH27mtiq/6l/00ivIwS088a2RfQ2+n9dgu2uqKHrl9tMvV74fcv+g==}
     engines: {node: '>=22'}
 
   '@atproto/xrpc@0.8.21':
     resolution: {integrity: sha512-s6+VJnhNk873SYJISlie6qxts135Mo0OtBLDFcsKqXmv4tGoVTr8PBD96IJE+9fsDR1w1+fSYNbd/H28rmD54A==}
     engines: {node: '>=22'}
 
-  '@aws-sdk/checksums@3.1002.6':
-    resolution: {integrity: sha512-OgxgE64MkHNGtt7YJc2Q+d1maGnYcEkCw5r+UO7cM78iVzyMhXFVMgm5un1FZzk4XB8lv436zYduIWLH9ibdBg==}
+  '@aws-sdk/checksums@3.1002.7':
+    resolution: {integrity: sha512-J2L1/AdkQOyAEt440r+U4vdh3UcyDk+ybwGd0hWLTNCbS+t2TykGcp3/tNK2H8zHjIzsrsF2B/5YiGCt5tl5yA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-cloudfront@3.1176.0':
-    resolution: {integrity: sha512-x0ZOLCt749+KQGWX1LvhgOJYhHnGeEtKPqjGfo1cB0rsHOChxL/lAzBKwNNQ80bXopuZAWP7HIPGG9OVnFOLDg==}
+  '@aws-sdk/client-cloudfront@3.1177.0':
+    resolution: {integrity: sha512-qCtwIpQalX+abQQIDd+B1ixzPWgt86hJCH1W3bWuVD2HgfzPcEioxijsprZMrEDu0yKNZdEcr/BAE2+WOt3OoA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-kms@3.1176.0':
-    resolution: {integrity: sha512-+Fj9wKjda/oHHYGpQIyw5uSY5XY5Zb8y7c9mnJvQQWfMB7DlUrPxd2fT/re1uXjPBohwlJuHE09GhLGqofm3gg==}
+  '@aws-sdk/client-kms@3.1177.0':
+    resolution: {integrity: sha512-nILHxSXa4/TK8tSK7YD7VIfUSBn05xZ/BTMOLQYXP3bpS0tLCL8pTAAV095ol+rD4qVxJpJJvLD7Y+7Zg7KiYA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/client-s3@3.1176.0':
-    resolution: {integrity: sha512-ZD0T/34Rx8cyCF7KjT9DpKbeeUjPvdDTgcOzdn/NOHQIQ3GdMc7NIdfea3GUBI+rFaxvlLsQ4auV1eNR8pvkAQ==}
+  '@aws-sdk/client-s3@3.1177.0':
+    resolution: {integrity: sha512-Pe36iD8APFyzKtnPR4mxOFjThp+wv0Tg9aNW1jjGCGlmrYv6sz2ZY7ri4laUJZuR8sJC/jHi5atmqHLUIOy27g==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/core@3.981.1':
-    resolution: {integrity: sha512-sERtJaZjzvBdFMm2uei4k0WwPNUJtIrMBH9h0AEw7G0KkhIbnN3e5ZcwGjbVKClR+rrJCmyL1jhtXkseE7DU4A==}
+  '@aws-sdk/core@3.981.2':
+    resolution: {integrity: sha512-N3XKZdfa+Dcm7Kl8NJnaaHLx860Ts3QYHOraj/wuKOYHqqCApQBIKwzSxrpwZdwrqfbPt7BvJdYVhVMPpsRoGA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/credential-provider-env@3.972.85':
-    resolution: {integrity: sha512-IkIfFWmDbUyDEdNZpyAMmD3Givrm11I9UrqbgmLu1kUL/oh96QMqbfuHcbH08ErngZPDCQ2+7fW3U4r/W2k2Xg==}
+  '@aws-sdk/credential-provider-env@3.972.86':
+    resolution: {integrity: sha512-ZFIkIzLAiOLOakfrzUuOz938+AF+q4nc/MYINYwFlgBbl8CsI8ofJ8Ueh0/Pp7hXMJfpq10eJdnQ7aaE6kfikQ==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/credential-provider-http@3.972.87':
-    resolution: {integrity: sha512-NWQNmfmllENW1TOpMfhEZeRzEvbSaFsS5yrb2TZJ0wu+fVL5hyVSfGVLd8HTWb2UECD2bCw/kDXaA6dR1VJf3g==}
+  '@aws-sdk/credential-provider-http@3.972.88':
+    resolution: {integrity: sha512-92dpM3lwCyDjcDI3R+olUI2IG8R+qfUdnMQgxWZB4XM37P+N+oBaRd5xGc7uOH7FqMQY03XsrVKQeuWbPfIrKg==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/credential-provider-ini@3.973.31':
-    resolution: {integrity: sha512-K6jkaKaAaVn9qAl/I14lzDHnYWHiESkxYLnmPYnJg3OfTRtWz39NerpidQIzqbMpoE/pmFqhgSJ+Sx/j1++8sA==}
+  '@aws-sdk/credential-provider-ini@3.973.32':
+    resolution: {integrity: sha512-MdIAf70d701Hj04Yo7AKqI1RfjTW5dFf+tEvUirYFMbs3NRHWiwqQj/C9wGFptZtmX+z/c57H3gQfzTt5Bsn8A==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/credential-provider-login@3.972.93':
-    resolution: {integrity: sha512-JofxFKJyNGLc9MmFMKy/vmjVwvNIWKNvHOf8rkXheH9x4+WJpIexhk1cqbmxWkodDYAodqGTiCEdBAVuiyH0iA==}
+  '@aws-sdk/credential-provider-login@3.972.94':
+    resolution: {integrity: sha512-sSq1PxdXT1kqR11/dRvE5AC2dEWMbYJCXzRU03Ulu4stu6vv08zju8uUNhVdqiIX+OrMIcEHHT1maLrUZDBGDA==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/credential-provider-node@3.972.98':
-    resolution: {integrity: sha512-EpRL6YwSqvNlMjvRmwR2o3exV6DaETTdaWr1U7fZ456LQeK6ErOSluc6mWMY+OjkrBVFK4PgrU4NlERXTcgzKg==}
+  '@aws-sdk/credential-provider-node@3.972.99':
+    resolution: {integrity: sha512-AgS2qV8P9XmT4M44LfGcFtKbbt/yLgBydETKxPvqN9y7gMnKYv8GY+QfH7JsNvu6eQgDl600uAjvzC6K7ilkJQ==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/credential-provider-process@3.972.85':
-    resolution: {integrity: sha512-19kc3xj6woR3Nb2NWFxowRkCnuR43jMFcTLLLCqkzB/rPxxE1+NfHnAP5fpXgrI4xRRgDzvWeDREjhGrJxqfxA==}
+  '@aws-sdk/credential-provider-process@3.972.86':
+    resolution: {integrity: sha512-9x/+gtSDNxMQrRXgwIdwdNCVGxzUZtTZArjEeLfsn9xDvyXdsgs4my1g7JN5wKxT61ZLx4bKPREaDXnO8j7gkg==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/credential-provider-sso@3.973.29':
-    resolution: {integrity: sha512-DJuKIs0bn5MZXc5uE1sf/R67YVC4ivFnL/dbKHukhdb5B6Fy80k8/BqiQykzXEqoT/qlSQaqYXU29hqVAYjcsg==}
+  '@aws-sdk/credential-provider-sso@3.973.30':
+    resolution: {integrity: sha512-sMvwUIaKQEeprbMT5LXrI6nhM1IUEBDRpJAydEkAMrI7brrsRl7pxnOAJ6nweg/Hn5pJOVS7JgieJIv6CvJ7Sw==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/credential-provider-web-identity@3.972.91':
-    resolution: {integrity: sha512-4k4beWSkxhwKeGMVfgppv/LwCfCd1zAycWgqop7GHkdvdNK9TTkWn299LjUQOgDMfBX2Sv08t+J1mAWKHatttw==}
+  '@aws-sdk/credential-provider-web-identity@3.972.92':
+    resolution: {integrity: sha512-AKaUwpy1wPN3B/byFWuvL6v+Qk8Gm840InZJw/bA1A+ciCL3zkzBUyEgxdeghJPEe79VKLs6BvbME74MQa3YKg==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/lib-storage@3.879.0':
@@ -271,20 +271,20 @@ packages:
     peerDependencies:
       '@aws-sdk/client-s3': ^3.879.0
 
-  '@aws-sdk/middleware-sdk-s3@3.972.91':
-    resolution: {integrity: sha512-L4rY9o4i85P/UJ8rGiHH4JYC/PnFwdAbCrXAs3g1UCxnyrnKboYm6blgx38xbOzVaZ1odpkrBRlMNMWI+aTfgg==}
+  '@aws-sdk/middleware-sdk-s3@3.972.92':
+    resolution: {integrity: sha512-HNN7mJUSPXxXpbyPwp3wx0dtIJSbUF3iHuoHVNHObMCN2/txIpg9JsJ/V2vroPGXSSqNImEaZkDfGJFqffSX6g==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/nested-clients@3.998.4':
-    resolution: {integrity: sha512-8Vzg3e9ia6eHQStnoSn17asRNWHrf/ozgQslLMGOdM5JifyV+AAk1+lgVXcQMmrzgRhR9phRUEFxAOg/cBh7MQ==}
+  '@aws-sdk/nested-clients@3.998.5':
+    resolution: {integrity: sha512-9w5mkwVLOuGqlJkPR1uhod6ZP+TOtaxrKtvK2pY9G/+FEx0e8wYRLIDeg30dYQjFDx27jHGSzEA+OaMqxeyTPg==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/signature-v4-multi-region@3.996.52':
     resolution: {integrity: sha512-6W6SjGc8OXUhMzNxU1X922ghD+PP1XvzmCk5Scui0jaYsLezycMYR1RaLp5xTIOUrhTXyb4DnAbPr3fBgmdnzg==}
     engines: {node: '>=20.0.0'}
 
-  '@aws-sdk/token-providers@3.1175.0':
-    resolution: {integrity: sha512-irdg9wmKjTDumWoZeXIM3ecgfriHEEm0Q05bjiHwGNRCXXexz+5roMS28IzKWELI5QX/XZjL1vvvaIyptlCfAQ==}
+  '@aws-sdk/token-providers@3.1177.0':
+    resolution: {integrity: sha512-KFQ/2YqE7OIGNu05hys6y9ZUyoNxxLJVHM7NCvjfyjV0Mki0u0Euwjduj5M/HMurdbZJfBV0NjMNQQkGlJEQqg==}
     engines: {node: '>=20.0.0'}
 
   '@aws-sdk/types@3.975.1':
@@ -1200,31 +1200,31 @@ packages:
 
 snapshots:
 
-  '@atproto-labs/did-resolver@0.3.14':
+  '@atproto-labs/did-resolver@0.3.15':
     dependencies:
-      '@atproto-labs/fetch': 0.4.3
+      '@atproto-labs/fetch': 0.5.0
       '@atproto-labs/pipe': 0.2.5
       '@atproto-labs/simple-store': 0.5.2
       '@atproto-labs/simple-store-memory': 0.2.7
       '@atproto/did': 0.5.6
       zod: 3.25.76
 
-  '@atproto-labs/fetch-node@0.4.6':
+  '@atproto-labs/fetch-node@0.5.0':
     dependencies:
-      '@atproto-labs/fetch': 0.4.3
+      '@atproto-labs/fetch': 0.5.0
       '@atproto-labs/pipe': 0.2.5
       ipaddr.js: 2.5.0
       undici_v6: undici@8.13.1
       undici_v7: undici@8.13.1
       undici_v8: undici@8.13.1
 
-  '@atproto-labs/fetch@0.4.3':
+  '@atproto-labs/fetch@0.5.0':
     dependencies:
       '@atproto-labs/pipe': 0.2.5
 
-  '@atproto-labs/handle-resolver-node@0.2.18':
+  '@atproto-labs/handle-resolver-node@0.2.19':
     dependencies:
-      '@atproto-labs/fetch-node': 0.4.6
+      '@atproto-labs/fetch-node': 0.5.0
       '@atproto-labs/handle-resolver': 0.4.11
       '@atproto/did': 0.5.6
 
@@ -1235,9 +1235,9 @@ snapshots:
       '@atproto/did': 0.5.6
       zod: 3.25.76
 
-  '@atproto-labs/identity-resolver@0.4.14':
+  '@atproto-labs/identity-resolver@0.4.15':
     dependencies:
-      '@atproto-labs/did-resolver': 0.3.14
+      '@atproto-labs/did-resolver': 0.3.15
       '@atproto-labs/handle-resolver': 0.4.11
 
   '@atproto-labs/pipe@0.2.5': {}
@@ -1254,10 +1254,10 @@ snapshots:
 
   '@atproto-labs/simple-store@0.5.2': {}
 
-  '@atproto-labs/xrpc-utils@0.1.37':
+  '@atproto-labs/xrpc-utils@0.1.38':
     dependencies:
       '@atproto/xrpc': 0.8.21
-      '@atproto/xrpc-server': 0.13.16
+      '@atproto/xrpc-server': 0.13.17
     transitivePeerDependencies:
       - bufferutil
       - supports-color
@@ -1269,10 +1269,10 @@ snapshots:
       '@atproto/common-web': 0.5.20
       '@atproto/crypto': 0.5.8
       '@atproto/repo': 0.11.8
-      '@aws-sdk/client-cloudfront': 3.1176.0
-      '@aws-sdk/client-kms': 3.1176.0
-      '@aws-sdk/client-s3': 3.1176.0
-      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1176.0)
+      '@aws-sdk/client-cloudfront': 3.1177.0
+      '@aws-sdk/client-kms': 3.1177.0
+      '@aws-sdk/client-s3': 3.1177.0
+      '@aws-sdk/lib-storage': 3.879.0(@aws-sdk/client-s3@3.1177.0)
       '@noble/curves': 1.9.7
       multiformats: 13.4.2
       uint8arrays: 5.1.1
@@ -1317,9 +1317,9 @@ snapshots:
     dependencies:
       zod: 3.25.76
 
-  '@atproto/identity@0.5.26':
+  '@atproto/identity@0.5.27':
     dependencies:
-      '@atproto-labs/fetch-node': 0.4.6
+      '@atproto-labs/fetch-node': 0.5.0
       '@atproto/common-web': 0.5.20
       '@atproto/crypto': 0.5.8
 
@@ -1333,10 +1333,10 @@ snapshots:
       multiformats: 13.4.2
       zod: 3.25.76
 
-  '@atproto/lex-builder@0.1.22':
+  '@atproto/lex-builder@0.1.23':
     dependencies:
-      '@atproto/lex-document': 0.1.18
-      '@atproto/lex-schema': 0.3.1
+      '@atproto/lex-document': 0.1.19
+      '@atproto/lex-schema': 0.3.2
       prettier: 3.10.1
       ts-morph: 27.0.2
       tslib: 2.9.1
@@ -1348,11 +1348,11 @@ snapshots:
       cborg: 4.5.8
       tslib: 2.9.1
 
-  '@atproto/lex-client@0.6.2':
+  '@atproto/lex-client@0.7.0':
     dependencies:
       '@atproto/lex-data': 0.1.11
-      '@atproto/lex-rpc': 0.2.2
-      '@atproto/lex-schema': 0.3.1
+      '@atproto/lex-rpc': 0.3.0
+      '@atproto/lex-schema': 0.3.2
       tslib: 2.9.1
     transitivePeerDependencies:
       - bufferutil
@@ -1364,25 +1364,25 @@ snapshots:
       tslib: 2.9.1
       unicode-segmenter: 0.14.5
 
-  '@atproto/lex-document@0.1.18':
+  '@atproto/lex-document@0.1.19':
     dependencies:
       '@atproto/lex-data': 0.1.11
-      '@atproto/lex-schema': 0.3.1
+      '@atproto/lex-schema': 0.3.2
       tslib: 2.9.1
 
-  '@atproto/lex-installer@0.2.12':
+  '@atproto/lex-installer@0.2.13':
     dependencies:
-      '@atproto-labs/did-resolver': 0.3.14
-      '@atproto-labs/fetch-node': 0.4.6
+      '@atproto-labs/did-resolver': 0.3.15
+      '@atproto-labs/fetch-node': 0.5.0
       '@atproto-labs/handle-resolver': 0.4.11
-      '@atproto-labs/handle-resolver-node': 0.2.18
-      '@atproto/lex-builder': 0.1.22
+      '@atproto-labs/handle-resolver-node': 0.2.19
+      '@atproto/lex-builder': 0.1.23
       '@atproto/lex-cbor': 0.1.11
       '@atproto/lex-data': 0.1.11
-      '@atproto/lex-document': 0.1.18
-      '@atproto/lex-resolver': 0.4.9
-      '@atproto/lex-rpc': 0.2.2
-      '@atproto/lex-schema': 0.3.1
+      '@atproto/lex-document': 0.1.19
+      '@atproto/lex-resolver': 0.4.10
+      '@atproto/lex-rpc': 0.3.0
+      '@atproto/lex-schema': 0.3.2
       '@atproto/syntax': 0.7.9
       prettier: 3.10.1
       tslib: 2.9.1
@@ -1396,14 +1396,14 @@ snapshots:
       '@atproto/lex-data': 0.1.11
       tslib: 2.9.1
 
-  '@atproto/lex-resolver@0.4.9':
+  '@atproto/lex-resolver@0.4.10':
     dependencies:
-      '@atproto-labs/did-resolver': 0.3.14
+      '@atproto-labs/did-resolver': 0.3.15
       '@atproto/crypto': 0.5.8
       '@atproto/lex-data': 0.1.11
-      '@atproto/lex-document': 0.1.18
-      '@atproto/lex-rpc': 0.2.2
-      '@atproto/lex-schema': 0.3.1
+      '@atproto/lex-document': 0.1.19
+      '@atproto/lex-rpc': 0.3.0
+      '@atproto/lex-schema': 0.3.2
       '@atproto/repo': 0.11.8
       '@atproto/syntax': 0.7.9
       tslib: 2.9.1
@@ -1411,35 +1411,35 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@atproto/lex-rpc@0.2.2':
+  '@atproto/lex-rpc@0.3.0':
     dependencies:
       '@atproto/lex-cbor': 0.1.11
       '@atproto/lex-data': 0.1.11
       '@atproto/lex-json': 0.1.11
-      '@atproto/lex-schema': 0.3.1
+      '@atproto/lex-schema': 0.3.2
       '@atproto/ws-client': 0.2.2
       tslib: 2.9.1
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
 
-  '@atproto/lex-schema@0.3.1':
+  '@atproto/lex-schema@0.3.2':
     dependencies:
       '@atproto/lex-data': 0.1.11
       '@atproto/syntax': 0.7.9
       '@standard-schema/spec': 1.1.0
       tslib: 2.9.1
 
-  '@atproto/lex@0.6.2':
+  '@atproto/lex@0.7.0':
     dependencies:
-      '@atproto/lex-builder': 0.1.22
+      '@atproto/lex-builder': 0.1.23
       '@atproto/lex-cbor': 0.1.11
-      '@atproto/lex-client': 0.6.2
+      '@atproto/lex-client': 0.7.0
       '@atproto/lex-data': 0.1.11
-      '@atproto/lex-installer': 0.2.12
+      '@atproto/lex-installer': 0.2.13
       '@atproto/lex-json': 0.1.11
-      '@atproto/lex-rpc': 0.2.2
-      '@atproto/lex-schema': 0.3.1
+      '@atproto/lex-rpc': 0.3.0
+      '@atproto/lex-schema': 0.3.2
       tslib: 2.9.1
       yargs: 18.2.0
     transitivePeerDependencies:
@@ -1463,11 +1463,11 @@ snapshots:
     dependencies:
       '@atproto/oauth-provider-api': 0.12.1
 
-  '@atproto/oauth-provider@0.27.2':
+  '@atproto/oauth-provider@0.27.3':
     dependencies:
-      '@atproto-labs/did-resolver': 0.3.14
-      '@atproto-labs/fetch-node': 0.4.6
-      '@atproto-labs/handle-resolver-node': 0.2.18
+      '@atproto-labs/did-resolver': 0.3.15
+      '@atproto-labs/fetch-node': 0.5.0
+      '@atproto-labs/handle-resolver-node': 0.2.19
       '@atproto-labs/pipe': 0.2.5
       '@atproto-labs/simple-store': 0.5.2
       '@atproto-labs/simple-store-memory': 0.2.7
@@ -1475,11 +1475,11 @@ snapshots:
       '@atproto/did': 0.5.6
       '@atproto/jwk': 0.7.4
       '@atproto/jwk-jose': 0.2.4
-      '@atproto/lex-document': 0.1.18
-      '@atproto/lex-resolver': 0.4.9
+      '@atproto/lex-document': 0.1.19
+      '@atproto/lex-resolver': 0.4.10
       '@atproto/oauth-provider-api': 0.12.1
       '@atproto/oauth-provider-ui': 0.11.2
-      '@atproto/oauth-resolver': 0.0.4
+      '@atproto/oauth-resolver': 0.0.5
       '@atproto/oauth-scopes': 0.5.16
       '@atproto/oauth-types': 0.8.0
       '@atproto/syntax': 0.7.9
@@ -1499,10 +1499,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@atproto/oauth-resolver@0.0.4':
+  '@atproto/oauth-resolver@0.0.5':
     dependencies:
-      '@atproto-labs/fetch': 0.4.3
-      '@atproto-labs/identity-resolver': 0.4.14
+      '@atproto-labs/fetch': 0.5.0
+      '@atproto-labs/identity-resolver': 0.4.15
       '@atproto-labs/simple-store': 0.5.2
       '@atproto-labs/simple-store-memory': 0.2.7
       '@atproto/did': 0.5.6
@@ -1520,29 +1520,29 @@ snapshots:
       '@atproto/jwk': 0.7.4
       zod: 3.25.76
 
-  '@atproto/pds@0.5.65(debug@4.4.3)':
+  '@atproto/pds@0.5.66(debug@4.4.3)':
     dependencies:
-      '@atproto-labs/fetch-node': 0.4.6
+      '@atproto-labs/fetch-node': 0.5.0
       '@atproto-labs/simple-store': 0.5.2
       '@atproto-labs/simple-store-memory': 0.2.7
       '@atproto-labs/simple-store-redis': 0.1.8(ioredis@6.1.0)
-      '@atproto-labs/xrpc-utils': 0.1.37
+      '@atproto-labs/xrpc-utils': 0.1.38
       '@atproto/aws': 0.3.27
       '@atproto/common': 0.8.13
       '@atproto/crypto': 0.5.8
       '@atproto/did': 0.5.6
-      '@atproto/identity': 0.5.26
+      '@atproto/identity': 0.5.27
       '@atproto/lex-cbor': 0.1.11
-      '@atproto/lex-client': 0.6.2
+      '@atproto/lex-client': 0.7.0
       '@atproto/lex-data': 0.1.11
-      '@atproto/lex-document': 0.1.18
+      '@atproto/lex-document': 0.1.19
       '@atproto/lex-json': 0.1.11
-      '@atproto/lex-schema': 0.3.1
-      '@atproto/oauth-provider': 0.27.2
+      '@atproto/lex-schema': 0.3.2
+      '@atproto/oauth-provider': 0.27.3
       '@atproto/oauth-scopes': 0.5.16
       '@atproto/repo': 0.11.8
       '@atproto/syntax': 0.7.9
-      '@atproto/xrpc-server': 0.13.16
+      '@atproto/xrpc-server': 0.13.17
       '@did-plc/lib': 0.0.4(debug@4.4.3)
       '@hapi/address': 5.1.1
       '@noble/curves': 1.9.7
@@ -1597,15 +1597,15 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@atproto/xrpc-server@0.13.16':
+  '@atproto/xrpc-server@0.13.17':
     dependencies:
       '@atproto/common': 0.8.13
       '@atproto/crypto': 0.5.8
       '@atproto/lex-cbor': 0.1.11
-      '@atproto/lex-client': 0.6.2
+      '@atproto/lex-client': 0.7.0
       '@atproto/lex-data': 0.1.11
       '@atproto/lex-json': 0.1.11
-      '@atproto/lex-schema': 0.3.1
+      '@atproto/lex-schema': 0.3.2
       '@atproto/lexicon': 0.7.22
       '@atproto/ws-client': 0.2.2
       '@atproto/xrpc': 0.8.21
@@ -1625,29 +1625,18 @@ snapshots:
       '@atproto/lexicon': 0.7.22
       zod: 3.25.76
 
-  '@aws-sdk/checksums@3.1002.6':
+  '@aws-sdk/checksums@3.1002.7':
     dependencies:
-      '@aws-sdk/core': 3.981.1
+      '@aws-sdk/core': 3.981.2
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/client-cloudfront@3.1176.0':
+  '@aws-sdk/client-cloudfront@3.1177.0':
     dependencies:
-      '@aws-sdk/core': 3.981.1
-      '@aws-sdk/credential-provider-node': 3.972.98
-      '@aws-sdk/types': 3.975.1
-      '@smithy/core': 3.41.1
-      '@smithy/fetch-http-handler': 5.8.1
-      '@smithy/node-http-handler': 4.14.2
-      '@smithy/types': 4.20.0
-      tslib: 2.9.1
-
-  '@aws-sdk/client-kms@3.1176.0':
-    dependencies:
-      '@aws-sdk/core': 3.981.1
-      '@aws-sdk/credential-provider-node': 3.972.98
+      '@aws-sdk/core': 3.981.2
+      '@aws-sdk/credential-provider-node': 3.972.99
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
       '@smithy/fetch-http-handler': 5.8.1
@@ -1655,12 +1644,23 @@ snapshots:
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/client-s3@3.1176.0':
+  '@aws-sdk/client-kms@3.1177.0':
     dependencies:
-      '@aws-sdk/checksums': 3.1002.6
-      '@aws-sdk/core': 3.981.1
-      '@aws-sdk/credential-provider-node': 3.972.98
-      '@aws-sdk/middleware-sdk-s3': 3.972.91
+      '@aws-sdk/core': 3.981.2
+      '@aws-sdk/credential-provider-node': 3.972.99
+      '@aws-sdk/types': 3.975.1
+      '@smithy/core': 3.41.1
+      '@smithy/fetch-http-handler': 5.8.1
+      '@smithy/node-http-handler': 4.14.2
+      '@smithy/types': 4.20.0
+      tslib: 2.9.1
+
+  '@aws-sdk/client-s3@3.1177.0':
+    dependencies:
+      '@aws-sdk/checksums': 3.1002.7
+      '@aws-sdk/core': 3.981.2
+      '@aws-sdk/credential-provider-node': 3.972.99
+      '@aws-sdk/middleware-sdk-s3': 3.972.92
       '@aws-sdk/signature-v4-multi-region': 3.996.52
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
@@ -1669,7 +1669,7 @@ snapshots:
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/core@3.981.1':
+  '@aws-sdk/core@3.981.2':
     dependencies:
       '@aws-sdk/types': 3.975.1
       '@aws-sdk/xml-builder': 3.972.43
@@ -1680,17 +1680,17 @@ snapshots:
       bowser: 2.15.1
       tslib: 2.9.1
 
-  '@aws-sdk/credential-provider-env@3.972.85':
+  '@aws-sdk/credential-provider-env@3.972.86':
     dependencies:
-      '@aws-sdk/core': 3.981.1
+      '@aws-sdk/core': 3.981.2
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/credential-provider-http@3.972.87':
+  '@aws-sdk/credential-provider-http@3.972.88':
     dependencies:
-      '@aws-sdk/core': 3.981.1
+      '@aws-sdk/core': 3.981.2
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
       '@smithy/fetch-http-handler': 5.8.1
@@ -1698,75 +1698,75 @@ snapshots:
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/credential-provider-ini@3.973.31':
+  '@aws-sdk/credential-provider-ini@3.973.32':
     dependencies:
-      '@aws-sdk/core': 3.981.1
-      '@aws-sdk/credential-provider-env': 3.972.85
-      '@aws-sdk/credential-provider-http': 3.972.87
-      '@aws-sdk/credential-provider-login': 3.972.93
-      '@aws-sdk/credential-provider-process': 3.972.85
-      '@aws-sdk/credential-provider-sso': 3.973.29
-      '@aws-sdk/credential-provider-web-identity': 3.972.91
-      '@aws-sdk/nested-clients': 3.998.4
+      '@aws-sdk/core': 3.981.2
+      '@aws-sdk/credential-provider-env': 3.972.86
+      '@aws-sdk/credential-provider-http': 3.972.88
+      '@aws-sdk/credential-provider-login': 3.972.94
+      '@aws-sdk/credential-provider-process': 3.972.86
+      '@aws-sdk/credential-provider-sso': 3.973.30
+      '@aws-sdk/credential-provider-web-identity': 3.972.92
+      '@aws-sdk/nested-clients': 3.998.5
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
       '@smithy/credential-provider-imds': 4.5.2
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/credential-provider-login@3.972.93':
+  '@aws-sdk/credential-provider-login@3.972.94':
     dependencies:
-      '@aws-sdk/core': 3.981.1
-      '@aws-sdk/nested-clients': 3.998.4
+      '@aws-sdk/core': 3.981.2
+      '@aws-sdk/nested-clients': 3.998.5
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/credential-provider-node@3.972.98':
+  '@aws-sdk/credential-provider-node@3.972.99':
     dependencies:
-      '@aws-sdk/credential-provider-env': 3.972.85
-      '@aws-sdk/credential-provider-http': 3.972.87
-      '@aws-sdk/credential-provider-ini': 3.973.31
-      '@aws-sdk/credential-provider-process': 3.972.85
-      '@aws-sdk/credential-provider-sso': 3.973.29
-      '@aws-sdk/credential-provider-web-identity': 3.972.91
+      '@aws-sdk/credential-provider-env': 3.972.86
+      '@aws-sdk/credential-provider-http': 3.972.88
+      '@aws-sdk/credential-provider-ini': 3.973.32
+      '@aws-sdk/credential-provider-process': 3.972.86
+      '@aws-sdk/credential-provider-sso': 3.973.30
+      '@aws-sdk/credential-provider-web-identity': 3.972.92
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
       '@smithy/credential-provider-imds': 4.5.2
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/credential-provider-process@3.972.85':
+  '@aws-sdk/credential-provider-process@3.972.86':
     dependencies:
-      '@aws-sdk/core': 3.981.1
+      '@aws-sdk/core': 3.981.2
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/credential-provider-sso@3.973.29':
+  '@aws-sdk/credential-provider-sso@3.973.30':
     dependencies:
-      '@aws-sdk/core': 3.981.1
-      '@aws-sdk/nested-clients': 3.998.4
-      '@aws-sdk/token-providers': 3.1175.0
+      '@aws-sdk/core': 3.981.2
+      '@aws-sdk/nested-clients': 3.998.5
+      '@aws-sdk/token-providers': 3.1177.0
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/credential-provider-web-identity@3.972.91':
+  '@aws-sdk/credential-provider-web-identity@3.972.92':
     dependencies:
-      '@aws-sdk/core': 3.981.1
-      '@aws-sdk/nested-clients': 3.998.4
+      '@aws-sdk/core': 3.981.2
+      '@aws-sdk/nested-clients': 3.998.5
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1176.0)':
+  '@aws-sdk/lib-storage@3.879.0(@aws-sdk/client-s3@3.1177.0)':
     dependencies:
-      '@aws-sdk/client-s3': 3.1176.0
+      '@aws-sdk/client-s3': 3.1177.0
       '@smithy/abort-controller': 4.4.2
       '@smithy/middleware-endpoint': 4.7.2
       '@smithy/smithy-client': 4.15.2
@@ -1775,18 +1775,18 @@ snapshots:
       stream-browserify: 3.0.0
       tslib: 2.9.1
 
-  '@aws-sdk/middleware-sdk-s3@3.972.91':
+  '@aws-sdk/middleware-sdk-s3@3.972.92':
     dependencies:
-      '@aws-sdk/core': 3.981.1
+      '@aws-sdk/core': 3.981.2
       '@aws-sdk/signature-v4-multi-region': 3.996.52
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/nested-clients@3.998.4':
+  '@aws-sdk/nested-clients@3.998.5':
     dependencies:
-      '@aws-sdk/core': 3.981.1
+      '@aws-sdk/core': 3.981.2
       '@aws-sdk/signature-v4-multi-region': 3.996.52
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
@@ -1802,10 +1802,10 @@ snapshots:
       '@smithy/types': 4.20.0
       tslib: 2.9.1
 
-  '@aws-sdk/token-providers@3.1175.0':
+  '@aws-sdk/token-providers@3.1177.0':
     dependencies:
-      '@aws-sdk/core': 3.981.1
-      '@aws-sdk/nested-clients': 3.998.4
+      '@aws-sdk/core': 3.981.2
+      '@aws-sdk/nested-clients': 3.998.5
       '@aws-sdk/types': 3.975.1
       '@smithy/core': 3.41.1
       '@smithy/types': 4.20.0
