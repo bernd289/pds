@@ -176,8 +176,8 @@ packages:
     resolution: {integrity: sha512-NYPHzBS4s1MGmnQQKaROejRbfvcdW7EPtyA1V+X1q0CvZ94FSbUtqjZVWEk89Lm0Eq/rn5Fi3kMd1ivsOqp8XQ==}
     engines: {node: '>=22'}
 
-  '@atproto/oauth-provider@0.27.4':
-    resolution: {integrity: sha512-LXlyjuRZlKN5fykINVmP8flVU1NQuS7B32D0QA9YMCayGEIc3oXICWt1mnIu1ekDnoOwYtMRj5EMaTy09e/TQg==}
+  '@atproto/oauth-provider@0.27.5':
+    resolution: {integrity: sha512-t/R0+R6EhejNBsDMPLdDf85c47HUasqlNq+cofBDAsPbApahnotSxzrY4W6iQsRKSlToAfncj1yUVUhjcSGJnw==}
     engines: {node: '>=22'}
 
   '@atproto/oauth-resolver@0.0.5':
@@ -1034,8 +1034,8 @@ packages:
   uint8arrays@5.1.1:
     resolution: {integrity: sha512-9muQwa4wZG4dKi9gMAIBtnk2Pw87SRpvWTH6lOGm19V2Uqxr4uomUf2PGqPnWc+qs06sN8owUU4jfcoWOcfwVQ==}
 
-  undici@8.13.1:
-    resolution: {integrity: sha512-Kt7EaPjh0s93lJH/PmW3d5rhkcpUa6fS3jqZ7+YGxNd9L7Xy/i827xe4C2uhhq+pJebM4tQOl5AgHmW11G5Skg==}
+  undici@8.14.0:
+    resolution: {integrity: sha512-MqM6wqORYo0jb1WFUwFKZTFWFz6VeBMPj9op5Hq+RvlrQjISQCyLEfx5+/iqOLWC/LL1HliJ5t0NP1BgYpXeVQ==}
     engines: {node: '>=22.19.0'}
 
   unicode-segmenter@0.14.5:
@@ -1109,9 +1109,9 @@ snapshots:
       '@atproto-labs/fetch': 0.5.0
       '@atproto-labs/pipe': 0.2.5
       ipaddr.js: 2.5.0
-      undici_v6: undici@8.13.1
-      undici_v7: undici@8.13.1
-      undici_v8: undici@8.13.1
+      undici_v6: undici@8.14.0
+      undici_v7: undici@8.14.0
+      undici_v8: undici@8.14.0
 
   '@atproto-labs/fetch@0.5.0':
     dependencies:
@@ -1357,7 +1357,7 @@ snapshots:
     dependencies:
       '@atproto/oauth-provider-api': 0.12.1
 
-  '@atproto/oauth-provider@0.27.4':
+  '@atproto/oauth-provider@0.27.5':
     dependencies:
       '@atproto-labs/did-resolver': 0.3.15
       '@atproto-labs/fetch-node': 0.5.0
@@ -1432,7 +1432,7 @@ snapshots:
       '@atproto/lex-document': 0.1.19
       '@atproto/lex-json': 0.1.11
       '@atproto/lex-schema': 0.3.2
-      '@atproto/oauth-provider': 0.27.4
+      '@atproto/oauth-provider': 0.27.5
       '@atproto/oauth-scopes': 0.5.16
       '@atproto/repo': 0.11.8
       '@atproto/syntax': 0.7.9
@@ -1460,7 +1460,7 @@ snapshots:
       pino-http: 11.0.0
       strtok3: 10.8.0
       uint8arrays: 5.1.1
-      undici: 8.13.1
+      undici: 8.14.0
       zod: 3.25.76
     transitivePeerDependencies:
       - bufferutil
@@ -2480,7 +2480,7 @@ snapshots:
     dependencies:
       multiformats: 13.4.2
 
-  undici@8.13.1: {}
+  undici@8.14.0: {}
 
   unicode-segmenter@0.14.5: {}
 
